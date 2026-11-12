@@ -4,7 +4,7 @@
  * oyun kuralları bu modülde ve Task 3+ ile eklenecek motor dosyalarında yaşar.
  */
 import { MAX_PLAYERS_PER_ROOM } from '../../shared/constants';
-import type { BoardState, Card, GameMode, Player, RoomPhase, RoomSnapshot, RoundPublicState, RoundSummary, TeamId } from '../../shared/types';
+import type { BoardState, Card, GameMode, Player, RoomPhase, RoomSnapshot, RoundPublicState, RoundSummary, TeamId, WordLevel } from '../../shared/types';
 
 export interface RoomData {
   code: string;
@@ -12,6 +12,8 @@ export interface RoomData {
   /** Son anlamlı oyuncu etkileşimi (ping sayılmaz). TTL bunu baz alır. */
   lastActivity: number;
   phase: RoomPhase;
+  /** Kelime seviyesi (kurucu lobide seçer). */
+  level: WordLevel;
   players: Player[];
   board: BoardState;
   turnTeam: TeamId;
@@ -36,6 +38,7 @@ export function createRoomData(code: string, now: number): RoomData {
     createdAt: now,
     lastActivity: now,
     phase: 'lobby',
+    level: 1,
     players: [],
     board: { positions: { A: 0, B: 0 } },
     turnTeam: 'A',
@@ -111,6 +114,7 @@ export function toSnapshot(room: RoomData): RoomSnapshot {
   return {
     code: room.code,
     phase: room.phase,
+    level: room.level,
     players: room.players,
     board: room.board,
     turnTeam: room.turnTeam,

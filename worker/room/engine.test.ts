@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest';
 import { BOARD_SIZE } from '../../shared/constants';
-import { CardDeck } from '../../shared/words';
+import { CardDeck, WORDS } from '../../shared/words';
 import type { TabuCard, TripleCard } from '../../shared/types';
 import * as e from './engine';
 import { createRoomData, joinPlayer, type RoomData } from './RoomData';
@@ -62,7 +62,7 @@ describe('lobi', () => {
     e.setReady(room, uid(3), true, ctx);
     expect(room.phase).toBe('lobby');
     e.setReady(room, uid(4), true, ctx);
-    expect(room.phase).toBe('roulette'); // 1. basamak karışık
+    expect(room.phase).toBe('pre_round');
   });
 
   it('takımda 2 oyuncudan azsa başlamaz', () => {
@@ -293,9 +293,9 @@ describe('üçlü kart modları (çizme, kukla, 15 kelime)', () => {
 });
 
 describe('karışık mod, kazanma ve tur geçişi', () => {
-  it('Listede olmayan basamaklar (ör. 1.) çark ile mod seçer', () => {
+  it('Listede olmayan basamaklar (ör. 13.) çark ile mod seçer', () => {
     const ctx = makeCtx();
-    const room = roomAtPosition(0, ctx);
+    const room = roomAtPosition(12, ctx);
     expect(room.phase).toBe('roulette');
     expect(room.roulette).toMatchObject({ startedAt: ctx.now, result: room.round!.mode });
     expect(room.phaseDeadline).toBe(ctx.now + 5000);
@@ -306,7 +306,7 @@ describe('karışık mod, kazanma ve tur geçişi', () => {
 
   it('çark rastgele tüm modları üretir', () => {
     const modes = new Set<string>();
-    for (let seed = 1; seed < 60; seed++) modes.add(roomAtPosition(0, makeCtx(1000, seed)).round!.mode);
+    for (let seed = 1; seed < 60; seed++) modes.add(roomAtPosition(12, makeCtx(1000, seed)).round!.mode);
     expect(modes.size).toBe(4);
   });
 
@@ -456,6 +456,46 @@ describe('işaretleme ve geri alma', () => {
       expect((room.roundCard as TripleCard).solved).toEqual([false, false, false]);
       e.markCorrect(room, obs, 1, ctx); // yeniden işaretlenebilir
       expect(room.round!.correct).toBe(1);
+    }
+  });
+});
+
+describe('kelime seviyesi', () => {
+  it('yalnızca kurucu, yalnızca lobide, 1-4 arası seviye seçer', () => {
+    const ctx = makeCtx();
+    const room = lobby();
+    expect(room.level).toBe(1);
+    expect(e.setLevel(room, uid(2), 3).ok).toBe(false); // kurucu değil
+    expect(e.setLevel(room, uid(1), 3).ok).toBe(true);
+    expect(room.level).toBe(3);
+    expect(e.setLevel(room, uid(1), 5).ok).toBe(false);
+    expect(e.setLevel(room, uid(1), 0).ok).toBe(false);
+    for (let i = 1; i <= 4; i++) e.setReady(room, uid(i), true, ctx);
+    expect(e.setLevel(room, uid(1), 2).ok).toBe(false); // oyun başladı
+    expect(room.level).toBe(3);
+  });
+
+  it('kartlar seçilen seviyenin havuzundan gelir', () => {
+    for (const level of [1, 2, 3, 4] as const) {
+      const deck = new CardDeck();
+      const tabu = deck.tabuCard(level);
+      expect(WORDS.anlatma[level - 1]!.some((c) => c.word === tabu.word)).toBe(true);
+      const triple = deck.tripleCard('cizme', level);
+      for (const w of triple.words) expect(WORDS.cizme[level - 1]).toContain(w);
+      const kukla = deck.kuklaCard(level);
+      expect(WORDS.kukla[level - 1]!.some((c) => c.word === kukla.word && c.clip === kukla.clip)).toBe(true);
+      expect(kukla.level).toBe(level);
+    }
+  });
+
+  it('her mod ve seviyede 150 kelime var, seviyeler arası tekrar yok', () => {
+    for (const mode of ['anlatma', 'cizme', 'kukla', 'onbes'] as const) {
+      const all: string[] = [];
+      for (const list of WORDS[mode]) {
+        expect(list.length).toBe(150);
+        for (const item of list) all.push(typeof item === 'string' ? item : item.word);
+      }
+      expect(new Set(all.map((w) => w.toLocaleLowerCase('tr-TR'))).size).toBe(600);
     }
   });
 });

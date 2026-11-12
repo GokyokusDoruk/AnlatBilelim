@@ -1,0 +1,150 @@
+Acele Etmek|Koşmak
+Yarışı Kazanmak|Koşmak
+Teslim Tarihine Yetişmek|Koşmak
+Sınava Geç Kalmak|Koşmak
+Sevinçten Havaya Uçmak|Zıplamak
+Heyecanlanmak|Zıplamak
+Gol Sevinci|Zıplamak
+Müjdeyi Alınca|Zıplamak
+Akıntıya Karşı Gitmek|Yüzmek
+Dalga Geçmek|Yüzmek
+Boğulmak Üzere Olmak|Yüzmek
+Nehri Geçmek|Yüzmek
+Neşelenmek|Dans Etmek
+Başarıyı Kutlamak|Dans Etmek
+Rüzgârda Savrulmak|Dans Etmek
+Ritme Kapılmak|Dans Etmek
+Rahatlamak|Uyumak
+Pes Etmek|Uyumak
+Tembellik Yapmak|Uyumak
+Dinlenmek|Uyumak
+Obur Olmak|Yemek Yemek
+Açlıktan Ölmek|Yemek Yemek
+Doymak|Yemek Yemek
+Diyete Başlamak|Yemek Yemek
+Ferahlamak|Su İçmek
+Susuzluğu Gidermek|Su İçmek
+Şifa Bulmak|Su İçmek
+Kana Kana İçmek|Su İçmek
+Pişman Olmak|Ağlamak
+Hüzünlenmek|Ağlamak
+Kaybı Kabullenmek|Ağlamak
+Mağdur Olmak|Ağlamak
+Alay Etmek|Gülmek
+Eğlenmek|Gülmek
+Mutlu Olmak|Gülmek
+Kendini Tutamamak|Gülmek
+Dikkat Çekmek|Öksürmek
+Uyarmak|Öksürmek
+Boğulmak|Öksürmek
+Tıkanmak|Öksürmek
+Rahatsız Olmak|Hapşırmak
+Kıskanç Olmak|Hapşırmak
+Ani Refleks|Hapşırmak
+Mendile Sığınmak|Hapşırmak
+Can Sıkıntısı|Esnemek
+Umursamazlık|Esnemek
+Monotonluk|Esnemek
+Rehavete Kapılmak|Esnemek
+Özlemek|El Sallamak
+Yardım İstemek|El Sallamak
+Uğurlamak|El Sallamak
+Takdir Etmek|Alkışlamak
+Onaylamak|Alkışlamak
+Hayran Olmak|Alkışlamak
+Teşekkür Etmek|Alkışlamak
+Barışmak|Sarılmak
+Güven Duymak|Sarılmak
+Özlem Gidermek|Sarılmak
+Öfkelenmek|Kavga Etmek
+Rekabet Etmek|Kavga Etmek
+Çatışmak|Kavga Etmek
+Haksızlığa Başkaldırmak|Kavga Etmek
+Meydan Okumak|Boks Yapmak
+Savunma Yapmak|Boks Yapmak
+Mücadele Etmek|Boks Yapmak
+Rövanş Almak|Boks Yapmak
+Takım Ruhu|Futbol Oynamak
+Ofsayt Olmak|Futbol Oynamak
+Kırmızı Kart Görmek|Futbol Oynamak
+Şampiyon Olmak|Futbol Oynamak
+Yokuş Çıkmak|Bisiklete Binmek
+Dengede Kalmak|Bisiklete Binmek
+Rüzgâra Karşı Gitmek|Bisiklete Binmek
+Yolculuğa Çıkmak|Bisiklete Binmek
+İş Birliği Yapmak|Kürek Çekmek
+Akıntıya Direnmek|Kürek Çekmek
+Fırtınada Kalmak|Kürek Çekmek
+Emek Vermek|Kürek Çekmek
+Zirveye Ulaşmak|Tırmanmak
+Kariyer Yapmak|Tırmanmak
+Engeli Aşmak|Tırmanmak
+Yükselmek|Tırmanmak
+Zorluğu Aşmak|İp Atlamak
+Çeviklik Göstermek|İp Atlamak
+Ritim Tutmak|İp Atlamak
+Dayanıklılık|İp Atlamak
+Sabırla Beklemek|Olta Atmak
+Şansını Denemek|Olta Atmak
+Tuzağa Düşürmek|Olta Atmak
+Fırsat Kollamak|Olta Atmak
+Sorumluluk Taşımak|Halter Kaldırmak
+Güç Göstermek|Halter Kaldırmak
+Yükü Omuzlamak|Halter Kaldırmak
+Rekor Kırmak|Halter Kaldırmak
+Serenat Yapmak|Gitar Çalmak
+Nota Okumak|Gitar Çalmak
+Müziğe Dalmak|Gitar Çalmak
+Sahne Almak|Gitar Çalmak
+Gürültü Yapmak|Davul Çalmak
+Duyuru Yapmak|Davul Çalmak
+Coşkuyu Yükseltmek|Davul Çalmak
+Tempo Tutmak|Davul Çalmak
+Titizlik|Diş Fırçalamak
+Düzen Sağlamak|Diş Fırçalamak
+Hijyen Kuralı|Diş Fırçalamak
+Şık Görünmek|Saç Taramak
+Özenmek|Saç Taramak
+Hazırlık Yapmak|Saç Taramak
+Ev İşi Yapmak|Çamaşır Asmak
+Sıra Beklemek|Çamaşır Asmak
+Kurutmak|Çamaşır Asmak
+Kırışıklığı Gidermek|Ütü Yapmak
+Mükemmeliyetçilik|Ütü Yapmak
+Düzeltmek|Ütü Yapmak
+Pisliği Temizlemek|Yer Silmek
+Sorunu Silip Atmak|Yer Silmek
+Dökülen Suyu Silmek|Yer Silmek
+Dedikodu Yapmak|Telefonla Konuşmak
+Haber Beklemek|Telefonla Konuşmak
+Randevu Almak|Telefonla Konuşmak
+Çaresiz Kalmak|Soğuktan Titremek
+Panik Yapmak|Soğuktan Titremek
+Donmak|Soğuktan Titremek
+Cesaretsizlik|Korkmak
+Tehdit Altında Kalmak|Korkmak
+Panik Olmak|Korkmak
+Tükenmek|Yorulmak
+Bıkmak|Yorulmak
+Pes Etmek Üzere Olmak|Yorulmak
+Doğaya Zarar Vermek|Ağaç Kesmek
+Kök Salmak|Ağaç Kesmek
+Kütük Yarmak|Ağaç Kesmek
+Sağlam Yapmak|Çivi Çakmak
+Gürültü Etmek|Çivi Çakmak
+Sabitlemek|Çivi Çakmak
+Sır Saklamak|Kazı Yapmak
+Kök Aramak|Kazı Yapmak
+Gerçeği Ortaya Çıkarmak|Kazı Yapmak
+Hedefi Vurmak|Ok Atmak
+Doğru Tahmin|Ok Atmak
+İsabet Kaydetmek|Ok Atmak
+Sorumluluğu Atmak|Top Fırlatmak
+Fırlatıp Yakalamak|Top Fırlatmak
+Elden Çıkarmak|Top Fırlatmak
+Anı Biriktirmek|Fotoğraf Çekmek
+Hatıra Yaratmak|Fotoğraf Çekmek
+Kare Yakalamak|Fotoğraf Çekmek
+Coşku Paylaşmak|Halay Çekmek
+Birlik Olmak|Halay Çekmek
+Kutlama Yapmak|Halay Çekmek

@@ -1,0 +1,15 @@
+Termos, Fener, Matkap, Kazan, Cezve, Semaver, Kilim, Avize, Vazo, Saksı
+Sepet, Sürahi, Kupa, Çaydanlık, Ocak, Fırın, Tost Makinesi, Tarak, Fırça, Havlu
+Sabun, Duş, Küvet, Lavabo, Musluk, Klozet, Çamaşır Makinesi, Bavul, Sırt Çantası, Cüzdan
+Kemer, Kravat, Eldiven, Atkı, Bere, Çizme, Terlik, Kask, Yelek, Mayo
+Bikini, Gözlük Kutusu, Pijama, Etek, Ceket, Palto, Yağmurluk, Kamp Ateşi, Tulum, Hamak
+Dürbün, Teleskop, Mikroskop, Termometre, Steteskop, Şırınga, Ambulans, Itfaiye Arabası, Polis Arabası, Taksi
+Otobüs, Tramvay, Teleferik, Feribot, Vapur, Yelkenli, Traktör, Vinç, Ekskavatör, Bisiklet Yolu
+Scooter, Kaykay, Paten Ayakkabısı, Kızak, Kano, Balon Uçak, Zeplin, Uçan Daire, Uydu, Roket Rampası
+Gezegen, Kuyruklu Yıldız, Samanyolu, Güneş Tutulması, Deniz Kabuğu, Denizyıldızı, Yengeç, Ahtapot, Kalamar, Denizatı
+Köpekbalığı, Yunus, Balina, Vatoz, Arı, Karınca, Böcek, Uğur Böceği, Sinek, Sivrisinek
+Cırcır Böceği, Kırkayak, Akrep, Çıyan, Flamingo, Papağan, Baykuş, Kartal, Leylek, Tavuskuşu
+Pelikan, Martı, Güvercin, Serçe, Gergedan, Su Aygırı, Kanguru, Koala, Panda, Zebra
+Deve, Lama, Kirpi, Sincap, Mantar, Kaktüs, Ayçiçeği, Lale, Papatya, Gül
+Orkide, Çam Ağacı, Palmiye, Bambu, Nar, Ananas, Kivi, Şeftali, Kayısı, Vişne
+İncir, Hurma, Nane, Biberiye, Kebap, Lahmacun, Baklava, Börek, Simit, Gözleme

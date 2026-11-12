@@ -1,0 +1,150 @@
+Otobüsü Kaçırmak|Koşmak
+Hırsızı Kovalamak|Koşmak
+Sabah Sporu Yapmak|Koşmak
+Maratona Hazırlanmak|Koşmak
+Kurbağa Gibi Atlamak|Zıplamak
+Çocuk Parkında Oynamak|Zıplamak
+Kanguru Taklidi Yapmak|Zıplamak
+Balık Gibi Yüzmek|Yüzmek
+Cankurtaran Olmak|Yüzmek
+Su Topu Oynamak|Yüzmek
+Dalgıç Olmak|Yüzmek
+Balerin Olmak|Dans Etmek
+Düğün Pisti|Dans Etmek
+Tango Yapmak|Dans Etmek
+Aerobik Yapmak|Dans Etmek
+Beşik Sallamak|Uyumak
+Yastık Savaşı|Uyumak
+Uyurgezer Olmak|Uyumak
+Uykusuzluk Çekmek|Uyumak
+Restoranda Garson Çağırmak|Yemek Yemek
+Yemek Pişirmek|Yemek Yemek
+Sofra Kurmak|Yemek Yemek
+Boğazına Kaçırmak|Yemek Yemek
+Susuz Kalmak|Su İçmek
+Çöl Yolcusu|Su İçmek
+Sporcu Su Molası|Su İçmek
+Bebeğe Biberon Vermek|Su İçmek
+Soğan Doğramak|Ağlamak
+Film İzleyip Duygulanmak|Ağlamak
+Bebek Ağlaması|Ağlamak
+Veda Etmek|Ağlamak
+Komik Fıkra Dinlemek|Gülmek
+Palyaçoyu İzlemek|Gülmek
+Gıdıklanmak|Gülmek
+Fotoğrafa Gülümsemek|Gülmek
+Doktora Gitmek|Öksürmek
+Sigara Dumanından Rahatsız Olmak|Öksürmek
+Şurup İçmek|Öksürmek
+Boğazı Ağrımak|Öksürmek
+Polen Alerjisi|Hapşırmak
+Biber Koklamak|Hapşırmak
+Mendil Aramak|Hapşırmak
+Toz Yutmak|Hapşırmak
+Sabah Uyanmak|Esnemek
+Sıkıcı Toplantı|Esnemek
+Gece Nöbeti|Esnemek
+Alarmı Susturmak|Esnemek
+Vapurdan Uğurlamak|El Sallamak
+Trafik Polisi|El Sallamak
+Havalimanında Karşılamak|El Sallamak
+Kral Selamı|El Sallamak
+Tiyatro Seyretmek|Alkışlamak
+Konser Sonu|Alkışlamak
+Maç Tribünü|Alkışlamak
+Mezuniyet Töreni|Alkışlamak
+Anneyi Özlemek|Sarılmak
+Teselli Etmek|Sarılmak
+Yıllar Sonra Kavuşmak|Sarılmak
+Ayı Gibi Sarılmak|Sarılmak
+Sokak Kavgası|Kavga Etmek
+Karate Yapmak|Kavga Etmek
+Kolbastı Oynamak|Kavga Etmek
+Judo Yapmak|Kavga Etmek
+Gölge Boksu|Boks Yapmak
+Ağır Siklet Maçı|Boks Yapmak
+Boksör Antrenmanı|Boks Yapmak
+Halı Saha Maçı|Futbol Oynamak
+Kaleci Eldiveni|Futbol Oynamak
+Taraftar Olmak|Futbol Oynamak
+Hakem Olmak|Futbol Oynamak
+Bisiklet Tamiri|Bisiklete Binmek
+Kurye Olmak|Bisiklete Binmek
+Dağ Bisikleti|Bisiklete Binmek
+Scooter Kullanmak|Bisiklete Binmek
+Rafting Yapmak|Kürek Çekmek
+Gemi Kaptanı|Kürek Çekmek
+Balıkçı Teknesi|Kürek Çekmek
+Viking Olmak|Kürek Çekmek
+Kaya Tırmanışı|Tırmanmak
+Everest Tırmanışı|Tırmanmak
+Yangın Merdiveni|Tırmanmak
+Elma Toplamak|Tırmanmak
+Boksör Isınması|İp Atlamak
+Okul Bahçesi Oyunu|İp Atlamak
+Lastik Atlamak|İp Atlamak
+Gölde Sabah Balıkçılığı|Olta Atmak
+Kayıkta Beklemek|Olta Atmak
+Balıkçı Ağı|Olta Atmak
+Spor Salonu|Halter Kaldırmak
+Hamal Olmak|Halter Kaldırmak
+Güçlü Adam|Halter Kaldırmak
+Kasa Taşımak|Halter Kaldırmak
+Sokak Müzisyeni|Gitar Çalmak
+Konserde Solist|Gitar Çalmak
+Kamp Ateşi Başında Şarkı|Gitar Çalmak
+Akort Yapmak|Gitar Çalmak
+Bando Takımı|Davul Çalmak
+Ramazan Davulcusu|Davul Çalmak
+Rock Konseri|Davul Çalmak
+Bateri Çalmak|Davul Çalmak
+Diş Hekimi|Diş Fırçalamak
+Ağız Bakımı|Diş Fırçalamak
+Gece Rutini|Diş Fırçalamak
+Çocuğa Diş Fırçalatmak|Diş Fırçalamak
+Kuaför Olmak|Saç Taramak
+Fön Çekmek|Saç Taramak
+Ayna Karşısında Hazırlanmak|Saç Taramak
+Saç Örmek|Saç Taramak
+Çamaşırhane|Çamaşır Asmak
+Rüzgârlı Havada Çamaşır|Çamaşır Asmak
+Balkon Temizliği|Çamaşır Asmak
+Terzi Dükkânı|Ütü Yapmak
+Kuru Temizlemeci|Ütü Yapmak
+Düğün Hazırlığı|Ütü Yapmak
+Temizlikçi Olmak|Yer Silmek
+Paspas Yapmak|Yer Silmek
+Bayram Temizliği|Yer Silmek
+Çağrı Merkezi|Telefonla Konuşmak
+Santral Memuru|Telefonla Konuşmak
+Yanlış Numara|Telefonla Konuşmak
+Buzdolabına Girmek|Soğuktan Titremek
+Kutup Kaşifi|Soğuktan Titremek
+Kış Sabahı|Soğuktan Titremek
+Korku Filmi İzlemek|Korkmak
+Karanlıkta Yürümek|Korkmak
+Kabus Görmek|Korkmak
+Maraton Sonu|Yorulmak
+Hamal Mesaisi|Yorulmak
+Vardiya Çıkışı|Yorulmak
+Oduncu Olmak|Ağaç Kesmek
+Orman İşçisi|Ağaç Kesmek
+Yılbaşı Ağacı Seçmek|Ağaç Kesmek
+Marangoz Atölyesi|Çivi Çakmak
+Tamirci|Çivi Çakmak
+Ev Yapmak|Çivi Çakmak
+Arkeolog Olmak|Kazı Yapmak
+Define Aramak|Kazı Yapmak
+Madenci|Kazı Yapmak
+Okçuluk Müsabakası|Ok Atmak
+Robin Hood|Ok Atmak
+Dart Oynamak|Ok Atmak
+Basketbol Atışı|Top Fırlatmak
+Bowling Salonu|Top Fırlatmak
+Disk Atmak|Top Fırlatmak
+Paparazzi|Fotoğraf Çekmek
+Düğün Fotoğrafçısı|Fotoğraf Çekmek
+Kameraya Poz Vermek|Fotoğraf Çekmek
+Köy Düğünü|Halay Çekmek
+Horon Tepmek|Halay Çekmek
+Kına Gecesi|Halay Çekmek

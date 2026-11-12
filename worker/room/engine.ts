@@ -65,6 +65,16 @@ export function setTeam(room: RoomData, playerId: string, team: TeamId): ActionR
   return OK;
 }
 
+/** Kelime seviyesi: yalnızca oda kurucusu, yalnızca lobide. */
+export function setLevel(room: RoomData, playerId: string, level: number): ActionResult {
+  const p = findPlayer(room, playerId);
+  if (!p?.isHost) return fail('not_allowed', 'Seviyeyi yalnızca oda kurucusu seçebilir.');
+  if (room.phase !== 'lobby') return fail('not_allowed', 'Oyun başladıktan sonra seviye değişmez.');
+  if (level !== 1 && level !== 2 && level !== 3 && level !== 4) return fail('bad_message', 'Geçersiz seviye.');
+  room.level = level;
+  return OK;
+}
+
 export function setReady(room: RoomData, playerId: string, ready: boolean, ctx: EngineCtx): ActionResult {
   const p = findPlayer(room, playerId);
   if (!p) return fail('not_allowed', 'Oyuncu bulunamadı.');
@@ -176,13 +186,13 @@ export function startRound(room: RoomData, playerId: string, ctx: EngineCtx): Ac
 function dealCard(room: RoomData, ctx: EngineCtx): void {
   const mode = room.round!.mode;
   if (mode === 'kukla') {
-    const card = ctx.deck.kuklaCard();
+    const card = ctx.deck.kuklaCard(room.level);
     room.roundCard = card;
     // Animasyon kelimesiz herkese yayınlanır; yeni kelime = yeni başlangıç zamanı.
     room.round = { ...room.round!, anim: { clip: card.clip, level: card.level, startedAt: ctx.now } };
     return;
   }
-  room.roundCard = mode === 'anlatma' ? ctx.deck.tabuCard() : ctx.deck.tripleCard(mode);
+  room.roundCard = mode === 'anlatma' ? ctx.deck.tabuCard(room.level) : ctx.deck.tripleCard(mode, room.level);
 }
 
 /** Aktif tur için ortak kontrol; süre dolmuşsa turu kapatır. */

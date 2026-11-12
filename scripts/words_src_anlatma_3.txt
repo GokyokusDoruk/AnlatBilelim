@@ -1,0 +1,150 @@
+Sabır|beklemek, acele, sakin, dayanmak, erdem
+Cesaret|korku, yürek, kahraman, atılmak, yiğit
+Dürüstlük|yalan, doğru, güven, söylemek, ahlak
+Cimri|para, harcamak, tutumlu, eli sıkı, biriktirmek
+Cömert|vermek, bağışlamak, eli açık, paylaşmak, para
+Kıskançlık|başkası, sahip, kıskanmak, yeşil, çekememek
+Pişmanlık|keşke, hata, geri, üzülmek, geç
+Özlem|uzak, hasret, sevgili, görmek, kavuşmak
+Nostalji|eski, geçmiş, anı, hatıra, çocukluk
+Dedikodu|arkadan, konuşmak, söylentî, komşu, laf
+Yalan|doğru, söylemek, uydurmak, inanmak, burun
+Rüşvet|para, memur, gizli, yasa dışı, vermek
+Hırsızlık|çalmak, polis, suç, hapis, mal
+Mahkeme|hâkim, avukat, dava, karar, savcı
+Hâkim|mahkeme, karar, cüppe, adalet, çekiç
+Avukat|dava, savunmak, mahkeme, müvekkil, hukuk
+Noter|imza, onay, belge, vekâlet, mühür
+Vergi|devlet, ödemek, gelir, maliye, beyanname
+Enflasyon|fiyat, zam, para, ekonomi, değer
+Borsa|hisse, yatırım, alım satım, grafik, İstanbul
+Kredi|banka, taksit, faiz, borç, çekmek
+Faiz|banka, para, oran, kredi, ek
+Seçim|oy, sandık, parti, aday, başkan
+Meclis|milletvekili, yasa, Ankara, oturum, vekil
+Anayasa|yasa, devlet, hak, temel, madde
+Diplomat|elçi, ülke, büyükelçilik, görüşme, devlet
+Casus|gizli, bilgi, ajan, ülke, dinlemek
+Sınır|ülke, geçmek, kapı, asker, çizgi
+Göç|yer değiştirmek, kuş, insan, mülteci, taşınmak
+Mülteci|savaş, kaçmak, ülke, sığınmak, göç
+Tsunami|dalga, deniz, dev, kıyı, yıkım
+Volkan|lav, patlama, dağ, kül, yanardağ
+Çığ|kar, dağ, düşmek, kayak, tehlike
+Kasırga|rüzgâr, fırtına, dönmek, tahrip, bulut
+Kuraklık|yağmur, susuz, tarım, çatlak, sıcak
+Sel|su, taşkın, yağmur, dere, baskın
+Gelgit|deniz, ay, kabarmak, çekilmek, kıyı
+Aurora|kutup, ışık, gökyüzü, yeşil, kuzey
+Gökkuşağı|yedi renk, yağmur, güneş, yay, gökyüzü
+Meteor|gök taşı, kayan yıldız, düşmek, uzay, ışık
+Kara Delik|uzay, çekim, ışık, yıldız, devasa
+Galaksi|yıldız, uzay, Samanyolu, sarmal, evren
+Yerçekimi|düşmek, Newton, kuvvet, dünya, ağırlık
+Atom|molekül, çekirdek, küçük, parçacık, element
+Enerji|güç, elektrik, kuvvet, yenilenebilir, güneş
+Elektrik|kablo, priz, akım, ampul, volt
+Pil|enerji, şarj, kutup, bitmek, kalem
+Mıknatıs|çekmek, kutup, demir, yapışmak, alan
+Lazer|ışın, kırmızı, nokta, kesmek, yazıcı
+Radar|dalga, uçak, algılamak, ekran, hız
+Poker|kart, bahis, blöf, kumar, çip
+Bilardo|top, istaka, masa, delik, vurmak
+Yoga|esnemek, nefes, meditasyon, mat, duruş
+Meditasyon|sakin, nefes, göz kapalı, zihin, oturmak
+Akupunktur|iğne, Çin, vücut, tedavi, nokta
+Homeopati|doğal, tedavi, damla, alternatif, ilaç
+Gazeteci|haber, soru, mikrofon, basın, röportaj
+Muhabir|haber, canlı, mikrofon, sahada, kamera
+Spiker|haber, ekran, okumak, televizyon, ses
+Editör|metin, düzeltmek, kitap, yayın, gazete
+Yönetmen|film, aksiyon, kamera, set, sahne
+Senaryo|film, yazı, replik, hikâye, sahne
+Belgesel|gerçek, film, doğa, anlatıcı, kayıt
+Animasyon|çizgi film, hareket, karakter, bilgisayar, kare
+Karikatür|çizim, mizah, gazete, abartı, çizer
+Heykel|taş, sanatçı, mermer, müze, yontmak
+Seramik|çamur, fırın, çömlek, çark, vazo
+Çömlek|çamur, yemek, pişirmek, toprak, ocak
+Vitray|cam, renkli, kilise, pencere, ışık
+Ebru|su, kâğıt, boya, sanat, desen
+Hat|yazı, kalem, güzel, Osmanlı, sanat
+Minyatür|küçük, resim, Osmanlı, fırça, detay
+Kaligrafi|yazı, güzel, kalem, harf, mürekkep
+Opera|şarkı, sahne, soprano, tiyatro, orkestra
+Bale|dans, ayak ucu, tütü, sahne, balerin
+Orkestra|şef, enstrüman, konser, müzik, notalar
+Şef|orkestra, değnek, yönetmek, müzik, kol
+Operet|şarkı, sahne, hafif, tiyatro, müzikal
+Müzikal|şarkı, sahne, dans, Broadway, oyun
+Stand-up|komedi, mikrofon, sahne, güldürmek, tek kişi
+Taklit|aynı, benzetmek, ses, komik, yapmak
+Pandomim|sessiz, hareket, mimik, gösteri, beyaz yüz
+Kukla|ip, oyuncak, gölge, Karagöz, tiyatro
+Karagöz|gölge, Hacivat, perde, kukla, oyun
+Meddah|hikâye, anlatıcı, kahvehane, taklit, eski
+Masal|bir varmış, prenses, hikâye, çocuk, hayal
+Efsane|eski, anlatı, kahraman, söylence, halk
+Destan|kahraman, uzun, şiir, eski, savaş
+Şiir|dize, kafiye, şair, duygu, ritim
+Roman|kitap, yazar, hikâye, sayfa, kahraman
+Hikâye|anlatmak, olay, kahraman, kısa, yazar
+Deneme|yazı, düşünce, yazar, fikir, kısa
+Sözlük|kelime, anlam, alfabetik, bakmak, kitap
+Ansiklopedi|bilgi, cilt, madde, kitap, bilim
+Atlas|harita, kitap, ülke, coğrafya, sayfa
+Alfabe|harf, A, Z, okul, öğrenmek
+Noktalama|virgül, nokta, cümle, işaret, yazı
+Çeviri|dil, tercüman, anlam, metin, yabancı
+Tercüman|dil, çevirmek, toplantı, yabancı, konuşmak
+Şifre|çözmek, gizli, parola, kod, kilit
+Parola|şifre, giriş, hesap, gizli, kullanıcı
+Algoritma|adım, bilgisayar, kod, çözüm, yazılım
+Yazılım|program, kod, bilgisayar, uygulama, geliştirmek
+Sunucu|bilgisayar, internet, veri, bağlantı, hizmet
+Siber|saldırı, internet, güvenlik, hacker, bilgisayar
+Virüs|bilgisayar, hasta, bulaşmak, antivirüs, mikrop
+Sosyal Medya|paylaşmak, beğeni, takipçi, hesap, telefon
+Hashtag|kare, etiket, tweet, paylaşım, konu
+Influencer|takipçi, reklam, sosyal medya, ünlü, paylaşım
+Abonelik|aylık, üye, ödeme, dizi, iptal
+Podcast|dinlemek, bölüm, konuşma, program, internet
+Yayıncı|canlı, kanal, izleyici, oyun, kamera
+Emoji|yüz, mesaj, gülen, ikon, simge
+Meme|komik, internet, resim, paylaşmak, şaka
+Robot Süpürge|temizlik, otomatik, ev, yuvarlak, kablosuz
+Drone|uçmak, kamera, pervane, uzaktan, hava
+Elektrikli Araç|şarj, motor, benzinsiz, araba, sessiz
+Güneş Paneli|enerji, çatı, elektrik, ışık, temiz
+Rüzgâr Türbini|pervane, enerji, hava, elektrik, yüksek
+Baraj|su, nehir, elektrik, set, göl
+Köprü|nehir, geçmek, boğaz, araba, ayak
+Tünel|dağ, geçmek, karanlık, araba, yer altı
+Tramvay|ray, şehir, durak, elektrik, çan
+Teleferik|kabin, dağ, kablo, yukarı, manzara
+Feribot|deniz, araba, yolcu, karşı yaka, vapur
+Dolmuş|minibüs, yol, ücret, durak, şoför
+Kamyon|yük, tekerlek, büyük, şoför, taşımak
+Traktör|tarla, çiftçi, büyük tekerlek, sürmek, toprak
+Vinç|yük, kaldırmak, inşaat, yüksek, kule
+Greyder|yol, inşaat, ağır, düzeltmek, toprak
+Forklift|depo, kaldırmak, palet, çatal, yük
+Konteyner|liman, gemi, yük, demir, kutu
+Liman|gemi, deniz, iskele, yük, kaptan
+Deniz Feneri|ışık, kıyı, gemi, kule, kaptan
+Pervane|dönmek, uçak, rüzgâr, kanat, gemi
+Paraşüt|atlamak, uçak, havada, ip, bez
+Dolap|kapak, giysi, raf, askılık, mutfak
+Sinema Salonu|perde, koltuk, film, mısır, karanlık
+Sirk|palyaço, ip cambazı, çadır, aslan, gösteri
+Lunapark|dönme dolap, bilet, eğlence, hız treni, çocuk
+Akvaryum|balık, cam, su, yosun, yemek
+Hayvanat Bahçesi|kafes, hayvan, bilet, gezmek, aslan
+Kutup|buz, penguen, soğuk, beyaz, ayı
+Dantel|işleme, ince, örtü, beyaz, el emeği
+Cam Silici|pencere, silmek, temizlik, ıslak, sap
+Arşiv|belge, eski, dosya, raf, saklamak
+Fatura|ödemek, elektrik, su, kâğıt, abone
+Banko|kasa, müşteri, tezgâh, bekleme, gişe
+Kargo|paket, kurye, gönderi, teslim, takip
+Zarf Pulu|mektup, posta, yapıştırmak, koleksiyon, ücret

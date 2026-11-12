@@ -92,9 +92,9 @@ Yerel geliştirmede `.dev.vars` içine `DEV_TOOLS=1` yazılırsa (gitignore'da),
 
 ## Kelime havuzu
 
-`shared/data/words_tr.json`: Anlatma 104 kart (kelime + 5 yasaklı), Çizme / Kukla / 15 Kelime için 150'şer kelime.
-Kaynaklar `scripts/words_src_*.txt` dosyalarındadır; düzenledikten sonra `npm run words:build` çalıştır.
-`npm run build` önce `words:check` ile sayıları (en az 100), tekrarları ve her kartta tam 5 yasaklı kelime olmasını doğrular.
+`shared/data/words_tr.json`: 4 mod × 4 seviye × 150 kelime (1 Kolay, 2 Orta, 3 Zor, 4 Çok Zor). Anlatma kartı = kelime + 5 yasaklı; Kukla kelimesi bir hareket klibine bağlıdır (`Kelime|Klip Adı`). Seviyeyi oda kurucusu lobide seçer.
+Kaynaklar `scripts/words_src_<mod>_<seviye>.txt` dosyalarındadır; düzenledikten sonra `npm run words:build` çalıştır.
+`npm run build` önce `words:check` ile her dosyada tam 150 kelime, mod içinde seviyeler arası tekrar olmaması ve her kartta tam 5 yasaklı kelime olmasını doğrular.
 Kartlar `shared/words.ts` içindeki `CardDeck` ile çekilir: havuz tükenmeden aynı kelime tekrar gelmez.
 
 ## Yol haritası

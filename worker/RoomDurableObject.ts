@@ -261,6 +261,9 @@ export class RoomDurableObject extends DurableObject<Env> {
       case 'lobby:setReady':
         result = typeof msg.ready === 'boolean' ? engine.setReady(room, playerId, msg.ready, ctx) : badMessage();
         break;
+      case 'lobby:setLevel':
+        result = engine.setLevel(room, playerId, msg.level);
+        break;
       case 'round:start':
         result = engine.startRound(room, playerId, ctx);
         break;

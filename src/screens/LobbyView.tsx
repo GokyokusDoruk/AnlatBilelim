@@ -1,5 +1,5 @@
 import { MIN_PLAYERS_PER_TEAM } from '@shared/constants';
-import type { TeamId } from '@shared/types';
+import { LEVEL_LABELS, WORD_LEVELS, type TeamId } from '@shared/types';
 import { Button, Card, PlayerChip } from '../components/ui';
 import { sendAction } from '../net/connection';
 import { useGameStore } from '../store/gameStore';
@@ -15,6 +15,7 @@ export function LobbyView() {
         <TeamCard team="B" />
       </div>
       <UnassignedCard />
+      <LevelCard />
       <ReadyBar />
     </>
   );
@@ -37,6 +38,42 @@ function TeamCard({ team }: { team: TeamId }) {
             Bu takıma geç
           </Button>
         ) : null}
+      </div>
+    </Card>
+  );
+}
+
+const LEVEL_HINTS: Record<number, string> = {
+  1: 'Günlük, herkesin bildiği kelimeler',
+  2: 'Biraz daha az bilinen eşya, meslek ve yerler',
+  3: 'Kavramlar, duygular ve zor tarifler',
+  4: 'Deyimler, tarih, kültür ve soyut kelimeler',
+};
+
+/** Kelime seviyesi: yalnızca oda kurucusu değiştirebilir, herkes görür. */
+function LevelCard() {
+  const level = useGameStore((s) => s.level);
+  const isHost = useSelf()?.isHost ?? false;
+  return (
+    <Card title="Kelime seviyesi">
+      <div className="stack">
+        <div className="row" style={{ gap: 8, flexWrap: 'wrap' }} role="radiogroup" aria-label="Kelime seviyesi">
+          {WORD_LEVELS.map((lv) => (
+            <Button
+              key={lv}
+              variant={lv === level ? 'success' : 'default'}
+              disabled={!isHost}
+              aria-pressed={lv === level}
+              onClick={() => sendAction({ t: 'lobby:setLevel', level: lv })}
+            >
+              {lv} · {LEVEL_LABELS[lv]}
+            </Button>
+          ))}
+        </div>
+        <span className="muted">
+          {LEVEL_HINTS[level]}
+          {isHost ? '' : ' (seviyeyi oda kurucusu seçer)'}
+        </span>
       </div>
     </Card>
   );

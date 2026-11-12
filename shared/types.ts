@@ -62,7 +62,7 @@ export interface KuklaCard {
   readonly kind: 'kukla';
   readonly word: string;
   readonly clip: number;
-  readonly level: 1 | 2 | 3 | 4;
+  readonly level: WordLevel;
 }
 
 export type Card = TabuCard | TripleCard | KuklaCard;
@@ -91,7 +91,7 @@ export interface RoundPublicState {
   /** Sadece 15 Kelime modunda; kalan ipucu hakkı. */
   readonly cluesLeft: number | null;
   /** Sadece Kukla: oynayan animasyon. Kelime içermez; klip `startedAt`'ten itibaren loop'ta döner. */
-  readonly anim: { readonly clip: number; readonly level: 1 | 2 | 3 | 4; readonly startedAt: number } | null;
+  readonly anim: { readonly clip: number; readonly level: WordLevel; readonly startedAt: number } | null;
 }
 
 /**
@@ -116,8 +116,14 @@ export interface RoundSummary {
   readonly endedByClueLimit: boolean;
 }
 
+/** Kelime seviyesi: 1 Kolay, 2 Orta, 3 Zor, 4 Çok Zor. Oyunu kuran lobide seçer. */
+export type WordLevel = 1 | 2 | 3 | 4;
+export const WORD_LEVELS: readonly WordLevel[] = [1, 2, 3, 4];
+export const LEVEL_LABELS: Readonly<Record<WordLevel, string>> = { 1: 'Kolay', 2: 'Orta', 3: 'Zor', 4: 'Çok Zor' };
+
 export interface RoomSnapshot {
   readonly code: string;
+  readonly level: WordLevel;
   readonly phase: RoomPhase;
   readonly players: readonly Player[];
   readonly board: BoardState;

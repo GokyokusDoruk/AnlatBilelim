@@ -8,7 +8,8 @@ describe('kukla klipleri', () => {
     expect(KUKLA_CLIP_WORDS.length).toBe(KUKLA_CLIPS.length);
     expect(KUKLA_CLIP_WORDS.length).toBeGreaterThanOrEqual(40);
     expect(new Set(KUKLA_CLIP_WORDS).size).toBe(KUKLA_CLIP_WORDS.length);
-    for (const w of KUKLA_CLIP_WORDS) expect(WORDS.kukla).toContain(w);
+    for (const w of KUKLA_CLIP_WORDS) expect(WORDS.kukla[0]!.map((e) => e.word)).toContain(w);
+    for (const level of WORDS.kukla) for (const e of level) expect(e.clip).toBeGreaterThanOrEqual(0), expect(e.clip).toBeLessThan(KUKLA_CLIPS.length);
   });
 
   it('tüm klipler 10 sn sonunda baştaki poza döner (kesintisiz loop)', () => {

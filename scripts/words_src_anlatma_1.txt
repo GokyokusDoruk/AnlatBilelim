@@ -148,3 +148,65 @@ Yıldız|gökyüzü, gece, parlak, uzay, takımyıldız
 Bulut|gökyüzü, yağmur, beyaz, hava, gri
 Rüzgâr|esmek, hava, uçurtma, serin, fırtına
 Nehir|akmak, su, köprü, balık, vadi
+Yorgan|yatak, uyumak, kış, sıcak, battaniye
+Çarşaf|yatak, serilmek, beyaz, yıkamak, kumaş
+Oyuncak|çocuk, oynamak, kutu, bebek, araba
+Bebek|ağlamak, süt, biberon, beşik, anne
+Beşik|bebek, sallamak, uyutmak, ninni, tahta
+Biberon|süt, bebek, emzik, içmek, şişe
+Emzik|bebek, ağız, ağlamak, lastik, uyku
+Düdük|üflemek, hakem, ses, çalmak, spor
+Zil|çalmak, kapı, okul, ses, düğme
+Çan|kilise, ses, çalmak, tokmak, asılı
+Bayrak|kırmızı, direk, ülke, dalgalanmak, ay yıldız
+Mektup|zarf, posta, yazmak, pul, adres
+Gazete|haber, okumak, gündem, kâğıt, manşet
+Dergi|okumak, sayfa, resim, aylık, kapak
+Poster|duvar, resim, asmak, büyük, afiş
+Fotoğraf|kamera, çekmek, albüm, resim, hatıra
+Albüm|fotoğraf, sayfa, hatıra, aile, şarkı
+Mikrofon|ses, şarkıcı, konuşmak, sahne, kablo
+Hoparlör|ses, müzik, bağırmak, yüksek, kablo
+Kulaklık|dinlemek, müzik, kulak, kablo, ses
+Radyo|dinlemek, kanal, müzik, anten, haber
+Flüt|üflemek, müzik, delik, çalgı, ince
+Zurna|düğün, üflemek, davul, çalgı, halay
+Trompet|üflemek, pirinç, müzik, bando, çalgı
+Keman|yay, tel, çalmak, müzik, kemancı
+Çello|yay, tel, büyük, müzik, orkestra
+Saksafon|üflemek, caz, altın, müzik, çalgı
+Dans|müzik, adım, ritim, eğlence, partner
+Halay|düğün, el ele, oynamak, sıra, zurna
+Tiyatro|sahne, oyuncu, perde, seyirci, rol
+Barbekü|et, ateş, ızgara, kömür, bahçe
+Şenlik|ateş, eğlence, kutlama, müzik, köy
+Pasta|doğum günü, mum, krema, dilim, tatlı
+Konfeti|parti, renkli, atmak, kâğıt, kutlama
+Davet|çağırmak, misafir, parti, kart, gelmek
+Misafir|ev, gelmek, çay, konuk, ağırlamak
+Komşu|yan daire, kapı, ziyaret, mahalle, bina
+Mahalle|sokak, komşu, bakkal, çocuk, ev
+Sokak|bina, yol, kaldırım, mahalle, lamba
+Kaldırım|yaya, yürümek, yol, taş, bordür
+Korna|araba, ses, çalmak, trafik, gürültü
+Işık|lamba, karanlık, aydınlık, güneş, parlamak
+Sinyal|araba, sağ, sol, yanıp sönmek, dönmek
+Direksiyon|araba, çevirmek, şoför, tekerlek, yön
+Fren|araba, durmak, pedal, ayak, kaza
+Garaj|araba, ev, kapı, park, tamirhane
+Tamirhane|araba, usta, tamir, motor, yağ
+Bagaj|araba, valiz, arka, kapak, yük
+Cam|pencere, kırılmak, şeffaf, silmek, bardak
+Kilit|anahtar, kapı, açmak, kapamak, asma
+Çalar Saat|sabah, uyanmak, zil, yatak, alarm
+Takvim|gün, ay, tarih, yaprak, duvar
+Ajanda|yazmak, program, not, randevu, defter
+Bavul|tatil, kıyafet, taşımak, tekerlek, valiz
+Eldiven|el, kış, parmak, giymek, soğuk
+Atkı|boyun, kış, örgü, sarmak, yün
+Bere|baş, kış, örgü, giymek, sıcak
+Mayo|deniz, yüzmek, giymek, havuz, plaj
+Güneş Gözlüğü|yaz, göz, parlak, takmak, cam
+Krem|cilt, sürmek, güneş, nemlendirici, tüp
+Tuz|yemek, tuzluk, deniz, baharat, serpmek
+Şeker|tatlı, çay, kesme, toz, kavanoz

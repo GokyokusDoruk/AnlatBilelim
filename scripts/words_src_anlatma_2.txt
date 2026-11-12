@@ -148,3 +148,66 @@ Kova|su, plastik, sap, temizlik, doldurmak
 Hortum|su, bahçe, sulamak, uzun, musluk
 Kürek|toprak, kazmak, sap, bahçe, kar
 Tırmık|toprak, bahçe, diş, yaprak, sap
+Matara|su, içmek, kamp, taşımak, kapak
+Kazma|toprak, kazmak, demir, sap, madenci
+Balta|odun, kesmek, orman, keskin, sap
+Urgan|ip, kalın, çekmek, gemi, bağlamak
+Çıkrık|kuyu, su, çevirmek, kova, ip
+Kuyu|su, derin, çekmek, kova, çıkrık
+Değirmen|un, buğday, öğütmek, su, taş
+Harman|buğday, saman, tarla, hasat, savurmak
+Orak|buğday, biçmek, tarla, eğri, el
+Tırpan|ot, biçmek, uzun, keskin, sap
+Saban|toprak, sürmek, öküz, tarla, çiftçi
+Ambar|tahıl, depo, saklamak, çiftlik, bina
+Kümes|tavuk, yumurta, horoz, tel, çiftlik
+Ahır|inek, at, saman, çiftlik, hayvan
+Çoban|koyun, sürü, değnek, dağ, köpek
+Samanlık|saman, ahır, kuru ot, hayvan, bina
+Yün|koyun, kırpmak, örgü, kazak, sıcak
+Dokuma|tezgâh, iplik, kilim, kumaş, el emeği
+Çıkın|bohça, taşımak, kumaş, bağlamak, eşya
+Bohça|kumaş, taşımak, eşya, düğüm, çeyiz
+Çeyiz|gelin, sandık, düğün, el emeği, evlilik
+Sandık|çeyiz, kilitli, ahşap, eski, saklamak
+Gelinlik|beyaz, düğün, gelin, elbise, duvak
+Damatlık|düğün, damat, takım elbise, kravat, siyah
+Kına|gelin, el, kırmızı, gece, düğün
+Davul|vurmak, tokmak, ses, düğün, ritim
+Savcı|iddia, mahkeme, suç, hukuk, dava
+Karakol|polis, şikâyet, nöbetçi, tutanak, suç
+Kelepçe|polis, el, metal, suçlu, bilezik
+Parmak İzi|el, suç, iz, polis, mürekkep
+Büyüteç|cam, bakmak, dedektif, büyük, mercek
+Soygun|banka, silah, para, polis, maske
+Banka|para, kredi, hesap, ATM, şube
+ATM|para, kart, çekmek, şifre, makine
+Kredi Kartı|alışveriş, şifre, ödeme, banka, plastik
+Çek|banka, imza, yazmak, ödeme, defter
+Senet|borç, imza, kâğıt, vade, ödemek
+Tapu|ev, mülk, belge, sahip, daire
+Kira|ev, ödemek, ay, ev sahibi, kiracı
+Emlakçı|ev, satmak, kiralamak, komisyon, ilan
+Müteahhit|bina, inşaat, daire, proje, yapmak
+Mimar|bina, proje, çizmek, plan, tasarım
+İskele|inşaat, boru, yüksek, işçi, bina
+Beton|inşaat, çimento, kum, sertleşmek, döşeme
+Tuğla|duvar, kırmızı, inşaat, harç, örmek
+Çimento|inşaat, toz, beton, gri, harç
+Boya|duvar, fırça, renk, boyacı, kova
+Tesisat|boru, su, usta, musluk, tamir
+Musluk|su, akıtmak, çevirmek, lavabo, damlamak
+Lavabo|musluk, yüz, el, banyo, yıkamak
+Banyo|duş, küvet, sabun, su, havlu
+Küvet|banyo, su, yatmak, köpük, yıkanmak
+Duş|su, sabun, banyo, ıslanmak, yıkanmak
+Termosifon|sıcak su, banyo, elektrik, depo, ısıtmak
+Kombi|ısınma, kalorifer, doğalgaz, sıcak, ev
+Kalorifer|ısıtma, kış, peteği, sıcak, ev
+Teras|çatı, dışarı, manzara, yaz, bina
+Çatı|kiremit, bina, üst, yağmur, baca
+Baca|duman, soba, çatı, siyah, yüksek
+Kiremit|çatı, kırmızı, ev, toprak, örtmek
+Bodrum|alt kat, karanlık, depo, merdiven, nemli
+Apartman|bina, daire, kat, komşu, asansör
+Gökdelen|bina, yüksek, kat, şehir, cam

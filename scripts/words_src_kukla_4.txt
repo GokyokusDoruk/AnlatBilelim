@@ -148,3 +148,66 @@ Anı Defteri|Fotoğraf Çekmek
 Sıra Dansı|Halay Çekmek
 Yan Yana Dizilmek|Halay Çekmek
 Kol Kola Girmek|Halay Çekmek
+Soluk Soluğa Kalmak|Koşmak
+Dört Köşe Olmak|Zıplamak
+Suya Düşen Yılana Sarılır|Yüzmek
+Oyun Havası|Dans Etmek
+Pembe Rüya|Uyumak
+Lokmayı Boğazında Bırakmak|Yemek Yemek
+Bir Bardak Suda Fırtına|Su İçmek
+Gözyaşı Seli|Ağlamak
+Kahkahayı Basmak|Gülmek
+Hafifçe Boğaz Temizlemek|Öksürmek
+Burun Kıvırtmak|Hapşırmak
+Mola Vermek|Esnemek
+Gözden Kaybolmak|El Sallamak
+Çok Yaşa Demek|Alkışlamak
+Bağrına Basmak|Sarılmak
+Kıyasıya Mücadele|Kavga Etmek
+Havaya Yumruk Savurmak|Boks Yapmak
+Top Yuvarlak|Futbol Oynamak
+Sırtta Taşımak Gibi Pedal|Bisiklete Binmek
+Aynı Kayıkta|Kürek Çekmek
+Gökyüzüne Uzanmak|Tırmanmak
+İp Cambazlığı|İp Atlamak
+Kısmeti Beklemek|Olta Atmak
+Omuz Omuza Taşımak|Halter Kaldırmak
+Telleri Ağlatmak|Gitar Çalmak
+Havaya Vurmak|Davul Çalmak
+Pırıl Pırıl Gülmek|Diş Fırçalamak
+Saç Dalgası|Saç Taramak
+Rüzgâra Karşı Beklemek|Çamaşır Asmak
+Kırışıklık Savaşı|Ütü Yapmak
+Ortalığı Silip Süpürmek|Yer Silmek
+Dert Ortağı|Telefonla Konuşmak
+Dondurucu Soğuk|Soğuktan Titremek
+Kalbi Duracak Gibi|Korkmak
+Yorgun Argın|Yorulmak
+Dal Kırmak|Ağaç Kesmek
+Kafasına Kakmak|Çivi Çakmak
+Nişan Tahtası|Ok Atmak
+Topu Atmak|Top Fırlatmak
+Anı Karesi|Fotoğraf Çekmek
+Kol Kola Girmek Gibi|Halay Çekmek
+Rüzgâr Gibi Geçmek|Koşmak
+Yerinde Duramamak Gibi|Zıplamak
+Su Gibi Akmak|Yüzmek
+Gönül Eğlendirmek|Dans Etmek
+Sabaha Kadar Gözünü Kırpmamak|Uyumak
+Sofrada Eşitlik|Yemek Yemek
+Çeşme Başında Beklemek|Su İçmek
+İçini Dökmek|Ağlamak
+Yüzü Gülmek|Gülmek
+Yutkunmak|Öksürmek
+Acı Biber Etkisi|Hapşırmak
+Uykulu Göz|Esnemek
+Uğurlar Olsun|El Sallamak
+Seyirciyi Kalkışa Geçirmek|Alkışlamak
+Pabuç Bırakmamak|Kavga Etmek
+Yumruk Yarışı|Boks Yapmak
+Kaleciye Karşı|Futbol Oynamak
+Yokuş Aşağı Salmak|Bisiklete Binmek
+Dalgaya Meydan Okumak|Kürek Çekmek
+Tepe Başında Beklemek|Tırmanmak
+Gökte Uçan Gibi|İp Atlamak
+Balık Dolu Deniz|Olta Atmak

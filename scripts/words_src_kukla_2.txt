@@ -148,3 +148,66 @@ Kameraya Poz Vermek|Fotoğraf Çekmek
 Köy Düğünü|Halay Çekmek
 Horon Tepmek|Halay Çekmek
 Kına Gecesi|Halay Çekmek
+Kovalamaca Oynamak|Koşmak
+Havuzda Atlamak|Zıplamak
+Okyanusta Yüzmek|Yüzmek
+Salsa Oynamak|Dans Etmek
+Yolculukta Uyumak|Uyumak
+Fast Food Yemek|Yemek Yemek
+Antrenman Arasında İçmek|Su İçmek
+Düğünde Ağlamak|Ağlamak
+Stand-up İzlemek|Gülmek
+Soğuk Algınlığı|Öksürmek
+Bahar Alerjisi|Hapşırmak
+Okul Dersinde|Esnemek
+Gelini Uğurlamak|El Sallamak
+Sirk Gösterisi|Alkışlamak
+Çocuk Kavgası|Kavga Etmek
+Boks Antrenmanı|Boks Yapmak
+Mahalle Maçı|Futbol Oynamak
+Şehirde Pedal|Bisiklete Binmek
+Göl Turu|Kürek Çekmek
+Kaya Duvarı|Tırmanmak
+Çocukluk Oyunu|İp Atlamak
+Hafta Sonu Balıkçısı|Olta Atmak
+Spor Hocası|Halter Kaldırmak
+Akustik Konser|Gitar Çalmak
+Bando Mızıka|Davul Çalmak
+Sabah Hazırlığı|Diş Fırçalamak
+Kuaförde Beklemek|Saç Taramak
+Güneşli Gün|Çamaşır Asmak
+İş Günü Hazırlığı|Ütü Yapmak
+Kirli Zemin|Yer Silmek
+Anneyle Konuşmak|Telefonla Konuşmak
+Ayazda Beklemek|Soğuktan Titremek
+Karanlık Sokak|Korkmak
+Alışverişten Dönmek|Yorulmak
+Kış Hazırlığı|Ağaç Kesmek
+Ev Tamirat|Çivi Çakmak
+Bahçe İşi|Kazı Yapmak
+Hedef Tahtası|Ok Atmak
+Park Maçı|Top Fırlatmak
+Tatil Karesi|Fotoğraf Çekmek
+Kına Eğlencesi|Halay Çekmek
+Servise Yetişmek|Koşmak
+Yatakta Zıplamak|Zıplamak
+Yüzme Yarışı|Yüzmek
+Kız Kıza Dans|Dans Etmek
+Bebeği Uyutmak|Uyumak
+Tatlı Yemek|Yemek Yemek
+Yürüyüşte Su İçmek|Su İçmek
+Duygusal Film|Ağlamak
+Komik Video|Gülmek
+Tozlu Oda|Hapşırmak
+Gece Yarısı|Esnemek
+Tren İstasyonunda|El Sallamak
+Stadyum Tribünü|Alkışlamak
+Mezuniyet Sarılması|Sarılmak
+Oyuncak Kapmak|Kavga Etmek
+Ağır Siklet|Boks Yapmak
+Köşe Vuruşu|Futbol Oynamak
+Bisiklet Turu|Bisiklete Binmek
+Takım Kürek|Kürek Çekmek
+Ağaç Evine Çıkmak|Tırmanmak
+Isınma Hareketi|İp Atlamak
+İskelede Balık Tutmak|Olta Atmak

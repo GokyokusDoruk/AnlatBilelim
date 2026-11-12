@@ -4,7 +4,7 @@ import { readFileSync, writeFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 
 const dir = (f) => fileURLToPath(new URL(f, import.meta.url));
-const PER_LEVEL = 150;
+const MIN_PER_LEVEL = 150;
 const LEVELS = [1, 2, 3, 4];
 const checkOnly = process.argv.includes('--check');
 const errors = [];
@@ -21,12 +21,12 @@ function readList(file) {
   return readLines(file).flatMap((l) => l.split(',')).map((s) => s.trim()).filter(Boolean);
 }
 
-/** Her mod için 4 seviye: tam 150 kelime, mod içinde seviyeler arası dahil tekrar yok. */
+/** Her mod için 4 seviye: en az 150 kelime, mod içinde seviyeler arası dahil tekrar yok. */
 function checkLevels(mode, lists, key = (x) => x) {
   const seen = new Map();
   lists.forEach((list, i) => {
     const name = `${mode} seviye ${i + 1}`;
-    if (list.length !== PER_LEVEL) errors.push(`${name}: ${list.length} kelime var, tam ${PER_LEVEL} olmalı`);
+    if (list.length < MIN_PER_LEVEL) errors.push(`${name}: ${list.length} kelime var, en az ${MIN_PER_LEVEL} olmalı`);
     for (const item of list) {
       const w = key(item);
       const k = norm(w);
@@ -76,7 +76,7 @@ checkLevels('kukla', kukla, (c) => c.word);
 for (const name of clipNames) if (!kukla[0].some((c) => c.word === name)) errors.push(`kukla seviye 1: klip adı "${name}" kelime olarak da bulunmalı`);
 
 if (errors.length) {
-  console.error(errors.slice(0, 40).map((e) => '✗ ' + e).join('\n') + (errors.length > 40 ? `\n… +${errors.length - 40} hata` : ''));
+  console.error(errors.slice(0, 200).map((e) => '✗ ' + e).join('\n') + (errors.length > 200 ? `\n… +${errors.length - 200} hata` : ''));
   process.exit(1);
 }
 
@@ -91,4 +91,4 @@ if (checkOnly) {
 } else {
   writeFileSync(dir('../shared/data/words_tr.json'), json);
 }
-console.log(`✓ her mod için 4 seviye × ${PER_LEVEL} kelime`);
+console.log(`✓ ${['anlatma', 'cizme', 'kukla', 'onbes'].map((m) => `${m}: ${out[m].map((l) => l.length).join('/')}`).join(' · ')}`);

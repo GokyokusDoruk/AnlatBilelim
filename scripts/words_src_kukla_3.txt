@@ -148,3 +148,65 @@ Kare Yakalamak|Fotoğraf Çekmek
 Coşku Paylaşmak|Halay Çekmek
 Birlik Olmak|Halay Çekmek
 Kutlama Yapmak|Halay Çekmek
+Hevesle Gitmek|Koşmak
+Mutluluktan Uçmak|Zıplamak
+Zorlukla İlerlemek|Yüzmek
+Coşku|Dans Etmek
+Hayal Kurmak|Uyumak
+Doyumsuz Olmak|Yemek Yemek
+Dinlenmek İçin Durmak|Su İçmek
+Duygulanmak|Ağlamak
+Neşe Saçmak|Gülmek
+Rahatsız Etmek|Öksürmek
+Ani Tepki|Hapşırmak
+Bıkkınlık|Esnemek
+Selam Göndermek|El Sallamak
+Beğenmek|Alkışlamak
+Yakınlık|Sarılmak
+Savaşmak|Kavga Etmek
+Karşılık Vermek|Boks Yapmak
+Takım Oyunu|Futbol Oynamak
+Özgürlük Hissi|Bisiklete Binmek
+Uyum|Kürek Çekmek
+Hırs|Tırmanmak
+Hareketlenmek|İp Atlamak
+Bekleyiş|Olta Atmak
+Melodi Yaratmak|Gitar Çalmak
+Heyecan Katmak|Davul Çalmak
+Rutin|Diş Fırçalamak
+Özen Göstermek|Saç Taramak
+Sıraya Dizmek|Çamaşır Asmak
+Düzgünleştirmek|Ütü Yapmak
+Bağlantı Kurmak|Telefonla Konuşmak
+Zorda Kalmak|Soğuktan Titremek
+Endişelenmek|Korkmak
+Bıkkınlık Çekmek|Yorulmak
+Doğaya Dokunmak|Ağaç Kesmek
+Güvence Altına Almak|Çivi Çakmak
+Aramak|Kazı Yapmak
+Hedef Belirlemek|Ok Atmak
+Pas Vermek|Top Fırlatmak
+Hatıra Biriktirmek|Fotoğraf Çekmek
+Birlikte Kutlamak|Halay Çekmek
+Peşinden Koşmak|Koşmak
+Yerinde Duramamak|Zıplamak
+Akıntıyı Aşmak|Yüzmek
+Kendinden Geçmek|Dans Etmek
+Dalıp Gitmek|Uyumak
+Tatmak|Yemek Yemek
+Hasretle Beklemek|Su İçmek
+Veda Acısı|Ağlamak
+Şakalaşmak|Gülmek
+Boğaz Yanması|Öksürmek
+Burun Kaşınması|Hapşırmak
+İlgisizlik|Esnemek
+Ayrılık|El Sallamak
+Onay Vermek|Alkışlamak
+Şefkat Göstermek|Sarılmak
+Gerilim|Kavga Etmek
+Hazırlıklı Olmak|Boks Yapmak
+Hücum Etmek|Futbol Oynamak
+Dengeyi Korumak|Bisiklete Binmek
+Ortak Çaba|Kürek Çekmek
+Hedefe Yürümek|Tırmanmak
+Tempo|İp Atlamak

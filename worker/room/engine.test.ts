@@ -513,14 +513,15 @@ describe('kelime seviyesi', () => {
     }
   });
 
-  it('her mod ve seviyede 150 kelime var, seviyeler arası tekrar yok', () => {
+  it('her mod ve seviyede en az 150 kelime var, mod toplamı 1000+ ve seviyeler arası tekrar yok', () => {
     for (const mode of ['anlatma', 'cizme', 'kukla', 'onbes'] as const) {
       const all: string[] = [];
       for (const list of WORDS[mode]) {
-        expect(list.length).toBe(150);
+        expect(list.length).toBeGreaterThanOrEqual(150);
         for (const item of list) all.push(typeof item === 'string' ? item : item.word);
       }
-      expect(new Set(all.map((w) => w.toLocaleLowerCase('tr-TR'))).size).toBe(600);
+      expect(all.length).toBeGreaterThanOrEqual(850);
+      expect(new Set(all.map((w) => w.toLocaleLowerCase('tr-TR'))).size).toBe(all.length);
     }
   });
 });

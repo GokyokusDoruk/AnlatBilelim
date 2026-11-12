@@ -13,3 +13,10 @@ Konçerto, Sonat, Fügü, Kantat, Rekviyem, Uvertür, Nocturne, Etüt, Vals, Kla
 Makam, Usul, Fasıl, Gazel, Peşrev, Semai, Saz Semai, Taksim, Ney Taksimi, Mimar Sinan
 Süleymaniye, Selimiye, Ayasofya, Sultanahmet, Topkapı, Dolmabahçe, Galata Kulesi, Kız Kulesi, Rumeli Hisarı, Kapadokya
 Pamukkale, Efes, Truva, Nemrut, Sümela, Göbeklitepe, Ani, Hasankeyf, Mardin, Karadeniz
+Süreklilik, Değişim, Denge, Çelişki, Uyum, Çeşitlilik, Birlik, Hakikat, Yanılsama, Gerçeklik
+Hayal, Bilinçaltı, Duygu, Akıl, Ekonomik Kriz, Büyüme, Durgunluk, Tasarruf, Tüketim, Üretim
+Rekabet, Tekel, Pazar Payı, Küresel Isınma, Karbon Ayak İzi, Geri Dönüşüm, Sürdürülebilirlik, Biyoçeşitlilik, Orman Tahribatı, Buzulların Erimesi
+Deniz Seviyesi, Ozon Tabakası, Sera Gazı, Yapay Sinir Ağı, Makine Öğrenmesi, Büyük Veri, Siber Güvenlik, Şifreleme, Açık Kaynak, Yazılım Hatası
+Güncelleme, Yedekleme, Sunucu Çökmesi, Mitoloji, Efsane, Destan, Masal, Fabl, Menkıbe, Anonim
+Rivayet, Fıkra, Divan Şiiri, Kaside, Rubai, Mesnevi, Mani, Türkü, Ağıt, Ninni
+Tekerleme, Sinema Tarihi, Siyah Beyaz

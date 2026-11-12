@@ -148,3 +148,65 @@ Selfie Çekmek|Fotoğraf Çekmek
 Poz Vermek|Fotoğraf Çekmek
 Düğünde Oynamak|Halay Çekmek
 Zeybek Oynamak|Halay Çekmek
+Hızla Yürümek|Koşmak
+Yüksek Atlamak|Zıplamak
+Sırtüstü Yüzmek|Yüzmek
+Hip Hop Yapmak|Dans Etmek
+Yatakta Dönmek|Uyumak
+Elma Yemek|Yemek Yemek
+Süt İçmek|Su İçmek
+Burnunu Çekmek|Ağlamak
+Bayılana Kadar Gülmek|Gülmek
+Öksürük Şurubu İçmek|Öksürmek
+Mendille Silmek|Hapşırmak
+Kollarını Açmak|Esnemek
+Bay Bay Demek|El Sallamak
+Çifte Alkış|Alkışlamak
+Annesine Sarılmak|Sarılmak
+Güreş Tutmak|Kavga Etmek
+Ringe Çıkmak|Boks Yapmak
+Top Sektirmek|Futbol Oynamak
+Tek Tekerlek Sürmek|Bisiklete Binmek
+Kayıkla Gitmek|Kürek Çekmek
+Kayalara Tırmanmak|Tırmanmak
+Hızlı İp Atlamak|İp Atlamak
+Kıyıda Beklemek|Olta Atmak
+Dambıl Çalışmak|Halter Kaldırmak
+Elektro Gitar Çalmak|Gitar Çalmak
+Diş İpi Kullanmak|Diş Fırçalamak
+Ipa Çamaşır Sermek|Çamaşır Asmak
+Elbise Ütülemek|Ütü Yapmak
+Telefona Bakmak|Telefonla Konuşmak
+Ellerini Üflemek|Soğuktan Titremek
+Geri Kaçmak|Korkmak
+Soluklanmak|Yorulmak
+Kütük Kesmek|Ağaç Kesmek
+Tabloyu Asmak|Çivi Çakmak
+Kum Kazmak|Kazı Yapmak
+Yay Çekmek|Ok Atmak
+Pas Atmak|Top Fırlatmak
+Kamerayla Çekmek|Fotoğraf Çekmek
+Düğün Dansı Yapmak|Halay Çekmek
+Atletizm Yapmak|Koşmak
+Sıçramak|Zıplamak
+Kurbağalama Yüzmek|Yüzmek
+Twist Yapmak|Dans Etmek
+Gözünü Kapatmak|Uyumak
+Sandviç Yemek|Yemek Yemek
+Limonata İçmek|Su İçmek
+Gözlerini Silmek|Ağlamak
+Sırıtmak|Gülmek
+Boğazını Tutmak|Öksürmek
+Aksırmak|Hapşırmak
+Uykusunu Açmak|Esnemek
+Selamlamak|El Sallamak
+Alkışlayarak Gülmek|Alkışlamak
+Dostuna Sarılmak|Sarılmak
+Kapışmak|Kavga Etmek
+Kolları Havaya Kaldırmak|Boks Yapmak
+Taç Atmak|Futbol Oynamak
+Bisikletle Gezmek|Bisiklete Binmek
+Yarışta Kürek Çekmek|Kürek Çekmek
+Duvara Çıkmak|Tırmanmak
+Çift Atlamak|İp Atlamak
+Balık Yakalamak|Olta Atmak

@@ -1,0 +1,150 @@
+Koşmak|Koşmak
+Zıplamak|Zıplamak
+Yüzmek|Yüzmek
+Dans Etmek|Dans Etmek
+Uyumak|Uyumak
+Yemek Yemek|Yemek Yemek
+Su İçmek|Su İçmek
+Ağlamak|Ağlamak
+Gülmek|Gülmek
+Öksürmek|Öksürmek
+Hapşırmak|Hapşırmak
+Esnemek|Esnemek
+El Sallamak|El Sallamak
+Alkışlamak|Alkışlamak
+Sarılmak|Sarılmak
+Kavga Etmek|Kavga Etmek
+Boks Yapmak|Boks Yapmak
+Futbol Oynamak|Futbol Oynamak
+Bisiklete Binmek|Bisiklete Binmek
+Kürek Çekmek|Kürek Çekmek
+Tırmanmak|Tırmanmak
+İp Atlamak|İp Atlamak
+Olta Atmak|Olta Atmak
+Halter Kaldırmak|Halter Kaldırmak
+Gitar Çalmak|Gitar Çalmak
+Davul Çalmak|Davul Çalmak
+Diş Fırçalamak|Diş Fırçalamak
+Saç Taramak|Saç Taramak
+Çamaşır Asmak|Çamaşır Asmak
+Ütü Yapmak|Ütü Yapmak
+Yer Silmek|Yer Silmek
+Telefonla Konuşmak|Telefonla Konuşmak
+Soğuktan Titremek|Soğuktan Titremek
+Korkmak|Korkmak
+Yorulmak|Yorulmak
+Ağaç Kesmek|Ağaç Kesmek
+Çivi Çakmak|Çivi Çakmak
+Kazı Yapmak|Kazı Yapmak
+Ok Atmak|Ok Atmak
+Top Fırlatmak|Top Fırlatmak
+Fotoğraf Çekmek|Fotoğraf Çekmek
+Halay Çekmek|Halay Çekmek
+Kaçmak|Koşmak
+Maraton Koşmak|Koşmak
+Yetişmeye Çalışmak|Koşmak
+Sekmek|Zıplamak
+Trampolinde Zıplamak|Zıplamak
+Havaya Sıçramak|Zıplamak
+Kulaç Atmak|Yüzmek
+Denize Girmek|Yüzmek
+Havuzda Yüzmek|Yüzmek
+Vals Yapmak|Dans Etmek
+Disko Yapmak|Dans Etmek
+Oynamak|Dans Etmek
+Horlamak|Uyumak
+Şekerleme Yapmak|Uyumak
+Rüya Görmek|Uyumak
+Kahvaltı Etmek|Yemek Yemek
+Çorba İçmek|Yemek Yemek
+Dondurma Yemek|Yemek Yemek
+Çay İçmek|Su İçmek
+Çeşmeden Su İçmek|Su İçmek
+Şişeden İçmek|Su İçmek
+Hıçkırmak|Ağlamak
+Gözyaşı Dökmek|Ağlamak
+Ağıt Yakmak|Ağlamak
+Kahkaha Atmak|Gülmek
+Kıkırdamak|Gülmek
+Gülümsemek|Gülmek
+Boğaz Temizlemek|Öksürmek
+Grip Olmak|Öksürmek
+Nefes Almak|Öksürmek
+Burnunu Silmek|Hapşırmak
+Burun Çekmek|Hapşırmak
+Nezle Olmak|Hapşırmak
+Gerinmek|Esnemek
+Uykulu Olmak|Esnemek
+Sıkılmak|Esnemek
+Selam Vermek|El Sallamak
+Vedalaşmak|El Sallamak
+Taksi Çevirmek|El Sallamak
+Tezahürat Yapmak|Alkışlamak
+Bravo Demek|Alkışlamak
+Ellerini Çırpmak|Alkışlamak
+Öpmek|Sarılmak
+Kucaklamak|Sarılmak
+Hoş Geldin Demek|Sarılmak
+Tokat Atmak|Kavga Etmek
+Yumruk Sallamak|Kavga Etmek
+Tartışmak|Kavga Etmek
+Ring Köşesinde Beklemek|Boks Yapmak
+Yumruk Atmak|Boks Yapmak
+Kum Torbasına Vurmak|Boks Yapmak
+Penaltı Atmak|Futbol Oynamak
+Gol Atmak|Futbol Oynamak
+Kaleci Olmak|Futbol Oynamak
+Pedal Çevirmek|Bisiklete Binmek
+Motosiklet Sürmek|Bisiklete Binmek
+Araba Sürmek|Bisiklete Binmek
+Kano Kullanmak|Kürek Çekmek
+Sandal Sürmek|Kürek Çekmek
+Gondol Sürmek|Kürek Çekmek
+Merdiven Çıkmak|Tırmanmak
+Dağa Tırmanmak|Tırmanmak
+Ağaca Çıkmak|Tırmanmak
+Çemberi Çevirmek|İp Atlamak
+Hulahop Yapmak|İp Atlamak
+Seksek Oynamak|İp Atlamak
+Balık Tutmak|Olta Atmak
+Ağ Atmak|Olta Atmak
+Oltayı Çekmek|Olta Atmak
+Ağırlık Çalışmak|Halter Kaldırmak
+Yük Taşımak|Halter Kaldırmak
+Sandık Kaldırmak|Halter Kaldırmak
+Keman Çalmak|Gitar Çalmak
+Bağlama Çalmak|Gitar Çalmak
+Zil Çalmak|Davul Çalmak
+Tef Çalmak|Davul Çalmak
+Ağız Çalkalamak|Diş Fırçalamak
+Diş Ağrısı Çekmek|Diş Fırçalamak
+Saç Kurutmak|Saç Taramak
+Berbere Gitmek|Saç Taramak
+Çamaşır Yıkamak|Çamaşır Asmak
+Çamaşır Katlamak|Çamaşır Asmak
+Gömlek Ütülemek|Ütü Yapmak
+Ütüyü Ayarlamak|Ütü Yapmak
+Süpürge Yapmak|Yer Silmek
+Cam Silmek|Yer Silmek
+Telefon Etmek|Telefonla Konuşmak
+Mesaj Yazmak|Telefonla Konuşmak
+Kar Yağınca Üşümek|Soğuktan Titremek
+Dişleri Birbirine Vurmak|Soğuktan Titremek
+Şaşırmak|Korkmak
+Çığlık Atmak|Korkmak
+Nefes Nefese Kalmak|Yorulmak
+Bitkin Düşmek|Yorulmak
+Odun Yarmak|Ağaç Kesmek
+Balta Sallamak|Ağaç Kesmek
+Çekiç Sallamak|Çivi Çakmak
+Duvara Tablo Asmak|Çivi Çakmak
+Çukur Kazmak|Kazı Yapmak
+Kürek Sallamak|Kazı Yapmak
+Yay Germek|Ok Atmak
+Nişan Almak|Ok Atmak
+Beyzbol Oynamak|Top Fırlatmak
+Bowling Oynamak|Top Fırlatmak
+Selfie Çekmek|Fotoğraf Çekmek
+Poz Vermek|Fotoğraf Çekmek
+Düğünde Oynamak|Halay Çekmek
+Zeybek Oynamak|Halay Çekmek

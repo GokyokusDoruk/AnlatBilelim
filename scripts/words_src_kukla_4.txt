@@ -1,0 +1,150 @@
+Ateş Pahasına Atlamak|Koşmak
+Zamana Karşı Yarışmak|Koşmak
+Kuyruğuna Basılmış Gibi|Koşmak
+Kaçıp Kurtulmak|Koşmak
+Çıldırmak|Zıplamak
+Havalara Uçmak|Zıplamak
+Taşıma Suyla Değirmen|Zıplamak
+Ayaklarım Yere Basmıyor|Zıplamak
+Akıntıya Kapılmak|Yüzmek
+Kendi Hâline Bırakılmak|Yüzmek
+Suya Sabuna Dokunmadan|Yüzmek
+Hayat Mücadelesi|Yüzmek
+Düdük Öterken Oynamak|Dans Etmek
+Zil Takıp Oynamak|Dans Etmek
+Davula Göre Oynamak|Dans Etmek
+Ateşte Oynamak|Dans Etmek
+Tavuk Uykusu|Uyumak
+Kuş Uykusu|Uyumak
+Ayı Gibi Kış Uykusu|Uyumak
+Başını Yastığa Koymak|Uyumak
+Ağzının Tadını Bilmek|Yemek Yemek
+Aç Gözlü Olmak|Yemek Yemek
+Dilim Dilim Yemek|Yemek Yemek
+Kaşık Sallamak|Yemek Yemek
+Su Gibi Gitmek|Su İçmek
+Suyunu Çekmek|Su İçmek
+Yüzünü Güldüren Bardak|Su İçmek
+Kaynak Suyu Aramak|Su İçmek
+Kara Kara Düşünmek|Ağlamak
+Gözünün Yaşına Bakmamak|Ağlamak
+Timsah Gözyaşı|Ağlamak
+Gül Gibi Hasret|Ağlamak
+Gülmekten Karnı Ağrımak|Gülmek
+Son Gülen İyi Güler|Gülmek
+Çocuk Gibi Sevinmek|Gülmek
+Boğazına Dizilmek|Öksürmek
+Dumanı Üstünde|Öksürmek
+Hastalık Kapıda|Öksürmek
+Kış Hastalığı|Öksürmek
+Aksırana Çok Yaşa Demek|Hapşırmak
+Çiçek Hastası Olmak|Hapşırmak
+Koku Almak|Hapşırmak
+Burun Kıvırmak|Hapşırmak
+Ağzını Açıp Gözünü Yummak|Esnemek
+Boş Boş Oturmak|Esnemek
+Dünyayı Umursamamak|Esnemek
+Tembellik Sultanı|Esnemek
+El Etek Öpmek|El Sallamak
+Eli Kolu Bağlı Durmak|El Sallamak
+Selam Çakmak|El Sallamak
+Yolcu Etmek|El Sallamak
+Ellerine Sağlık Demek|Alkışlamak
+Kıyameti Koparmak|Alkışlamak
+El Çırpmak|Alkışlamak
+Alkışa Boğmak|Alkışlamak
+Kucak Açmak|Sarılmak
+Baş Başa Vermek|Sarılmak
+Omuz Vermek|Sarılmak
+Gönül Almak|Sarılmak
+Boğaz Boğaza Gelmek|Kavga Etmek
+Kırk Yıllık Düşman|Kavga Etmek
+Gürültü Çıkarmak|Kavga Etmek
+Silah Çekmek|Kavga Etmek
+Havaya Yumruk Atmak|Boks Yapmak
+Yumruğu Yemek|Boks Yapmak
+Ağır Ağır Yumruk Sallamak|Boks Yapmak
+Kafa Atmak|Boks Yapmak
+Topu Taca Atmak|Futbol Oynamak
+Ağları Sarsmak|Futbol Oynamak
+Kalede Nöbet Tutmak|Futbol Oynamak
+Maç Yapmak|Futbol Oynamak
+Pedala Basmak|Bisiklete Binmek
+Yağmurda Bisiklet|Bisiklete Binmek
+Kaza Yapmadan Yolculuk|Bisiklete Binmek
+Düz Yolda Yarış|Bisiklete Binmek
+Aynı Gemide Olmak|Kürek Çekmek
+Gemisini Yürüten|Kürek Çekmek
+Dümen Kırmak|Kürek Çekmek
+Fırtına Dinmeden Gitmek|Kürek Çekmek
+Dağ Başında Beklemek|Tırmanmak
+Merdiven Dayamak|Tırmanmak
+Duvardan Aşmak|Tırmanmak
+Taşa Tırmanmak|Tırmanmak
+İp Cambazı|İp Atlamak
+İple Çekmek|İp Atlamak
+İpten Kazıktan Kurtulmak|İp Atlamak
+Cambazlık Yapmak|İp Atlamak
+Balık Avlamak|Olta Atmak
+Yem Atmak|Olta Atmak
+Dişe Dokunmak|Olta Atmak
+Dibe Vurmak|Olta Atmak
+Yük Sırtta Taşımak|Halter Kaldırmak
+Ağır Gelmek|Halter Kaldırmak
+Kürek Mahkûmu|Halter Kaldırmak
+Omuzlara Çökmek|Halter Kaldırmak
+Telli Sazı Çalmak|Gitar Çalmak
+Dertli Şarkıcı|Gitar Çalmak
+Tellere Dokunmak|Gitar Çalmak
+Gönül Telini Çalmak|Gitar Çalmak
+Davul Sesi Duymak|Davul Çalmak
+Davulun Sesi Uzaktan Hoş Gelir|Davul Çalmak
+Bando Marşı|Davul Çalmak
+Diş Bilemek|Diş Fırçalamak
+Dişini Sıkmak|Diş Fırçalamak
+Ağzı Kulaklarında|Diş Fırçalamak
+Saç Baş Yolmak|Saç Taramak
+Saçını Süpürge Etmek|Saç Taramak
+Perçem Düzeltmek|Saç Taramak
+Kirli Çamaşırları Ortaya Dökmek|Çamaşır Asmak
+Ak Pak Olmak|Çamaşır Asmak
+Çamaşır Suyuyla Yıkamak|Çamaşır Asmak
+Üstüne Basa Basa Ütülemek|Ütü Yapmak
+Kırışık Gidermek|Ütü Yapmak
+Ütü Gibi Düzlemek|Ütü Yapmak
+Yerlerde Sürünmek|Yer Silmek
+Ortalığı Toplamak|Yer Silmek
+Silip Süpürmek|Yer Silmek
+Ahizeyi Kaldırmak|Telefonla Konuşmak
+Hat Meşgul|Telefonla Konuşmak
+Dedikodu Hattı|Telefonla Konuşmak
+Kemiklerine Kadar Üşümek|Soğuktan Titremek
+Buz Gibi Olmak|Soğuktan Titremek
+Kış Kıyamet|Soğuktan Titremek
+Yüreği Ağzına Gelmek|Korkmak
+Ödü Kopmak|Korkmak
+Tüyleri Diken Diken Olmak|Korkmak
+Dili Dışarı Sarkmak|Yorulmak
+Pestili Çıkmak|Yorulmak
+Ruhum Bile Duymadı|Yorulmak
+Dalına Basmak|Ağaç Kesmek
+Kökünden Sallamak|Ağaç Kesmek
+Kesilen Dal|Ağaç Kesmek
+Çivi Gibi Durmak|Çivi Çakmak
+Başına Çivi Çakmak|Çivi Çakmak
+Kafasına Vurmak|Çivi Çakmak
+Kuyu Kazmak|Kazı Yapmak
+Bir Kuyu Kazan Başkasına|Kazı Yapmak
+Toprağa Girmek|Kazı Yapmak
+Yaydan Çıkmış Ok|Ok Atmak
+Hedefe Kilitlenmek|Ok Atmak
+Gözünü Dikmek|Ok Atmak
+Topu Ortaya Atmak|Top Fırlatmak
+Sıfır Çekmek|Top Fırlatmak
+Topu Taca Çıkarmak|Top Fırlatmak
+Kareye Girmek|Fotoğraf Çekmek
+Poz Kesmek|Fotoğraf Çekmek
+Anı Defteri|Fotoğraf Çekmek
+Sıra Dansı|Halay Çekmek
+Yan Yana Dizilmek|Halay Çekmek
+Kol Kola Girmek|Halay Çekmek

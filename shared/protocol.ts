@@ -19,6 +19,7 @@ export type ClientMessage =
   // Lobi (Task 3)
   | { t: 'lobby:setTeam'; team: TeamId }
   | { t: 'lobby:setReady'; ready: boolean }
+  | { t: 'lobby:setLevel'; level: number } // yalnızca kurucu, yalnızca lobide
   // Tur (Task 3-7)
   | { t: 'round:start' } // Gözlemci "Tur Başlat"
   | { t: 'round:correct'; index?: number } // Anlatma: +1 / Üçlü kart: index'teki kelimeye tik
@@ -107,6 +108,7 @@ const CLIENT_TYPES: ReadonlySet<string> = new Set<ClientMessageType>([
   'leave',
   'lobby:setTeam',
   'lobby:setReady',
+  'lobby:setLevel',
   'round:start',
   'round:correct',
   'round:forbidden',

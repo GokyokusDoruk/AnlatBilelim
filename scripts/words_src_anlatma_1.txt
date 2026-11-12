@@ -102,3 +102,49 @@ Roket|uzay, fırlatmak, Ay, astronot, NASA
 Küresel Isınma|iklim, sıcaklık, dünya, buzul, karbon
 Deprem|sallanmak, fay, yıkılmak, büyüklük, sarsıntı
 Kardan Adam|havuç, kış, soğuk, yuvarlak, şapka
+Kitap|sayfa, okumak, yazar, kapak, kütüphane
+Ayakkabı|ayak, bağcık, giymek, numara, taban
+Şapka|baş, güneş, giymek, kasket, bere
+Tabak|yemek, sofra, çatal, yıkamak, porselen
+Kaşık|çorba, yemek, çatal, bıçak, tatlı
+Bardak|su, içmek, cam, sürahi, çay
+Yatak|uyumak, yastık, yorgan, oda, uyku
+Kapı|açmak, anahtar, zil, eşik, kilit
+Pencere|cam, perde, açmak, dışarı, ev
+Merdiven|basamak, çıkmak, kat, inmek, korkuluk
+Ağaç|yaprak, gövde, dal, orman, kök
+Çiçek|koku, bahçe, gül, yaprak, renk
+Güneş|sıcak, gündüz, ışık, yaz, gökyüzü
+Yağmur|ıslak, şemsiye, bulut, damla, yağmak
+Kar|beyaz, kış, soğuk, kardan adam, yağmak
+Dağ|zirve, tırmanmak, yüksek, kar, eteği
+Araba|tekerlek, şoför, yol, benzin, direksiyon
+Tren|ray, istasyon, vagon, lokomotif, bilet
+Gemi|deniz, kaptan, liman, yolcu, dümen
+Köpek|havlamak, kuyruk, tasma, kemik, sadık
+Kedi|miyav, tüy, süt, fare, patisi
+Balık|deniz, akvaryum, yüzgeç, tutmak, kılçık
+Kuş|kanat, uçmak, yuva, tüy, ötmek
+Pizza|peynir, dilim, İtalyan, fırın, hamur
+Hamburger|köfte, ekmek, patates, fast food, marul
+Elma|meyve, ağaç, kırmızı, Newton, yeşil
+Muz|sarı, meyve, kabuk, maymun, tropik
+Çikolata|kakao, tatlı, bar, süt, kahverengi
+Ekmek|fırın, un, dilim, bakkal, somun
+Ceket|giymek, kol, düğme, palto, cep
+Çorap|ayak, giymek, iki, kokmak, yün
+Kazak|yün, kış, giymek, örgü, sıcak
+Pantolon|bacak, giymek, kemer, cep, paça
+Diş|ağız, fırça, ağrı, doktor, beyaz
+Saç|baş, tarak, uzun, kuaför, şampuan
+Göz|görmek, kapak, kirpik, bakmak, mavi
+El|parmak, yıkamak, sağ, sol, tutmak
+Ayak|yürümek, ayakkabı, parmak, çorap, topuk
+Kalp|atmak, aşk, kan, göğüs, kırmızı
+Para|cüzdan, banka, harcamak, kâğıt, bozuk
+Hava|nefes, rüzgâr, sıcak, bulut, soğuk
+Ay|gece, dolunay, gökyüzü, yıldız, hilal
+Yıldız|gökyüzü, gece, parlak, uzay, takımyıldız
+Bulut|gökyüzü, yağmur, beyaz, hava, gri
+Rüzgâr|esmek, hava, uçurtma, serin, fırtına
+Nehir|akmak, su, köprü, balık, vadi

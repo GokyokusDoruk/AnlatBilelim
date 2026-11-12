@@ -86,6 +86,8 @@ export interface RoundPublicState {
   /** Sunucu saatine göre (epoch ms) bitiş; null = henüz başlamadı. */
   readonly endsAt: number | null;
   readonly passesUsed: number;
+  /** Sadece Kukla: kelimeyi geçmek için pass'e basan takım oyuncuları. Hepsi basınca kelime geçilir. */
+  readonly passVotes: readonly string[];
   readonly correct: number;
   readonly forbiddenHits: number;
   /** Sadece 15 Kelime modunda; kalan ipucu hakkı. */

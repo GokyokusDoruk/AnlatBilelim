@@ -1,5 +1,5 @@
 import { lazy, Suspense } from 'react';
-import { canPass, passesLeft } from '@shared/board';
+import { passesLeft } from '@shared/board';
 import type { Role, RoundPublicState } from '@shared/types';
 import { ActionButton } from '../../components/game/ActionButton';
 import { ScorePill } from '../../components/game/Meters';
@@ -27,6 +27,7 @@ export function KuklaRound({ round, role }: { round: RoundPublicState; role: Rol
     return (
       <RoundShell round={round} role={role}>
         <ListenerView round={round}>{stage}</ListenerView>
+        <PassVote round={round} />
       </RoundShell>
     );
   }
@@ -48,19 +49,39 @@ export function KuklaRound({ round, role }: { round: RoundPublicState; role: Rol
           </div>
         </>
       ) : (
-        <div className="round__actions">
-          <ActionButton
-            variant="primary"
-            size="lg"
-            block
-            disabled={!canPass(round.mode, round.passesUsed, card)}
-            onClick={() => sendAction({ t: 'round:pass' })}
-          >
-            Pass ({passesLeft(round.mode, round.passesUsed)} hak kaldı)
-          </ActionButton>
-          <PassLine round={round} />
-        </div>
+        <PassVote round={round} />
       )}
     </RoundShell>
+  );
+}
+
+/**
+ * Kukla pass'i takım oylamasıdır: oynayan takımın herkesi (anlatıcı ve dinleyiciler) basınca kelime geçilir.
+ * Tekrar basan oyunu geri çeker.
+ */
+function PassVote({ round }: { round: RoundPublicState }) {
+  const selfId = useGameStore((s) => s.selfId);
+  const teamSize = useGameStore((s) => s.players.filter((p) => p.team === round.team && p.connected).length);
+  const voted = selfId !== null && round.passVotes.includes(selfId);
+  const left = passesLeft(round.mode, round.passesUsed);
+  return (
+    <div className="round__actions">
+      <ActionButton
+        variant={voted ? 'default' : 'primary'}
+        size="lg"
+        block
+        disabled={left < 1 && !voted}
+        aria-pressed={voted}
+        onClick={() => sendAction({ t: 'round:pass' })}
+      >
+        {voted ? 'Pass oyum verildi (geri çek)' : `Pass (${left} hak kaldı)`}
+      </ActionButton>
+      <div className="row" style={{ justifyContent: 'space-between' }}>
+        <PassLine round={round} />
+        <span className="muted" style={{ fontSize: 13 }}>
+          Takım oyu {round.passVotes.length}/{teamSize} · herkes basınca geçer
+        </span>
+      </div>
+    </div>
   );
 }

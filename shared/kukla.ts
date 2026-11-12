@@ -162,10 +162,42 @@ export function samplePose(clipIndex: number, tSec: number, level: KuklaLevel = 
   for (const [j, axis, amp, cyc, ph = 0, base = 0] of clip.tracks) {
     const isKey = j === 'pos' || clip.key.includes(j);
     const scale = isKey ? rules.keyAmp : rules.offKey;
-    const wave = active ? Math.sin(TAU * (cyc * u + ph)) : 0;
+    const x = TAU * (cyc * u + ph);
+    const wave = active ? Math.sin(x) + 0.14 * Math.sin(2 * x + 0.6) : 0; // hafif keskinleştirme: daha organik hareket
     const value = base * (isKey || rules.offKey > 0 ? 1 : 0) + amp * scale * wave;
     if (j === 'pos') pos[axis] += value;
     else rot[j][axis] += value;
   }
+  if (active && level <= 2) addLife(rot, pos, u);
   return { rot, pos, silhouette: rules.silhouette };
 }
+
+/**
+ * Canlılık katmanı (Seviye 1-2): her klibin üstüne nefes alma, ağırlık verme, baş ve kol salınımı biner.
+ * Tüm tekrar sayıları tam sayıdır, döngü kesintisiz kalır.
+ */
+function addLife(rot: Pose['rot'], pos: [number, number, number], u: number): void {
+  const w = (cyc: number, ph = 0) => Math.sin(TAU * (cyc * u + ph));
+  rot.spine[0] += 0.02 * w(3);
+  rot.head[2] += 0.05 * w(2, 0.2);
+  rot.head[1] += 0.06 * w(1, 0.4);
+  rot.hips[2] += 0.025 * w(1);
+  rot.shL[2] += 0.03 * w(2, 0.1);
+  rot.shR[2] -= 0.03 * w(2, 0.6);
+  rot.elL[0] += 0.04 * w(3, 0.3);
+  rot.elR[0] += 0.04 * w(3, 0.8);
+  pos[1] += 0.008 * w(3, 0.25);
+}
+
+/** Yüz ifadesi: göz ve ağız hareketi. Kelime bilgisi taşımaz, yalnızca klibin ruh hâlini söyler. */
+export type Face = 'neutral' | 'smile' | 'laugh' | 'cry' | 'scared' | 'sleep' | 'tired' | 'sneeze' | 'effort' | 'focus' | 'eat' | 'talk';
+
+/** Sıra `KUKLA_CLIPS` ile aynıdır. */
+export const KUKLA_FACES: readonly Face[] = [
+  'effort', 'laugh', 'effort', 'smile', 'sleep', 'eat', 'neutral', 'cry', 'laugh', 'sneeze',
+  'sneeze', 'tired', 'smile', 'laugh', 'smile', 'effort', 'effort', 'effort', 'effort', 'effort',
+  'effort', 'laugh', 'focus', 'effort', 'smile', 'effort', 'neutral', 'neutral', 'neutral', 'focus',
+  'focus', 'talk', 'scared', 'scared', 'tired', 'effort', 'effort', 'effort', 'focus', 'effort',
+  'smile', 'laugh',
+];
+

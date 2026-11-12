@@ -403,15 +403,40 @@ describe('kukla turu (animasyon)', () => {
     expect(room.round!.correct).toBe(1);
     expect(room.round!.anim!.startedAt).toBe(ctx.now + 5000);
     expect((room.roundCard as any).clip).not.toBe(first);
-    for (let i = 0; i < 3; i++) expect(e.pass(room, r.narratorId, ctx).ok).toBe(true);
+    const mate = room.players.find((p) => p.team === r.team && p.id !== r.narratorId)!.id;
+    for (let i = 0; i < 3; i++) {
+      expect(e.pass(room, r.narratorId, ctx).ok).toBe(true);
+      expect(e.pass(room, mate, ctx).ok).toBe(true);
+    }
     expect(room.round!.passesUsed).toBe(3);
     expect(e.pass(room, r.narratorId, ctx).ok).toBe(false);
+  });
+
+  it('pass oylamadır: takımın hepsi basınca geçer, tek kişi basarsa geçmez, tekrar basınca geri çeker', () => {
+    const { ctx, room, r } = kuklaRound();
+    const word = (room.roundCard as any).word;
+    const mate = room.players.find((p) => p.team === r.team && p.id !== r.narratorId)!.id;
+    e.pass(room, r.narratorId, ctx);
+    expect(room.round!.passVotes).toEqual([r.narratorId]);
+    expect(room.round!.passesUsed).toBe(0);
+    expect((room.roundCard as any).word).toBe(word);
+    e.pass(room, r.narratorId, ctx); // geri çek
+    expect(room.round!.passVotes).toEqual([]);
+    e.pass(room, r.narratorId, ctx);
+    e.pass(room, mate, ctx);
+    expect(room.round!.passesUsed).toBe(1);
+    expect(room.round!.passVotes).toEqual([]); // yeni kartta oylar sıfırlanır
+    expect((room.roundCard as any).word).not.toBe(word);
+    // bağlantısı kopan oyuncu beklenmez
+    room.players.find((p) => p.id === mate)!.connected = false;
+    e.pass(room, r.narratorId, ctx);
+    expect(room.round!.passesUsed).toBe(2);
   });
 
   it('yetkisiz roller işlem yapamaz', () => {
     const { ctx, room, r } = kuklaRound();
     expect(e.markCorrect(room, r.narratorId, undefined, ctx).ok).toBe(false);
-    expect(e.pass(room, r.observerId, ctx).ok).toBe(false);
+    expect(e.pass(room, r.observerId, ctx).ok).toBe(false); // rakip takım oy veremez
   });
 });
 

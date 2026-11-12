@@ -66,6 +66,12 @@ Durable Object sadece I/O yapar: her eylemden sonra durumu kaydeder, herkese yay
 - Net skor adıma çevrilir, negatif skor geri götürmez; 45. basamağa ulaşan takım kazanır.
 - Bir takımda bağlı oyuncu kalmazsa oda lobiye döner.
 
+## Tahta ve çark
+
+- `src/components/board/Board.tsx`: 45 basamaklı yılan düzenli tahta. Mod renkleri, sıradaki basamak vurgusu, piyonlar basamak basamak yürür (`useSteppedValue`, tek `setTimeout` zinciri).
+- `src/components/roulette/ModeRoulette.tsx` + `shared/roulette.ts`: sunucu yalnızca `result`, `seed` ve `startedAt` yollar. Her cihaz çark açısını sunucu saatine göre kendisi hesaplar, bu yüzden hepsi aynı anda aynı yerde durur ve geç bağlanan doğru kareyi görür. Çark canvas'a bir kez çizilir, dönüş CSS transform ile yapılır, durunca rAF döngüsü kapanır, unmount'ta canvas belleği bırakılır.
+- Geliştirmede `/dev/ui` sayfası sunucusuz önizleme sunar (üretim derlemesine girmez).
+
 ## Kelime havuzu
 
 `shared/data/words_tr.json`: Anlatma 104 kart (kelime + 5 yasaklı), Çizme / Kukla / 15 Kelime için 150'şer kelime.
@@ -78,7 +84,7 @@ Kartlar `shared/words.ts` içindeki `CardDeck` ile çekilir: havuz tükenmeden a
 - [x] Task 1: İskelet, tipler, store, Cloudflare oda mimarisi, tema
 - [x] Task 2: Türkçe kelime havuzu (`shared/data/words_tr.json`)
 - [x] Task 3: Lobi, takımlar, tur motoru, sunucu zamanlayıcısı
-- [ ] Task 4: Oyun tahtası ve mod ruleti
+- [x] Task 4: Oyun tahtası ve mod ruleti
 - [ ] Task 5: Anlatma ve 15 Kelime modları
 - [ ] Task 6: Çizme modu
 - [ ] Task 7: 3D kukla modu

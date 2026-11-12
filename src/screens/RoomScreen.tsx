@@ -1,8 +1,7 @@
 import { useEffect, useState } from 'react';
-import { BOARD_STEPS } from '@shared/board';
 import { sanitizeName } from '@shared/validation';
-import type { StepKind } from '@shared/types';
-import { Badge, Button, Card, ModeTag, Screen, Spinner, TextInput } from '../components/ui';
+import { Board } from '../components/board/Board';
+import { Badge, Button, Card, Screen, Spinner, TextInput } from '../components/ui';
 import { getSavedName, saveName } from '../lib/identity';
 import { navigate } from '../lib/router';
 import { connectRoom, leaveRoom } from '../net/connection';
@@ -98,7 +97,9 @@ function RoomView({ code }: { code: string }) {
       ) : (
         <>
           {phase === 'lobby' ? <LobbyView /> : <GameStatusView />}
-          <BoardPreview />
+          <Card title="Oyun Tahtası">
+            <Board />
+          </Card>
         </>
       )}
     </Screen>
@@ -112,33 +113,5 @@ function ConnectionBadge({ status }: { status: ReturnType<typeof useConnectionSt
     <Badge tone="warning" dot>
       {status === 'reconnecting' ? 'Yeniden bağlanıyor' : 'Bağlanıyor'}
     </Badge>
-  );
-}
-
-const CELL_COLOR: Record<StepKind, string> = {
-  anlatma: 'var(--mode-anlatma)',
-  cizme: 'var(--mode-cizme)',
-  kukla: 'var(--mode-kukla)',
-  onbes: 'var(--mode-onbes)',
-  karisik: 'var(--mode-karisik)',
-};
-
-/** 45 basamaklı tahtanın renk kodlu önizlemesi (asıl tahta Task 4'te). */
-function BoardPreview() {
-  return (
-    <Card title="Oyun Tahtası">
-      <div className="board-strip">
-        {BOARD_STEPS.map((kind, i) => (
-          <div key={i} className="board-strip__cell" style={{ ['--cell' as string]: CELL_COLOR[kind] }}>
-            {i + 1}
-          </div>
-        ))}
-      </div>
-      <div className="legend">
-        {(['anlatma', 'cizme', 'kukla', 'onbes', 'karisik'] as const).map((k) => (
-          <ModeTag key={k} kind={k} />
-        ))}
-      </div>
-    </Card>
   );
 }

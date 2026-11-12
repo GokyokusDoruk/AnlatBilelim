@@ -6,7 +6,8 @@ import { BOARD_SIZE } from '@shared/constants';
 import { MODE_CONFIG } from '@shared/board';
 import type { Role, TeamId } from '@shared/types';
 import { Badge, Button, Card, ModeTag, TimerBadge } from '../components/ui';
-import { sendAction } from '../net/connection';
+import { ModeRoulette } from '../components/roulette/ModeRoulette';
+import { sendAction, serverNow } from '../net/connection';
 import { useGameStore } from '../store/gameStore';
 import { useMyRole, usePlayerName, usePhase, useRound } from '../store/selectors';
 
@@ -67,9 +68,11 @@ function RoleLine() {
 }
 
 function RouletteInfo() {
+  const roulette = useGameStore((s) => s.roulette);
+  if (!roulette) return null;
   return (
-    <Card title="Mod çarkı dönüyor…">
-      <span className="muted">Karışık basamak: mod rastgele seçiliyor. (Animasyonlu çark Task 4'te.)</span>
+    <Card title="Karışık basamak: mod çarkı">
+      <ModeRoulette result={roulette.result} startedAt={roulette.startedAt} seed={roulette.seed} now={serverNow} />
     </Card>
   );
 }

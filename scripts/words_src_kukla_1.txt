@@ -272,3 +272,65 @@ Yatağa Uzanmak|Uyumak
 Bisiklet Sürmek|Bisiklete Binmek
 Yıkanmış Çamaşırları Asmak|Çamaşır Asmak
 Dişlerini Fırçalamak|Diş Fırçalamak
+Koşu Bandında Koşmak|Koşmak
+Tavşan Gibi Zıplamak|Zıplamak
+Çocuklarla Dans Etmek|Dans Etmek
+Gece Uyumak|Uyumak
+Sabah Kahvaltı Etmek|Yemek Yemek
+Bardakla Su Içmek|Su İçmek
+Ağlayan Bebek Olmak|Ağlamak
+Yüksek Sesle Kahkaha Atmak|Gülmek
+Öksürük Tutmak|Öksürmek
+Yüksek Sesle Esnemek|Esnemek
+Tezahürat Alkışı Yapmak|Alkışlamak
+Birbirine Vurmak|Kavga Etmek
+Stadyumda Top Oynamak|Futbol Oynamak
+Bisikletle Okula Gitmek|Bisiklete Binmek
+Gölde Kürek Çekmek|Kürek Çekmek
+Kayalıklara Tırmanmak|Tırmanmak
+Ip Atlama Yarışı|İp Atlamak
+Dambılla Çalışmak|Halter Kaldırmak
+Gitar Telini Çekmek|Gitar Çalmak
+Bateriye Vurmak|Davul Çalmak
+Dişleri Fırçalamak|Diş Fırçalamak
+Saçı Taramak|Saç Taramak
+Çamaşırları Asmak|Çamaşır Asmak
+Gömleği Ütülemek|Ütü Yapmak
+Yeri Silmek|Yer Silmek
+Telefonda Konuşmak|Telefonla Konuşmak
+Kışın Titremek|Soğuktan Titremek
+Korkudan Donmak|Korkmak
+Koşup Yorulmak|Yorulmak
+Baltayla Odun Kesmek|Ağaç Kesmek
+Duvara Çivi Çakmak|Çivi Çakmak
+Toprağı Kazmak|Kazı Yapmak
+Yayı Germek|Ok Atmak
+Topu Fırlatmak|Top Fırlatmak
+Pistte Koşmak|Koşmak
+Kurbağa Atlayışı|Zıplamak
+Kelebek Stili Yüzmek|Yüzmek
+Break Dans Yapmak|Dans Etmek
+Kitap Okurken Uyuyakalmak|Uyumak
+Elmayı Isırmak|Yemek Yemek
+Meyve Suyu İçmek|Su İçmek
+Uçağı Uğurlamak|El Sallamak
+Madalya Töreninde Alkışlamak|Alkışlamak
+Boks Eldiveni Giymek|Boks Yapmak
+Kornerden Kafa Vurmak|Futbol Oynamak
+Tandem Bisiklet Sürmek|Bisiklete Binmek
+Çift Kürekle Gitmek|Kürek Çekmek
+Halatla Tırmanmak|Tırmanmak
+Kıyıdan Olta Atmak|Olta Atmak
+Ağırlık Kaldırmak|Halter Kaldırmak
+Şarkı Eşliğinde Gitar Çalmak|Gitar Çalmak
+Bayramda Davul Çalmak|Davul Çalmak
+Gece Diş Fırçalamak|Diş Fırçalamak
+Aynanın Karşısında Saç Yapmak|Saç Taramak
+Ipe Çorap Asmak|Çamaşır Asmak
+Kıyafetleri Ütülemek|Ütü Yapmak
+Süpürüp Silmek|Yer Silmek
+Dostunu Telefonla Aramak|Telefonla Konuşmak
+Üşüyüp Ellerini Ovmak|Soğuktan Titremek
+Karanlıktan Korkmak|Korkmak
+Yorgunluktan Çökmek|Yorulmak
+Ağacı Devirmek|Ağaç Kesmek

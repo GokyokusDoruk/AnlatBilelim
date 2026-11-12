@@ -407,3 +407,65 @@ Mustafa Kemal|Atatürk, kurucu, Selanik, asker, lider
 Selanik|Yunanistan, doğum, Atatürk, şehir, liman
 Ay Yıldız|bayrak, kırmızı, Türk, sembol, beyaz
 Kızılay|yardım, kan, hilal, afet, kırmızı
+Adalet Bakanlığı|hukuk, devlet, bakan, Ankara, yasa
+İçişleri|polis, devlet, bakanlık, güvenlik, vali
+Dışişleri|diplomat, ülke, bakan, elçilik, görüşme
+Maliye|vergi, devlet, bütçe, para, gelir
+Milli Eğitim|okul, öğretmen, bakanlık, müfredat, öğrenci
+Sağlık Bakanlığı|hastane, doktor, devlet, ilaç, ünlü
+Vali|şehir, yönetici, devlet, makam, il
+Kaymakam|ilçe, yönetici, devlet, makam, atanmak
+Muhtar|mahalle, seçim, mühür, köy, ihtiyar
+Kadı|hukuk, Osmanlı, mahkeme, karar, hüküm
+Lonca|esnaf, Osmanlı, birlik, usta, çırak
+Ahilik|esnaf, ahlak, Kırşehir, usta, çırak
+Çarşı Esnafı|dükkan, usta, tezgah, satıcı, müşteri
+Bedesten|kapalı, çarşı, eski, değerli, alışveriş
+Han|konaklama, eski, kervan, avlu, yolcu
+Külhan|hamam, ateş, sıcak, odun, kazan
+Medrese|eğitim, Osmanlı, talebe, ders, hoca
+Kütüphane Görevlisi|kitap, raf, sessizlik, ödünç, memur
+Hat Sanatı|yazı, kalem, güzel, Osmanlı, sanat
+Çini|duvar, Osmanlı, seramik, mavi, desen
+Halıcı|dokuma, dükkan, desen, Anadolu, el
+Dokuma Tezgahı|halı, iplik, çubuk, el, kumaş
+İpek|böcek, kumaş, ince, Çin, parlak
+İpekböceği|ipek, koza, Bursa, dut, kumaş
+Dut Ağacı|ipekböceği, meyve, yaprak, ağaç, mor
+Zeytinyağı|yağ, Ege, sıkmak, şişe, salata
+Kekik|bitki, baharat, dağ, çay, koku
+Nane|bitki, yeşil, koku, çay, ferahlık
+Maydanoz|yeşil, bitki, yaprak, salata, garnitür
+Dereotu|bitki, yeşil, koku, salata, yaprak
+Fesleğen|bitki, koku, İtalyan, yaprak, pizza
+Biberiye|bitki, koku, baharat, yeşil, et
+Safran|baharat, sarı, pahalı, çiçek, pirinç
+Zencefil|kök, baharat, çay, acı, sağlık
+Tarçın|baharat, tatlı, çubuk, koku, kek
+Karanfil|baharat, koku, çiçek, diş, kahverengi
+Vanilya|tatlı, koku, kek, çubuk, krem
+Kakule|baharat, koku, kahve, tohum, Hindistan
+Köri|baharat, sarı, Hindistan, tavuk, acı
+Kırmızı Biber|baharat, acı, toz, ünlü, pul
+Hardal|sarı, sos, sosis, acı, sürmek
+Mayonez|sos, beyaz, yumurta, tüp, salata
+Ketçap|sos, kırmızı, patates, domates, şişe
+Sirke|ekşi, turşu, şişe, salata, elma
+Turşu|ekşi, kavanoz, salatalık, sirke, tuz
+Salça|domates, kırmızı, yemek, kavanoz, tencere
+Tahin|susam, pekmez, kahvaltı, kahverengi, yağ
+Pekmez|üzüm, tahin, kahvaltı, tatlı, koyu
+Kaymak|süt, kahvaltı, bal, beyaz, yağlı
+Lor|peynir, süt, beyaz, yumuşak, hafif
+Tulum Peyniri|Karadeniz, deri, peynir, sert, koyun
+Cacık|yoğurt, salatalık, sarımsak, nane, serin
+Haydari|yoğurt, meze, sarımsak, dereotu, beyaz
+Humus|nohut, tahin, meze, Arap, ezme
+Patlıcan Ezmesi|közlemek, meze, ünlü, yağ, sarımsak
+Çerkez Tavuğu|ceviz, tavuk, meze, sos, Çerkes
+Yaprak Sarma|asma, pirinç, sarmak, yemek, zeytinyağı
+Dolma|biber, pirinç, doldurmak, yemek, tencere
+Karnabahar|sebze, beyaz, yemek, kızartma, çiçek
+Brokoli|yeşil, sebze, sağlık, vitamin, ağaç
+Kereviz|sebze, kök, yemek, zeytinyağlı, yeşil
+Enginar|sebze, yaprak, zeytinyağlı, kalp, Ege

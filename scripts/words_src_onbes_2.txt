@@ -27,3 +27,10 @@ Deneme, Anı, Mektup, Günlük, Tren Garı, Peron, Bilet Gişesi, Kondüktör, L
 Ray, Sefer, Bekleme Salonu, Makinist, Kâğıt Para, Bozuk Para, Çek, Senet, Hisse, Döviz
 Altın, Kâr, Yoğurt, Peynir, Tereyağı, Krema, Kaymak, Kefir, Lor, Ceket
 Palto, Mont, Yelek
+Kütüphaneci, Tercüman, Manav, Bakkal, Zürafa, Kanguru, Flamingo, Papağan, Kaplumbağa, Köpekbalığı
+Ahtapot, Denizanası, Baykuş, Tavus Kuşu, Kelebek, Uğur Böceği, Örümcek, Akrep, Yılan, Mikrodalga
+Blender, Kahve Makinesi, Tost Makinesi, Ekmek Kızartma, Su Isıtıcısı, Çaydanlık, Düdüklü Tencere, Kahvaltı Tabağı, Sofra Takımı, Bulaşık Makinesi
+Elektrikli Süpürge, Saç Kurutma Makinesi, Ütü Masası, Çamaşır Ipi, Askı, Cımbız, Tarak, Diş Fırçası, Duş Başlığı, Pizza
+Hamburger, Lahmacun, Döner, İskender, Adana Kebap, Mantı, Karnıyarık, İmam Bayıldı, Menemen, Sucuklu Yumurta
+Kuru Fasulye, Salata, Künefe, Türkiye, Almanya, Fransa, İtalya, İspanya, Japonya, Çin
+Hindistan, Mısır, Brezilya

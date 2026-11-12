@@ -27,3 +27,10 @@ Nergis, Yasemin, Çam, Meşe, Çınar, Kavak, Söğüt, Zeytin, Ceviz, Kestane
 Ardıç, Akasya, Tatlı, Su, Gazoz, Saç, Boyun, Omuz, Dirsek, Diz
 Bahar, Mevsim, Hava, Sıcaklık, Para, Kasa, Kart, Fiyat, İndirim, Fiş
 Alışveriş, Araba
+Nine, Işçi, Cuma, Hafta Sonu, Dün, Bugün, Yarın, Şimdi, Şerbet, Bal
+Reçel, Salatalık, Elbise, Gömlek, Pantolon, Ayakkabı, Çorap, Şapka, Eldiven, Atkı
+Saat, Gözlük, Yüzük, Kolye, Küpe, Kemer, Mayo, Pijama, Terlik, Masa
+Sandalye, Koltuk, Yatak, Dolap, Halı, Perde, Ayna, Lamba, Televizyon, Buzdolabı
+Fırın, Çamaşır Makinesi, Süpürge, Ütü, Tencere, Tabak, Bardak, Kaşık, Çatal, Koşu
+Jimnastik, Paten, Sınıf, Kütüphane, Park, Kilise, Gar, Kahverengi, Lacivert, Turkuaz
+Bordo, Bej

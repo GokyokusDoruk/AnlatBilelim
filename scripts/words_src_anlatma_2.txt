@@ -416,3 +416,66 @@ Hopa|Artvin, sahil, sınır, Karadeniz, şehir
 Ani Harabeleri|Kars, kilise, tarihi, sınır, antik
 Kars|kaz, peynir, soğuk, doğu, şehir
 Nevşehir|Kapadokya, peri bacası, şehir, balon, mağara
+Sıcak Hava Balonu|gökyüzü, sepet, Kapadokya, uçmak, ısı
+Paraşüt Atlayışı|uçak, atlamak, gökyüzü, bez, inmek
+Uçak Bileti|havayolu, yolculuk, rezervasyon, koltuk, seyahat
+Check-in|havalimanı, bavul, uçak, kart, görevli
+Transit Vize|havalimanı, geçiş, ülke, aktarma, pasaport
+Gümrük Memuru|sınır, bavul, kontrol, pasaport, ülke
+Rehber|turist, gezi, müze, anlatmak, grup
+Turist|gezi, yabancı, kamera, harita, tatil
+Hediyelik Eşya|turist, hatıra, dükkan, magnet, alışveriş
+Pasaport Kontrolü|sınır, damga, kuyruk, ülke, memur
+Konsolosluk|vize, ülke, başvuru, bina, diplomat
+Seyahat Acentesi|bilet, tur, rezervasyon, tatil, danışman
+Tur Otobüsü|turist, rehber, şehir, gezi, koltuk
+Sahil Yolu|deniz, araba, kıyı, manzara, gezmek
+Panayır|oyun, çocuk, pamuk şeker, eğlence, kurulmak
+Köy Kahvesi|çay, tavla, ünlü, sohbet, okey
+Köy Meydanı|ağaç, çeşme, kahve, çınar, köylü
+Çınar Ağacı|gölge, büyük, eski, köy, meydan
+Biçerdöver|buğday, tarla, makine, hasat, traktör
+Bağ Bozumu|üzüm, sonbahar, hasat, şıra, sepet
+Fındık Hasadı|Karadeniz, toplamak, ağaç, kabuk, sonbahar
+Çay Hasadı|Rize, yaprak, bahçe, toplamak, sepet
+Zeytin Hasadı|ağaç, Ege, toplamak, yağ, sonbahar
+Yayla Şenliği|dağ, çimen, hayvan, yaz, Karadeniz
+Vaha Manzarası|palmiye, çöl, su, gölge, hurma
+Çöl Fırtınası|kum, rüzgar, ünlü, kör, bulut
+Kum Saati|zaman, cam, dökmek, akmak, dakika
+Güneş Saati|gölge, zaman, bahçe, kadran, gün
+Kol Saati|zaman, bilek, akrep, yelkovan, kayış
+Duvar Saati|zaman, sarkaç, ünlü, akrep, tik tak
+Not Defteri|yazı, kalem, sayfa, küçük, cep
+Post-it|not, yapışkan, sarı, masa, hatırlatma
+Zımbalı Defter|kağıt, sayfa, tel, okul, yazı
+Klasör|belge, kağıt, dosya, ofis, raf
+Dosya|belge, kağıt, ofis, klasör, bilgisayar
+Fotokopi|çoğaltmak, makine, kâğıt, ofis, ışık
+Tarayıcı|belge, bilgisayar, ışık, kopya, kâğıt
+Ofis|çalışmak, masa, bilgisayar, toplantı, iş
+Mesai|iş, saat, ofis, çalışmak, fazla
+Öğle Arası|yemek, iş, mola, saat, ofis
+Kahve Molası|ofis, mola, fincan, sohbet, ünlü
+Toplantı Odası|masa, sunum, ofis, ekran, yönetici
+Yönetici|patron, ofis, ekip, karar, müdür
+Stajyer|öğrenci, ofis, çırak, deneyim, genç
+Asistan|yardım, sekreter, ofis, yönetici, randevu
+Sekreter|randevu, telefon, ofis, yönetici, masa
+Müdür|okul, ofis, yönetici, oda, karar
+Hademe|okul, ofis, temizlik, çay, görevli
+Nöbetçi Öğretmen|okul, koridor, teneffüs, görevli, öğrenci
+Karne Günü|okul, not, öğrenci, tatil, aile
+Sınav Kağıdı|soru, okul, kalem, cevap, not
+Cevap Anahtarı|sınav, doğru, soru, kâğıt, öğretmen
+Mezuniyet Şapkası|kep, okul, tören, diploma, siyah
+Kampüs|üniversite, bina, öğrenci, yurt, bahçe
+Yurt|öğrenci, oda, üniversite, ranza, kalmak
+Ranza|yatak, üst, alt, yurt, merdiven
+Kantin|okul, sandviç, öğrenci, teneffüs, yiyecek
+Teneffüs Zili|okul, ders, çıkmak, çalmak, çocuk
+Okul Servisi|öğrenci, şoför, sabah, minibüs, ünlü
+Okul Formu|önlük, öğrenci, giymek, renk, kıyafet
+Sırt Çantası|okul, taşımak, omuz, fermuar, kitap
+Beslenme Çantası|okul, yiyecek, çocuk, kutu, teneffüs
+Su Matarası|okul, içmek, kapak, taşımak, metal

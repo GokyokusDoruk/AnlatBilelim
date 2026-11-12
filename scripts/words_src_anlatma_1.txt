@@ -417,3 +417,65 @@ Kurbağa Prens|öpücük, ünlü, masal, prenses, göl
 Çirkin Ördek Yavrusu|kuğu, masal, ünlü, göl, güzel
 Altın Saçlı Kız|ayı, masal, lapa, üç, yatak
 Pamuk Prenses ve Yedi Cüceler|elma, ayna, masal, zehir, orman
+Zürafa Boynu|uzun, hayvan, yaprak, ağaç, Afrika
+Karga|siyah, kuş, ses, ağaç, peynir
+Güvercin|kuş, barış, beyaz, kanat, meydan
+Kurbağa|zıplamak, yeşil, göl, vıraklamak, böcek
+Uğur Böceği|kırmızı, nokta, böcek, şans, yaprak
+Tırtıl|kelebek, yeşil, yaprak, böcek, koza
+Sivrisinek|ısırmak, yaz, vızıltı, kan, gece
+Sinek|vızıldamak, böcek, kanat, çöp, kovmak
+Hamamböceği|böcek, mutfak, kahverengi, korkmak, ilaç
+Zebra|çizgi, Afrika, at, siyah, beyaz
+Penguen Yavrusu|kutup, buz, siyah, yumurta, kuş
+Dinozor|eski, dev, kemik, yumurta, soyu tükenmiş
+Ördek Yavrusu|sarı, göl, civciv, yüzmek, vak vak
+Kuzu|koyun, beyaz, melemek, yavru, bahar
+Buzağı|inek, yavru, süt, çiftlik, boğa
+Sığır|et, çiftlik, inek, boynuz, süt
+Katır|eşek, at, yük, dağ, inatçı
+Kirpi|diken, hayvan, yumak, küçük, bahçe
+Sincap|fındık, ağaç, kuyruk, tırmanmak, orman
+Yarasa|gece, uçmak, mağara, kanat, baş aşağı
+Fare Kapanı|peynir, tuzak, kedi, kapan, tıkırtı
+Kuş Evi|yuva, ağaç, ünlü, ahşap, bahçe
+Kafes|kuş, demir, hapis, içinde, kapı
+Yem|hayvan, atmak, torba, tane, yedirmek
+Tasma|köpek, boyun, gezmek, ip, deri
+Mama|bebek, kedi, kap, biberon, yemek
+Bebek Arabası|tekerlek, ünlü, itmek, yürüyüş, park
+Oyuncak Araba|çocuk, tekerlek, plastik, oynamak, küçük
+Bez Bebek|oyuncak, kız, el yapımı, yumuşak, giydirmek
+Çıngırak|bebek, ses, sallamak, oyuncak, plastik
+Boyama Kitabı|boya, çocuk, resim, sayfa, kalem
+Pastel Boya|çocuk, resim, mum, boyamak, kutu
+Sulu Boya|fırça, resim, su, palet, renk
+Palet|ressam, boya, renk, tuval, fırça
+Tuval|ressam, resim, boya, şövale, bez
+Heykeltıraş|taş, mermer, keskin, sanat, atölye
+Fotoğrafçı|kamera, çekim, poz, stüdyo, lens
+Yazar|kitap, kalem, roman, hikaye, okurlar
+Şair|şiir, kafiye, söz, dize, duygu
+Ressam|tuval, boya, fırça, resim, sergi
+Müzisyen|enstrüman, nota, şarkı, sahne, çalmak
+Şarkıcı|ses, mikrofon, sahne, söylemek, albüm
+Oyuncu|sahne, film, rol, tiyatro, kamera
+Komedyen|güldürmek, gösteri, espri, sahne, mizah
+Dansçı|dans, sahne, figür, ritim, müzik
+Sirk Palyaçosu|burun, komik, ünlü, kırmızı, güldürmek
+Sihirbaz Şapkası|tavşan, numara, sihir, siyah, çıkarmak
+Hokkabaz|top, atmak, sirk, gösteri, el çabukluğu
+Halı Saha|futbol, çim, maç, arkadaş, akşam
+Piyano Tuşu|siyah, beyaz, müzik, basmak, nota
+Nota|müzik, çizgi, piyano, kağıt, melodi
+Melodi|ezgi, müzik, şarkı, nota, tını
+Marş|ordu, ritim, ezgi, bayrak, yürümek
+Kahve Falı|fincan, telve, gelecek, bakmak, yorum
+Çay Bahçesi|ünlü, masa, ağaç, sohbet, manzara
+Kafe|kahve, masa, sohbet, garson, menü
+Menü|yemek, restoran, liste, fiyat, sipariş
+Hesap|garson, ödemek, fiş, restoran, tutar
+Bahşiş|garson, ekstra, para, bırakmak, teşekkür
+Rezervasyon Masası|restoran, ayırtmak, telefon, isim, saat
+Pazar Arabası|alışveriş, sebze, tekerlek, çekmek, meyve
+Alışveriş Listesi|market, yazmak, unutmak, kağıt, ihtiyaç

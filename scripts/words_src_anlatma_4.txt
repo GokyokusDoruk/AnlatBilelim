@@ -403,3 +403,65 @@ Türkan Şoray|aktris, Türk, sultan, film, Yeşilçam
 Fatma Girik|aktris, Türk, film, Yeşilçam, kadın
 Münir Özkul|aktör, Türk, dede, film, yaşlı
 Adile Naşit|aktris, Türk, Hababam, anne, yaşlı
+Dostluk|arkadaş, sadakat, güven, paylaşmak, yoldaş
+Kardeşlik|aile, kan, paylaşmak, ağabey, bağ
+Arkadaşlık|dost, paylaşmak, sohbet, birlikte, yoldaş
+Aşk|kalp, sevgili, tutku, çiçek, evlilik
+Sevgi|kalp, şefkat, anne, bağ, aşk
+Şefkat|merhamet, anne, sevgi, ilgi, yumuşaklık
+Merhamet|acımak, yardım, vicdan, şefkat, bağış
+Hoşgörü|anlayış, kabul, sabır, farklı, saygı
+Saygı|büyük, selam, değer, edep, hürmet
+Ahlak|iyi, kötü, kural, değer, vicdan
+Erdem|ahlak, iyilik, kişilik, doğru, değer
+Namus|onur, değer, ahlak, şeref, dürüst
+Onur|şeref, saygı, değer, haysiyet, gurur
+Haysiyet Zedelenmesi|onur, saygınlık, hakaret, zarar, iftira
+İftira|yalan, suçlamak, haksız, karalamak, dava
+Hakaret|söz, kötü, küfür, saygısızlık, dava
+Küfür|kötü söz, ayıp, kızgın, argo, bağırmak
+Gerçek|doğru, hakikat, yalan, olay, kanıt
+Doğruluk|yalan, dürüst, gerçek, güven, söz
+Sahtekarlık|taklit, kalpazan, yalan, düzmece, hile
+Hile|oyun, aldatmak, kopya, yalan, düzen
+Dolandırıcılık|aldatmak, para, suç, yalan, mağdur
+Kalpazan|sahte, para, basmak, suç, banknot
+Gasp|zorla, almak, soygun, suç, silah
+Cinayet|ölüm, suç, polis, kurban, katil
+Katil|cinayet, polis, suç, hapis, öldürmek
+İpucu|iz, dedektif, bulmak, bilmece, işaret
+Alibi|suç, mazeret, polis, sanık, yer
+Tanık|mahkeme, görmek, ifade, olay, yemin
+Yemin|söz, mahkeme, el, doğru, namus
+İfade|polis, tanık, sorgu, yazı, söylemek
+Sorgu|polis, soru, oda, sanık, ifade
+Mahkûm|hapis, ceza, hücre, suçlu, cezaevi
+Firar|kaçmak, hapis, mahkûm, tünel, polis
+Af|bağışlamak, ceza, devlet, suç, hapis
+Pişman Olmak|keşke, hata, üzülmek, geri, vicdan
+Özür|pişmanlık, affet, hata, dilemek, söylemek
+Barışma|küs, anlaşma, el sıkışmak, sarılmak, kavga
+Küslük|konuşmamak, kavga, arkadaş, öfke, barışmak
+Dargınlık|küs, kırgın, konuşmamak, ilişki, kavga
+Kırgınlık|üzülmek, gönül, söz, kırmak, darılmak
+Gönül|kalp, aşk, sevgi, kırmak, almak
+Hatır|gönül, iyilik, saygı, kırmamak, sormak
+İyilik|yardım, güzel, kötülük, sevap, vermek
+Kötülük|zarar, kötü, iyilik, kin, düşman
+Kin|nefret, öfke, intikam, kalp, düşmanlık
+İntikam|öç, kin, almak, kötülük, hesap
+Nefret|sevgi, kin, düşman, öfke, tiksinti
+Düşmanlık|kin, savaş, karşı, nefret, barış
+Rekabet|yarış, rakip, ticaret, spor, kazanmak
+Rakip|yarış, karşı, spor, kazanmak, düşman
+Kıyasıya Mücadele|yarış, rakip, güç, kazanmak, çaba
+Zafer|kazanmak, bayrak, savaş, sevinç, galibiyet
+Yenilgi|kaybetmek, üzüntü, savaş, mağlubiyet, kayıp
+Beraberlik|eşit, maç, skor, kimse, puan
+Rövanş|tekrar, maç, intikam, karşılaşma, kazanmak
+Final|son, maç, kupa, yarış, kazanan
+Eleme|yarışma, giden, kalmak, tur, sonuç
+Şampiyonluk|kupa, birinci, takım, kutlama, sezon
+Fikstür|maç, takvim, lig, hafta, takım
+Puan Durumu|lig, sıralama, takım, tablo, maç
+Transfer|oyuncu, takım, futbol, para, kulüp

@@ -27,3 +27,10 @@ Tutanak, Dilekçe, Genelge, Tebliğ, Ateşkes, Esir, Gazi, Şehit, Anıt, Mezar
 Bayrak, Marş, Müze Gezisi, Antik Kent, Kale Turu, Tarihî Çarşı, Hamam Turu, Cami Ziyareti, Kervansaray, Saray Gezisi
 Rehber, Sergi, Akıllı Telefon, Tablet, Dizüstü, Masaüstü, Yazıcı, Tarayıcı, Fare, Ekran
 Ağ, Yönlendirici
+Hesap Makinesi, Gönye, Pergel, Açıölçer, Mikroskop, Terazi, Termometre, Barometre, Pusula, Dürbün
+Büyüteç, Mıknatıs, Deney Tüpü, Balon Joje, Beher, Bunsen Beki, Toplum, Kültür, Gelenek, Töre
+Din, Siyaset, Hukuk, Eğitim, Sağlık, Spor, Sanat, Bilim, Teknoloji, Çevre
+Medya, Seçim, Oy Pusulası, Sandık, Aday, Miting, Bakan, Başbakan, Cumhurbaşkanı, Belediye Başkanı
+Referandum, Koalisyon, Muhalefet, İktidar, Mahkeme, Sanık, Tanık, Dava, Beraat, Hapis
+Para Cezası, Temyiz, İddianame, Savunma, İfade, Kefalet, Vekalet, Miras, Gümrük, Emeklilik
+Zam, Zarar

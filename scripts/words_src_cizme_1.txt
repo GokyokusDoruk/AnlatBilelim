@@ -13,3 +13,10 @@ Doktor, Polis, Aşçı, İtfaiyeci, Astronot, Berber, Çiftçi, Balıkçı, Ress
 Kalp, Yıldız, Ay, Ok, Taç, Kılıç, Kalkan, Hazine, Harita, Pusula
 Hediye, Mum, Çiçek, Bayrak, Çan, Zil, Kilit, Çekiç, Testere, Makas
 Su Kemeri, Deniz Feneri, Yel Değirmeni, Çadır, Şato, İgloo, Piramit, Pagoda, Kule, Cami
+Kaşık, Çatal, Tabak, Bardak, Tava, Tencere, Kova, Çöp Kutusu, Çorap, Ayakkabı
+Şapka, Gömlek, Pantolon, Elbise, Kazak, Mont, Çanta, Top, Oyuncak Araba, Bebek
+Zıp Zıp, Kum Havuzu, Salıncak, Kaydırak, Kar Adam, Kedi Yavrusu, Tavuk, Civciv, Koyun, Keçi
+Eşek, Domuz, Kurbağa, Kiraz, Armut, Limon, Domates, Salatalık, Patates, Mısır Koçanı
+Kabak, Yastık, Battaniye, Kitap, Defter, Kalem, Tekne, Kayık, Elma Ağacı, Çam
+Çiçek Saksısı, Yonca, Çimen, Güneş Gözlüğü, Şimşek, Yağmur Damlası, Kar Tanesi, Rüzgâr, Fırtına, Çatı
+Baca, Bahçe Kapısı

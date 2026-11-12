@@ -13,3 +13,10 @@ Router, Sinyal, Bant Genişliği, Bağlantı, Yayın, Sosyal Medya, Takipçi, Pa
 Canlı Yayın, Video, Hikâye, Yorum, Engel, Banka, ATM, Kredi Kartı, Hesap, Havale
 Fatura, Maaş, Birikim, Yatırım, Borç, Sigorta, Kasko, Poliçe, Tazminat, Hasar
 Rapor, Ekspertiz, Prim, Teminat, Muafiyet, Anayasa, Yasa, Yönetmelik, Karar, Hüküm
+Teknisyen, Yazılımcı, Muhasebeci, Bankacı, Sigortacı, Emlakçı, Danışman, Denetçi, Dedektif, Savcı
+Hâkim, Noter, Bilirkişi, İcra Memuru, Zabıta, Gardiyan, Cellat, Öğretim Üyesi, Doçent, Profesör
+Asistan, Rektör, Dekan, Mezun, Doktora, Tez, Makale, Tünel, Baraj, Fabrika
+Tersane, Rafineri, Santral, Elektrik Faturası, Su Sayacı, İnternet Aboneliği, Kira, Aidat, Vergi Dairesi, Tapu
+Kredi Taksiti, Sigorta Poliçesi, Anne Babalık, Evlilik, Boşanma, Nişan, Balayı, Hamilelik, Doğum, Sünnet
+Bebek Bakımı, Müzik Kutusu, Plak, Kaset, CD, Mp3 Çalar, Hoparlör, Amfi, Walkman, Sanat Galerisi
+Antikacı, Müzayede

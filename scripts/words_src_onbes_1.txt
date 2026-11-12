@@ -13,3 +13,10 @@ Annelik, Babalık, Kardeş, Dede, Komşu, Arkadaş, Düşman, Patron, Misafir, B
 Kedi, Köpek, Aslan, Fil, Penguen, Maymun, Yunus, Kartal, Arı, Karınca
 Orman, Okyanus, Çöl, Volkan, Mağara, Şelale, Ada, Dağ, Nehir, Göl
 Doğum Günü, Düğün, Bayram, Yılbaşı, Mezuniyet, Kına Gecesi, Piknik, Kamp, Parti, Festival
+Anne, Baba, Abla, Ağabey, Teyze, Amca, Hala, Dayı, Torun, Yeğen
+Çocuk, Genç, Yaşlı, Öğrenci, Mavi, Kırmızı, Sarı, Yeşil, Turuncu, Mor
+Pembe, Siyah, Beyaz, Gri, Bir, İki, Üç, Beş, On, Yüz
+Bin, Sıfır, Yarım, Çeyrek, Pazar, Pazartesi, Salı, Çarşamba, Perşembe, Hafta
+Ay, Yıl, Gün, Gece, İlkbahar, Yaz, Sonbahar, Kış, Sabah, Öğle
+Akşam, Şafak, Gece Yarısı, Öğleden Sonra, Baş, Göz, Kulak, Burun, Ağız, Diş
+Dil, El

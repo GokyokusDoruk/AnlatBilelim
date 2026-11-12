@@ -148,3 +148,65 @@ Fatura|ödemek, elektrik, su, kâğıt, abone
 Banko|kasa, müşteri, tezgâh, bekleme, gişe
 Kargo|paket, kurye, gönderi, teslim, takip
 Zarf Pulu|mektup, posta, yapıştırmak, koleksiyon, ücret
+Satranç Ustası|taş, tahta, şah mat, turnuva, düşünmek
+Hakem|düdük, maç, karar, kart, saha
+Antrenör|takım, çalıştırmak, spor, strateji, hoca
+Kaleci|top, kale, eldiven, kurtarmak, gol
+Golcü|gol, forvet, takım, atmak, ceza sahası
+Ofsayt|hakem, bayrak, gol, futbol, çizgi
+Penaltı|ceza sahası, vuruş, kaleci, gol, nokta
+Maraton|koşmak, uzun, yarış, kilometre, bitiş
+Sprint|hızlı, koşu, kısa, pist, yarış
+Halter|ağırlık, kaldırmak, bar, kuvvet, spor
+Cimnastik|beden, takla, minder, jimnastik, denge
+Eskrim|kılıç, maske, düello, spor, hamle
+Okçuluk|ok, yay, hedef, nişan, spor
+Kayakçı|kar, dağ, pist, sopa, kayak
+Buz Pateni|kayak, dans, pist, dönmek, soğuk
+Sörf|dalga, tahta, deniz, ayakta, kayak
+Dalgıç|deniz, tüp, su altı, maske, derin
+Yelken|rüzgâr, tekne, bez, deniz, yarış
+Tırmanış|dağ, kaya, ip, zirve, spor
+Paraşütçü|atlamak, uçak, havada, ip, bez
+Yamaç Paraşütü|dağ, uçmak, rüzgâr, bez, manzara
+Planör|rüzgâr, uçmak, motorsuz, kanat, havada
+Helikopter|pervane, havada, iniş, pilot, gürültü
+Zeplin|şişirilmiş, gökyüzü, büyük, hava, gemi
+Uzay Mekiği|astronot, gökyüzü, fırlatmak, NASA, dönüş
+Astronomi|yıldız, teleskop, gezegen, gök, bilim
+Gezegen|güneş, dünya, uzay, yörünge, Mars
+Takımyıldız|yıldız, gökyüzü, burç, çizgi, gece
+Güneş Sistemi|gezegen, yörünge, uzay, Dünya, Mars
+Ay Tutulması|gölge, gece, dünya, gökyüzü, kırmızı
+Güneş Tutulması|ay, gündüz, karanlık, gözlük, nadir
+Yıldız Kayması|dilek, gece, gökyüzü, ışık, çizgi
+Kuzey Işıkları|renkli, gökyüzü, kutup, yeşil, gece
+Yosun|su, yeşil, ıslak, kaya, deniz
+Mercan|deniz, resif, renkli, su altı, kayalık
+Deniz Anası|su, yakmak, şeffaf, tentakül, okyanus
+Ahtapot|sekiz, kol, deniz, mürekkep, vantuz
+Köpekbalığı|deniz, diş, yüzgeç, tehlikeli, balık
+Balina|dev, deniz, su fışkırtmak, memeli, kuyruk
+Fok|buz, balık, kutup, deniz, kuyruk
+Deniz Atı|küçük, su, kuyruk, at, ince
+Denizyıldızı|deniz, kol, beş, kum, kumsal
+Istakoz|kıskaç, deniz, kırmızı, pahalı, kabuk
+Yengeç|kıskaç, yan yan, kum, deniz, kabuk
+Karides|deniz, küçük, pembe, yemek, kabuk
+Midye|kabuk, deniz, dolma, yemek, limon
+Kalamar|deniz, halka, tava, mürekkep, tentakül
+Hamsi|Karadeniz, balık, küçük, tava, sürü
+Levrek|balık, deniz, ızgara, çipura, yemek
+Çipura|balık, deniz, ızgara, levrek, tabak
+Somon|balık, nehir, pembe, ızgara, sushi
+Sushi|Japon, çiğ balık, pirinç, yosun, çubuk
+Pirinç|tane, pilav, tarla, beyaz, çuval
+Çubuk|Japon, yemek, iki, ahşap, ince
+Soya Sosu|Japon, koyu, tuzlu, sushi, şişe
+Çin Yemeği|çubuk, noodle, kutu, Asya, sos
+Noodle|makarna, Asya, erişte, çorba, çubuk
+Kebap Şişi|et, ızgara, mangal, metal, yemek
+Pide|fırın, uzun, peynir, kıymalı, hamur
+Kuşbaşı|et, küçük, doğramak, yemek, tencere
+Kokoreç|işkembe, ekmek, baharat, sokak, ızgara
+Midye Dolma|kabuk, pirinç, limon, sokak, sofra

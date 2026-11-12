@@ -148,3 +148,66 @@ Aidiyet|ait olmak, grup, bağ, bir yere, kimlik
 Önyargı|baştan, karar, düşünce, yargı, ayrımcılık
 Tahammül|katlanmak, sabır, dayanmak, hoşgörü, çekmek
 Nezaket|kibarlık, saygı, güler yüz, terbiye, edep
+Mizah|güldürmek, espri, komik, nükte, eğlence
+Espri|güldürmek, komik, söylemek, şaka, nükte
+Kinaye|alay, ima, söz, anlam, ters
+Ima|dolaylı, söylemek, anlamak, göstermek, işaret
+Benzetme|gibi, edebiyat, söz, mecaz, şiir
+Kafiye|şiir, uyak, dize, ses, son
+Redif|şiir, tekrar, kafiye, dize, son
+Aruz|şiir, ölçü, Divan, hece, ritim
+Hece|ses, ölçü, kelime, şiir, bölmek
+Divan|şiir, Osmanlı, edebiyat, gazel, saray
+Gazel|şiir, Divan, aşk, beyit, edebiyat
+Beyit|iki dize, şiir, Divan, gazel, mısra
+Mısra|şiir, dize, satır, beyit, ölçü
+Öykü|kısa, anlatı, yazar, olay, kahraman
+Röportaj|soru, gazeteci, konuk, yayın, mikrofon
+Manşet|gazete, büyük, haber, başlık, ilk sayfa
+Köşe Yazısı|gazete, yazar, görüş, sütun, yorum
+Başyazı|gazete, görüş, yorum, yayın yönetmeni, yazı
+Şiir Gecesi|okumak, şair, sahne, dinlemek, dize
+İmza Günü|kitap, yazar, okur, sıra, kalem
+Kitap Fuarı|yayınevi, stant, yazar, okur, gezmek
+Yayınevi|kitap, basmak, yazar, editör, katalog
+Matbaa|baskı, kitap, mürekkep, makine, kâğıt
+Mürekkep|kalem, yazmak, şişe, siyah, hokka
+Hokka|mürekkep, divit, eski, yazmak, kalem
+Divit|yazı, kalem, eski, hokka, Osmanlı
+Fermân|padişah, emir, Osmanlı, tuğra, belge
+Tuğra|padişah, imza, Osmanlı, süslü, mühür
+Sultan|Osmanlı, saray, taht, padişah, hükümdar
+Vezir|sultan, devlet, saray, danışman, divan
+Yeniçeri|Osmanlı, asker, kazan, ordu, bork
+Mehter|Osmanlı, bando, marş, davul, ordu
+Sarayı|padişah, saray, hazine, görkemli, Osmanlı
+Harem|saray, kadın, padişah, Osmanlı, bölüm
+Lale Devri|çiçek, Osmanlı, eğlence, Damat, saray
+Tanzimat|ferman, reform, Osmanlı, yenilik, 1839
+Meşrutiyet|anayasa, meclis, padişah, 1908, Osmanlı
+Kurtuluş Savaşı|Atatürk, Anadolu, düşman, Cumhuriyet, zafer
+Cumhuriyet|1923, Atatürk, yönetim, halk, 29 Ekim
+Lozan|antlaşma, barış, 1923, İsviçre, sınır
+Misak-ı Milli|sınır, Anadolu, ulusal, ant, meclis
+Sakarya|savaş, nehir, Meydan Muharebesi, 1921, zafer
+Dumlupınar|zafer, savaş, 30 Ağustos, Anadolu, Başkomutan
+İnönü|savaş, ordu, zafer, Anadolu, 1921
+Kuvayı Milliye|direniş, halk, Anadolu, savaş, çete
+Sivas Kongresi|1919, Atatürk, kongre, delege, Anadolu
+Erzurum Kongresi|1919, Atatürk, kongre, delege, Doğu
+Havza|Samsun, Atatürk, 1919, Anadolu, yolculuk
+Amasya Genelgesi|Atatürk, 1919, bildiri, Anadolu, direniş
+Harf Devrimi|alfabe, Latin, Atatürk, okul, yazı
+Soyadı Kanunu|isim, aile, 1934, Atatürk, kimlik
+Kadın Hakları|oy, seçme, eşitlik, hak, özgürlük
+Medeni Kanun|evlilik, hukuk, 1926, eşitlik, yasa
+Şapka Kanunu|fes, Atatürk, kıyafet, devrim, yasa
+Türk Dil Kurumu|sözlük, lisan, kelime, Ankara, kurum
+Halkevi|kültür, Atatürk, halk, kurs, bina
+Köy Enstitüsü|eğitim, öğretmen, tarla, okul, Anadolu
+Anadolu Ajansı|haber, ajans, Ankara, basın, kuruluş
+Ziraat Bankası|tarım, banka, çiftçi, kredi, kamu
+Ankara|başkent, Anıtkabir, meclis, kale, Kızılay
+İzmir|Ege, Kordon, saat kulesi, liman, bir şehir
+Bursa|iskender, Uludağ, ilk başkent, Osmanlı, yeşil
+Konya|Mevlana, Selçuklu, ova, semazen, kubbe

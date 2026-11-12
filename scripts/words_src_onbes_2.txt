@@ -13,3 +13,10 @@ Darbuka, Tef, Kemençe, Bağlama, Rock, Pop, Caz, Blues, Klasik Müzik, Hip Hop
 Rap, Metal, Reggae, Halk Müziği, Kahve, Çay, Salep, Boza, Ayran, Şalgam
 Limonata, Soda, Süt, Meyve Suyu, Lokum, Helva, Kurabiye, Pasta, Kek, Sütlaç
 Kazandibi, Aşure, Mercimek, Nohut, Fasulye, Bulgur, Pirinç, Erişte, Yufka, Un
+Postane, Eczane, Belediye, Karakol, Tarla, Çiftlik, Ahır, Samanlık, Kümes, Değirmen
+Ambar, Sera, Bağ, Göz Doktoru, Kulak Burun Boğaz, Kardiyolog, Cildiye, Ortopedi, Çocuk Doktoru, Psikiyatri
+Nöroloji, Acil, Piyade, Denizci, Havacı, Asker, Subay, Er, Komutan, Nöbetçi
+Teğmen, Albay, Kâğıt, Karton, Cam, Plastik, Ahşap, Deri, Kumaş, Pamuk
+Yün, Tornavida, Pense, Anahtar, Kerpeten, Eğe, Bıçkı, Perçin, Sarı Saçlı, Esmer
+Kumral, Kel, Sakallı, Bıyıklı, Gözlüklü, Pehlivan, Cüce, Dev, Soğuk, Sıcak
+Ilık, Serin, Nemli

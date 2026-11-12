@@ -13,3 +13,10 @@ Güneş Saati, Kum Saati, Çalar Saat, Takvim, Zamanlayıcı, Yumurtadan Çıkı
 Meyve Hasadı, Üzüm Bağı, Zeytin Hasadı, Çay Bahçesi, Pamuk Tarlası, Spor Salonu, Maraton, Olimpiyat, Madalya, Kupa Töreni
 Penaltı, Ofsayt, Şnorkel, Dalış, Yamaç Paraşütü, Koro, Orkestra Şefi, Piyanist, Kemancı, Davulcu
 Saz, Ney, Kanun, Zurna, Akordeon, Çarşı, Pazar, Hamam, Kervansaray, Han
+Çöl Vahası, Buzul, Volkan Patlaması, Şelale, Gayzer, Mağara, Mercan Resifi, Tropik Orman, Savan, Tundra
+Uzay Mekiği, Astronot Yürüyüşü, Uydu Anteni, Ay Yüzeyi, Mars Aracı, Halkalı Gezegen, Güneş Sistemi, Gözlemevi, Cerrah, Ameliyathane
+Röntgen, Serum, Berber Koltuğu, Diş Muayenesi, Tansiyon Aleti, Hasta Yatağı, Nöbetçi Eczane, Ambulans Sireni, Mahkeme Salonu, Adalet Terazisi
+Hâkim Çekici, Kelepçe Takılı El, Polis Rozeti, Parmak İzi, Güvenlik Kamerası, Alarm, Casusluk, Şifreli Mesaj, Banka Kasası, Hesap Cüzdanı
+Para Yağmuru, Faiz Grafiği, Borsa Ekranı, Çek, Fatura, Kredi Kartı, Okul Zili, Karne, Tahta Silgisi, Sınıf Defteri
+Mezuniyet Kepi, Diploma, Okul Servisi, Teneffüs, Kantin, Karne Günü, Dedikodu, Sır Verme, Özür Dileme, Barışma
+Bekleme Odası, Kuyruk

@@ -13,3 +13,10 @@ Pelikan, Martı, Güvercin, Serçe, Gergedan, Su Aygırı, Kanguru, Koala, Panda
 Deve, Lama, Kirpi, Sincap, Mantar, Kaktüs, Ayçiçeği, Lale, Papatya, Gül
 Orkide, Çam Ağacı, Palmiye, Bambu, Nar, Ananas, Kivi, Şeftali, Kayısı, Vişne
 İncir, Hurma, Nane, Biberiye, Kebap, Lahmacun, Baklava, Börek, Simit, Gözleme
+Hesap Makinesi, Cetvel, Pergel, Silgi, Kalemtıraş, Zımba, Delgeç, Ataş, Yapıştırıcı, Satranç Şahı
+At Arabası, Gondol, Zeytin Ağacı, Çınar, Söğüt, Meşe, Okaliptüs, Bonsai, Kuğu, Tavus
+Kırlangıç, Karga, Kumru, Bülbül, Ördek Yavrusu, Şahin, Atmaca, Kaplan, Leopar, Çita
+Jaguar, Puma, Vaşak, Kurt, Tilki, Çakal, Sırtlan, Kanguru Yavrusu, Alpaka, Yak
+Bizon, Antilop, Geyik, Yaban Domuzu, Porsuk, Yusufçuk, Çekirge, Kelebek Kozası, Tırtıl, Termit
+Sülük, Solucan, Salyangoz Kabuğu, Deniz Anası, Istakoz, Karides, Midye, Mercan, Köpek Balığı, Orkinos
+Gitar Teli, Org, Flüt

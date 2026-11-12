@@ -268,7 +268,7 @@ export class RoomDurableObject extends DurableObject<Env> {
         result = engine.markCorrect(room, playerId, msg.index, ctx);
         break;
       case 'round:forbidden':
-        result = engine.markForbidden(room, playerId, ctx);
+        result = engine.markForbidden(room, playerId, msg.index, ctx);
         break;
       case 'round:clueUsed':
         result = engine.useClue(room, playerId, ctx);

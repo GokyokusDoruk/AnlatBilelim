@@ -22,7 +22,7 @@ export type ClientMessage =
   // Tur (Task 3-7)
   | { t: 'round:start' } // Gözlemci "Tur Başlat"
   | { t: 'round:correct'; index?: number } // Anlatma: +1 / Üçlü kart: index'teki kelimeye tik
-  | { t: 'round:forbidden' } // Anlatma: -1
+  | { t: 'round:forbidden'; index?: number } // Anlatma: index'li = yasaklı kelimeyi işaretle/geri al; indexsiz = sonraki kart
   | { t: 'round:clueUsed' } // 15 Kelime: -1 ipucu
   | { t: 'round:pass' }
   | { t: 'summary:continue' }

@@ -45,6 +45,8 @@ export interface TabuCard {
   readonly kind: 'tabu';
   readonly word: string;
   readonly forbidden: readonly [string, string, string, string, string];
+  /** Gözlemcinin "kullandı" diye işaretlediği yasaklı kelimeler (yeşil görünür). */
+  readonly hit: readonly boolean[];
 }
 
 /** Çizme / Kukla / 15 Kelime kartı: 3 kelime, her biri ayrı ayrı "bilindi" işaretlenir. */

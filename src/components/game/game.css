@@ -213,3 +213,8 @@
   50% { content: '..'; }
   75% { content: '...'; }
 }
+
+/* Anlatma: gözlemcinin işaretlediği yasaklı kelime yeşile döner (anlatıcıda da görünür) */
+.word-card__forbidden li { transition: background-color .15s, color .15s; }
+.forbidden__btn { all: unset; display: block; width: 100%; cursor: pointer; border-radius: 8px; }
+.word-card__forbidden li.forbidden--hit { background: #22c55e; color: #052e16; border-radius: 8px; font-weight: 800; }

@@ -86,9 +86,9 @@ async function idle() {
 const baseline = await idle();
 const series = [];
 for (let c = 1; c <= CYCLES; c++) {
-  await playRound(10, '[role=timer]'); // Çizme
-  await playRound(15, 'canvas'); // Kukla
-  await setBoard(30); // Karışık: çark
+  await playRound(7, '[role=timer]'); // Çizme
+  await playRound(4, 'canvas'); // Kukla
+  await setBoard(0); // Karışık: çark
   await sleep(1500);
   const snap = await idle();
   series.push(snap);

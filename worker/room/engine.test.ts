@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest';
 import { BOARD_SIZE } from '../../shared/constants';
 import { CardDeck } from '../../shared/words';
-import type { TripleCard } from '../../shared/types';
+import type { TabuCard, TripleCard } from '../../shared/types';
 import * as e from './engine';
 import { createRoomData, joinPlayer, type RoomData } from './RoomData';
 
@@ -33,6 +33,14 @@ function lobby(): RoomData {
 function started(ctx = makeCtx()): RoomData {
   const room = lobby();
   for (let i = 1; i <= 4; i++) e.setReady(room, uid(i), true, ctx);
+  // 1. basamak karışıktır (çark); bu yardımcı testlerde düz Anlatma turları bekler: iki takım da 12. basamağın önünde.
+  room.board.positions.A = 11;
+  room.board.positions.B = 11;
+  room.round = null;
+  room.turnTeam = 'A';
+  room.narratorCursor = { A: 0, B: 0 };
+  room.observerCursor = { A: 0, B: 0 };
+  e.beginTurn(room, ctx);
   return room;
 }
 
@@ -54,7 +62,7 @@ describe('lobi', () => {
     e.setReady(room, uid(3), true, ctx);
     expect(room.phase).toBe('lobby');
     e.setReady(room, uid(4), true, ctx);
-    expect(room.phase).toBe('pre_round');
+    expect(room.phase).toBe('roulette'); // 1. basamak karışık
   });
 
   it('takımda 2 oyuncudan azsa başlamaz', () => {
@@ -138,7 +146,7 @@ describe('anlatma modu', () => {
 
     expect(e.markCorrect(room, r.observerId, undefined, ctx).ok).toBe(true);
     expect(e.markCorrect(room, r.observerId, undefined, ctx).ok).toBe(true);
-    expect(e.markForbidden(room, r.observerId, ctx).ok).toBe(true);
+    expect(e.markForbidden(room, r.observerId, undefined, ctx).ok).toBe(true);
     expect(room.round!.correct).toBe(2);
     expect(room.round!.forbiddenHits).toBe(1);
 
@@ -152,7 +160,7 @@ describe('anlatma modu', () => {
     const room = started(ctx);
     const r = playRoundAt(room, ctx);
     expect(e.markCorrect(room, r.narratorId, undefined, ctx).ok).toBe(false);
-    expect(e.markForbidden(room, r.narratorId, ctx).ok).toBe(false);
+    expect(e.markForbidden(room, r.narratorId, undefined, ctx).ok).toBe(false);
     expect(e.pass(room, r.observerId, ctx).ok).toBe(false);
     expect(e.startRound(room, r.narratorId, ctx).ok).toBe(false);
   });
@@ -162,19 +170,19 @@ describe('anlatma modu', () => {
     const room = started(ctx);
     const r = playRoundAt(room, ctx);
     for (let i = 0; i < 5; i++) e.markCorrect(room, r.observerId, undefined, ctx);
-    e.markForbidden(room, r.observerId, ctx);
+    e.markForbidden(room, r.observerId, undefined, ctx);
     e.onDeadline(room, { ...ctx, now: room.round!.endsAt! });
     expect(room.phase).toBe('round_summary');
-    expect(room.lastSummary).toMatchObject({ correct: 5, forbiddenHits: 1, stepsAdvanced: 4, newPosition: 4 });
-    expect(room.board.positions.A).toBe(4);
+    expect(room.lastSummary).toMatchObject({ correct: 5, forbiddenHits: 1, stepsAdvanced: 4, newPosition: 15 });
+    expect(room.board.positions.A).toBe(15);
 
     // B takımı net negatif oynar
     e.continueFromSummary(room, uid(1), ctx);
     const r2 = playRoundAt(room, ctx);
-    e.markForbidden(room, r2.observerId, ctx);
+    e.markForbidden(room, r2.observerId, undefined, ctx);
     e.onDeadline(room, { ...ctx, now: room.round!.endsAt! });
     expect(room.lastSummary!.stepsAdvanced).toBe(0);
-    expect(room.board.positions.B).toBe(0);
+    expect(room.board.positions.B).toBe(11);
   });
 
   it('süre bittikten sonra gelen eylem reddedilir ve turu kapatır', () => {
@@ -199,9 +207,9 @@ function roomAtPosition(pos: number, ctx: e.EngineCtx): RoomData {
 
 describe('üçlü kart modları (çizme, kukla, 15 kelime)', () => {
   const cases = [
-    { pos: 10, mode: 'cizme', sec: 90 },
-    { pos: 15, mode: 'kukla', sec: 120 },
-    { pos: 25, mode: 'onbes', sec: 120 },
+    { pos: 7, mode: 'cizme', sec: 90 },
+    { pos: 4, mode: 'kukla', sec: 120 },
+    { pos: 17, mode: 'onbes', sec: 120 },
   ] as const;
 
   for (const c of cases) {
@@ -218,12 +226,11 @@ describe('üçlü kart modları (çizme, kukla, 15 kelime)', () => {
 
   it('3 kelime de bilinince otomatik yeni kart gelir', () => {
     const ctx = makeCtx();
-    const room = roomAtPosition(10, ctx);
+    const room = roomAtPosition(7, ctx);
     const r = room.round!;
     e.startRound(room, r.observerId, ctx);
     const first = room.roundCard as TripleCard;
     e.markCorrect(room, r.observerId, 0, ctx);
-    e.markCorrect(room, r.observerId, 0, ctx); // çift tik sayılmaz
     e.markCorrect(room, r.observerId, 1, ctx);
     expect(room.round!.correct).toBe(2);
     expect((room.roundCard as TripleCard).words).toEqual(first.words);
@@ -236,7 +243,7 @@ describe('üçlü kart modları (çizme, kukla, 15 kelime)', () => {
 
   it('pass: bilinmemiş kelime sayısı kadar hak düşer, bilinen skorda kalır', () => {
     const ctx = makeCtx();
-    const room = roomAtPosition(10, ctx);
+    const room = roomAtPosition(7, ctx);
     const r = room.round!;
     e.startRound(room, r.observerId, ctx);
     e.markCorrect(room, r.observerId, 1, ctx); // 1 bilindi, 2 kaldı
@@ -248,7 +255,7 @@ describe('üçlü kart modları (çizme, kukla, 15 kelime)', () => {
 
   it('kalan hak bilinmemiş kelimeden azsa pass reddedilir', () => {
     const ctx = makeCtx();
-    const room = roomAtPosition(10, ctx);
+    const room = roomAtPosition(7, ctx);
     const r = room.round!;
     e.startRound(room, r.observerId, ctx);
     e.markCorrect(room, r.observerId, 1, ctx);
@@ -264,7 +271,7 @@ describe('üçlü kart modları (çizme, kukla, 15 kelime)', () => {
 
   it('15 kelime: sayaç 0 olunca süre bitmeden tur biter', () => {
     const ctx = makeCtx();
-    const room = roomAtPosition(25, ctx);
+    const room = roomAtPosition(17, ctx);
     const r = room.round!;
     e.startRound(room, r.observerId, ctx);
     expect(room.round!.cluesLeft).toBe(15);
@@ -286,9 +293,9 @@ describe('üçlü kart modları (çizme, kukla, 15 kelime)', () => {
 });
 
 describe('karışık mod, kazanma ve tur geçişi', () => {
-  it('31. basamak ve sonrası çark ile mod seçer', () => {
+  it('Listede olmayan basamaklar (ör. 1.) çark ile mod seçer', () => {
     const ctx = makeCtx();
-    const room = roomAtPosition(30, ctx);
+    const room = roomAtPosition(0, ctx);
     expect(room.phase).toBe('roulette');
     expect(room.roulette).toMatchObject({ startedAt: ctx.now, result: room.round!.mode });
     expect(room.phaseDeadline).toBe(ctx.now + 5000);
@@ -299,7 +306,7 @@ describe('karışık mod, kazanma ve tur geçişi', () => {
 
   it('çark rastgele tüm modları üretir', () => {
     const modes = new Set<string>();
-    for (let seed = 1; seed < 60; seed++) modes.add(roomAtPosition(30, makeCtx(1000, seed)).round!.mode);
+    for (let seed = 1; seed < 60; seed++) modes.add(roomAtPosition(0, makeCtx(1000, seed)).round!.mode);
     expect(modes.size).toBe(4);
   });
 
@@ -348,7 +355,7 @@ describe('karışık mod, kazanma ve tur geçişi', () => {
 describe('kukla sırayı tüketmez', () => {
   it('kukla turu anlatıcı/gözlemci imleçlerini ilerletmez', () => {
     const ctx = makeCtx();
-    const room = roomAtPosition(15, ctx);
+    const room = roomAtPosition(4, ctx);
     expect(room.round!.mode).toBe('kukla');
     expect(room.narratorCursor).toEqual({ A: 1, B: 0 }); // yalnızca oyun başındaki tur sayıldı
     expect(room.observerCursor).toEqual({ A: 0, B: 1 });
@@ -359,11 +366,11 @@ describe('kukla sırayı tüketmez', () => {
     const room = started(ctx);
     const before = room.round!.narratorId; // anlatma turu
     e.endRound(room, ctx, false);
-    room.board.positions.A = 15;
+    room.board.positions.A = 4;
     room.turnTeam = 'A';
     e.beginTurn(room, ctx); // kukla
     const kuklaNarrator = room.round!.narratorId;
-    room.board.positions.A = 20;
+    room.board.positions.A = 11;
     room.turnTeam = 'A';
     e.beginTurn(room, ctx); // sonraki mod
     expect(room.round!.mode).not.toBe('kukla');
@@ -375,7 +382,7 @@ describe('kukla sırayı tüketmez', () => {
 describe('kukla turu (animasyon)', () => {
   function kuklaRound() {
     const ctx = makeCtx();
-    const room = roomAtPosition(15, ctx);
+    const room = roomAtPosition(4, ctx);
     const r = room.round!;
     e.startRound(room, r.observerId, ctx);
     return { ctx, room, r };
@@ -405,5 +412,50 @@ describe('kukla turu (animasyon)', () => {
     const { ctx, room, r } = kuklaRound();
     expect(e.markCorrect(room, r.narratorId, undefined, ctx).ok).toBe(false);
     expect(e.pass(room, r.observerId, ctx).ok).toBe(false);
+  });
+});
+
+describe('işaretleme ve geri alma', () => {
+  it('anlatma: yasaklı kelime işaretlenir, kart başına tek -1, tekrar basınca geri alınır', () => {
+    const ctx = makeCtx();
+    const room = started(ctx);
+    const r = playRoundAt(room, ctx);
+    expect(e.markForbidden(room, r.observerId, 1, ctx).ok).toBe(true);
+    expect((room.roundCard as TabuCard).hit).toEqual([false, true, false, false, false]);
+    expect(room.round!.forbiddenHits).toBe(1);
+    e.markForbidden(room, r.observerId, 3, ctx);
+    expect(room.round!.forbiddenHits).toBe(1); // aynı kartta ikinci kelime ek ceza değil
+    e.markForbidden(room, r.observerId, 1, ctx);
+    e.markForbidden(room, r.observerId, 3, ctx);
+    expect((room.roundCard as TabuCard).hit.some(Boolean)).toBe(false);
+    expect(room.round!.forbiddenHits).toBe(0); // hepsi geri alınınca -1 iade
+    expect(e.markForbidden(room, r.narratorId, 0, ctx).ok).toBe(false);
+    expect(e.markForbidden(room, r.observerId, 9, ctx).ok).toBe(false);
+  });
+
+  it('anlatma: işaretli kartta indexsiz forbidden ek ceza yazmadan sonraki karta geçer', () => {
+    const ctx = makeCtx();
+    const room = started(ctx);
+    const r = playRoundAt(room, ctx);
+    e.markForbidden(room, r.observerId, 0, ctx);
+    e.markForbidden(room, r.observerId, undefined, ctx);
+    expect(room.round!.forbiddenHits).toBe(1);
+    expect((room.roundCard as TabuCard).hit.some(Boolean)).toBe(false);
+  });
+
+  it('çizme / 15 kelime: tikli kelimeye tekrar basmak geri alır', () => {
+    for (const pos of [7, 17]) {
+      const ctx = makeCtx();
+      const room = roomAtPosition(pos, ctx);
+      e.startRound(room, room.round!.observerId, ctx);
+      const obs = room.round!.observerId;
+      e.markCorrect(room, obs, 1, ctx);
+      expect(room.round!.correct).toBe(1);
+      e.markCorrect(room, obs, 1, ctx);
+      expect(room.round!.correct).toBe(0);
+      expect((room.roundCard as TripleCard).solved).toEqual([false, false, false]);
+      e.markCorrect(room, obs, 1, ctx); // yeniden işaretlenebilir
+      expect(room.round!.correct).toBe(1);
+    }
   });
 });

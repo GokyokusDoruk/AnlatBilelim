@@ -52,10 +52,17 @@ Cloudflare artık statik siteleri de Worker'ın `assets` özelliğiyle sunuyor. 
 - **Zustand seçicileri:** Bileşenler yalnızca ihtiyaç duydukları dilime abone olur; değişmeyen dilimlerin referansı korunur. Yüksek frekanslı veriler store'a yazılmaz.
 - **Temizlik:** Her soket, zamanlayıcı, rAF ve dinleyici unmount'ta kapatılır (`RoomSocket.dispose`, `createDisposer`).
 
+## Kelime havuzu
+
+`shared/data/words_tr.json`: Anlatma 104 kart (kelime + 5 yasaklı), Çizme / Kukla / 15 Kelime için 150'şer kelime.
+Kaynaklar `scripts/words_src_*.txt` dosyalarındadır; düzenledikten sonra `npm run words:build` çalıştır.
+`npm run build` önce `words:check` ile sayıları (en az 100), tekrarları ve her kartta tam 5 yasaklı kelime olmasını doğrular.
+Kartlar `shared/words.ts` içindeki `CardDeck` ile çekilir: havuz tükenmeden aynı kelime tekrar gelmez.
+
 ## Yol haritası
 
 - [x] Task 1: İskelet, tipler, store, Cloudflare oda mimarisi, tema
-- [ ] Task 2: Türkçe kelime havuzu
+- [x] Task 2: Türkçe kelime havuzu (`shared/data/words_tr.json`)
 - [ ] Task 3: Lobi, takımlar, tur motoru, sunucu zamanlayıcısı
 - [ ] Task 4: Oyun tahtası ve mod ruleti
 - [ ] Task 5: Anlatma ve 15 Kelime modları

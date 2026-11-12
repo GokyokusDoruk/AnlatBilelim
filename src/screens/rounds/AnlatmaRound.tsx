@@ -21,8 +21,10 @@ export function AnlatmaRound({ round, role }: { round: RoundPublicState; role: R
   }
   return (
     <RoundShell round={round} role={role}>
-      {card ? <TabuCardView card={card} /> : <Spinner label="Kart yükleniyor" />}
-      {role === 'narrator' ? <NarratorControls round={round} card={card} /> : <ObserverControls round={round} />}
+      {card ? (
+        <TabuCardView card={card} onToggle={role === 'observer' ? (index) => sendAction({ t: 'round:forbidden', index }) : undefined} />
+      ) : <Spinner label="Kart yükleniyor" />}
+      {role === 'narrator' ? <NarratorControls round={round} card={card} /> : <ObserverControls round={round} card={card} />}
     </RoundShell>
   );
 }
@@ -48,7 +50,8 @@ function NarratorControls({ round, card }: { round: RoundPublicState; card: Tabu
   );
 }
 
-function ObserverControls({ round }: { round: RoundPublicState }) {
+function ObserverControls({ round, card }: { round: RoundPublicState; card: TabuCard | null }) {
+  const burned = card?.hit.some(Boolean) === true;
   return (
     <>
       <div className="round__actions round__actions--two">
@@ -56,7 +59,7 @@ function ObserverControls({ round }: { round: RoundPublicState }) {
           Doğru Bilindi (+1)
         </ActionButton>
         <ActionButton variant="danger" size="lg" onClick={() => sendAction({ t: 'round:forbidden' })}>
-          Yasaklı Kelime (−1)
+          {burned ? 'Kart Yandı, Sonraki' : 'Yasaklı Kelime (−1)'}
         </ActionButton>
       </div>
       <div className="row" style={{ justifyContent: 'space-between' }}>

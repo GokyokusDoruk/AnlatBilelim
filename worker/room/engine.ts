@@ -214,7 +214,13 @@ export function markCorrect(room: RoomData, playerId: string, index: number | un
   if (index === undefined || !Number.isInteger(index) || index < 0 || index > 2) {
     return fail('bad_message', 'Geçersiz kelime.');
   }
-  if (card.solved[index]) return OK; // çift dokunuş zararsız
+  if (card.solved[index]) {
+    // Gözlemci aynı kelimeye tekrar basarsa "bilemedi" olarak geri alınır.
+    const undone = card.solved.map((v, i) => (i === index ? false : v)) as unknown as TripleCard['solved'];
+    room.round = { ...r, correct: Math.max(0, r.correct - 1) };
+    room.roundCard = { ...card, solved: undone };
+    return OK;
+  }
   const solved = card.solved.map((v, i) => (i === index ? true : v)) as unknown as TripleCard['solved'];
   room.round = { ...r, correct: r.correct + 1 };
   if (solved.every(Boolean)) dealCard(room, ctx); // 3'ü de bilindi: otomatik yeni kart
@@ -222,15 +228,33 @@ export function markCorrect(room: RoomData, playerId: string, index: number | un
   return OK;
 }
 
-/** Anlatma: Yasaklı Kelime (-1) ve yeni kart. */
-export function markForbidden(room: RoomData, playerId: string, ctx: EngineCtx): ActionResult {
+/**
+ * Anlatma, yasaklı kelime.
+ *  - `index` verilirse: o yasaklı kelime "kullanıldı" olarak işaretlenir (yeşil); aynı kelimeye tekrar basmak geri alır.
+ *    Kart başına tek -1: ilk işaret -1, işaretlerin hepsi geri alınırsa -1 iade.
+ *  - `index` yoksa: kart yanmış sayılır, yeni kart gelir (işaret yoksa -1 burada yazılır).
+ */
+export function markForbidden(room: RoomData, playerId: string, index: number | undefined, ctx: EngineCtx): ActionResult {
   const blocked = activeRound(room, ctx);
   if (blocked) return blocked;
   const r = room.round!;
   if (r.mode !== 'anlatma') return fail('not_allowed', 'Bu modda yasaklı kelime yok.');
   if (r.observerId !== playerId) return fail('not_allowed', 'Bunu yalnızca Gözlemci yapabilir.');
-  room.round = { ...r, forbiddenHits: r.forbiddenHits + 1 };
-  dealCard(room, ctx);
+  const card = room.roundCard;
+  if (!card || card.kind !== 'tabu') return fail('not_allowed', 'Kart yok.');
+  const anyHit = card.hit.some(Boolean);
+
+  if (index === undefined) {
+    room.round = { ...r, forbiddenHits: r.forbiddenHits + (anyHit ? 0 : 1) };
+    dealCard(room, ctx);
+    return OK;
+  }
+  if (!Number.isInteger(index) || index < 0 || index >= card.forbidden.length) return fail('bad_message', 'Geçersiz kelime.');
+  const hit = card.hit.map((v, i) => (i === index ? !v : v));
+  const nowAny = hit.some(Boolean);
+  const delta = nowAny === anyHit ? 0 : nowAny ? 1 : -1;
+  room.round = { ...r, forbiddenHits: r.forbiddenHits + delta };
+  room.roundCard = { ...card, hit };
   return OK;
 }
 

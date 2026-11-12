@@ -4,14 +4,33 @@ import { cx } from '../ui';
 import './game.css';
 
 /** Anlatma kartı: ana kelime + 5 yasaklı kelime. `key` kelimeye bağlı, kart değişince animasyon çalışır. */
-export const TabuCardView = memo(function TabuCardView({ card }: { card: TabuCard }) {
+export const TabuCardView = memo(function TabuCardView({ card, onToggle }: { card: TabuCard; onToggle?: (index: number) => void }) {
   return (
     <div className="word-card" key={card.word}>
       <div className="word-card__main">{card.word}</div>
       <ul className="word-card__forbidden">
-        {card.forbidden.map((w) => (
-          <li key={w}>{w}</li>
-        ))}
+        {card.forbidden.map((w, i) => {
+          const hit = card.hit[i] === true;
+          return (
+            <li key={w} className={cx(hit && 'forbidden--hit')}>
+              {onToggle ? (
+                <button
+                  type="button"
+                  className="forbidden__btn"
+                  aria-pressed={hit}
+                  onClick={() => {
+                    navigator.vibrate?.(15);
+                    onToggle(i);
+                  }}
+                >
+                  {w}
+                </button>
+              ) : (
+                w
+              )}
+            </li>
+          );
+        })}
       </ul>
     </div>
   );
@@ -36,9 +55,8 @@ export const TripleCardView = memo(function TripleCardView({ card, onTick }: Tri
               <button
                 type="button"
                 className={cx('tick', solved && 'tick--on')}
-                aria-label={`${word} bilindi`}
+                aria-label={solved ? `${word} bilindi, geri almak için dokun` : `${word} bilindi`}
                 aria-pressed={solved}
-                disabled={solved}
                 onClick={() => {
                   navigator.vibrate?.(15);
                   onTick(i);

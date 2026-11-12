@@ -2,13 +2,15 @@ import { describe, expect, it } from 'vitest';
 import { advance, canPass, passCost, passesLeft, stepKind } from './board';
 import type { TabuCard, TripleCard } from './types';
 
-const tabu: TabuCard = { kind: 'tabu', word: 'x', forbidden: ['a', 'b', 'c', 'd', 'e'] };
+const tabu: TabuCard = { kind: 'tabu', word: 'x', forbidden: ['a', 'b', 'c', 'd', 'e'], hit: [false, false, false, false, false] };
 const triple = (solved: [boolean, boolean, boolean]): TripleCard => ({ kind: 'triple', words: ['a', 'b', 'c'], solved });
 
 describe('tahta kuralları', () => {
-  it('basamak aralıkları mod renk kodlarına uyar', () => {
-    const at = (a: number, b: number, k: string) => { for (let i = a; i <= b; i++) expect(stepKind(i)).toBe(k); };
-    at(1, 10, 'anlatma'); at(11, 15, 'cizme'); at(16, 20, 'kukla'); at(21, 25, 'anlatma'); at(26, 30, 'onbes'); at(31, 45, 'karisik');
+  it('sabit modlu basamaklar ve geri kalan karışık', () => {
+    const fixed: Record<string, number[]> = { kukla: [5, 28, 38], cizme: [8, 20, 33], anlatma: [12, 30, 35], onbes: [18, 42] };
+    const all = new Set<number>();
+    for (const [mode, steps] of Object.entries(fixed)) for (const st of steps) { expect(stepKind(st)).toBe(mode); all.add(st); }
+    for (let i = 1; i <= 45; i++) if (!all.has(i)) expect(stepKind(i)).toBe('karisik');
   });
 
   it('negatif skor geri götürmez, 45 üstü 45e kırpılır', () => {

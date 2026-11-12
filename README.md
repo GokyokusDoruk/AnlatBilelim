@@ -19,7 +19,7 @@ Gereksinim: Node.js 20+.
 shared/        İstemci ve sunucunun ortak kullandığı kod
   types.ts       Alan modeli (oyuncu, takım, tur, kart, snapshot)
   protocol.ts    WebSocket mesajları (JSON kontrol + ikili akış kanalları)
-  board.ts       45 basamaklı tahta, mod süreleri ve pass kuralları
+  board.ts       45 basamaklı tahta (sabit mod basamakları + karışık), mod süreleri ve pass kuralları
   constants.ts   Limitler, TTL, oda kodu alfabesi
   validation.ts  İsim / oda kodu / oyuncu kimliği doğrulama
 

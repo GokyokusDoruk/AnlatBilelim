@@ -38,7 +38,17 @@ export default function KuklaStage({ anim }: { anim: Anim | null }) {
     if (!el) return;
     const d = createDisposer();
 
-    const renderer = new WebGLRenderer({ antialias: true, alpha: true, powerPreference: 'low-power' });
+    let renderer: WebGLRenderer;
+    try {
+      renderer = new WebGLRenderer({ antialias: true, alpha: true, powerPreference: 'low-power' });
+    } catch {
+      // WebGL kapalı/desteksiz cihaz: sahne boş kalmasın, kullanıcıya nedenini söyle.
+      const msg = document.createElement('p');
+      msg.className = 'kukla__fallback';
+      msg.textContent = 'Bu cihazda 3B animasyon (WebGL) açılamadı. Tarayıcıyı güncelle ya da başka bir tarayıcı dene.';
+      el.appendChild(msg);
+      return () => msg.remove();
+    }
     renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, 2));
     renderer.domElement.className = 'kukla__canvas';
     el.appendChild(renderer.domElement);

@@ -23,16 +23,18 @@ export const MODE_CONFIG: Readonly<Record<GameMode, ModeConfig>> = {
 export const ALL_MODES: readonly GameMode[] = ['anlatma', 'cizme', 'kukla', 'onbes'];
 
 /**
- * Basamak (1..45) -> mod eşlemesi.
- *  1-10 Anlatma, 11-15 Çizme, 16-20 Kukla, 21-25 Anlatma, 26-30 15 Kelime, 31-45 Karışık.
+ * Sabit modlu basamaklar. Listede olmayan her basamak "Karışık"tır (mod senkron çarkla seçilir).
+ *  Kukla: 5, 28, 38 · Çizme: 8, 20, 33 · Anlatma: 12, 30, 35 · 15 Kelime: 18, 42.
  */
+const FIXED_STEPS: Readonly<Record<number, GameMode>> = {
+  5: 'kukla', 28: 'kukla', 38: 'kukla',
+  8: 'cizme', 20: 'cizme', 33: 'cizme',
+  12: 'anlatma', 30: 'anlatma', 35: 'anlatma',
+  18: 'onbes', 42: 'onbes',
+};
+
 export function stepKind(step: number): StepKind {
-  if (step <= 10) return 'anlatma';
-  if (step <= 15) return 'cizme';
-  if (step <= 20) return 'kukla';
-  if (step <= 25) return 'anlatma';
-  if (step <= 30) return 'onbes';
-  return 'karisik';
+  return FIXED_STEPS[step] ?? 'karisik';
 }
 
 /** Tahta önceden hesaplanır; render sırasında yeniden üretilmez. Index 0 = basamak 1. */

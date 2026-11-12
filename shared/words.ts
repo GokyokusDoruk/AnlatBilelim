@@ -79,7 +79,7 @@ export class CardDeck {
 
   tabuCard(): TabuCard {
     const entry = WORDS.anlatma[this.bag('anlatma').next()]!;
-    return { kind: 'tabu', word: entry.word, forbidden: entry.forbidden as TabuCard['forbidden'] };
+    return { kind: 'tabu', word: entry.word, forbidden: entry.forbidden as TabuCard['forbidden'], hit: [false, false, false, false, false] };
   }
 
   private kuklaBag?: ShuffleBag;

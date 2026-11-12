@@ -125,4 +125,4 @@ Statik dosyalar `public/_headers` ile önbelleğe alınır (`/assets/*` değişm
 ### Cloudflare Workers Builds ayarları
 
 - Production dalı `main`: build `npm run build`, deploy `npx wrangler deploy`.
-- Diğer dallar (PR önizlemeleri): preview komutu **`npx wrangler versions upload`** olmalı. Varsayılan `npx wrangler preview` bu projede hata verir, çünkü `wrangler.jsonc` içinde `previews` bloğu yok ve Durable Object kullanılıyor (PR #9'da build'in "Deploying" adımında kırılmasının sebebi buydu).
+- Diğer dallar (PR önizlemeleri): preview komutu deploy yapmayan bir komut olmalı (ör. `echo "onizleme deploy atlandi"`). Build ve testler yine çalışır. Varsayılan `npx wrangler preview` `previews` bloğu ister, `npx wrangler versions upload` ise önizleme ortamındaki Worker adıyla eşleşmediği için hata verir (PR #9'da "Deploying" adımının kırılma sebebi buydu). Canlıya yalnızca `main` dalındaki `npx wrangler deploy` çıkar.

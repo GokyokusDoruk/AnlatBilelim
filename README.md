@@ -107,3 +107,17 @@ Kartlar `shared/words.ts` içindeki `CardDeck` ile çekilir: havuz tükenmeden a
 - [x] Task 6: Çizme modu
 - [ ] Task 7: 3D kukla modu
 - [ ] Task 8: Tur/oyun sonu, bellek testleri, deploy
+
+## Yayına alma (Cloudflare + dorukplays.com)
+
+1. `npx wrangler login` (bir kez).
+2. `npm run deploy` — kelime doğrulaması, tip kontrolü, testler ve Vite build'i çalışır, ardından `wrangler deploy` Worker'ı, statik dosyaları ve `RoomDurableObject`'i tek seferde yayına alır. Adres: `https://tabu-party.<hesap>.workers.dev`.
+3. Kendi alan adın için `wrangler.jsonc` içindeki `routes` satırının yorumunu kaldır (`tabu.dorukplays.com`; alan adı aynı Cloudflare hesabında olmalı) ve yeniden deploy et. `dorukplays.com` ana sayfasındaki butonu bu adrese yönlendir.
+4. `DEV_TOOLS` yalnızca yerel `.dev.vars` içindir; üretimde tanımlama (`dev:setBoard` kapalı kalır).
+5. Ön kontrol: `npx wrangler deploy --dry-run`.
+
+Statik dosyalar `public/_headers` ile önbelleğe alınır (`/assets/*` değişmez, `index.html` her seferinde yenilenir).
+
+## Bellek sızıntısı testi
+
+`.dev.vars` içinde `DEV_TOOLS=1` varken `npm run dev`, ardından başka bir terminalde `npm run test:leak`. 4 oyuncuyla Çizme → Kukla → Karışık turlarını `CYCLES` (varsayılan 12) kez açıp kapatır; açık disposer sayısı, `<canvas>` sayısı ve GC sonrası JS heap'i ölçer, sızıntı varsa 0 olmayan kodla çıkar.

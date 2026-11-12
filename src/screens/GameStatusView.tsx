@@ -1,8 +1,9 @@
 /** Oyun fazına göre ekran seçici: çark, tur öncesi, tur, özet, oyun sonu. */
 import { BOARD_SIZE } from '@shared/constants';
-import type { Role, TeamId } from '@shared/types';
+import type { Role } from '@shared/types';
 import { Badge, Button, Card, ModeTag } from '../components/ui';
 import { ModeRoulette } from '../components/roulette/ModeRoulette';
+import { GameOverView, SummaryView } from './EndScreens';
 import { RoundScreen } from './rounds/RoundScreen';
 import { sendAction, serverNow } from '../net/connection';
 import { useGameStore } from '../store/gameStore';
@@ -19,8 +20,8 @@ export function GameStatusView() {
       {phase === 'roulette' ? <RouletteInfo /> : null}
       {phase === 'pre_round' ? <PreRound /> : null}
       {phase === 'round' ? <RoundScreen /> : null}
-      {phase === 'round_summary' ? <Summary /> : null}
-      {phase === 'game_over' ? <GameOver /> : null}
+      {phase === 'round_summary' ? <SummaryView /> : null}
+      {phase === 'game_over' ? <GameOverView /> : null}
     </>
   );
 }
@@ -88,36 +89,5 @@ function PreRound() {
         <p className="muted" style={{ textAlign: 'center' }}>Gözlemcinin turu başlatması bekleniyor.</p>
       )}
     </>
-  );
-}
-
-function teamName(t: TeamId) {
-  return t === 'A' ? 'Takım A' : 'Takım B';
-}
-
-function Summary() {
-  const s = useGameStore((x) => x.lastSummary);
-  const isHost = useGameStore((x) => x.players.find((p) => p.id === x.selfId)?.isHost ?? false);
-  if (!s) return null;
-  return (
-    <Card title="Tur Bitti!">
-      <div className="stack">
-        <p style={{ margin: 0 }}>
-          {s.correct} kelime bilindi, {s.forbiddenHits} yasaklı kelime kullanıldı. {teamName(s.team)}{' '}
-          {s.stepsAdvanced} basamak ilerledi!
-        </p>
-        {isHost ? <Button onClick={() => sendAction({ t: 'summary:continue' })}>Devam</Button> : <span className="muted">Birazdan otomatik devam edecek.</span>}
-      </div>
-    </Card>
-  );
-}
-
-function GameOver() {
-  const winner = useGameStore((x) => x.winner);
-  const isHost = useGameStore((x) => x.players.find((p) => p.id === x.selfId)?.isHost ?? false);
-  return (
-    <Card title={winner ? `${teamName(winner)} kazandı!` : 'Oyun bitti'}>
-      {isHost ? <Button variant="primary" onClick={() => sendAction({ t: 'summary:continue' })}>Lobiye dön</Button> : <span className="muted">Kurucu lobiye dönecek.</span>}
-    </Card>
   );
 }

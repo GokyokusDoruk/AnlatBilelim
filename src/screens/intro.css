@@ -1,7 +1,7 @@
 .intro {
   position: fixed; inset: 0; z-index: 100; display: grid; place-content: center; justify-items: center; gap: 18px;
   background: radial-gradient(circle at 50% 40%, #2a1f5c, #0f0b24 70%); overflow: hidden; cursor: pointer;
-  animation: intro-out 0.5s ease-in 5.1s forwards;
+  animation: intro-out 0.6s ease-in 7.6s forwards;
 }
 @keyframes intro-out { to { opacity: 0; transform: scale(1.06); } }
 
@@ -31,4 +31,12 @@
 .intro__tag { position: relative; margin: 0; max-width: 28ch; text-align: center; color: #fff; font-weight: 700; opacity: 0; animation: intro-fade 0.6s ease-out 3s forwards; }
 @keyframes intro-fade { to { opacity: 1; } }
 .intro__skip { position: absolute; right: 16px; top: 16px; background: rgba(255,255,255,.12); color: #fff; border: 0; border-radius: 999px; padding: 8px 14px; font-weight: 800; }
+/* Kapanış: tanıtım içeriği söner, marka yazısı gelir */
+.intro__main { position: absolute; inset: 0; display: grid; place-content: center; justify-items: center; gap: 18px; animation: intro-away 0.5s ease-in 5s forwards; }
+.intro__brand { position: absolute; inset: 0; display: grid; place-content: center; justify-items: center; gap: 10px; pointer-events: none; }
+.intro__brand-name { display: flex; font-family: var(--font-display, system-ui); font-weight: 900; font-size: clamp(36px, 10.5vw, 84px); color: #ffd23f; text-shadow: 0 0 24px rgba(255,210,63,.55); }
+.intro__brand-name span { display: inline-block; opacity: 0; transform: translateY(30px) scale(0.5); animation: intro-letter 0.5s cubic-bezier(.3,1.7,.5,1) calc(0.07s * var(--i) + 5.5s) forwards; }
+.intro__brand-sub { font-weight: 800; font-size: clamp(18px, 5vw, 30px); letter-spacing: 0.3em; color: #fff; opacity: 0; animation: intro-fade 0.8s ease-out 6.5s forwards; }
+@keyframes intro-letter { to { opacity: 1; transform: none; } }
+@keyframes intro-away { to { opacity: 0; } }
 @media (prefers-reduced-motion: reduce) { .intro { display: none; } }

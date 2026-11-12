@@ -67,7 +67,7 @@ export function passesLeft(mode: GameMode, passesUsed: number): number {
  * Sunucu (motor) ve istemci (buton disabled kuralı) aynı fonksiyonu kullanır.
  */
 export function passCost(card: Card): number {
-  return card.kind === 'tabu' ? 1 : card.solved.filter((v) => !v).length;
+  return card.kind !== 'triple' ? 1 : card.solved.filter((v) => !v).length;
 }
 
 export function canPass(mode: GameMode, passesUsed: number, card: Card | null): boolean {

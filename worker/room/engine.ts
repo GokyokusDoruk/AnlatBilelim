@@ -121,13 +121,17 @@ export function beginTurn(room: RoomData, ctx: EngineCtx): void {
     resetToLobby(room);
     return;
   }
-  room.narratorCursor[team]++;
-  room.observerCursor[rival]++;
 
   const step = nextStepFor(room.board.positions[team]);
   const kind = stepKind(step);
   const mode: GameMode =
     kind === 'karisik' ? ALL_MODES[Math.floor(ctx.rand() * ALL_MODES.length)]! : kind;
+
+  // Kukla turu kimsenin sırasını tüketmez: imleçler ilerlemez, sonraki tur aynı oyuncuyla devam eder.
+  if (mode !== 'kukla') {
+    room.narratorCursor[team]++;
+    room.observerCursor[rival]++;
+  }
 
   room.round = {
     mode,
@@ -140,6 +144,7 @@ export function beginTurn(room: RoomData, ctx: EngineCtx): void {
     correct: 0,
     forbiddenHits: 0,
     cluesLeft: MODE_CONFIG[mode].clueLimit ?? null,
+    anim: null,
   };
   room.roundCard = null;
 
@@ -170,6 +175,13 @@ export function startRound(room: RoomData, playerId: string, ctx: EngineCtx): Ac
 
 function dealCard(room: RoomData, ctx: EngineCtx): void {
   const mode = room.round!.mode;
+  if (mode === 'kukla') {
+    const card = ctx.deck.kuklaCard();
+    room.roundCard = card;
+    // Animasyon kelimesiz herkese yayınlanır; yeni kelime = yeni başlangıç zamanı.
+    room.round = { ...room.round!, anim: { clip: card.clip, level: card.level, startedAt: ctx.now } };
+    return;
+  }
   room.roundCard = mode === 'anlatma' ? ctx.deck.tabuCard() : ctx.deck.tripleCard(mode);
 }
 
@@ -193,7 +205,7 @@ export function markCorrect(room: RoomData, playerId: string, index: number | un
   const card = room.roundCard;
   if (!card) return fail('not_allowed', 'Kart yok.');
 
-  if (card.kind === 'tabu') {
+  if (card.kind === 'tabu' || card.kind === 'kukla') {
     room.round = { ...r, correct: r.correct + 1 };
     dealCard(room, ctx);
     return OK;

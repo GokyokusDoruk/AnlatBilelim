@@ -55,7 +55,15 @@ export interface TripleCard {
   readonly solved: readonly [boolean, boolean, boolean];
 }
 
-export type Card = TabuCard | TripleCard;
+/** Kukla kartı: tek kelime; animasyon herkese `RoundPublicState.anim` ile (kelimesiz) gösterilir. */
+export interface KuklaCard {
+  readonly kind: 'kukla';
+  readonly word: string;
+  readonly clip: number;
+  readonly level: 1 | 2 | 3 | 4;
+}
+
+export type Card = TabuCard | TripleCard | KuklaCard;
 
 // ---------------------------------------------------------------------------
 // Tur ve tahta
@@ -80,6 +88,8 @@ export interface RoundPublicState {
   readonly forbiddenHits: number;
   /** Sadece 15 Kelime modunda; kalan ipucu hakkı. */
   readonly cluesLeft: number | null;
+  /** Sadece Kukla: oynayan animasyon. Kelime içermez; klip `startedAt`'ten itibaren loop'ta döner. */
+  readonly anim: { readonly clip: number; readonly level: 1 | 2 | 3 | 4; readonly startedAt: number } | null;
 }
 
 /**

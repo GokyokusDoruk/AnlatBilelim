@@ -275,3 +275,131 @@ Merasim|tören, resmi, kutlama, geçit, kıyafet
 Kutsal|din, ibadet, kutsallık, dokunulmaz, saygı
 Mucize|inanılmaz, olağanüstü, doğaüstü, şaşırtıcı, dilek
 
+Rönesans|Avrupa, sanat, yeniden doğuş, Leonardo, İtalya
+Aydınlanma|akıl, Avrupa, felsefe, bilim, çağ
+Sanayi Devrimi|fabrika, buhar, makine, İngiltere, işçi
+Fransız Devrimi|Fransa, özgürlük, Bastille, kral, halk
+Soğuk Savaş|Amerika, Rusya, gerilim, silah, blok
+Haçlı Seferleri|Kudüs, ortaçağ, şövalye, haç, savaş
+Vatan|ülke, doğduğu yer, bayrak, toprak, sevgi
+Hürriyet|özgürlük, kuş, esaret, bağımsız, gazete
+Egemenlik|güç, devlet, ulus, bağımsız, söz sahibi
+Bağımsızlık|özgür, ülke, savaş, bayrak, kurtuluş
+Misyon|görev, amaç, hedef, sorumluluk, yüklemek
+Vizyon|hedef, gelecek, bakış, plan, ileri görüşlülük
+Protokol|kural, tören, davranış, resmi, anlaşma
+Etiket|kural, fiyat, üstü, marka, yapıştırmak
+Perspektif|bakış açısı, resim, uzaklık, derinlik, çizim
+Obje|nesne, şey, eşya, madde, cisim
+Absürt|saçma, mantıksız, tuhaf, anlamsız, komik
+Abartı|fazla, büyütmek, mübalağa, aşırı, olduğundan
+Eleştiri|yargı, beğenmemek, görüş, tenkit, yorum
+Tartışma|fikir, karşı, görüş, ses, münazara
+Münazara|tartışma, okul, savunmak, konu, karşı
+Özgeçmiş|iş, başvuru, bilgi, kâğıt, deneyim
+Kıdem|yıl, iş, tecrübe, emeklilik, tazminat
+Teslim|vermek, süre, ödev, kargo, zaman
+Son Tarih|süre, bitiş, teslim, gün, ödev
+Randevu|saat, buluşmak, doktor, gün, rezervasyon
+Rezervasyon|ayırtmak, otel, masa, yer, telefon
+Konuk|misafir, ev, ağırlamak, çay, gelmek
+Komşuluk|mahalle, yan, bina, ziyaret, yardım
+Hemşehri|aynı şehir, köylü, tanışmak, memleket, yerli
+Gurbet|uzak, ayrılık, memleket, yurtdışı, özlem
+Memleket|doğduğu yer, köy, şehir, özlem, vatan
+Nesil|kuşak, yaş, çocuk, gençlik, çağ
+Veda|ayrılmak, elveda, hoşça kal, uğurlamak, gitmek
+Karşılama|gelmek, havalimanı, kucaklamak, misafir, hoş geldin
+Kutlama|doğum günü, sevinç, tebrik, parti, pasta
+Tebrik|kutlamak, güzel, haber, başarı, kart
+Taziye|ölüm, başsağlığı, ziyaret, üzüntü, cenaze
+Cenaze|ölü, defin, taziye, mezarlık, tören
+Mezarlık|kabristan, ölü, taş, ziyaret, defin
+Anıt|abide, heykel, hatıra, tarih, meydan
+Abide|anıt, tarihi, büyük, eser, ulu
+Kayıp|bulamamak, yitirmek, eşya, çocuk, ilan
+Define Avcısı|altın, harita, kazı, aramak, hazine
+Müzayede|açık artırma, eser, satış, fiyat, çekiç
+Antika|eski, değerli, eşya, koleksiyon, pahalı
+Koleksiyon|biriktirmek, pul, eşya, sergilemek, meraklı
+Hobi|boş zaman, merak, uğraş, sevmek, eğlence
+Maket|küçük, model, bina, uçak, yapmak
+Origami|kâğıt, katlamak, Japon, kuş, sanat
+Nakış|iğne, iplik, kumaş, işlemek, desen
+Örgü|şiş, yün, el, kazak, ilmek
+Mozaik|küçük parça, taş, resim, yer, sanat
+Çizgi Roman|kitap, çizim, kahraman, balon, resimli
+Manga|Japon, çizgi, kitap, anime, okumak
+Anime|Japon, çizgi film, karakter, dizi, manga
+Cosplay|kostüm, karakter, giyinmek, fuar, hayran
+Fuar|stant, sergi, ziyaret, firma, kitap
+Festival|müzik, kutlama, sahne, şenlik, bilet
+Senfoni|orkestra, müzik, beste, klasik, şef
+Besteci|nota, müzik, yazmak, beste, piyano
+Söz Yazarı|şarkı, ünlü, sanatçı, yazar, kafiye
+Aranjör|müzik, düzenlemek, şarkı, stüdyo, beste
+Stüdyo|kayıt, müzik, mikrofon, ses, çekim
+Senarist|film, yazı, hikaye, diyalog, senaryo
+Sinematograf|kamera, görüntü, film, çekmek, ışık
+Dublaj|ses, film, çeviri, seslendirmek, dil
+Altyazı|film, çeviri, ekran, yazı, yabancı
+Fragman|film, kısa, tanıtım, izlemek, sinema
+Gişe|bilet, film, hasılat, sinema, satış
+Prömiyer|ilk, gösterim, film, kırmızı halı, gala
+Kırmızı Halı|ünlü, ödül, gala, yürümek, tören
+Oscar|ödül, film, heykel, Amerika, tören
+Altın Portakal|ödül, film, Antalya, festival, sinema
+Nobel|ödül, bilim, barış, İsveç, para
+Booker|ödül, roman, yazar, kitap, İngiliz
+Pulitzer|ödül, gazetecilik, Amerika, yazar, kitap
+Grammy|ödül, müzik, Amerika, gramofon, tören
+Altın Top|ödül, futbol, yılın, oyuncu, kupa
+Wimbledon|tenis, Londra, çim, turnuva, beyaz
+Formula 1|yarış, araba, hız, pist, pilot
+Tour de France|bisiklet, yarış, Fransa, etap, sarı
+Triatlon|yüzme, bisiklet, koşu, spor, zor
+Judo|dövüş, Japon, kimono, spor, kuşak
+Karate|dövüş, Japon, kuşak, tekme, spor
+Golf|sopa, top, çim, delik, spor
+Kriket|sopa, top, İngiliz, kapı, spor
+Rugby|top, Amerikan, kafa, oval, spor
+Beyzbol|sopa, top, Amerikan, eldiven, spor
+Dart|ok, hedef, bar, atmak, tahta
+Blackjack|kart, 21, kumar, kasa, bahis
+Rulet|çark, kumar, top, kırmızı, siyah
+Lotto|şans, numara, kupon, çekiliş, kazanmak
+Çekiliş|kura, şans, çekmek, hediye, bilet
+Postmodernizm|çağ, sanat, felsefe, akım, modern
+Gerçeküstücülük|Dali, sanat, rüya, akım, resim
+Salvador Dali|ressam, bıyık, saat, İspanyol, sürrealizm
+Frida Kahlo|ressam, Meksika, kaş, otoportre, kadın
+Claude Monet|ressam, izlenimci, nilüfer, Fransız, tablo
+Rembrandt|ressam, Hollandalı, ışık, portre, tablo
+Nietzsche|filozof, Alman, bıyık, üstinsan, Tanrı öldü
+Kant|filozof, Alman, akıl, ahlak, Prusya
+Descartes|filozof, Fransız, düşünüyorum, şüphe, akıl
+İbn-i Sina|bilim, hekim, filozof, tıp, Buhara
+Farabi|filozof, ikinci öğretmen, Türk, müzik, bilim
+Harezmi|matematik, cebir, algoritma, bilim, Türk
+Biruni|bilim, astronom, Türk, Hindistan, coğrafya
+Ulubey|astronom, Semerkant, gözlemevi, Timur, bilim
+Timur|Semerkant, hükümdar, savaşçı, Ankara, topal
+Ankara Savaşı|Timur, Yıldırım, Osmanlı, 1402, savaş
+Yıldırım Bayezid|padişah, Osmanlı, Timur, kafes, esir
+Sokullu|vezir, Osmanlı, sadrazam, Kanuni, köprü
+Barbaros Hayrettin|amiral, deniz, Osmanlı, Preveze, korsan
+Preveze|savaş, deniz, Osmanlı, 1538, zafer
+Lepanto|savaş, deniz, Osmanlı, Avrupa, donanma
+Mohaç|savaş, Macaristan, Kanuni, Osmanlı, meydan
+Kosova|savaş, Murat, Balkan, Osmanlı, Sırp
+Niğbolu|savaş, haçlı, Yıldırım, Osmanlı, Bulgaristan
+Varna|savaş, II. Murat, haçlı, Osmanlı, Bulgaristan
+Viyana Kuşatması|Osmanlı, Avusturya, kale, savaş, Kara Mustafa
+Kara Mustafa Paşa|sadrazam, Viyana, Osmanlı, kuşatma, ünlü
+Malkoçoğlu|kahraman, Osmanlı, film, kılıç, Cüneyt Arkın
+Cüneyt Arkın|aktör, Türk, dövüş, film, Yeşilçam
+Tarık Akan|aktör, Türk, film, Yeşilçam, bıyık
+Türkan Şoray|aktris, Türk, sultan, film, Yeşilçam
+Fatma Girik|aktris, Türk, film, Yeşilçam, kadın
+Münir Özkul|aktör, Türk, dede, film, yaşlı
+Adile Naşit|aktris, Türk, Hababam, anne, yaşlı

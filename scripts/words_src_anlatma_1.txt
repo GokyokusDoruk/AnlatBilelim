@@ -283,3 +283,137 @@ Poşet|taşımak, plastik, market, çöp, ince
 Paket|kutu, kargo, hediye, sarmak, posta
 Kart|ödeme, banka, plastik, kredi, cüzdan
 Bozuk Para|kuruş, metal, cep, küçük, bahşiş
+İstanbul|Boğaz, şehir, köprü, Türkiye, kalabalık
+Antalya|tatil, Akdeniz, deniz, turist, portakal
+Trabzon|Karadeniz, hamsi, takım, şehir, yayla
+Türkiye|ülke, bayrak, Ankara, Türk, vatan
+Galatasaray|aslan, sarı, kırmızı, futbol, takım
+Fenerbahçe|kanarya, sarı, lacivert, futbol, takım
+Beşiktaş|kartal, siyah, beyaz, futbol, takım
+Mickey Mouse|fare, Disney, kulak, çizgi film, Minnie
+Kırmızı Başlıklı Kız|kurt, büyükanne, orman, sepet, masal
+Pinokyo|burun, yalan, tahta, kukla, masal
+Temel Reis|ıspanak, kas, çizgi film, gemici, güç
+Tom ve Jerry|kedi, fare, kovalamak, çizgi film, peynir
+Sünger Bob|deniz, sarı, çizgi film, kare, pantolon
+Spiderman|örümcek, ağ, süper kahraman, maske, Peter
+Batman|yarasa, Gotham, süper kahraman, pelerin, Joker
+Süpermen|uçmak, pelerin, süper kahraman, güç, S
+Barbie|bebek, oyuncak, pembe, Ken, sarışın
+Ayı Yogi|çizgi film, piknik, sepet, ünlü, orman
+Pamuk Şeker|tatlı, pembe, yünlü, panayır, bulut
+Tarkan|şarkıcı, şıkıdım, pop, ünlü, Megastar
+Sezen Aksu|şarkıcı, minik serçe, ses, sanatçı, kadın
+Barış Manço|bıyık, şarkıcı, Dönence, kafa, Türk
+Kemal Sunal|komedi, aktör, film, Şaban, ünlü
+Cem Yılmaz|komedyen, gösteri, film, gülmek, ünlü
+Ajda Pekkan|şarkıcı, sultan, pop, sahne, ünlü
+Naim Süleymanoğlu|halter, cep Herkül, sporcu, altın, olimpiyat
+Messi|futbol, Arjantin, Barcelona, gol, forma
+Ronaldo|futbol, Portekiz, gol, forma, kupa
+Arda Turan|futbol, Barcelona, Atletico, forma, gol
+Yeşilçam|film, sinema, eski, Türk, oyuncu
+Kurban Bayramı|ünlü, koç, et, bayram, kesmek
+Noel Baba|hediye, kırmızı, kızak, sakal, yılbaşı
+Sevgililer Günü|kalp, çiçek, 14 Şubat, aşk, hediye
+Cadılar Bayramı|kabak, kostüm, korku, şeker, maske
+Eyfel Kulesi|Paris, Fransa, demir, kule, uzun
+Paris|Fransa, Eyfel, aşk, şehir, moda
+Londra|İngiltere, Big Ben, şehir, sis, otobüs
+Roma|İtalya, Kolezyum, şehir, eski, pizza
+New York|Amerika, gökdelen, şehir, Özgürlük Heykeli, sarı taksi
+Çin Seddi|duvar, ünlü, uzun, tarih, tuğla
+Özgürlük Heykeli|Amerika, New York, meşale, yeşil, kadın
+Pisa Kulesi|İtalya, eğik, kule, ünlü, Roma
+Sultanahmet|İstanbul, cami, altı minare, meydan, mavi
+Kız Kulesi|İstanbul, Boğaz, kule, deniz, efsane
+Galata Kulesi|İstanbul, yüksek, manzara, kule, eski
+Topkapı Sarayı|padişah, İstanbul, müze, hazine, harem
+Ağrı Dağı|Nuh, kar, yüksek, Türkiye, zirve
+Van Gölü|doğu, inci kefali, kedi, göl, ünlü
+Truva Atı|savaş, tahta, Homeros, Çanakkale, at
+Boğaziçi Köprüsü|İstanbul, iki kıta, araba, boğaz, asma
+Marmaray|tünel, İstanbul, metro, deniz altı, tren
+Kapalıçarşı|İstanbul, alışveriş, eski, pazarlık, dükkan
+Mısır Çarşısı|baharat, İstanbul, kuru, çarşı, Eminönü
+Karadeniz|hamsi, yayla, dalga, kuzey, Trabzon
+Ege|deniz, zeytin, İzmir, batı, tatil
+Akdeniz|deniz, tatil, güney, Antalya, mavi
+Marmara|deniz, İstanbul, Bursa, adalar, Trakya
+Kapı Komşu|apartman, ünlü, mahalle, ziyaret, meşhur
+Simit Sarayı|ünlü, çay, mağaza, kahvaltı, fırın
+Migros|market, alışveriş, kasa, sepet, fiyat
+Starbucks|kahve, yeşil, bardak, mağaza, Amerika
+McDonald's|hamburger, sarı, patates, fast food, M
+Coca-Cola|içecek, kırmızı, gazlı, şişe, Amerika
+Nutella|fındık, çikolata, kavanoz, kahvaltı, sürmek
+Ülker|bisküvi, çikolata, marka, Türk, paket
+Eti|bisküvi, marka, kek, kutu, Türk
+Pınar|süt, marka, Türk, şişe, yoğurt
+Efes Pilsen|bira, marka, alkollü, Türk, şişe
+Türk Telekom|telefon, internet, hat, operatör, şirket
+Turkcell|telefon, hat, operatör, internet, Türk
+Arçelik|beyaz eşya, marka, Türk, buzdolabı, Koç
+Vestel|televizyon, marka, Manisa, elektronik, Türk
+Türk Hava Yolları|uçak, havayolu, bilet, kırmızı, THY
+Tofaş|araba, Bursa, Şahin, Fiat, Türk
+Togg|araba, elektrikli, Türk, yerli, marka
+YouTube|video, izlemek, kanal, abone, kırmızı
+Instagram|fotoğraf, paylaşmak, takipçi, beğeni, hikaye
+WhatsApp|mesaj, yeşil, sohbet, grup, telefon
+TikTok|video, kısa, dans, trend, Çin
+Netflix|dizi, film, abonelik, izlemek, kırmızı
+Google|arama, internet, motor, site, bulmak
+Facebook|sosyal medya, mavi, arkadaş, profil, paylaşım
+Twitter|kuş, tweet, mavi, sosyal medya, paylaşım
+Minecraft|oyun, küp, kazı, inşa, dünya
+Mario|oyun, bıyık, kırmızı, tamirci, Nintendo
+Pokemon|oyun, kart, Pikachu, yakalamak, çizgi film
+Pikachu|Pokemon, sarı, elektrik, kuyruk, fare
+Angry Birds|oyun, kuş, domuz, sapan, kızgın
+Fortnite|oyun, savaş, Epic, inşa, yeniden doğ
+FIFA|oyun, futbol, konsol, takım, Dünya Kupası
+Dünya Kupası|futbol, kupa, turnuva, ülke, final
+Olimpiyatlar|spor, madalya, halka, ülke, oyunlar
+Şampiyonlar Ligi|futbol, kupa, Avrupa, melodi, takım
+Euro 2008|futbol, Türkiye, Avrupa, turnuva, milli takım
+Milli Takım|Türkiye, futbol, forma, bayrak, maç
+Kırkpınar|güreş, yağlı, Edirne, pehlivan, altın kemer
+Pehlivan|güreş, yağ, kispet, Kırkpınar, güçlü
+Cirit|at, sporu, atlı, mızrak, eski
+Monopoly|oyun, tahta, arsa, para, otel
+Scrabble|harf, kelime, tahta, oyun, puan
+Peri|kanat, masal, sihir, çiçek, uçmak
+Prens|prenses, kral, at, masal, saray
+Cüce|küçük, masal, kısa, Pamuk Prenses, yedi
+Dev|büyük, masal, uzun, korkunç, ayak
+Canavar|korkunç, yaratık, dev, korku, gece
+Robot Köpek|metal, oyuncak, hareket, pil, kuyruk
+Arabalar|çizgi film, hız, yarış, Şimşek McQueen, Disney
+Şirinler|mavi, küçük, çizgi film, köy, Gargamel
+Heidi|dağ, çizgi film, kız, keçi, Alpler
+Maya Arı|çizgi film, ünlü, Willi, bal, böcek
+Caillou|çizgi film, kel, çocuk, dört yaş, Kanada
+Rafadan Tayfa|çizgi film, Türk, çocuk, Akın, mahalle
+Pepee|çizgi film, Türk, çocuk, Şila, bebek
+Niloya|çizgi film, Türk, kız, Tayo, çocuk
+Tayo|otobüs, çizgi film, Kore, mavi, şehir
+Peppa Pig|domuz, çizgi film, pembe, aile, çamur
+Ördek Donald|Disney, ünlü, çizgi film, gemici, sinir
+Pluto|Disney, köpek, çizgi film, Mickey, sarı
+Goofy|Disney, köpek, çizgi film, aptal, uzun
+Winnie the Pooh|ayı, bal, çizgi film, Domuzcuk, kavanoz
+Bambi|geyik, Disney, çizgi film, orman, yavru
+Dumbo|fil, kulak, sirk, Disney, uçmak
+Alaaddin|lamba, cin, halı, masal, Disney
+Aladdin'in Lambası|cin, dilek, masal, sürtmek, halı
+Sinbad|denizci, masal, gemi, yolculuk, Binbir Gece
+Binbir Gece Masalları|Şehrazat, masal, padişah, hikaye, ünlü
+Hansel ve Gretel|ev, şeker, cadı, orman, kardeş
+Rapunzel|saç, kule, prenses, masal, uzun
+Uyuyan Güzel|uyku, iğne, prenses, masal, öpücük
+Kurbağa Prens|öpücük, ünlü, masal, prenses, göl
+Üç Küçük Domuz|kurt, ev, masal, saman, tuğla
+Çirkin Ördek Yavrusu|kuğu, masal, ünlü, göl, güzel
+Altın Saçlı Kız|ayı, masal, lapa, üç, yatak
+Pamuk Prenses ve Yedi Cüceler|elma, ayna, masal, zehir, orman

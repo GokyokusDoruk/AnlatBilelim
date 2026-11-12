@@ -288,3 +288,131 @@ Röntgen|kemik, ışın, doktor, film, kırık
 Alçı|kırık, kol, beyaz, doktor, kemik
 Koltuk Değneği|bacak, yürümek, sakat, destek, hastane
 Tekerlekli Sandalye|hasta, engelli, oturmak, tekerlek, itmek
+Fatih Sultan Mehmet|İstanbul, fetih, padişah, Osmanlı, ünlü
+Kanuni|Süleyman, padişah, Osmanlı, kanun, Muhteşem
+Evliya Çelebi|seyahat, seyyah, kitap, Osmanlı, gezi
+Cahit Arf|matematik, bilim insanı, Türk, profesör, formül
+Aziz Sancar|Nobel, bilim, Mardin, DNA, kimya
+Sabiha Gökçen|pilot, kadın, uçak, Atatürk, savaş
+Nazım Hikmet|şair, şiir, Türk, hapis, Moskova
+Orhan Pamuk|yazar, Nobel, roman, İstanbul, kitap
+Yaşar Kemal|yazar, İnce Memed, roman, Çukurova, kitap
+Aziz Nesin|yazar, mizah, Türk, hikaye, gülmek
+Sait Faik|yazar, hikaye, Burgaz, Türk, deniz
+Fazıl Say|piyanist, müzik, besteci, Türk, konser
+Zülfü Livaneli|şarkıcı, yazar, besteci, Türk, müzik
+Müslüm Gürses|şarkıcı, baba, arabesk, Türk, ses
+İbrahim Tatlıses|şarkıcı, ünlü, Türk, Urfa, ses
+Neşet Ertaş|bozlak, saz, Kırşehir, türkü, usta
+Aşık Veysel|saz, âşık, Sivas, türkü, kör
+Karacaoğlan|âşık, şair, halk, türkü, Toros
+Orhan Gencebay|arabesk, saz, Türk, şarkıcı, müzik
+Kenan Doğulu|şarkıcı, pop, Türk, sahne, ünlü
+Hadise|şarkıcı, pop, Türk, Eurovision, ünlü
+Eurovision|şarkı, yarışma, Avrupa, ülke, final
+Survivor|ada, yarışma, eleme, dokunulmazlık, kamp
+Masterchef|yemek, yarışma, şef, aşçı, önlük
+O Ses Türkiye|şarkı, yarışma, jüri, koltuk, ünlü
+Kurtlar Vadisi|dizi, Polat, mafya, Türk, aksiyon
+Muhteşem Yüzyıl|dizi, Osmanlı, Hürrem, saray, tarih
+Recep İvedik|film, komedi, Şahan, Türk, gülmek
+Eşkıya|film, dağ, Baran, Türk, suç
+Hababam Sınıfı|film, okul, öğrenci, komedi, Kemal Sunal
+Tosun Paşa|film, komedi, Kemal Sunal, Türk, ünlü
+Arog|film, komedi, Cem Yılmaz, Türk, gülmek
+G.O.R.A.|film, uzay, komedi, Cem Yılmaz, gezegen
+Agatha Christie|yazar, polisiye, İngiliz, roman, cinayet
+Jules Verne|yazar, roman, bilim kurgu, Fransız, denizaltı
+Romeo ve Juliet|aşk, trajedi, Shakespeare, balkon, İtalya
+Robinson Crusoe|ada, roman, yalnız, Cuma, gemi
+Alice Harikalar Diyarında|tavşan, kız, masal, Cheshire, çay
+Peter Pan|uçmak, çocuk, masal, Hook, ada
+Aslan Kral|Simba, Disney, Afrika, çizgi film, Mufasa
+Frozen|Elsa, Anna, kar, Disney, çizgi film
+Toy Story|Woody, oyuncak, çizgi film, Buzz, Pixar
+Shrek|ogre, yeşil, çizgi film, Eşek, bataklık
+Kung Fu Panda|Po, dövüş, çizgi film, Çin, ünlü
+Ice Age|Manny, buzul, çizgi film, Sid, mamut
+Madagaskar|çizgi film, aslan, zebra, hayvan, ada
+Simpsonlar|Homer, sarı, çizgi film, Bart, aile
+Star Wars|uzay, Jedi, kılıç, Darth Vader, film
+Yüzüklerin Efendisi|Frodo, yüzük, film, Gandalf, Hobbit
+Titanic|gemi, buzdağı, film, batmak, Jack
+Avatar|mavi, film, gezegen, Pandora, James Cameron
+Joker|palyaço, Batman, kötü, film, gülmek
+Demir Adam|Marvel, zırh, süper kahraman, Tony Stark, film
+Hulk|yeşil, Marvel, öfke, süper kahraman, güçlü
+Thor|çekiç, Marvel, gök gürültüsü, süper kahraman, Asgard
+Kaptan Amerika|Marvel, kalkan, süper kahraman, bayrak, asker
+Beyaz Saray|Amerika, başkan, Washington, ev, politika
+Kremlin|Rusya, Moskova, saray, lider, kale
+Big Ben|saat, Londra, kule, İngiltere, çan
+Akropolis|Atina, Yunanistan, tapınak, antik, tepe
+Venedik|kanal, gondol, İtalya, şehir, su
+Barselona|İspanya, Gaudi, futbol, deniz, şehir
+Madrid|İspanya, başkent, futbol, şehir, Real
+Berlin|Almanya, duvar, başkent, şehir, Brandenburg
+Moskova|Rusya, başkent, Kızıl Meydan, şehir, soğuk
+Tokyo|Japonya, başkent, şehir, kalabalık, sushi
+Pekin|Çin, başkent, şehir, yasak, saray
+Dubai|Emirlikler, Burj Halife, çöl, gökdelen, lüks
+Mekke|Kâbe, hac, İslam, Suudi Arabistan, şehir
+Kudüs|şehir, kutsal, Mescid-i Aksa, İsrail, tarihi
+Amazon Ormanları|Brezilya, yağmur, ağaç, nehir, yeşil
+Sahra|çöl, kum, Afrika, sıcak, deve
+Everest|dağ, yüksek, Nepal, zirve, tırmanış
+Kilimanjaro|dağ, Afrika, Tanzanya, kar, zirve
+Niagara|şelale, Kanada, su, Amerika, dökülmek
+Nil|nehir, Mısır, uzun, Afrika, firavun
+Atlantik|okyanus, Amerika, Avrupa, geniş, dalga
+Pasifik|okyanus, büyük, Japonya, derin, dalga
+Antarktika|kutup, buz, penguen, soğuk, güney
+Hindistan|ülke, Taj Mahal, baharat, Delhi, inek
+Taj Mahal|Hindistan, türbe, beyaz, aşk, anıt
+Japonya|ülke, sushi, Tokyo, samuray, güneş
+Samuray|Japonya, kılıç, savaşçı, eski, zırh
+Brezilya|ülke, futbol, karnaval, Rio, samba
+Meksika|ülke, tako, şapka, kaktüs, sombrero
+Tako|Meksika, tortilla, yemek, acı, kıyma
+Espresso|kahve, İtalyan, kısa, güçlü, fincan
+Cappuccino|kahve, süt, köpük, İtalyan, fincan
+Türk Kahvesi|fincan, telve, cezve, köpük, fal
+Menemen|yumurta, domates, biber, kahvaltı, tava
+Kuru Fasulye|baklagil, pilav, yemek, et, tencere
+İskender|et, Bursa, yoğurt, döner, tereyağı
+Adana Kebap|acı, ünlü, kıyma, şiş, mangal
+Künefe|Hatay, tatlı, peynir, şerbet, sıcak
+Süleymaniye|cami, İstanbul, Sinan, kubbe, Osmanlı
+Selimiye|cami, Edirne, Sinan, kubbe, minare
+Mavi Cami|Sultanahmet, İstanbul, altı minare, çini, Osmanlı
+Dolmabahçe|saray, İstanbul, Boğaz, padişah, kristal
+Beylerbeyi|saray, İstanbul, Boğaz, Asya, yazlık
+Ortaköy|İstanbul, Boğaz, kumpir, cami, köprü
+Kumpir|patates, Ortaköy, fırın, sosis, tuzlu
+Balık Ekmek|Eminönü, tekne, İstanbul, ünlü, sandviç
+Çiğ Köfte|acı, yaprak, marul, Urfa, dürüm
+Şanlıurfa|Balıklıgöl, Urfa, kebap, İbrahim, şehir
+Gaziantep|baklava, fıstık, kebap, şehir, güney
+Diyarbakır|surlar, karpuz, şehir, Dicle, doğu
+Erzurum|kış, kar, cağ kebabı, doğu, Palandöken
+Kayseri|mantı, pastırma, Erciyes, şehir, sucuk
+Sivas|köfte, kongre, Kızılırmak, şehir, kar
+Edirne|Selimiye, ciğer, Kırkpınar, şehir, Trakya
+Mardin|taş, ev, Süryani, şehir, Mezopotamya
+Safranbolu|ev, Karabük, lokum, tarihi, şehir
+Amasra|Karadeniz, liman, tarihi, kale, şehir
+Marmaris|tatil, deniz, yat, Muğla, Akdeniz
+Fethiye|Ölüdeniz, paraşüt, deniz, tatil, şehir
+Ölüdeniz|deniz, paraşüt, lagün, Fethiye, mavi
+Alaçatı|rüzgar, sörf, Çeşme, taş ev, İzmir
+Çeşme|deniz, tatil, İzmir, plaj, ılıca
+Uludağ|kayak, Bursa, kar, dağ, otel
+Abant|göl, orman, Bolu, doğa, piknik
+Sapanca|göl, Sakarya, doğa, bungalov, kıyı
+Uzungöl|Trabzon, göl, yeşil, yayla, cami
+Ayder|yayla, Rize, kaplıca, doğa, Karadeniz
+Rize|çay, yağmur, bahçe, Karadeniz, bardak
+Hopa|Artvin, sahil, sınır, Karadeniz, şehir
+Ani Harabeleri|Kars, kilise, tarihi, sınır, antik
+Kars|kaz, peynir, soğuk, doğu, şehir
+Nevşehir|Kapadokya, peri bacası, şehir, balon, mağara

@@ -15,5 +15,7 @@ export default defineConfig({
   build: {
     target: 'es2022',
     sourcemap: false,
+    // Three.js yalnızca Kukla turunda ayrı parça olarak yüklenir; uyarı eşiği ona göre.
+    chunkSizeWarningLimit: 600,
   },
 });

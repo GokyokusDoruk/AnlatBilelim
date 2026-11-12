@@ -1,0 +1,27 @@
+.stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(72px, 1fr)); gap: 8px; }
+.stat { background: rgba(255, 255, 255, 0.06); border-radius: 14px; padding: 10px 6px; text-align: center; }
+.stat__value { font-family: var(--font-display); font-weight: 800; font-size: 26px; }
+.stat__label { font-size: 12px; opacity: 0.7; }
+.stat--good .stat__value { color: #5be38f; }
+.stat--bad .stat__value { color: #ff6b6b; }
+
+.endbar__head { display: flex; justify-content: space-between; margin-bottom: 4px; }
+.endbar__gain { color: #5be38f; font-style: normal; font-weight: 700; }
+.endbar__track { height: 10px; border-radius: 999px; background: rgba(255, 255, 255, 0.1); overflow: hidden; }
+.endbar__fill { height: 100%; border-radius: inherit; transition: width 0.8s ease-out; }
+.endbar__fill--A { background: var(--team-a); }
+.endbar__fill--B { background: var(--team-b); }
+
+.gameover { position: relative; }
+.gameover__trophy { font-size: 72px; text-align: center; animation: trophy-pop 0.7s ease-out both; }
+@keyframes trophy-pop { from { transform: scale(0.2) rotate(-20deg); opacity: 0; } to { transform: none; opacity: 1; } }
+
+.confetti { position: fixed; inset: 0; pointer-events: none; overflow: hidden; z-index: 5; }
+.confetti span {
+  position: absolute; top: -20px; width: 10px; height: 16px; border-radius: 2px;
+  left: calc(var(--i) * 3.6%);
+  background: hsl(calc(var(--i) * 47), 90%, 60%);
+  animation: confetti-fall calc(2.8s + (var(--i) % 5) * 0.4s) linear calc((var(--i) % 7) * 0.25s) infinite;
+}
+@keyframes confetti-fall { to { transform: translateY(105vh) rotate(720deg); } }
+@media (prefers-reduced-motion: reduce) { .confetti { display: none; } .gameover__trophy { animation: none; } .endbar__fill { transition: none; } }

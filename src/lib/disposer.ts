@@ -22,9 +22,20 @@ export interface Disposer {
   dispose(): void;
 }
 
+/**
+ * Yalnızca geliştirme: açık (dispose edilmemiş) disposer sayısı `window.__tabuLive` üzerinden okunur.
+ * Bellek sızıntısı testi (scripts/leak-test.mjs) sahne geçişlerinden sonra bunun 0'a döndüğünü doğrular.
+ */
+function trackLive(delta: number): void {
+  if (!import.meta.env.DEV) return;
+  const w = window as unknown as { __tabuLive?: number };
+  w.__tabuLive = (w.__tabuLive ?? 0) + delta;
+}
+
 export function createDisposer(): Disposer {
   const stack: Cleanup[] = [];
   let disposed = false;
+  trackLive(1);
 
   const add = (cleanup: Cleanup) => {
     if (disposed) {
@@ -54,6 +65,7 @@ export function createDisposer(): Disposer {
     dispose() {
       if (disposed) return;
       disposed = true;
+      trackLive(-1);
       while (stack.length) {
         try {
           stack.pop()!();

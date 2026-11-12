@@ -1,6 +1,7 @@
 import { useRoute } from './lib/router';
 import { HomeScreen } from './screens/HomeScreen';
 import { RoomScreen } from './screens/RoomScreen';
+import { Intro } from './screens/Intro';
 import { DevPlayground } from './screens/DevPlayground';
 
 export function App() {
@@ -8,5 +9,7 @@ export function App() {
   // Sadece geliştirmede: bileşen önizleme sayfası (üretim derlemesine girmez).
   if (import.meta.env.DEV && route.name === 'dev') return <DevPlayground />;
   // key: oda değişirse tüm alt ağaç (ve bağlantısı) sıfırdan kurulur.
-  return route.name === 'room' ? <RoomScreen key={route.code} code={route.code} /> : <HomeScreen />;
+  const screen = route.name === 'room' ? <RoomScreen key={route.code} code={route.code} /> : <HomeScreen />;
+  // Açılış tanıtımı oturum başına bir kez; paylaşılan oda linkleriyle gelenler de görür, dokununca geçer.
+  return <Intro>{screen}</Intro>;
 }

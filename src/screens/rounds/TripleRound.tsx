@@ -6,6 +6,8 @@ import { TripleCardView } from '../../components/game/WordCard';
 import { Spinner } from '../../components/ui';
 import { sendAction } from '../../net/connection';
 import { useGameStore } from '../../store/gameStore';
+import { ListenerDraw } from '../../components/draw/ListenerDraw';
+import { NarratorDraw } from '../../components/draw/NarratorDraw';
 import { ListenerView, PassLine, RoundShell } from './parts';
 
 const CLUE_TOTAL = MODE_CONFIG.onbes.clueLimit ?? 15;
@@ -23,7 +25,17 @@ export function TripleRound({ round, role }: { round: RoundPublicState; role: Ro
       <RoundShell round={round} role={role}>
         <ListenerView round={round}>
           {isClueMode ? <ClueCounter left={round.cluesLeft!} total={CLUE_TOTAL} /> : null}
+          {round.mode === 'cizme' ? <ListenerDraw /> : null}
         </ListenerView>
+      </RoundShell>
+    );
+  }
+
+  // Çizme modunda Anlatıcı kelimeler + tuval görür; Gözlemci yalnızca 3 kelimelik kartı.
+  if (round.mode === 'cizme' && role === 'narrator') {
+    return (
+      <RoundShell round={round} role={role}>
+        {card ? <NarratorDraw round={round} card={card} /> : <Spinner label="Kart yükleniyor" />}
       </RoundShell>
     );
   }

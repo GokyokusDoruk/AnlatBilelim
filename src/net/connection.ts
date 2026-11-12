@@ -9,6 +9,8 @@ import { useGameStore } from '../store/gameStore';
 import { RoomSocket } from './RoomSocket';
 
 let active: RoomSocket | null = null;
+/** Anlatıcı tuvali: dinleyici çizimi yeniden isteyince tetiklenir. */
+const resyncListeners = new Set<() => void>();
 
 const CLOSE_NOTICES: Record<number, string> = {
   4000: 'Oda kapandı (uzun süre hareketsiz kaldı).',
@@ -24,7 +26,13 @@ export function connectRoom(code: string, name: string): () => void {
 
   const socket = new RoomSocket(roomSocketUrl(code), {
     onOpen: (s) => s.send({ t: 'hello', playerId: getPlayerId(), name }),
-    onMessage: (msg) => useGameStore.getState().applyServerMessage(msg),
+    onMessage: (msg) => {
+      if (msg.t === 'draw:resync') {
+        for (const l of resyncListeners) l();
+        return;
+      }
+      useGameStore.getState().applyServerMessage(msg);
+    },
     onStatus: (status, detail) => {
       const notice = status === 'closed' && detail?.code ? (CLOSE_NOTICES[detail.code] ?? null) : undefined;
       useGameStore.getState().setStatus(status, notice);
@@ -59,6 +67,12 @@ export function sendBinary(channel: BinaryChannel, payload: ArrayBufferView): bo
 
 export function onBinary(channel: BinaryChannel, listener: (data: ArrayBuffer) => void): () => void {
   return active?.onBinary(channel, listener) ?? (() => {});
+}
+
+/** Çizim yeniden-senkron isteklerine abone ol (Anlatıcı tuvali). */
+export function onDrawResync(listener: () => void): () => void {
+  resyncListeners.add(listener);
+  return () => resyncListeners.delete(listener);
 }
 
 /** Sunucu saatine göre şimdi (geri sayımlar bunu kullanır). */

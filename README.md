@@ -76,6 +76,14 @@ Eylem butonları kısa süre kendini kilitler (çift dokunuş çift puan yazmas�
 Yerel geliştirmede `.dev.vars` içine `DEV_TOOLS=1` yazılırsa (gitignore'da), tarayıcı konsolundan
 `__tabuSend({ t: 'dev:setBoard', a: 25, b: 0 })` ile tahta konumu ayarlanıp ileri modlar hızlıca denenebilir. Üretimde bu değişken yoktur, mesaj reddedilir.
 
+## Çizme modu ve çizim akışı
+
+- `shared/draw.ts`: çizim protokolü. Görüntü gönderilmez; yalnızca 15 bit normalize `[x, y]` koordinatları ve BEGIN / END / CLEAR / UNDO komutları (16 bitlik sözcükler) ikili çerçevelerle akar. Çerçeve çizginin ortasında bölünebilir, ayrıştırıcı durumu taşır. Nokta başına 4 bayt.
+- `src/lib/drawBoard.ts`: Anlatıcı ve Dinleyici aynı sınıfı kullanır (aynı görüntü). rAF döngüsü yok, çizgi parçaları geldiği anda çizilir, boştayken CPU harcanmaz. Çizgi listesi (`StrokeStore`) geri alma ve yeniden çizim için bellekte tutulur ve 500 çizgi / 60 bin nokta ile sınırlıdır.
+- Anlatıcı: işaretçi olayları (`getCoalescedEvents` ile akıcı), 8 renk, 4 kalınlık, silgi, geri al, temizle. Komutlar rAF ile ~60 Hz'e kadar gönderilir; soket tamponu doluysa kare atılmaz, yeniden denenir (kare kaybı çizimi bozar).
+- Sunucu çizimi çözmez ve SAKLAMAZ; yalnızca aktif Anlatıcı'dan gelen kareleri Çizme modunda Dinleyicilere iletir (Gözlemci yalnızca kartı görür). Geç katılan veya yeniden bağlanan Dinleyici `draw:resync` ister, Anlatıcı tüm çizimi anlık görüntü olarak yeniden yayınlar.
+- Yeni kart (pass veya 3 kelimenin tamamı bilinince) tuvali temizler.
+
 ## Tahta ve çark
 
 - `src/components/board/Board.tsx`: 45 basamaklı yılan düzenli tahta. Mod renkleri, sıradaki basamak vurgusu, piyonlar basamak basamak yürür (`useSteppedValue`, tek `setTimeout` zinciri).
@@ -96,6 +104,6 @@ Kartlar `shared/words.ts` içindeki `CardDeck` ile çekilir: havuz tükenmeden a
 - [x] Task 3: Lobi, takımlar, tur motoru, sunucu zamanlayıcısı
 - [x] Task 4: Oyun tahtası ve mod ruleti
 - [x] Task 5: Anlatma ve 15 Kelime modları
-- [ ] Task 6: Çizme modu
+- [x] Task 6: Çizme modu
 - [ ] Task 7: 3D kukla modu
 - [ ] Task 8: Tur/oyun sonu, bellek testleri, deploy

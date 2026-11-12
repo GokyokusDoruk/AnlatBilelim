@@ -1,92 +1,107 @@
 .board {
-  position: relative;
-  display: grid;
-  grid-template-columns: repeat(9, 1fr);
-  gap: 3px;
-  padding: 8px;
-  background: var(--bg-sunken);
+  display: block;
+  width: 100%;
+  max-width: 480px;
+  margin: 0 auto;
+  background: radial-gradient(circle at 50% 50%, rgba(255, 210, 63, 0.1), transparent 60%), var(--bg-sunken);
   border: 1px solid var(--border);
   border-radius: var(--radius-lg);
-  --cell-gap: 3px;
+  overflow: visible;
 }
-.board__start {
-  grid-column: 1 / -1;
-  grid-row: 1;
-  aspect-ratio: 9 / 1;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  padding-left: 12px;
-  border-radius: var(--radius-sm);
-  border: 2px dashed var(--border);
-  color: var(--text-dim);
+.board__path {
+  fill: none;
+  stroke: var(--border);
+  stroke-width: 3;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-dasharray: 2 7;
+}
+.board__start circle {
+  fill: none;
+  stroke: var(--text-dim);
+  stroke-width: 2;
+  stroke-dasharray: 4 4;
+}
+.board__start text {
+  fill: var(--text-dim);
+  font-size: 7.5px;
   font-weight: 900;
-  font-size: 12px;
-  letter-spacing: 0.2em;
+  letter-spacing: 0.06em;
+  text-anchor: middle;
+  dominant-baseline: middle;
 }
-.board__cell {
-  aspect-ratio: 1;
-  border-radius: 6px;
-  background: var(--cell);
-  color: rgba(18, 14, 38, 0.8);
+.board__num {
+  fill: rgba(18, 14, 38, 0.85);
+  font-size: 10.5px;
   font-weight: 900;
-  font-size: clamp(9px, 2.6vw, 14px);
-  display: grid;
-  place-items: center;
-  position: relative;
+  text-anchor: middle;
+  dominant-baseline: central;
+  pointer-events: none;
 }
-.board__cell--finish {
-  outline: 2px solid var(--accent);
-  box-shadow: 0 0 14px rgba(255, 210, 63, 0.55);
+.board__cell--finish polygon {
+  filter: drop-shadow(0 0 7px rgba(255, 210, 63, 0.8));
+  animation: star-glow 1.8s ease-in-out infinite;
+  transform-box: fill-box;
+  transform-origin: center;
 }
-.board__cell--next-a,
-.board__cell--next-b {
-  z-index: 1;
+@keyframes star-glow {
+  50% {
+    transform: scale(1.1) rotate(8deg);
+  }
+}
+.board__next {
+  fill: none;
+  stroke-width: 3;
   animation: cell-pulse 1.1s ease-in-out infinite;
+  transform-box: fill-box;
+  transform-origin: center;
 }
-.board__cell--next-a {
-  outline: 3px solid var(--team-a);
+.board__next--a {
+  stroke: var(--team-a);
 }
-.board__cell--next-b {
-  outline: 3px solid var(--team-b);
-}
-.board__cell--next-a.board__cell--next-b {
-  outline: 3px solid #fff;
+.board__next--b {
+  stroke: var(--team-b);
 }
 @keyframes cell-pulse {
   50% {
-    transform: scale(1.12);
+    transform: scale(1.18);
+    opacity: 0.7;
   }
 }
-.board__tokens {
-  position: absolute;
-  inset: 8px;
+.board__token {
+  transition: transform 150ms linear;
   pointer-events: none;
 }
-.board__token {
-  position: absolute;
-  width: calc((100% - 8 * var(--cell-gap)) / 9 * 0.55);
-  aspect-ratio: 1;
-  border-radius: 50%;
-  transform: translate(-50%, -50%);
-  display: grid;
-  place-items: center;
+.board__token circle {
+  stroke: #fff;
+  stroke-width: 2;
+  filter: drop-shadow(0 2px 3px rgba(0, 0, 0, 0.6));
+}
+.board__token--a circle {
+  fill: var(--team-a);
+}
+.board__token--b circle {
+  fill: var(--team-b);
+}
+.board__token text {
+  fill: #fff;
+  font-size: 9px;
   font-weight: 900;
-  font-size: clamp(8px, 2.4vw, 13px);
-  color: #fff;
-  border: 2px solid #fff;
-  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.55);
-  transition: left 150ms linear, top 150ms linear;
-  z-index: 3;
+  text-anchor: middle;
+  dominant-baseline: central;
 }
-.board__token--a {
-  background: var(--team-a);
+.board__token--turn circle {
+  stroke: var(--accent);
+  stroke-width: 3;
 }
-.board__token--b {
-  background: var(--team-b);
-}
-.board__token--turn {
-  box-shadow: 0 0 0 3px rgba(255, 210, 63, 0.9), 0 3px 8px rgba(0, 0, 0, 0.55);
+@media (prefers-reduced-motion: reduce) {
+  .board__next,
+  .board__cell--finish polygon {
+    animation: none;
+  }
+  .board__token {
+    transition: none;
+  }
 }
 .board-legend {
   display: flex;

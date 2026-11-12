@@ -25,7 +25,9 @@ export type ClientMessage =
   | { t: 'round:forbidden' } // Anlatma: -1
   | { t: 'round:clueUsed' } // 15 Kelime: -1 ipucu
   | { t: 'round:pass' }
-  | { t: 'summary:continue' };
+  | { t: 'summary:continue' }
+  /** Yalnızca sunucuda DEV_TOOLS=1 iken çalışır (yerel geliştirme / test). */
+  | { t: 'dev:setBoard'; a: number; b: number };
 
 export type ClientMessageType = ClientMessage['t'];
 
@@ -107,6 +109,7 @@ const CLIENT_TYPES: ReadonlySet<string> = new Set<ClientMessageType>([
   'round:clueUsed',
   'round:pass',
   'summary:continue',
+  'dev:setBoard',
 ]);
 
 /** Sunucu tarafında kaba doğrulama; alan bazlı doğrulama ilgili handler'da yapılır. */

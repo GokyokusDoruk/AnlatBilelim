@@ -1,0 +1,215 @@
+.round {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+  padding-top: var(--space-2);
+}
+.round__role {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  flex-wrap: wrap;
+}
+.round__actions {
+  display: grid;
+  gap: var(--space-3);
+}
+.round__actions--two {
+  grid-template-columns: 1fr 1fr;
+}
+
+/* ---------- Kelime kartları ---------- */
+.word-card {
+  background: #fff8e6;
+  color: #2b1d00;
+  border-radius: var(--radius-lg);
+  padding: var(--space-5) var(--space-4);
+  box-shadow: 0 6px 0 rgba(0, 0, 0, 0.35), var(--shadow-2);
+  text-align: center;
+  animation: card-in 220ms var(--ease-out);
+}
+@keyframes card-in {
+  from {
+    transform: translateY(14px) scale(0.97);
+    opacity: 0;
+  }
+}
+.word-card__main {
+  font-family: var(--font-display);
+  font-size: clamp(30px, 9vw, 44px);
+  font-weight: 800;
+  line-height: 1.05;
+  margin-bottom: var(--space-4);
+  overflow-wrap: anywhere;
+}
+.word-card__forbidden {
+  list-style: none;
+  margin: 0;
+  padding: var(--space-3) 0 0;
+  border-top: 3px dashed rgba(43, 29, 0, 0.25);
+  display: grid;
+  gap: 6px;
+}
+.word-card__forbidden li {
+  font-weight: 800;
+  font-size: 19px;
+  color: #b3203a;
+}
+.word-card__forbidden li::before {
+  content: '✕ ';
+  font-size: 14px;
+}
+
+.triple-card {
+  display: grid;
+  gap: var(--space-3);
+  animation: card-in 220ms var(--ease-out);
+}
+.triple-word {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  background: #fff8e6;
+  color: #2b1d00;
+  border-radius: var(--radius-md);
+  padding: 14px 16px;
+  box-shadow: 0 4px 0 rgba(0, 0, 0, 0.35);
+  font-family: var(--font-display);
+  font-size: clamp(22px, 6.5vw, 30px);
+  font-weight: 800;
+  min-height: 64px;
+}
+.triple-word__text {
+  flex: 1;
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+.triple-word--solved {
+  background: #c9f5dc;
+}
+.triple-word--solved .triple-word__text {
+  text-decoration: line-through;
+  text-decoration-thickness: 3px;
+  opacity: 0.7;
+}
+.tick {
+  appearance: none;
+  flex: none;
+  width: 52px;
+  height: 52px;
+  border-radius: 14px;
+  border: 3px solid #2b1d00;
+  background: #fff;
+  color: #14803f;
+  font-size: 30px;
+  font-weight: 900;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+  padding: 0;
+}
+.tick:disabled {
+  cursor: default;
+}
+.tick--on {
+  background: var(--success);
+  border-color: #14803f;
+  color: #00331a;
+}
+.tick--static {
+  width: 36px;
+  height: 36px;
+  font-size: 22px;
+  border-radius: 10px;
+}
+
+/* ---------- Sayaçlar ---------- */
+.clue-counter {
+  text-align: center;
+  background: var(--bg-sunken);
+  border: 3px solid var(--mode-onbes);
+  border-radius: var(--radius-lg);
+  padding: var(--space-3) var(--space-4);
+}
+.clue-counter__value {
+  font-family: var(--font-display);
+  font-size: clamp(64px, 22vw, 104px);
+  font-weight: 800;
+  line-height: 1;
+  color: var(--mode-onbes);
+  font-variant-numeric: tabular-nums;
+}
+.clue-counter--low {
+  border-color: var(--danger);
+}
+.clue-counter--low .clue-counter__value {
+  color: var(--danger);
+}
+.clue-counter__label {
+  font-weight: 800;
+  color: var(--text-muted);
+  font-size: 13px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.pass-meter {
+  display: inline-flex;
+  gap: 4px;
+  vertical-align: middle;
+}
+.pass-meter__pip {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: var(--warning);
+}
+.pass-meter__pip--used {
+  background: transparent;
+  border: 2px solid var(--text-dim);
+}
+
+.score-pill {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 6px;
+  padding: 6px 14px;
+  border-radius: var(--radius-pill);
+  background: var(--bg-sunken);
+  font-weight: 800;
+}
+.score-pill__value {
+  font-family: var(--font-display);
+  font-size: 28px;
+  font-variant-numeric: tabular-nums;
+}
+.score-pill__value--pos {
+  color: var(--success);
+}
+.score-pill__value--neg {
+  color: var(--danger);
+}
+
+.listener {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-4);
+  padding: var(--space-5) 0;
+}
+.listener__headline {
+  font-family: var(--font-display);
+  font-size: clamp(24px, 7vw, 34px);
+  font-weight: 800;
+}
+.listener__dots::after {
+  content: '';
+  animation: dots 1.4s steps(4, end) infinite;
+}
+@keyframes dots {
+  0% { content: ''; }
+  25% { content: '.'; }
+  50% { content: '..'; }
+  75% { content: '...'; }
+}

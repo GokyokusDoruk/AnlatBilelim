@@ -33,7 +33,7 @@ function cellCoords(step: number): { row: number; col: number } {
 function tokenStyle(position: number, team: TeamId, shared: boolean) {
   const offsetX = shared ? (team === 'A' ? -0.2 : 0.2) : 0;
   if (position <= 0) {
-    const x = team === 'A' ? 3.5 : 5.5;
+    const x = team === 'A' ? 6.6 : 7.9; // başlangıç şeridinin sağında, yazının üstüne binmez
     return { left: `${(x / COLS) * 100}%`, top: `${(0.5 / TOTAL_ROWS) * 100}%` };
   }
   const { row, col } = cellCoords(position);

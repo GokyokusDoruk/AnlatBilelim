@@ -66,6 +66,16 @@ Durable Object sadece I/O yapar: her eylemden sonra durumu kaydeder, herkese yay
 - Net skor adıma çevrilir, negatif skor geri götürmez; 45. basamağa ulaşan takım kazanır.
 - Bir takımda bağlı oyuncu kalmazsa oda lobiye döner.
 
+## Tur ekranları
+
+`src/screens/rounds/`: Anlatma (`AnlatmaRound`) ve üçlü kart modları (`TripleRound`: 15 Kelime, ayrıca Çizme/Kukla için kart + tik + pass çerçevesi).
+Anlatıcı ve Gözlemci tur sırasında yalnızca kartına odaklanır (tahta gizlenir), Dinleyici tahtayı ve anlık skoru görür.
+Pass kuralı `shared/board.ts` içindeki `passCost` / `canPass` ile hem sunucuda hem butonun `disabled` durumunda aynı şekilde işler.
+Eylem butonları kısa süre kendini kilitler (çift dokunuş çift puan yazmasın).
+
+Yerel geliştirmede `.dev.vars` içine `DEV_TOOLS=1` yazılırsa (gitignore'da), tarayıcı konsolundan
+`__tabuSend({ t: 'dev:setBoard', a: 25, b: 0 })` ile tahta konumu ayarlanıp ileri modlar hızlıca denenebilir. Üretimde bu değişken yoktur, mesaj reddedilir.
+
 ## Tahta ve çark
 
 - `src/components/board/Board.tsx`: 45 basamaklı yılan düzenli tahta. Mod renkleri, sıradaki basamak vurgusu, piyonlar basamak basamak yürür (`useSteppedValue`, tek `setTimeout` zinciri).
@@ -85,7 +95,7 @@ Kartlar `shared/words.ts` içindeki `CardDeck` ile çekilir: havuz tükenmeden a
 - [x] Task 2: Türkçe kelime havuzu (`shared/data/words_tr.json`)
 - [x] Task 3: Lobi, takımlar, tur motoru, sunucu zamanlayıcısı
 - [x] Task 4: Oyun tahtası ve mod ruleti
-- [ ] Task 5: Anlatma ve 15 Kelime modları
+- [x] Task 5: Anlatma ve 15 Kelime modları
 - [ ] Task 6: Çizme modu
 - [ ] Task 7: 3D kukla modu
 - [ ] Task 8: Tur/oyun sonu, bellek testleri, deploy

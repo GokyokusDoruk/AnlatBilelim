@@ -1,26 +1,24 @@
-/**
- * Task 3 için geçici oyun durumu ekranı: tur döngüsünü uçtan uca doğrulamak için
- * rol, mod, süre ve temel geçişleri gösterir. Gerçek mod ekranları Task 4-7'de gelir.
- */
+/** Oyun fazına göre ekran seçici: çark, tur öncesi, tur, özet, oyun sonu. */
 import { BOARD_SIZE } from '@shared/constants';
-import { MODE_CONFIG } from '@shared/board';
 import type { Role, TeamId } from '@shared/types';
-import { Badge, Button, Card, ModeTag, TimerBadge } from '../components/ui';
+import { Badge, Button, Card, ModeTag } from '../components/ui';
 import { ModeRoulette } from '../components/roulette/ModeRoulette';
+import { RoundScreen } from './rounds/RoundScreen';
 import { sendAction, serverNow } from '../net/connection';
 import { useGameStore } from '../store/gameStore';
-import { useMyRole, usePlayerName, usePhase, useRound } from '../store/selectors';
+import { useFocusMode, useMyRole, usePlayerName, usePhase, useRound } from '../store/selectors';
 
 const ROLE_LABEL: Record<Role, string> = { narrator: 'Anlatıcı', observer: 'Gözlemci', listener: 'Dinleyici' };
 
 export function GameStatusView() {
   const phase = usePhase();
+  const focus = useFocusMode();
   return (
     <>
-      <ScoreBar />
+      {focus ? null : <ScoreBar />}
       {phase === 'roulette' ? <RouletteInfo /> : null}
       {phase === 'pre_round' ? <PreRound /> : null}
-      {phase === 'round' ? <RoundInfo /> : null}
+      {phase === 'round' ? <RoundScreen /> : null}
       {phase === 'round_summary' ? <Summary /> : null}
       {phase === 'game_over' ? <GameOver /> : null}
     </>
@@ -89,26 +87,6 @@ function PreRound() {
       ) : (
         <p className="muted" style={{ textAlign: 'center' }}>Gözlemcinin turu başlatması bekleniyor.</p>
       )}
-    </>
-  );
-}
-
-function RoundInfo() {
-  const round = useRound();
-  const privateCard = useGameStore((s) => s.privateData?.card ?? null);
-  if (!round) return null;
-  return (
-    <>
-      <TimerBadge endsAt={round.endsAt} totalSec={MODE_CONFIG[round.mode].durationSec} />
-      <RoleLine />
-      <Card title="Tur durumu">
-        <div className="stack">
-          <span>Bilinen: <strong>{round.correct}</strong> · Yasaklı: <strong>{round.forbiddenHits}</strong></span>
-          <span>Pass kullanılan: <strong>{round.passesUsed}</strong> / {MODE_CONFIG[round.mode].passLimit}</span>
-          {round.cluesLeft !== null ? <span>Kalan Kelime: <strong>{round.cluesLeft}</strong> / 15</span> : null}
-          <span className="muted">{privateCard ? 'Kartın var (arayüz Task 5-7).' : 'Kart yalnızca Anlatıcı ve Gözlemci’de görünür.'}</span>
-        </div>
-      </Card>
     </>
   );
 }

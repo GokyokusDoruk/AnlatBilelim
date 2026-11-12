@@ -40,6 +40,7 @@ interface SocketAttachment {
 
 const STORAGE_KEY = 'room';
 
+const devDisabled = (): engine.ActionResult => ({ ok: false, code: 'not_allowed', message: 'Geliştirici araçları kapalı.' });
 const badMessage = (): engine.ActionResult => ({ ok: false, code: 'bad_message', message: 'Geçersiz mesaj.' });
 /** lastActivity depolamaya en fazla bu sıklıkla yazılır (gereksiz yazma maliyetini önler). */
 const ACTIVITY_PERSIST_INTERVAL_MS = 60_000;
@@ -276,6 +277,9 @@ export class RoomDurableObject extends DurableObject<Env> {
         break;
       case 'summary:continue':
         result = engine.continueFromSummary(room, playerId, ctx);
+        break;
+      case 'dev:setBoard':
+        result = this.env.DEV_TOOLS === '1' ? engine.devSetBoard(room, msg.a, msg.b, ctx) : devDisabled();
         break;
     }
 

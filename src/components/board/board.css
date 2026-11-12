@@ -15,7 +15,8 @@
   aspect-ratio: 9 / 1;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
+  padding-left: 12px;
   border-radius: var(--radius-sm);
   border: 2px dashed var(--border);
   color: var(--text-dim);

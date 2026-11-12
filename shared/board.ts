@@ -1,5 +1,5 @@
 import { BOARD_SIZE } from './constants';
-import type { GameMode, StepKind } from './types';
+import type { Card, GameMode, StepKind } from './types';
 
 export interface ModeConfig {
   readonly mode: GameMode;
@@ -55,4 +55,21 @@ export function advance(position: number, netScore: number): number {
 
 export function hasWon(position: number): boolean {
   return position >= BOARD_SIZE;
+}
+
+/** Kalan pass hakkı (kelime bazlı, tur genelinde toplam). */
+export function passesLeft(mode: GameMode, passesUsed: number): number {
+  return Math.max(0, MODE_CONFIG[mode].passLimit - passesUsed);
+}
+
+/**
+ * Pass'in maliyeti: Anlatma'da 1; üçlü kartlarda kartta tik atılmamış kelime sayısı.
+ * Sunucu (motor) ve istemci (buton disabled kuralı) aynı fonksiyonu kullanır.
+ */
+export function passCost(card: Card): number {
+  return card.kind === 'tabu' ? 1 : card.solved.filter((v) => !v).length;
+}
+
+export function canPass(mode: GameMode, passesUsed: number, card: Card | null): boolean {
+  return card !== null && passesLeft(mode, passesUsed) >= passCost(card);
 }

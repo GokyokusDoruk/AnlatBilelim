@@ -211,3 +211,80 @@ Kiremit|çatı, kırmızı, ev, toprak, örtmek
 Bodrum|alt kat, karanlık, depo, merdiven, nemli
 Apartman|bina, daire, kat, komşu, asansör
 Gökdelen|bina, yüksek, kat, şehir, cam
+Vezne|banka, para, gişe, sıra, memur
+Belediye|şehir, başkan, hizmet, çöp, seçim
+Postane|mektup, pul, zarf, paket, postacı
+Stadyum|maç, tribün, taraftar, futbol, çim
+Havalimanı|uçak, bilet, pasaport, bagaj, terminal
+Otogar|otobüs, bilet, peron, yolcu, şehirlerarası
+Yürüyen Merdiven|basamak, alışveriş, çıkmak, otomatik, kat
+Benzinlik|akaryakıt, araba, depo, pompa, benzin
+Diş Hekimi|dolgu, ağız, koltuk, çekmek, muayene
+Elektrikçi|kablo, priz, sigorta, akım, tamir
+Marangoz|ahşap, tahta, testere, mobilya, çivi
+Boyacı|boya, fırça, duvar, kova, ev
+Pazarcı|tezgah, bağırmak, sebze, fiyat, pazar
+İtfaiyeci|yangın, hortum, su, kırmızı, araç
+Kurye|paket, motor, teslimat, adres, hızlı
+Klavye|tuş, bilgisayar, yazmak, harf, fare
+Yazıcı|kâğıt, çıktı, mürekkep, bilgisayar, tarayıcı
+Şarj Aleti|pil, telefon, priz, kablo, dolu
+Kumanda|televizyon, düğme, kanal, uzaktan, pil
+Fotoğraf Makinesi|resim, çekmek, flaş, lens, poz
+Tablet|ekran, dokunmak, bilgisayar, telefon, büyük
+Oyun Konsolu|kol, ekran, televizyon, eğlence, joystick
+Uçurtma|rüzgar, ip, gökyüzü, çocuk, uçurmak
+Bulmaca|çözmek, kelime, ipucu, gazete, kutu
+Domino|taş, devirmek, sıra, oyun, nokta
+Yapboz|parça, resim, birleştirmek, çocuk, kutu
+Zar|oyun, atmak, altı, nokta, tavla
+İskambil|kart, oyun, poker, deste, papaz
+Ödül|kupa, kazanmak, madalya, tören, başarı
+Madalya|altın, gümüş, bronz, sporcu, ödül
+Kupa|şampiyon, kazanmak, ödül, altın, takım
+Podyum|birinci, ikinci, üçüncü, tören, sporcu
+Şampiyon|birinci, kupa, kazanmak, takım, final
+Kaptan|takım, gemi, bant, lider, yönetmek
+Kale|futbol, gol, kaleci, ağ, direk
+Raket|tenis, vurmak, file, kort, top
+File|voleybol, tenis, ağ, top, atmak
+Pota|basketbol, top, sayı, atmak, ağ
+Ring|boks, dövüş, köşe, yumruk, hakem
+Yüzme Havuzu|su, kulaç, mayo, dalış, klor
+Kayak|kar, dağ, pist, ayak, kayakçı
+Paten|buz, tekerlek, kaymak, ayak, pist
+Ata Binmek|at, eyer, dizgin, atlamak, süvari
+Uyku Tulumu|kamp, uyumak, çadır, fermuar, sıcak
+Karavan|tatil, tekerlek, araba, kamp, gezmek
+Pansiyon|oda, konaklama, küçük, kahvaltı, tatil
+Resepsiyon|otel, karşılamak, anahtar, kayıt, görevli
+Güneş Kremi|yanmak, plaj, yaz, cilt, sürmek
+Şnorkel|dalmak, deniz, boru, maske, nefes
+Tahterevalli|park, çocuk, iki, aşağı, yukarı
+Akrobat|sirk, takla, denge, ip, gösteri
+Maskot|takım, hayvan, kostüm, sembol, çocuk
+Kostüm|giymek, parti, gösteri, maske, oyun
+Maske|yüz, takmak, parti, korku, örtmek
+Karnaval|kostüm, maske, kutlama, sokak, dans
+Havai Fişek|gökyüzü, yılbaşı, patlamak, renkli, gece
+Nikah|evlilik, memur, imza, gelin, damat
+Damat|gelin, düğün, takım elbise, evlilik, nikah
+Davetiye|kart, düğün, çağırmak, zarf, yazı
+Nişan|yüzük, evlilik, söz, aile, kutlama
+Yüzük|parmak, altın, nişan, takmak, mücevher
+Kolye|boyun, altın, mücevher, takı, zincir
+Küpe|kulak, altın, takı, takmak, çift
+Bilezik|kol, altın, takı, çember, mücevher
+Parfüm|koku, şişe, sıkmak, güzel, kadın
+Ruj|dudak, kırmızı, makyaj, sürmek, kadın
+Makyaj|yüz, ruj, fondöten, kadın, ayna
+Deodorant|koku, ter, sıkmak, koltuk altı, sprey
+Tıraş Makinesi|sakal, elektrikli, yüz, bıçak, erkek
+Jilet|keskin, tıraş, sakal, bıçak, ince
+Hemşire|hastane, iğne, hasta, bakım, doktor
+İğne|dikiş, enjeksiyon, batmak, ince, sivri
+Tansiyon|kalp, ölçmek, doktor, yüksek, kan
+Röntgen|kemik, ışın, doktor, film, kırık
+Alçı|kırık, kol, beyaz, doktor, kemik
+Koltuk Değneği|bacak, yürümek, sakat, destek, hastane
+Tekerlekli Sandalye|hasta, engelli, oturmak, tekerlek, itmek

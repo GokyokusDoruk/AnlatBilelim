@@ -20,3 +20,10 @@ Rüzgârın Yönü, Zamanın Akışı, Pusuya Düşmek, Hazine Peşinde, Perde A
 Zehirli Elma, Cam Ayakkabı, Sihirli Ayna, Büyülü Orman, Zaman Yolcusu, Ejderha Mağarası, Peri Tozu, Buz Sarkıtı, Gül Dikeni, Zil Sesi
 Duman Tütmek, Kıvılcım, Alev Alev, Yosun Tutmak, Kırağı, Çiğ Damlası, Gün Işığı, Karınca Yuvası, Arı Kovanı, Örümcek Ağı
 Kuş Yuvası, Tilki Yuvası, Kurt Sürüsü
+Sabrın Sonu, Gözünü Budaktan Esirgemek, Kuyruğu Titretmek, Saçını Süpürge Etmek, Eli Kulağında, Dört Elle Sarılmak, Gözü Yaşlı, Ağzı Kulaklarında, Başı Göğe Ermek, Ayakları Yerden Kesilmek
+Dostluk Köprüsü, Hasret Treni, Vefa Taşı, Sadakat Nişanı, Merhamet Eli, Cesaret Madalyası, Umut Işığı, Barış Güvercini, Özgürlük Heykeli, Mutluluk Çiçeği
+Üzüntü Bulutu, Öfke Volkanı, Korku Gölgesi, Merak Anahtarı, Utanç Perdesi, Sevinç Balonu, Pişmanlık Zinciri, Heyecan Kıvılcımı, Huzur Limanı, Zaman Akıyor
+Ömür Sayacı, Geçmişe Bakış, Geleceğe Adım, Şimdiki An, Hatıra Sandığı, Unutulmuş Saat, Durmuş Kum Saati, Kaybolan Yıllar, Saat Sarkacı, Kral ile Soytarı
+Prens ile Dilenci, Kurt ile Kuzu, Tilki ile Kuzgun, Kaplumbağa ile Tavşan, Karınca ile Ağustos Böceği, Aslan ile Fare, Bülbül ile Karga, Çoban ile Kurt, Arı ile Güvercin, Ay Üstünde Yürüyen
+Yıldızlara Uzanan, Buluta Basan, Rüzgâra Karşı, Denizin Dibinde, Dağın Zirvesinde, Çölün Ortasında, Ormanın Kalbinde, Buzulun Üstünde, Volkan Kenarında, Sihirbaz Şapkası
+Gizemli Sandık, Büyülü Ayna, Cadı Kazanı

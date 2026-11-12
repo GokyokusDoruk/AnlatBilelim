@@ -210,3 +210,82 @@ Pide|fırın, uzun, peynir, kıymalı, hamur
 Kuşbaşı|et, küçük, doğramak, yemek, tencere
 Kokoreç|işkembe, ekmek, baharat, sokak, ızgara
 Midye Dolma|kabuk, pirinç, limon, sokak, sofra
+Ekonomi|para, borsa, dolar, piyasa, büyüme
+Hisse|borsa, yatırım, şirket, ortak, kâğıt
+Maaş|aylık, para, iş, ücret, ödeme
+Emekli|yaş, çalışmak, maaş, dinlenmek, sigorta
+Sigorta|poliçe, kaza, ödemek, hasar, güvence
+Milletvekili|meclis, seçim, oy, parti, yasa
+Belge|evrak, imza, resmi, kâğıt, onay
+Vize|pasaport, ülke, başvuru, seyahat, damga
+Gümrük|sınır, mal, eşya, vergi, kontrol
+Ticaret|alış, satış, mal, para, işletme
+İhracat|satmak, yurtdışı, ürün, ülke, ticaret
+Fabrika|üretim, işçi, makine, baca, vardiya
+Mühendis|proje, hesap, inşaat, makine, tasarım
+Mimari|bina, tasarım, tarz, yapı, plan
+Resim|boya, fırça, sanat, tuval, ressam
+Sergi|eser, sanat, galeri, müze, gezmek
+Edebiyat|kitap, yazar, roman, şiir, okumak
+Mitoloji|tanrı, efsane, eski, Yunan, hikaye
+Hurafe|batıl, inanç, yanlış, söylenti, uydurma
+Batıl İnanç|uğur, kara kedi, nazar, inanmak, şans
+Nazar|göz, boncuk, kötü, bakmak, uğur
+Burç|yıldız, kehanet, doğum, astroloji, ay
+Kader|alın yazısı, yazgı, kısmet, değiştirmek, tanrı
+Kısmet|nasip, şans, bulmak, evlilik, gelmek
+Ömür|yaşam, uzun, süre, hayat, ölüm
+Hayat|yaşam, doğum, ölüm, yıllar, canlı
+Dünya|gezegen, yuvarlak, ülkeler, harita, insan
+Evren|uzay, sonsuz, galaksi, yıldız, büyük
+Laboratuvar|deney, bilim, tüp, önlük, araştırma
+Deney|bilim, laboratuvar, sonuç, hipotez, test
+Molekül|atom, kimya, bileşik, madde, küçük
+Element|periyodik, kimya, atom, tablo, demir
+Manyetik|mıknatıs, çekmek, alan, demir, kutup
+Işık Hızı|saniye, evren, hız, foton, sınır
+Zaman Makinesi|geçmiş, gelecek, bilim kurgu, yolculuk, saat
+Hafıza|hatırlamak, beyin, unutmak, bellek, anı
+Rüya|uyku, gece, görmek, hayal, kâbus
+Hayal|düş, gerçek, rüya, kurmak, imgelem
+Yaratıcılık|fikir, hayal, sanat, yeni, üretmek
+Savaş|çatışma, ordu, silah, barış, düşman
+Ordu|asker, komutan, savaş, silah, üniforma
+Hendek|su, kale, savunma, kazı, çukur
+Padişah|Osmanlı, saray, sultan, taht, tarih
+Saray|kral, taht, büyük, hükümdar, bahçe
+Taht|kral, oturmak, koltuk, saray, hükümdar
+Taç|kral, altın, baş, mücevher, hükümdar
+Zırh|şövalye, metal, savaş, giymek, koruma
+Kılıç|keskin, savaş, kın, şövalye, kesmek
+Kalkan|savaş, korumak, metal, şövalye, el
+Mızrak|savaş, uzun, atmak, ucu, sivri
+Top|savaş, gülle, kale, topçu, ateş
+Silah|ateş, mermi, savaş, tetik, tüfek
+Tüfek|av, mermi, ateş, ordu, namlu
+Mermi|silah, ateş, tüfek, kovan, metal
+Bomba|patlamak, savaş, tehlike, fitil, yıkmak
+Denizaltı|su altı, savaş, periskop, gemi, derin
+Uçak Gemisi|savaş, deniz, pist, büyük, donanma
+Yelkenli|rüzgar, deniz, tekne, bez, yarış
+Şamandıra|su, deniz, yüzmek, işaret, tekne
+Pusula Gülü|yön, harita, kuzey, deniz, denizci
+Hazine|altın, sandık, harita, korsan, bulmak
+Define|altın, gömülü, harita, kazmak, hazine
+Mağara|karanlık, yarasa, dağ, kaya, derin
+Fırtına|rüzgar, şimşek, bulut, deniz, gök gürültüsü
+Şimşek|yıldırım, gök, parlamak, bulut, çakmak
+Yıldırım|şimşek, gök, bulut, çarpmak, hızlı
+Sis|görüş, bulut, beyaz, yol, alçak
+Buzul|kutup, buz, dev, eriyik, dağ
+Kutup Ayısı|buz, beyaz, Arktik, soğuk, penguen
+Çöl|kum, sıcak, deve, vaha, susuz
+Vaha|çöl, su, hurma, ağaç, dinlenmek
+Deve|çöl, hörgüç, kervan, susuz, yük
+Kaktüs|çöl, diken, yeşil, bitki, susuz
+Savan|Afrika, aslan, ot, geniş, zebra
+Orman Yangını|ateş, ağaç, duman, itfaiye, yeşil
+Çevre|doğa, kirlilik, hava, temiz, koruma
+Geri Dönüşüm|plastik, kutu, çöp, atık, kâğıt
+Atık|çöp, kullanılmış, fabrika, çevre, kirlilik
+Rüzgar Gülü|enerji, pervane, elektrik, esmek, kule

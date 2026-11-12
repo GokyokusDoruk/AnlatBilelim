@@ -20,3 +20,10 @@ Teğmen, Albay, Kâğıt, Karton, Cam, Plastik, Ahşap, Deri, Kumaş, Pamuk
 Yün, Tornavida, Pense, Anahtar, Kerpeten, Eğe, Bıçkı, Perçin, Sarı Saçlı, Esmer
 Kumral, Kel, Sakallı, Bıyıklı, Gözlüklü, Pehlivan, Cüce, Dev, Soğuk, Sıcak
 Ilık, Serin, Nemli
+Okur, Bestekâr, Dansçı, Duvarcı, Demirci, Kaynakçı, Camcı, Çilingir, Halıcı, Balıkçı
+Çoban, Arıcı, Bahçıvan, Oduncu, Madenci, Avcı, Orman Muhafızı, Süt Üreticisi, Tabela, Reklam
+Afiş, Broşür, El İlanı, Billboard, Slogan, Logo, Marka, Katalog, Roman, Şiir
+Deneme, Anı, Mektup, Günlük, Tren Garı, Peron, Bilet Gişesi, Kondüktör, Lokomotif, Vagon
+Ray, Sefer, Bekleme Salonu, Makinist, Kâğıt Para, Bozuk Para, Çek, Senet, Hisse, Döviz
+Altın, Kâr, Yoğurt, Peynir, Tereyağı, Krema, Kaymak, Kefir, Lor, Ceket
+Palto, Mont, Yelek

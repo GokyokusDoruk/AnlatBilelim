@@ -92,7 +92,7 @@ Yerel geliştirmede `.dev.vars` içine `DEV_TOOLS=1` yazılırsa (gitignore'da),
 
 ## Kelime havuzu
 
-`shared/data/words_tr.json`: 4 mod × 4 seviye, her seviyede en az 150, toplam mod başına 850 kelime (1 Kolay, 2 Orta, 3 Zor, 4 Çok Zor). Anlatma kartı = kelime + 5 yasaklı; Kukla kelimesi bir hareket klibine bağlıdır (`Kelime|Klip Adı`). Seviyeyi oda kurucusu lobide seçer.
+`shared/data/words_tr.json`: 4 mod × 4 seviye, her seviyede en az 270, toplam mod başına 1100+ kelime (1 Kolay, 2 Orta, 3 Zor, 4 Çok Zor). Anlatma kartı = kelime + 5 yasaklı; Kukla kelimesi bir hareket klibine bağlıdır (`Kelime|Klip Adı`). Seviyeyi oda kurucusu lobide seçer.
 Kaynaklar `scripts/words_src_<mod>_<seviye>.txt` dosyalarındadır; düzenledikten sonra `npm run words:build` çalıştır.
 `npm run build` önce `words:check` ile her dosyada en az 150 kelime, mod içinde seviyeler arası tekrar olmaması ve her kartta tam 5 yasaklı kelime olmasını doğrular.
 Kartlar `shared/words.ts` içindeki `CardDeck` ile çekilir: havuz tükenmeden aynı kelime tekrar gelmez.

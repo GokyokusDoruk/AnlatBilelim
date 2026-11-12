@@ -520,7 +520,7 @@ describe('kelime seviyesi', () => {
         expect(list.length).toBeGreaterThanOrEqual(150);
         for (const item of list) all.push(typeof item === 'string' ? item : item.word);
       }
-      expect(all.length).toBeGreaterThanOrEqual(850);
+      expect(all.length).toBeGreaterThanOrEqual(1100);
       expect(new Set(all.map((w) => w.toLocaleLowerCase('tr-TR'))).size).toBe(all.length);
     }
   });

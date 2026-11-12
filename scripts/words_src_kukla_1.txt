@@ -210,3 +210,65 @@ Yarışta Kürek Çekmek|Kürek Çekmek
 Duvara Çıkmak|Tırmanmak
 Çift Atlamak|İp Atlamak
 Balık Yakalamak|Olta Atmak
+Maratona Girmek|Koşmak
+Otobüse Yetişmek|Koşmak
+Sprint Atmak|Koşmak
+Trambolinde Sıçramak|Zıplamak
+Çatıdan Atlamak|Zıplamak
+Kanguru Gibi Hoplamak|Zıplamak
+Havuzda Kulaç Atmak|Yüzmek
+Denizde Çırpınmak|Yüzmek
+Dalış Yapmak|Yüzmek
+Salsa Yapmak|Dans Etmek
+Koltukta Uyuklamak|Uyumak
+Kebap Yemek|Yemek Yemek
+Karpuz Yemek|Yemek Yemek
+Makarna Yemek|Yemek Yemek
+Şişeden Su İçmek|Su İçmek
+Çeşmeden İçmek|Su İçmek
+Duygulanıp Ağlamak|Ağlamak
+Hıçkıra Hıçkıra Ağlamak|Ağlamak
+Alçak Sesle Gülmek|Gülmek
+Uykulu Uykulu Bakmak|Esnemek
+Uzaktan Selam Vermek|El Sallamak
+Taksiyi Çağırmak|El Sallamak
+Ayakta Alkışlamak|Alkışlamak
+Anneye Sarılmak|Sarılmak
+Sıkı Sıkı Sarılmak|Sarılmak
+Torbaya Vurmak|Boks Yapmak
+Gol Sevinci Yaşamak|Futbol Oynamak
+Dağ Bisikleti Sürmek|Bisiklete Binmek
+Sandalda Gezmek|Kürek Çekmek
+Kaya Tırmanışı Yapmak|Tırmanmak
+Direğe Tırmanmak|Tırmanmak
+Çocukken İp Atlamak|İp Atlamak
+Çift İp Atlamak|İp Atlamak
+Göl Kenarında Beklemek|Olta Atmak
+Spor Salonunda Terlemek|Halter Kaldırmak
+Akustik Çalmak|Gitar Çalmak
+Dişlerini Temizlemek|Diş Fırçalamak
+Macun Sıkmak|Diş Fırçalamak
+Sakal Taramak|Saç Taramak
+Aynada Saç Düzeltmek|Saç Taramak
+İpe Mandal Takmak|Çamaşır Asmak
+Telefon Görüşmesi Yapmak|Telefonla Konuşmak
+Arkadaşı Aramak|Telefonla Konuşmak
+Kışın Üşümek|Soğuktan Titremek
+Dişleri Takırdamak|Soğuktan Titremek
+Dehşete Kapılmak|Korkmak
+Yerinden Sıçramak|Korkmak
+Baltayla Vurmak|Ağaç Kesmek
+Tablo Asmak İçin Çivi Çakmak|Çivi Çakmak
+Kürekle Toprak Atmak|Kazı Yapmak
+Hazine Aramak|Kazı Yapmak
+Hedef Vurmak|Ok Atmak
+Basketbol Atmak|Top Fırlatmak
+Manzara Çekmek|Fotoğraf Çekmek
+Düğünde Halay Başı Olmak|Halay Çekmek
+Mendil Sallamak|Halay Çekmek
+Çok Koşmak|Koşmak
+Halat Atlamak|İp Atlamak
+Yatağa Uzanmak|Uyumak
+Bisiklet Sürmek|Bisiklete Binmek
+Yıkanmış Çamaşırları Asmak|Çamaşır Asmak
+Dişlerini Fırçalamak|Diş Fırçalamak

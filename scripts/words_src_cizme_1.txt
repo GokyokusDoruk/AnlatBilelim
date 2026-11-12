@@ -20,3 +20,10 @@ Eşek, Domuz, Kurbağa, Kiraz, Armut, Limon, Domates, Salatalık, Patates, Mıs�
 Kabak, Yastık, Battaniye, Kitap, Defter, Kalem, Tekne, Kayık, Elma Ağacı, Çam
 Çiçek Saksısı, Yonca, Çimen, Güneş Gözlüğü, Şimşek, Yağmur Damlası, Kar Tanesi, Rüzgâr, Fırtına, Çatı
 Baca, Bahçe Kapısı
+Terlik Çifti, Bornoz, Havlu Askısı, Diş Fırçası, Sabun Köpüğü, Tarak Seti, Ayna Dolabı, Banyo Küveti, Su Damlası, Mısır Patlağı
+Çerez Kasesi, Meyve Sepeti, Kavanoz, Şişe, Kutu, Poşet, Kâğıt Torba, Tepsi, Salıncaklı Kız, Futbol Sahası
+Voleybol Filesi, Yüzme Havuzu, Koşu Bandı, Dambıl, Yoga Matı, Atlama İpi, Kayak Takımı, Tenis Topu, Papağan Kafesi, Akvaryum Balığı
+Hamster, Köpek Kulübesi, Kedi Kumu, Eşek Yükü, Koyun Sürüsü, Tavuk Kümesi, Kurbağa Gölü, Nilüfer, Sazlık, Dere
+Dalgalı Deniz, Kum Kalesi, Kumsal, Güneş Şemsiyesi, Deniz Yıldızı, Kabuk, Bulut Adam, Kardan Adam Şapkası, Kar Küreği, Eldiven Çifti
+Kar Topu, Karlı Ağaç, Ayaz, Soba, Su Birikintisi, Lastik Çizme, Şemsiye Sapı, Islak Köpek, Gökkuşağı Köprüsü, Fırtına Bulutu
+Şimşek Çakması, Güneş Doğuşu

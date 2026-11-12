@@ -20,3 +20,10 @@ Bin, Sıfır, Yarım, Çeyrek, Pazar, Pazartesi, Salı, Çarşamba, Perşembe, H
 Ay, Yıl, Gün, Gece, İlkbahar, Yaz, Sonbahar, Kış, Sabah, Öğle
 Akşam, Şafak, Gece Yarısı, Öğleden Sonra, Baş, Göz, Kulak, Burun, Ağız, Diş
 Dil, El
+Kitap, Defter, Kalem, Silgi, Cetvel, Çanta, Önlük, Karne, Tahta, Tebeşir
+Şeker, Tuz, Yağ, Salça, Sirke, Baharat, Maya, Duş, Tuvalet, Oda
+Hol, Kapı, Gül, Lale, Papatya, Menekşe, Karanfil, Sümbül, Zambak, Orkide
+Nergis, Yasemin, Çam, Meşe, Çınar, Kavak, Söğüt, Zeytin, Ceviz, Kestane
+Ardıç, Akasya, Tatlı, Su, Gazoz, Saç, Boyun, Omuz, Dirsek, Diz
+Bahar, Mevsim, Hava, Sıcaklık, Para, Kasa, Kart, Fiyat, İndirim, Fiş
+Alışveriş, Araba

@@ -211,3 +211,67 @@ Takım Kürek|Kürek Çekmek
 Ağaç Evine Çıkmak|Tırmanmak
 Isınma Hareketi|İp Atlamak
 İskelede Balık Tutmak|Olta Atmak
+Yarışta Önde Gitmek|Koşmak
+Köpekten Kaçmak|Koşmak
+Sabah Koşusu Yapmak|Koşmak
+Engel Atlamak|Zıplamak
+Çukuru Atlamak|Zıplamak
+Zıplayarak Sevinmek|Zıplamak
+Gölde Yüzmeye Çalışmak|Yüzmek
+Kolluk Takmak|Yüzmek
+Dalgalarda Boğuşmak|Yüzmek
+Pistte Dönmek|Dans Etmek
+Oryantal Yapmak|Dans Etmek
+Yorgan Çekmek|Uyumak
+Otobüste Uyuklamak|Uyumak
+Ayakta Uyumak|Uyumak
+Restoranda Yemek Yemek|Yemek Yemek
+Kaşıkla Çorba Yemek|Yemek Yemek
+Aç Kurt Gibi Yemek|Yemek Yemek
+Susuzluktan Kurumak|Su İçmek
+Sırayla Su İçmek|Su İçmek
+Bardak Doldurmak|Su İçmek
+Film İzlerken Ağlamak|Ağlamak
+Soğan Doğrarken Ağlamak|Ağlamak
+Sevinçten Ağlamak|Ağlamak
+Fıkraya Gülmek|Gülmek
+Komik Videoya Gülmek|Gülmek
+Gırtlağı Yırtılmak|Öksürmek
+Polenden Hapşırmak|Hapşırmak
+Biber Kokusundan Hapşırmak|Hapşırmak
+Toplantıda Esnemek|Esnemek
+Sıkılıp Esnemek|Esnemek
+Uzak Akrabaya El Sallamak|El Sallamak
+Gemiden El Sallamak|El Sallamak
+Sahneden Selam Vermek|El Sallamak
+Konser Sonunda Alkışlamak|Alkışlamak
+Gösteriyi Alkışlamak|Alkışlamak
+Hasretle Sarılmak|Sarılmak
+Uzun Süre Görmediği Kişiye Sarılmak|Sarılmak
+Kardeşe Sarılmak|Sarılmak
+Sokakta Kavga Etmek|Kavga Etmek
+Saç Saça Baş Başa Dövüşmek|Kavga Etmek
+Maç Öncesi Isınmak|Boks Yapmak
+Gölge Boksu Yapmak|Boks Yapmak
+Halı Sahada Oynamak|Futbol Oynamak
+Top Sürmek|Futbol Oynamak
+Şampiyonluk Maçı Oynamak|Futbol Oynamak
+Dağ Yolunda Pedal Çevirmek|Bisiklete Binmek
+Sahilde Bisiklet Sürmek|Bisiklete Binmek
+Akıntıya Karşı Kürek Çekmek|Kürek Çekmek
+Takım Halinde Kürek Çekmek|Kürek Çekmek
+Duvara Tırmanmak|Tırmanmak
+Dağın Zirvesine Çıkmak|Tırmanmak
+Bahçede İp Atlamak|İp Atlamak
+Hız Antrenmanı Yapmak|İp Atlamak
+Sabırla Balık Beklemek|Olta Atmak
+Rekor Kırmak İçin Ağırlık Kaldırmak|Halter Kaldırmak
+Barfiks Çekmek|Halter Kaldırmak
+Sahnede Gitar Çalmak|Gitar Çalmak
+Şarkı Çalıp Söylemek|Gitar Çalmak
+Grupla Davul Çalmak|Davul Çalmak
+Sokakta Davul Çalmak|Davul Çalmak
+Sabah Akşam Diş Fırçalamak|Diş Fırçalamak
+Ağız Gargarası Yapmak|Diş Fırçalamak
+Düğüne Hazırlanıp Saç Taramak|Saç Taramak
+

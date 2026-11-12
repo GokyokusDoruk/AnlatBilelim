@@ -121,3 +121,8 @@ Statik dosyalar `public/_headers` ile önbelleğe alınır (`/assets/*` değişm
 ## Bellek sızıntısı testi
 
 `.dev.vars` içinde `DEV_TOOLS=1` varken `npm run dev`, ardından başka bir terminalde `npm run test:leak`. 4 oyuncuyla Çizme → Kukla → Karışık turlarını `CYCLES` (varsayılan 12) kez açıp kapatır; açık disposer sayısı, `<canvas>` sayısı ve GC sonrası JS heap'i ölçer, sızıntı varsa 0 olmayan kodla çıkar.
+
+### Cloudflare Workers Builds ayarları
+
+- Production dalı `main`: build `npm run build`, deploy `npx wrangler deploy`.
+- Diğer dallar (PR önizlemeleri): preview komutu **`npx wrangler versions upload`** olmalı. Varsayılan `npx wrangler preview` bu projede hata verir, çünkü `wrangler.jsonc` içinde `previews` bloğu yok ve Durable Object kullanılıyor (PR #9'da build'in "Deploying" adımında kırılmasının sebebi buydu).

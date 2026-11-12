@@ -1,13 +1,15 @@
 import { useEffect, useState } from 'react';
 import { BOARD_STEPS } from '@shared/board';
 import { sanitizeName } from '@shared/validation';
-import type { StepKind, TeamId } from '@shared/types';
-import { Badge, Button, Card, ModeTag, PlayerChip, Screen, Spinner, TextInput } from '../components/ui';
+import type { StepKind } from '@shared/types';
+import { Badge, Button, Card, ModeTag, Screen, Spinner, TextInput } from '../components/ui';
 import { getSavedName, saveName } from '../lib/identity';
 import { navigate } from '../lib/router';
 import { connectRoom, leaveRoom } from '../net/connection';
 import { useGameStore } from '../store/gameStore';
-import { useConnectionStatus, useNotice, useTeamPlayers } from '../store/selectors';
+import { useConnectionStatus, useNotice, usePhase } from '../store/selectors';
+import { GameStatusView } from './GameStatusView';
+import { LobbyView } from './LobbyView';
 import './screens.css';
 
 export function RoomScreen({ code }: { code: string }) {
@@ -51,6 +53,7 @@ function RoomView({ code }: { code: string }) {
   const status = useConnectionStatus();
   const notice = useNotice();
   const hasSnapshot = useGameStore((s) => s.hasSnapshot);
+  const phase = usePhase();
 
   const onLeave = () => {
     leaveRoom();
@@ -94,15 +97,8 @@ function RoomView({ code }: { code: string }) {
         )
       ) : (
         <>
-          <div className="teams">
-            <TeamCard team="A" />
-            <TeamCard team="B" />
-          </div>
-          <UnassignedCard />
+          {phase === 'lobby' ? <LobbyView /> : <GameStatusView />}
           <BoardPreview />
-          <p className="muted" style={{ textAlign: 'center', fontSize: 14 }}>
-            Takım seçimi ve “Hazır” akışı bir sonraki adımda (Task 3) eklenecek.
-          </p>
         </>
       )}
     </Screen>
@@ -116,38 +112,6 @@ function ConnectionBadge({ status }: { status: ReturnType<typeof useConnectionSt
     <Badge tone="warning" dot>
       {status === 'reconnecting' ? 'Yeniden bağlanıyor' : 'Bağlanıyor'}
     </Badge>
-  );
-}
-
-const TEAM_TITLES: Record<TeamId, string> = { A: 'Takım A · Kırmızı', B: 'Takım B · Mavi' };
-
-function TeamCard({ team }: { team: TeamId }) {
-  const players = useTeamPlayers(team);
-  const selfId = useGameStore((s) => s.selfId);
-  return (
-    <Card team={team} title={TEAM_TITLES[team]}>
-      <div className="stack">
-        {players.length === 0 ? <span className="muted">Henüz kimse yok</span> : null}
-        {players.map((p) => (
-          <PlayerChip key={p.id} player={p} isSelf={p.id === selfId} />
-        ))}
-      </div>
-    </Card>
-  );
-}
-
-function UnassignedCard() {
-  const players = useTeamPlayers(null);
-  const selfId = useGameStore((s) => s.selfId);
-  if (players.length === 0) return null;
-  return (
-    <Card title="Takım seçmeyenler">
-      <div className="stack">
-        {players.map((p) => (
-          <PlayerChip key={p.id} player={p} isSelf={p.id === selfId} />
-        ))}
-      </div>
-    </Card>
   );
 }
 

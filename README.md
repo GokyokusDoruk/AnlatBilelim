@@ -52,6 +52,20 @@ Cloudflare artık statik siteleri de Worker'ın `assets` özelliğiyle sunuyor. 
 - **Zustand seçicileri:** Bileşenler yalnızca ihtiyaç duydukları dilime abone olur; değişmeyen dilimlerin referansı korunur. Yüksek frekanslı veriler store'a yazılmaz.
 - **Temizlik:** Her soket, zamanlayıcı, rAF ve dinleyici unmount'ta kapatılır (`RoomSocket.dispose`, `createDisposer`).
 
+## Oyun motoru
+
+`worker/room/engine.ts` saf mantıktır (Cloudflare API'si yok), `npm test` ile vitest üzerinden test edilir.
+Durable Object sadece I/O yapar: her eylemden sonra durumu kaydeder, herkese yayar ve tek alarm yuvasını
+`min(faz bitişi, TTL)` olarak kurar. Zaman geçişleri (çark bitişi, tur sonu, özetin otomatik kapanışı) alarmla yürür.
+
+- Başlatma: herkes takım seçip "Hazırım" der, her takımda en az 2 oyuncu olur, otomatik başlar.
+- Roller: anlatıcı takım içinde sırayla döner, gözlemci rakip takımdan sırayla gelir, bağlantısı kopanlar atlanır.
+- Kartlar yalnızca Anlatıcı ve Gözlemci'ye `private` mesajıyla gider; Dinleyiciler hiç almaz.
+- Pass: Anlatma'da 1 hak; üçlü kartlarda bilinmemiş kelime sayısı kadar hak düşer (turda toplam 3).
+- 15 Kelime: sayaç 0'a inince tur süre bitmeden sona erer.
+- Net skor adıma çevrilir, negatif skor geri götürmez; 45. basamağa ulaşan takım kazanır.
+- Bir takımda bağlı oyuncu kalmazsa oda lobiye döner.
+
 ## Kelime havuzu
 
 `shared/data/words_tr.json`: Anlatma 104 kart (kelime + 5 yasaklı), Çizme / Kukla / 15 Kelime için 150'şer kelime.
@@ -63,7 +77,7 @@ Kartlar `shared/words.ts` içindeki `CardDeck` ile çekilir: havuz tükenmeden a
 
 - [x] Task 1: İskelet, tipler, store, Cloudflare oda mimarisi, tema
 - [x] Task 2: Türkçe kelime havuzu (`shared/data/words_tr.json`)
-- [ ] Task 3: Lobi, takımlar, tur motoru, sunucu zamanlayıcısı
+- [x] Task 3: Lobi, takımlar, tur motoru, sunucu zamanlayıcısı
 - [ ] Task 4: Oyun tahtası ve mod ruleti
 - [ ] Task 5: Anlatma ve 15 Kelime modları
 - [ ] Task 6: Çizme modu

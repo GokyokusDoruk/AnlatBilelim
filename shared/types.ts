@@ -98,6 +98,10 @@ export interface RoundSummary {
   readonly passesUsed: number;
   /** max(0, correct - forbiddenHits) */
   readonly stepsAdvanced: number;
+  /** Turdan sonra takımın tahtadaki konumu (0..45). */
+  readonly newPosition: number;
+  /** Tur 15 Kelime hakkı bittiği için mi sona erdi? */
+  readonly endedByClueLimit: boolean;
 }
 
 export interface RoomSnapshot {

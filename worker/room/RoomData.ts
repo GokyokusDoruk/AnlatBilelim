@@ -4,7 +4,7 @@
  * oyun kuralları bu modülde ve Task 3+ ile eklenecek motor dosyalarında yaşar.
  */
 import { MAX_PLAYERS_PER_ROOM } from '../../shared/constants';
-import type { BoardState, GameMode, Player, RoomPhase, RoomSnapshot, RoundPublicState, RoundSummary, TeamId } from '../../shared/types';
+import type { BoardState, Card, GameMode, Player, RoomPhase, RoomSnapshot, RoundPublicState, RoundSummary, TeamId } from '../../shared/types';
 
 export interface RoomData {
   code: string;
@@ -19,6 +19,15 @@ export interface RoomData {
   lastSummary: RoundSummary | null;
   winner: TeamId | null;
   roulette: { result: GameMode; startedAt: number; seed: number } | null;
+
+  // --- Sadece sunucuda tutulan alanlar (snapshot'a girmez) ---
+  /** Aktif kart. Yalnızca Anlatıcı ve Gözlemci'ye 'private' mesajıyla gönderilir. */
+  roundCard: Card | null;
+  /** Takım içi adil rotasyon: her takım için bir sonraki anlatıcı / gözlemci sırası. */
+  narratorCursor: Record<TeamId, number>;
+  observerCursor: Record<TeamId, number>;
+  /** Sıradaki zaman tabanlı geçiş (çark bitişi, tur sonu, özet otomatik kapanışı). Yoksa null. */
+  phaseDeadline: number | null;
 }
 
 export function createRoomData(code: string, now: number): RoomData {
@@ -34,6 +43,10 @@ export function createRoomData(code: string, now: number): RoomData {
     lastSummary: null,
     winner: null,
     roulette: null,
+    roundCard: null,
+    narratorCursor: { A: 0, B: 0 },
+    observerCursor: { A: 0, B: 0 },
+    phaseDeadline: null,
   };
 }
 

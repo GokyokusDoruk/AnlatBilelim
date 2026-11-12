@@ -21,7 +21,9 @@ import {
   type ServerMessage,
 } from '../shared/protocol';
 import { isPlayerId, sanitizeName } from '../shared/validation';
+import { CardDeck } from '../shared/words';
 import type { Env } from './env';
+import * as engine from './room/engine';
 import {
   createRoomData,
   findPlayer,
@@ -37,6 +39,8 @@ interface SocketAttachment {
 }
 
 const STORAGE_KEY = 'room';
+
+const badMessage = (): engine.ActionResult => ({ ok: false, code: 'bad_message', message: 'Geçersiz mesaj.' });
 /** lastActivity depolamaya en fazla bu sıklıkla yazılır (gereksiz yazma maliyetini önler). */
 const ACTIVITY_PERSIST_INTERVAL_MS = 60_000;
 
@@ -53,6 +57,8 @@ const CloseCode = {
 export class RoomDurableObject extends DurableObject<Env> {
   private room: RoomData | null = null;
   private lastActivityPersistedAt = 0;
+  /** Kart destesi RAM'de tutulur (birkaç yüz bayt); hibernation sonrası yeniden karılır. */
+  private deck = new CardDeck();
 
   constructor(ctx: DurableObjectState, env: Env) {
     super(ctx, env);
@@ -73,7 +79,7 @@ export class RoomDurableObject extends DurableObject<Env> {
     const now = Date.now();
     this.room = createRoomData(code, now);
     await this.persist();
-    await this.ctx.storage.setAlarm(now + ROOM_TTL_MS);
+    await this.rearm();
     return true;
   }
 
@@ -161,16 +167,35 @@ export class RoomDurableObject extends DurableObject<Env> {
       await this.ctx.storage.deleteAll();
       return;
     }
-    const idleFor = Date.now() - room.lastActivity;
-    if (idleFor < ROOM_TTL_MS) {
-      await this.ctx.storage.setAlarm(room.lastActivity + ROOM_TTL_MS);
+
+    // 1) Sunucu otoriteli zamanlayıcı: çark bitişi, tur sonu, özet otomatik kapanışı.
+    if (engine.onDeadline(room, this.engineCtx())) {
+      await this.persist();
+      this.pushAll();
+    }
+
+    // 2) TTL: hareketsiz oda tamamen silinir.
+    if (Date.now() - room.lastActivity >= ROOM_TTL_MS) {
+      for (const ws of this.ctx.getWebSockets()) this.safeClose(ws, CloseCode.RoomClosed, 'room_expired');
+      this.room = null;
+      await this.ctx.storage.deleteAlarm();
+      await this.ctx.storage.deleteAll();
       return;
     }
-    // Hareketsiz oda: herkesi çıkar, RAM ve depolamayı tamamen boşalt.
-    for (const ws of this.ctx.getWebSockets()) this.safeClose(ws, CloseCode.RoomClosed, 'room_expired');
-    this.room = null;
-    await this.ctx.storage.deleteAlarm();
-    await this.ctx.storage.deleteAll();
+    await this.rearm();
+  }
+
+  /** Tek alarm yuvası: en yakın faz bitişi ile TTL bitişinden hangisi önceyse ona kurulur. */
+  private async rearm(): Promise<void> {
+    const room = this.room;
+    if (!room) return;
+    const ttlAt = room.lastActivity + ROOM_TTL_MS;
+    const next = room.phaseDeadline !== null ? Math.min(room.phaseDeadline, ttlAt) : ttlAt;
+    await this.ctx.storage.setAlarm(Math.max(next, Date.now() + 1));
+  }
+
+  private engineCtx(): engine.EngineCtx {
+    return { now: Date.now(), deck: this.deck, rand: Math.random };
   }
 
   // ---------------------------------------------------------------------------
@@ -205,7 +230,9 @@ export class RoomDurableObject extends DurableObject<Env> {
     await this.persist();
 
     this.sendTo(ws, { t: 'welcome', you: msg.playerId, serverTime: Date.now(), snapshot: toSnapshot(room) });
+    this.sendPrivateTo(ws, room, msg.playerId);
     this.broadcastState(ws);
+    await this.rearm();
   }
 
   private async handleGameMessage(
@@ -214,27 +241,58 @@ export class RoomDurableObject extends DurableObject<Env> {
     playerId: string,
     msg: Exclude<ClientMessage, { t: 'hello' } | { t: 'ping' }>,
   ): Promise<void> {
+    const ctx = this.engineCtx();
+    let result: engine.ActionResult;
+
     switch (msg.t) {
       case 'leave': {
         ws.serializeAttachment({ playerId: null } satisfies SocketAttachment);
         removePlayer(room, playerId);
-        await this.persist();
-        this.broadcastState();
+        engine.onRosterChanged(room, ctx);
+        await this.commit();
         this.safeClose(ws, CloseCode.Normal, 'left');
         return;
       }
-      // Lobi, tur motoru ve mod mekanikleri Task 3+ ile bu noktaya bağlanacak.
       case 'lobby:setTeam':
+        result = engine.setTeam(room, playerId, msg.team);
+        break;
       case 'lobby:setReady':
+        result = typeof msg.ready === 'boolean' ? engine.setReady(room, playerId, msg.ready, ctx) : badMessage();
+        break;
       case 'round:start':
+        result = engine.startRound(room, playerId, ctx);
+        break;
       case 'round:correct':
+        result = engine.markCorrect(room, playerId, msg.index, ctx);
+        break;
       case 'round:forbidden':
+        result = engine.markForbidden(room, playerId, ctx);
+        break;
       case 'round:clueUsed':
+        result = engine.useClue(room, playerId, ctx);
+        break;
       case 'round:pass':
+        result = engine.pass(room, playerId, ctx);
+        break;
       case 'summary:continue':
-        this.sendError(ws, 'not_implemented', 'Bu özellik henüz hazır değil.');
-        return;
+        result = engine.continueFromSummary(room, playerId, ctx);
+        break;
     }
+
+    if (!result.ok) {
+      this.sendError(ws, result.code, result.message);
+      // Reddedilen eylem bile turu bitirmiş olabilir (süre dolması): durumu yine de yay.
+      await this.commit();
+      return;
+    }
+    await this.commit();
+  }
+
+  /** Durumu kaydet, herkese yay, alarmı yeniden kur. */
+  private async commit(): Promise<void> {
+    await this.persist();
+    this.pushAll();
+    await this.rearm();
   }
 
   private async handleSocketGone(ws: WebSocket): Promise<void> {
@@ -243,8 +301,8 @@ export class RoomDurableObject extends DurableObject<Env> {
     if (!room || !playerId) return;
     ws.serializeAttachment({ playerId: null } satisfies SocketAttachment);
     markDisconnected(room, playerId);
-    await this.persist();
-    this.broadcastState();
+    engine.onRosterChanged(room, this.engineCtx());
+    await this.commit();
   }
 
   /**
@@ -298,6 +356,25 @@ export class RoomDurableObject extends DurableObject<Env> {
 
   private sendError(ws: WebSocket, code: ErrorCode, message: string): void {
     this.sendTo(ws, { t: 'error', code, message });
+  }
+
+  /** Herkese genel durum, Anlatıcı ve Gözlemci'ye ayrıca özel kart verisi. */
+  private pushAll(): void {
+    const room = this.room;
+    if (!room) return;
+    this.broadcastState();
+    for (const ws of this.ctx.getWebSockets()) {
+      const id = this.attachment(ws).playerId;
+      if (id) this.sendPrivateTo(ws, room, id);
+    }
+  }
+
+  /** Kart yalnızca turdaki Anlatıcı ve Gözlemci'ye gider; Dinleyiciler hiç almaz. */
+  private sendPrivateTo(ws: WebSocket, room: RoomData, playerId: string): void {
+    const r = room.round;
+    const isActor = !!r && (r.narratorId === playerId || r.observerId === playerId);
+    if (!isActor) return;
+    this.sendTo(ws, { t: 'private', data: { card: room.phase === 'round' ? room.roundCard : null } });
   }
 
   /** Durum anlık görüntüsü bir kez serileştirilir, tüm kimliği belli soketlere gönderilir. */

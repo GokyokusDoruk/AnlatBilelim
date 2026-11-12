@@ -5,9 +5,10 @@
 import { useSyncExternalStore } from 'react';
 import { normalizeRoomCode } from '@shared/validation';
 
-export type Route = { name: 'home' } | { name: 'room'; code: string };
+export type Route = { name: 'home' } | { name: 'room'; code: string } | { name: 'dev' };
 
 function parse(pathname: string): Route {
+  if (import.meta.env.DEV && pathname === '/dev/ui') return { name: 'dev' };
   const m = /^\/r\/([^/]+)\/?$/.exec(pathname);
   const code = m ? normalizeRoomCode(m[1]) : null;
   return code ? { name: 'room', code } : { name: 'home' };
@@ -31,7 +32,7 @@ function subscribe(listener: () => void) {
 }
 
 export function navigate(to: Route, replace = false) {
-  const path = to.name === 'room' ? `/r/${to.code}` : '/';
+  const path = to.name === 'room' ? `/r/${to.code}` : to.name === 'dev' ? '/dev/ui' : '/';
   if (path === location.pathname) return;
   if (replace) history.replaceState(null, '', path);
   else history.pushState(null, '', path);

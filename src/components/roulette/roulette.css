@@ -1,0 +1,63 @@
+.roulette {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-4);
+  padding: var(--space-4) 0;
+}
+.roulette__stage {
+  position: relative;
+  display: grid;
+  place-items: center;
+}
+.roulette__clip {
+  /* Dönen kare canvas'ın köşeleri taşmasın (yatay kaydırma çubuğu oluşmasın). */
+  overflow: hidden;
+  border-radius: 50%;
+  box-shadow: 0 0 0 6px var(--bg-sunken), 0 0 0 9px var(--border), var(--shadow-2);
+  line-height: 0;
+}
+.roulette__wheel {
+  display: block;
+  will-change: transform;
+}
+.roulette__pointer {
+  position: absolute;
+  top: -14px;
+  left: 50%;
+  width: 0;
+  height: 0;
+  transform: translateX(-50%);
+  border-left: 14px solid transparent;
+  border-right: 14px solid transparent;
+  border-top: 28px solid var(--accent);
+  filter: drop-shadow(0 3px 2px rgba(0, 0, 0, 0.5));
+  z-index: 2;
+}
+.roulette__hub {
+  position: absolute;
+  width: 16%;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background: var(--bg);
+  border: 4px solid var(--accent);
+  z-index: 1;
+}
+.roulette__result {
+  min-height: 48px;
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  font-family: var(--font-display);
+  font-size: 22px;
+  font-weight: 800;
+}
+.roulette__result--in {
+  animation: result-pop 400ms var(--ease-out);
+}
+@keyframes result-pop {
+  from {
+    transform: scale(0.6);
+    opacity: 0;
+  }
+}

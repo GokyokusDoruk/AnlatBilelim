@@ -15,6 +15,7 @@ import { DurableObject } from 'cloudflare:workers';
 import { MAX_BINARY_MESSAGE_BYTES, MAX_JSON_MESSAGE_BYTES, ROOM_TTL_MS } from '../shared/constants';
 import {
   parseClientMessage,
+  BinaryChannel,
   readBinaryChannel,
   type ClientMessage,
   type ErrorCode,
@@ -278,6 +279,9 @@ export class RoomDurableObject extends DurableObject<Env> {
       case 'summary:continue':
         result = engine.continueFromSummary(room, playerId, ctx);
         break;
+      case 'draw:resync':
+        this.forwardResync(room, playerId);
+        return;
       case 'dev:setBoard':
         result = this.env.DEV_TOOLS === '1' ? engine.devSetBoard(room, msg.a, msg.b, ctx) : devDisabled();
         break;
@@ -310,22 +314,40 @@ export class RoomDurableObject extends DurableObject<Env> {
   }
 
   /**
-   * Yüksek frekanslı ikili akış: yalnızca aktif turdaki Anlatıcı gönderebilir.
-   * Yük çözülmez; aynı ArrayBuffer diğer tüm soketlere iletilir.
+   * Yüksek frekanslı ikili akış: yalnızca aktif turdaki Anlatıcı gönderebilir. Yük çözülmez
+   * ve sunucuda SAKLANMAZ; aynı ArrayBuffer ilgili oyunculara iletilir (sunucu belleği sabit).
+   *  - Çizim kanalı yalnızca Çizme modunda ve yalnızca Dinleyicilere gider (Gözlemci sadece kartı görür).
+   *  - Kukla kanalı yalnızca Kukla modunda ve Anlatıcı dışındaki herkese gider.
    */
   private relayBinary(ws: WebSocket, data: ArrayBuffer): void {
     const room = this.room;
-    if (!room || data.byteLength > MAX_BINARY_MESSAGE_BYTES || readBinaryChannel(data) === null) return;
+    const channel = room ? readBinaryChannel(data) : null;
+    if (!room || channel === null || data.byteLength > MAX_BINARY_MESSAGE_BYTES) return;
     const sender = this.attachment(ws).playerId;
-    if (!sender || room.phase !== 'round' || room.round?.narratorId !== sender) return;
+    const round = room.round;
+    if (!sender || room.phase !== 'round' || !round || round.narratorId !== sender) return;
+    if (channel === BinaryChannel.Draw && round.mode !== 'cizme') return;
+    if (channel === BinaryChannel.Puppet && round.mode !== 'kukla') return;
 
     for (const other of this.ctx.getWebSockets()) {
-      if (other === ws || !this.attachment(other).playerId) continue;
+      if (other === ws) continue;
+      const id = this.attachment(other).playerId;
+      if (!id) continue;
+      if (channel === BinaryChannel.Draw && id === round.observerId) continue;
       try {
         other.send(data);
       } catch {
         /* kapanmakta olan soket: close handler temizler */
       }
+    }
+  }
+
+  /** Dinleyici çizimi yeniden istedi: Anlatıcı'nın soketine ilet. */
+  private forwardResync(room: RoomData, requesterId: string): void {
+    const r = room.round;
+    if (room.phase !== 'round' || !r || r.mode !== 'cizme' || r.narratorId === requesterId) return;
+    for (const ws of this.ctx.getWebSockets()) {
+      if (this.attachment(ws).playerId === r.narratorId) this.sendTo(ws, { t: 'draw:resync' });
     }
   }
 

@@ -26,6 +26,8 @@ export type ClientMessage =
   | { t: 'round:clueUsed' } // 15 Kelime: -1 ipucu
   | { t: 'round:pass' }
   | { t: 'summary:continue' }
+  /** Dinleyici çizimi baştan ister (geç katılma / yeniden bağlanma); sunucu Anlatıcı'ya iletir. */
+  | { t: 'draw:resync' }
   /** Yalnızca sunucuda DEV_TOOLS=1 iken çalışır (yerel geliştirme / test). */
   | { t: 'dev:setBoard'; a: number; b: number };
 
@@ -50,6 +52,8 @@ export type ServerMessage =
   | { t: 'private'; data: RoundPrivateState }
   | { t: 'pong'; ts: number; serverTime: number }
   | { t: 'roulette'; result: GameMode; startedAt: number; seed: number }
+  /** Yalnızca Anlatıcı'ya: çizimin tamamını yeniden yayınla. */
+  | { t: 'draw:resync' }
   | { t: 'error'; code: ErrorCode; message: string };
 
 export type ServerMessageType = ServerMessage['t'];
@@ -109,6 +113,7 @@ const CLIENT_TYPES: ReadonlySet<string> = new Set<ClientMessageType>([
   'round:clueUsed',
   'round:pass',
   'summary:continue',
+  'draw:resync',
   'dev:setBoard',
 ]);
 

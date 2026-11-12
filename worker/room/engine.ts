@@ -151,6 +151,7 @@ export function beginTurn(room: RoomData, ctx: EngineCtx): void {
     observerId: observer.id,
     endsAt: null,
     passesUsed: 0,
+    passVotes: [],
     correct: 0,
     forbiddenHits: 0,
     cluesLeft: MODE_CONFIG[mode].clueLimit ?? null,
@@ -184,7 +185,8 @@ export function startRound(room: RoomData, playerId: string, ctx: EngineCtx): Ac
 }
 
 function dealCard(room: RoomData, ctx: EngineCtx): void {
-  const mode = room.round!.mode;
+  room.round = { ...room.round!, passVotes: [] };
+  const mode = room.round.mode;
   if (mode === 'kukla') {
     const card = ctx.deck.kuklaCard(room.level);
     room.roundCard = card;
@@ -291,12 +293,38 @@ export function pass(room: RoomData, playerId: string, ctx: EngineCtx): ActionRe
   const blocked = activeRound(room, ctx);
   if (blocked) return blocked;
   const r = room.round!;
-  if (r.narratorId !== playerId) return fail('not_allowed', 'Pass yalnızca Anlatıcı içindir.');
   const card = room.roundCard;
   if (!card) return fail('not_allowed', 'Kart yok.');
+
+  if (r.mode === 'kukla') return kuklaPassVote(room, playerId, ctx);
+
+  if (r.narratorId !== playerId) return fail('not_allowed', 'Pass yalnızca Anlatıcı içindir.');
   if (!canPass(r.mode, r.passesUsed, card)) return fail('not_allowed', 'Yeterli pass hakkın yok.');
   room.round = { ...r, passesUsed: r.passesUsed + passCost(card) };
   dealCard(room, ctx);
+  return OK;
+}
+
+/**
+ * Kukla pass'i oylamadır: oynayan takımın bağlı tüm oyuncuları (anlatıcı + dinleyiciler) basınca kelime geçilir.
+ * Aynı oyuncu tekrar basarsa oyunu geri çeker. Gözlemci rakip takımdandır, oy veremez.
+ */
+function kuklaPassVote(room: RoomData, playerId: string, ctx: EngineCtx): ActionResult {
+  const r = room.round!;
+  const card = room.roundCard!;
+  const voter = findPlayer(room, playerId);
+  if (!voter || voter.team !== r.team || playerId === r.observerId) return fail('not_allowed', 'Kuklada pass oyunu yalnızca oynayan takımındır.');
+  if (!canPass(r.mode, r.passesUsed, card)) return fail('not_allowed', 'Yeterli pass hakkın yok.');
+
+  const has = r.passVotes.includes(playerId);
+  const votes = has ? r.passVotes.filter((id) => id !== playerId) : [...r.passVotes, playerId];
+  const everyone = room.players.filter((p) => p.team === r.team && p.connected);
+  if (everyone.length > 0 && everyone.every((p) => votes.includes(p.id))) {
+    room.round = { ...r, passesUsed: r.passesUsed + passCost(card) };
+    dealCard(room, ctx);
+    return OK;
+  }
+  room.round = { ...r, passVotes: votes };
   return OK;
 }
 

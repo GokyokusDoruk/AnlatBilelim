@@ -1,9 +1,13 @@
 import { describe, expect, it } from 'vitest';
-import { JOINTS, KUKLA_CLIPS, KUKLA_LEVELS, KUKLA_LOOP_SEC, samplePose } from './kukla';
+import { JOINTS, KUKLA_CLIPS, KUKLA_FACES, KUKLA_LEVELS, KUKLA_LOOP_SEC, samplePose } from './kukla';
 import { KUKLA_CLIP_WORDS } from './kukla_words';
 import { WORDS } from './words';
 
 describe('kukla klipleri', () => {
+  it('her klibin bir yüz ifadesi var', () => {
+    expect(KUKLA_FACES.length).toBe(KUKLA_CLIPS.length);
+  });
+
   it('her klibin bir kelimesi var, kelimeler kukla havuzunda ve tekrarsız', () => {
     expect(KUKLA_CLIP_WORDS.length).toBe(KUKLA_CLIPS.length);
     expect(KUKLA_CLIP_WORDS.length).toBeGreaterThanOrEqual(40);

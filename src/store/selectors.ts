@@ -31,3 +31,11 @@ export const useMyRole = (): Role | null =>
 
 export const usePlayerName = (id: string | null | undefined): string =>
   useGameStore((s) => (id ? (s.players.find((p) => p.id === id)?.name ?? '') : ''));
+
+/** Anlatıcı/Gözlemci tur sırasında yalnızca kartına odaklanır; tahta ve skor gizlenir. */
+export const useFocusMode = (): boolean =>
+  useGameStore((s) => {
+    const r = s.round;
+    if (s.phase !== 'round' || !r || !s.selfId) return false;
+    return r.narratorId === s.selfId || r.observerId === s.selfId;
+  });

@@ -6,7 +6,7 @@
  * bu yüzden vitest ile deterministik test edilebilir. Durable Object yalnızca
  * I/O yapar (WebSocket, depolama, alarm).
  */
-import { advance, ALL_MODES, MODE_CONFIG, nextStepFor, stepKind, hasWon } from '../../shared/board';
+import { advance, ALL_MODES, canPass, MODE_CONFIG, nextStepFor, passCost, stepKind, hasWon } from '../../shared/board';
 import { MIN_PLAYERS_PER_TEAM, ROULETTE_MS, SUMMARY_AUTO_MS } from '../../shared/constants';
 import type { ErrorCode } from '../../shared/protocol';
 import type { CardDeck } from '../../shared/words';
@@ -248,10 +248,8 @@ export function pass(room: RoomData, playerId: string, ctx: EngineCtx): ActionRe
   if (r.narratorId !== playerId) return fail('not_allowed', 'Pass yalnızca Anlatıcı içindir.');
   const card = room.roundCard;
   if (!card) return fail('not_allowed', 'Kart yok.');
-  const limit = MODE_CONFIG[r.mode].passLimit;
-  const cost = card.kind === 'tabu' ? 1 : card.solved.filter((v) => !v).length;
-  if (limit - r.passesUsed < cost) return fail('not_allowed', 'Yeterli pass hakkın yok.');
-  room.round = { ...r, passesUsed: r.passesUsed + cost };
+  if (!canPass(r.mode, r.passesUsed, card)) return fail('not_allowed', 'Yeterli pass hakkın yok.');
+  room.round = { ...r, passesUsed: r.passesUsed + passCost(card) };
   dealCard(room, ctx);
   return OK;
 }
@@ -349,4 +347,15 @@ export function onRosterChanged(room: RoomData, ctx: EngineCtx): void {
       beginTurn(room, ctx);
     }
   }
+}
+
+/** Sadece geliştirme: tahtayı ayarlar ve sıradaki turu yeni basamağa göre yeniden başlatır. */
+export function devSetBoard(room: RoomData, a: number, b: number, ctx: EngineCtx): ActionResult {
+  if (!inGame(room) || !Number.isInteger(a) || !Number.isInteger(b)) return fail('bad_message', 'Geçersiz istek.');
+  const clamp = (n: number) => Math.max(0, Math.min(44, n));
+  room.board = { positions: { A: clamp(a), B: clamp(b) } };
+  room.round = null;
+  room.roundCard = null;
+  beginTurn(room, ctx);
+  return OK;
 }

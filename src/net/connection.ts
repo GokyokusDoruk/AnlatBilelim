@@ -65,3 +65,6 @@ export function onBinary(channel: BinaryChannel, listener: (data: ArrayBuffer) =
 export function serverNow(): number {
   return active?.serverNow() ?? Date.now();
 }
+
+// Sadece geliştirmede: tarayıcı testleri eylem gönderebilsin.
+if (import.meta.env.DEV) (window as unknown as { __tabuSend: typeof sendAction }).__tabuSend = sendAction;

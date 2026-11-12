@@ -6,7 +6,7 @@ import { getSavedName, saveName } from '../lib/identity';
 import { navigate } from '../lib/router';
 import { connectRoom, leaveRoom } from '../net/connection';
 import { useGameStore } from '../store/gameStore';
-import { useConnectionStatus, useNotice, usePhase } from '../store/selectors';
+import { useConnectionStatus, useFocusMode, useNotice, usePhase } from '../store/selectors';
 import { GameStatusView } from './GameStatusView';
 import { LobbyView } from './LobbyView';
 import './screens.css';
@@ -53,6 +53,7 @@ function RoomView({ code }: { code: string }) {
   const notice = useNotice();
   const hasSnapshot = useGameStore((s) => s.hasSnapshot);
   const phase = usePhase();
+  const focus = useFocusMode();
 
   const onLeave = () => {
     leaveRoom();
@@ -75,7 +76,8 @@ function RoomView({ code }: { code: string }) {
               {code}
             </button>
           </div>
-          <div className="row">
+          {/* Tur sırasında sağ üstteki sabit sayaç bağlantı rozetini kapatmasın */}
+          <div className="row" style={{ marginRight: phase === 'round' ? 88 : 0 }}>
             <ConnectionBadge status={status} />
             <Button size="sm" variant="ghost" onClick={onLeave}>
               Çık
@@ -97,9 +99,11 @@ function RoomView({ code }: { code: string }) {
       ) : (
         <>
           {phase === 'lobby' ? <LobbyView /> : <GameStatusView />}
-          <Card title="Oyun Tahtası">
-            <Board />
-          </Card>
+          {focus ? null : (
+            <Card title="Oyun Tahtası">
+              <Board />
+            </Card>
+          )}
         </>
       )}
     </Screen>

@@ -4,7 +4,8 @@
  * paketine girmez (kartlar sunucudan gelir), böylece istemci bundle'ı küçük kalır.
  */
 import data from './data/words_tr.json';
-import type { GameMode, TabuCard, TripleCard } from './types';
+import { KUKLA_CLIP_WORDS } from './kukla_words';
+import type { GameMode, KuklaCard, TabuCard, TripleCard } from './types';
 
 export interface WordPool {
   readonly anlatma: readonly { word: string; forbidden: readonly string[] }[];
@@ -81,8 +82,17 @@ export class CardDeck {
     return { kind: 'tabu', word: entry.word, forbidden: entry.forbidden as TabuCard['forbidden'] };
   }
 
+  private kuklaBag?: ShuffleBag;
+
+  /** Kukla: animasyonu olan kelimelerden tek kelimelik kart (tekrarsız). */
+  kuklaCard(level: KuklaCard['level'] = 2): KuklaCard {
+    const bag = (this.kuklaBag ??= new ShuffleBag(KUKLA_CLIP_WORDS.length, this.rand));
+    const clip = bag.next();
+    return { kind: 'kukla', word: KUKLA_CLIP_WORDS[clip]!, clip, level };
+  }
+
   /** 3 farklı kelimelik kart (Çizme / Kukla / 15 Kelime). */
-  tripleCard(mode: Exclude<GameMode, 'anlatma'>): TripleCard {
+  tripleCard(mode: Exclude<GameMode, 'anlatma' | 'kukla'>): TripleCard {
     const bag = this.bag(mode);
     const list = WORDS[mode];
     return {

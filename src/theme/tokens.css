@@ -1,0 +1,58 @@
+/* Tasarım belirteçleri: tüm renkler, aralıklar ve yarıçaplar buradan gelir. */
+:root {
+  color-scheme: dark;
+
+  /* Zemin */
+  --bg: #14102a;
+  --bg-elevated: #1e1940;
+  --bg-sunken: #0e0b1f;
+  --surface: #262052;
+  --border: rgba(255, 255, 255, 0.1);
+
+  /* Metin */
+  --text: #f5f3ff;
+  --text-muted: #a9a3d1;
+  --text-dim: #6f69a0;
+
+  /* Takımlar */
+  --team-a: #ef4565;
+  --team-a-soft: rgba(239, 69, 101, 0.16);
+  --team-b: #3d8bfd;
+  --team-b-soft: rgba(61, 139, 253, 0.16);
+
+  /* Modlar (tahta renk kodları) */
+  --mode-anlatma: #ffb020;
+  --mode-cizme: #2ed47a;
+  --mode-kukla: #c06bff;
+  --mode-onbes: #22c3e6;
+  --mode-karisik: linear-gradient(135deg, #ffb020, #2ed47a 35%, #c06bff 65%, #22c3e6);
+
+  /* Durum */
+  --accent: #ffd23f;
+  --success: #2ed47a;
+  --danger: #ff5470;
+  --warning: #ffb020;
+
+  /* Ölçüler */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 22px;
+  --radius-pill: 999px;
+
+  --font: 'Nunito', 'Segoe UI', system-ui, -apple-system, Roboto, sans-serif;
+  --font-display: 'Baloo 2', 'Nunito', system-ui, sans-serif;
+
+  --shadow-1: 0 2px 0 rgba(0, 0, 0, 0.35);
+  --shadow-2: 0 10px 30px rgba(0, 0, 0, 0.35);
+
+  --safe-top: env(safe-area-inset-top, 0px);
+  --safe-bottom: env(safe-area-inset-bottom, 0px);
+
+  --ease-out: cubic-bezier(0.2, 0.8, 0.2, 1);
+}

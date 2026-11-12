@@ -1,6 +1,7 @@
 /**
  * Açılış tanıtımı: oyun açılmadan önce ~5 sn'lik, tamamen CSS ile çalışan animasyon.
  * Logo zıplayarak düşer, dört mod uçarak gelir, spiral tahta çizilir ve ortadaki yıldıza varılır.
+ * Sonda ekran kararır; önce "DorukPlays", ardından "Sunar" yazısı belirir.
  * Dokununca atlanır; bir oturumda yalnızca bir kez gösterilir; "hareketi azalt" ayarında hiç çıkmaz.
  * Canvas / rAF yok, tek bir setTimeout vardır ve unmount'ta temizlenir.
  */
@@ -9,7 +10,7 @@ import { buildSpiral, starPoints, VIEW } from '../components/board/spiral';
 import './intro.css';
 
 const SEEN_KEY = 'tabu:intro-seen';
-const DURATION_MS = 5600;
+const DURATION_MS = 8200;
 const MODES = [
   { icon: '🗣️', label: 'Anlat', color: 'var(--mode-anlatma)' },
   { icon: '✏️', label: 'Çiz', color: 'var(--mode-cizme)' },
@@ -53,6 +54,7 @@ export function Intro({ children }: { children: React.ReactNode }) {
     <>
       {children}
     <div className="intro" role="presentation" onClick={finish}>
+      <div className="intro__main">
       <svg className="intro__spiral" viewBox={`0 0 ${VIEW} ${VIEW}`} aria-hidden>
         <path className="intro__path" d={SPIRAL.path} pathLength={1} />
         <polygon className="intro__star" points={starPoints(center.x, center.y, 26, 11)} />
@@ -74,6 +76,17 @@ export function Intro({ children }: { children: React.ReactNode }) {
         ))}
       </div>
       <p className="intro__tag">Telefonlar elde, takımlar hazır. Önce yıldıza kim varacak?</p>
+      </div>
+      <div className="intro__brand" aria-label="DorukPlays Sunar">
+        <div className="intro__brand-name">
+          {'DorukPlays'.split('').map((c, i) => (
+            <span key={i} style={{ ['--i' as string]: i }}>
+              {c}
+            </span>
+          ))}
+        </div>
+        <div className="intro__brand-sub">Sunar</div>
+      </div>
       <button type="button" className="intro__skip">
         Geç ›
       </button>

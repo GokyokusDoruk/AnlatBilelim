@@ -211,3 +211,67 @@ Dalgaya Meydan Okumak|Kürek Çekmek
 Tepe Başında Beklemek|Tırmanmak
 Gökte Uçan Gibi|İp Atlamak
 Balık Dolu Deniz|Olta Atmak
+Rüzgar Gibi Koşmak|Koşmak
+Ayağına Çabuk Olmak|Koşmak
+Kaçacak Delik Aramak|Koşmak
+Kıl Payı Kurtulmak|Koşmak
+Ateşten Gömlek Giymek|Koşmak
+Sevinçten Çıldırmak|Zıplamak
+Dalgayla Savaşmak|Yüzmek
+Sudan Çıkmış Balığa Dönmek|Yüzmek
+Ayağını Yerden Kesmek|Dans Etmek
+Herkesi Ayağa Kaldırmak|Dans Etmek
+Gözüne Uyku Girmemek|Uyumak
+Uykuyu Almak|Uyumak
+Tavuk Gibi Yatmak|Uyumak
+Bir Uyur Bir Uyanık Yatmak|Uyumak
+Üç Kuruşa Doymak|Yemek Yemek
+Kurt Gibi Yemek|Yemek Yemek
+Dört Elle Sarılmak|Yemek Yemek
+Bir Yudum Su Vermek|Su İçmek
+Su Verecek Kimse Bulamamak|Su İçmek
+Su Yolu Bulmak|Su İçmek
+Timsah Gözyaşı Dökmek|Ağlamak
+Ağlayacak Duruma Gelmek|Ağlamak
+Gözyaşlarına Boğulmak|Ağlamak
+İçine Gömülmek|Ağlamak
+Gülünç Duruma Düşmek|Gülmek
+Kahkahalara Boğulmak|Gülmek
+Gülmekten Kırılıp Dökülmek|Gülmek
+Boğazı Düğümlenmek|Öksürmek
+Gırtlağına Takılmak|Öksürmek
+Esneye Esneye Çenesi Çıkmak|Esnemek
+Sıkıntıdan Patlamak|Esnemek
+Uykusu Dağılmak|Esnemek
+Uzaktan Selam Çakmak|El Sallamak
+Hoşça Kal Demek|El Sallamak
+Bayrak Sallamak|El Sallamak
+Göz Kırpmak|El Sallamak
+Kıyasıya Alkışlamak|Alkışlamak
+Alkış Tufanına Tutulmak|Alkışlamak
+Sahnede Selam Vermek|Alkışlamak
+Kapalı Kapı Ardında Alkışlamak|Alkışlamak
+Kafa Göz Yarmak|Kavga Etmek
+Dalaşmak|Kavga Etmek
+Birbirinin Gözünü Oymak|Kavga Etmek
+Pes Etmeyip Ayakta Kalmak|Boks Yapmak
+Final Raundu Oynamak|Boks Yapmak
+Kendi Kalesine Gol Atmak|Futbol Oynamak
+Orta Sahada Mücadele Etmek|Futbol Oynamak
+Topa Şans Tanımamak|Futbol Oynamak
+Pedal Çevire Çevire Gitmek|Bisiklete Binmek
+Dengesini Kaybetmek|Bisiklete Binmek
+Aynı Kayıkta Olmak|Kürek Çekmek
+Güçlü Kürek Çekmek|Kürek Çekmek
+Herkes Aynı Yöne Çekmek|Kürek Çekmek
+Zirveye Oynamak|Tırmanmak
+İpin Ucunu Kaçırmak|Tırmanmak
+Merdiveni Devirmek|Tırmanmak
+Zorlu Yokuşa Girmek|Tırmanmak
+İpini Çekmek|İp Atlamak
+Oltaya Takılmak|Olta Atmak
+Balığa Çıkmak|Olta Atmak
+Suya Yem Atmak|Olta Atmak
+Ağır Ağırlığı Sırtlanmak|Halter Kaldırmak
+Yük Altına Girmek|Halter Kaldırmak
+

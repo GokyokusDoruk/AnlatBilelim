@@ -210,3 +210,66 @@ Dengeyi Korumak|Bisiklete Binmek
 Ortak Çaba|Kürek Çekmek
 Hedefe Yürümek|Tırmanmak
 Tempo|İp Atlamak
+Zaman Kaybetmemek|Koşmak
+Peşinde Koşmak|Koşmak
+Tavandan Sarkmak|Zıplamak
+Hoplayıp Zıplamak|Zıplamak
+Akıntıya Kürek Çekmek|Yüzmek
+Suya Atlamak|Yüzmek
+Ritim Tutturmak|Dans Etmek
+Sevinçle Oynamak|Dans Etmek
+Derin Uykuya Dalmak|Uyumak
+Nefis Bir Sofra Kurmak|Yemek Yemek
+Obur Gibi Yemek|Yemek Yemek
+Doyasıya Yemek|Yemek Yemek
+Çöl Ortasında Susuz Kalmak|Su İçmek
+Boğazı Kurumak|Su İçmek
+Acı Çekmek|Ağlamak
+Hasret Çekmek|Ağlamak
+Gözyaşlarını Tutamamak|Ağlamak
+Güldürmek|Gülmek
+Keyfi Yerinde Olmak|Gülmek
+Boğazı Yanmak|Öksürmek
+Nefesi Daralmak|Öksürmek
+Aksırıp Tıksırmak|Hapşırmak
+Hapşırınca Kafayı Çarpmak|Hapşırmak
+Kendini Tutmaya Çalışmak|Esnemek
+Uykusu Gelmek|Esnemek
+İlgisiz Kalmak|Esnemek
+Merhaba Demek|El Sallamak
+Hesaplaşmak|Kavga Etmek
+Kafa Tutmak|Kavga Etmek
+Sporcu Olmak|Boks Yapmak
+Direnmek|Boks Yapmak
+Takım Olmak|Futbol Oynamak
+Yenilmek|Futbol Oynamak
+Hızını Artırmak|Bisiklete Binmek
+Uyum Sağlamak|Kürek Çekmek
+Çabalamak|Kürek Çekmek
+Zirveyi Hedeflemek|Tırmanmak
+Basamak Basamak İlerlemek|Tırmanmak
+Kondisyon Kazanmak|İp Atlamak
+Bekleyiş İçinde Olmak|Olta Atmak
+Sabırlı Olmak|Olta Atmak
+Şans Beklemek|Olta Atmak
+Yükü Kaldırmak|Halter Kaldırmak
+Güçlü Olmak|Halter Kaldırmak
+Yük Altında Ezilmek|Halter Kaldırmak
+Müzisyen Olmak|Gitar Çalmak
+Telleri Akort Etmek|Gitar Çalmak
+Ritim Tutmak İçin Vurmak|Davul Çalmak
+Titizlenmek|Diş Fırçalamak
+Temizlik Yapmak|Diş Fırçalamak
+Ağız Bakımı Yapmak|Diş Fırçalamak
+Özenle Hazırlanmak|Saç Taramak
+Hazırlanmak|Saç Taramak
+Güzelleşmek|Saç Taramak
+Havadar Bir Yerde Kurutmak|Çamaşır Asmak
+Düzgün Görünmek|Ütü Yapmak
+Toparlamak|Yer Silmek
+Temiz Tutmak|Yer Silmek
+Hat Meşgul Olmak|Telefonla Konuşmak
+Sohbet Etmek|Telefonla Konuşmak
+Üşümek|Soğuktan Titremek
+Isınmaya Çalışmak|Soğuktan Titremek
+

@@ -20,3 +20,10 @@ Hâkim Çekici, Kelepçe Takılı El, Polis Rozeti, Parmak İzi, Güvenlik Kamer
 Para Yağmuru, Faiz Grafiği, Borsa Ekranı, Çek, Fatura, Kredi Kartı, Okul Zili, Karne, Tahta Silgisi, Sınıf Defteri
 Mezuniyet Kepi, Diploma, Okul Servisi, Teneffüs, Kantin, Karne Günü, Dedikodu, Sır Verme, Özür Dileme, Barışma
 Bekleme Odası, Kuyruk
+Sınav Heyecanı, Karne Sevinci, Mezuniyet Töreni, Okul Yolu, Teneffüs Koşuşturması, Kantin Kuyruğu, Ders Zili, Öğretmen Masası, Tahta Başında Öğrenci, Sınıf Fotoğrafı
+Doğum Odası, Bebek Bekleyen Baba, Beşik Sallayan Anne, İlk Adım, İlk Diş, Mama Sandalyesi, Bebek Bakıcısı, Altını Değiştirmek, Uyku Saati, Oyun Parkı
+Çay Bahçesinde Sohbet, Mangal Başında Baba, Pikniğe Gidiş, Düğün Konvoyu, Bayram Ziyareti, Kına Gecesi Dansı, Cenaze Namazı, Mevlit Okutmak, Hac Yolu, Kurban Kesimi
+Yangın Söndürme, Trafik Kazası, Hırsız Yakalama, Kayıp Çocuk Arama, Kurtarma Operasyonu, Deprem Enkazı, Sel Baskını, Hortum Felaketi, Orman Yangını, Çığ Altı
+Hızlı Tren Yolculuğu, Metrobüs Kalabalığı, Vapurda Simit, Dolmuşa Binmek, Taksi Çevirmek, Yaya Kaldırımı, Otopark Kavgası, Benzin İstasyonu, Köprü Geçişi, Alışveriş Merkezi
+Yürüyen Merdiven, Giyim Mağazası, Kasa Kuyruğu, Pazar Tezgâhı, Bakkal Dükkânı, Kasap Reyonu, Manav Terazisi, Fırın Önü Kuyruk, Çarşıda Pazarlık, Spor Salonu Antrenmanı
+Maç Heyecanı, Gol Sevinci

@@ -20,3 +20,10 @@ Jaguar, Puma, Vaşak, Kurt, Tilki, Çakal, Sırtlan, Kanguru Yavrusu, Alpaka, Ya
 Bizon, Antilop, Geyik, Yaban Domuzu, Porsuk, Yusufçuk, Çekirge, Kelebek Kozası, Tırtıl, Termit
 Sülük, Solucan, Salyangoz Kabuğu, Deniz Anası, Istakoz, Karides, Midye, Mercan, Köpek Balığı, Orkinos
 Gitar Teli, Org, Flüt
+Gözlük Fabrikası, Mercek, Camcı, Terzi Makası, Dikiş İğnesi, Yün Yumağı, Tığ, Örgü Şişi, Nakış Çerçevesi, Makara
+Fırın Eldiveni, Oklava, Hamur Teknesi, Rende, Süzgeç, Kevgir, Çırpıcı, Mikser, Blender, Ödül Kupası
+Başarı Madalyası, Podyum, Bitiş Çizgisi, Başlama Tabancası, Sporcu Forması, Hakem Düdüğü, Taraftar Atkısı, Stat Kapısı, Yedek Kulübesi, Kâğıt Uçak
+Origami Turna, Yapboz Parçası, Rubik Küpü, Domino Taşı, Tavla Zarı, Dama Tahtası, Okey Taşı, Tombala Kartı, Jenga Kulesi, Kamp Sandalyesi
+Mataram, Uyku Tulumu, Çadır Direği, Kamp Lambası, Odun Yığını, Mangal Kömürü, Çakmak, Piknik Örtüsü, Röntgen Filmi, Hasta Odası
+Serum Askısı, Tekerlekli Sandalye, Koltuk Değneği, Alçı, Sargı Bezi, Reçete Kâğıdı, Seyir Defteri, Kaptan Köşkü, Radar Ekranı, Can Simidi
+Tayfa, Gemi Zili, Limana Yanaşma

@@ -20,3 +20,10 @@ Deniz Seviyesi, Ozon Tabakası, Sera Gazı, Yapay Sinir Ağı, Makine Öğrenmes
 Güncelleme, Yedekleme, Sunucu Çökmesi, Mitoloji, Efsane, Destan, Masal, Fabl, Menkıbe, Anonim
 Rivayet, Fıkra, Divan Şiiri, Kaside, Rubai, Mesnevi, Mani, Türkü, Ağıt, Ninni
 Tekerleme, Sinema Tarihi, Siyah Beyaz
+Zaman Paradoksu, Kelebek Etkisi, Işık Yılı, Evrenin Genişlemesi, Büyük Patlama, Karanlık Enerji, Yerçekimi Dalgası, Mars Kolonisi, Uzay Asansörü, Bilgi Çağı
+Dijital Dönüşüm, Yapay Zekâ Etiği, Veri Gizliliği, Algoritma Yanlılığı, Otomasyon, Robotik, Nesnelerin İnterneti, Akıllı Şehir, Sanal Gerçeklik, Mikroplastik
+Karbon Emisyonu, Biyoyakıt, Rüzgâr Çiftliği, Güneş Tarlası, Jeotermal, Nükleer Atık, Su Kıtlığı, Çölleşme, Mercan Beyazlaşması, Kuramsal
+Deneysel, Gözlemsel, Karşılaştırmalı, Eleştirel, Yorumlayıcı, Nitel, Nicel, Bütüncül, İndirgemeci, Eşik
+Sınır, Geçiş, Kırılma, Dönüşüm, Sıçrama, Çöküş, Yükseliş, Kopuş, Özerklik, Egemenlik
+Federasyon, Konfederasyon, Müzakere, Arabuluculuk, Tahkim, Edebi Akım, Gerçekçilik, Doğalcılık, Sembolizm, Fütürizm
+Egzistansiyalizm, Postmodernizm, Dadacılık

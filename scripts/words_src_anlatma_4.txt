@@ -211,3 +211,67 @@ Ankara|başkent, Anıtkabir, meclis, kale, Kızılay
 İzmir|Ege, Kordon, saat kulesi, liman, bir şehir
 Bursa|iskender, Uludağ, ilk başkent, Osmanlı, yeşil
 Konya|Mevlana, Selçuklu, ova, semazen, kubbe
+Melankoli|hüzün, derin, mavi, düşünce, yalnızlık
+Empati|anlamak, duygu, ortak, yerine koymak, karşı
+Hırs|istek, başarı, güçlü, tutku, kazanmak
+Tutku|aşk, ateş, istek, güçlü, coşku
+Merak|öğrenmek, kedi, sormak, bilmek, araştırmak
+Şüphe|inanmamak, güven, emin, kuşku, tereddüt
+Güven|inanmak, emin, sır, dayanmak, sadakat
+Sadakat|bağlılık, vefa, dürüst, sevgili, köpek
+Vefa|sadakat, unutmamak, dostluk, iyilik, eski
+İhanet|aldatmak, sırtından, güven, hain, arkadaş
+Hasret|özlem, uzak, ayrılık, sevgili, bekleyiş
+Yalnızlık|tek, kimsesiz, sessizlik, arkadaş, boş
+Tevazu|alçakgönüllü, kibir, mütevazı, övünmek, gösteriş
+Cömertlik|vermek, paylaşmak, eli açık, cimri, bağış
+Cimrilik|harcamamak, para, saklamak, eli sıkı, tasarruf
+Çaresizlik|çözümsüz, umutsuz, bitmiş, yardım, kimse
+Umutsuzluk|umut, karamsar, çaresiz, bitmek, kapanmak
+İyimserlik|umut, güzel, bakmak, olumlu, dolu
+Karamsarlık|kötü, yarı boş, umutsuz, olumsuz, gri
+Çelişki|zıt, mantık, paradoks, uyumsuz, fikir
+Mecaz|gerçek, anlam, söz, benzetme, edebi
+Sarkazm|alaycı, acı, iğneleyici, söz, ironi
+Kabalık|kaba, saygısız, bağırmak, terbiyesiz, nezaket
+Edep|terbiye, saygı, ahlak, görgü, utanmak
+Haysiyet|onur, değer, saygı, kişilik, şeref
+Şeref|onur, değer, makam, haysiyet, saygın
+İtibar|saygı, ün, değer, çevre, kazanmak
+Şöhret|ünlü, tanınmak, popüler, ün, herkes
+Servet|zengin, para, mal, birikim, miras
+Fakirlik|yoksul, para, yoksunluk, geçinmek, zor
+Yoksulluk|fakir, az, geçinmek, ihtiyaç, zor
+Lüks|pahalı, zengin, gösterişli, konfor, marka
+Gösteriş|çalım, sergilemek, övünmek, dikkat, abartı
+Mütevazılık|tevazu, gösteriş, alçak, sade, övünmek
+Sadelik|basit, süs, gösterişsiz, temiz, az
+Minimalizm|az, sade, eşya, tasarım, boş
+Kaos|karmaşa, düzen, kargaşa, dağınık, bozuk
+Entropi|düzensizlik, fizik, ısı, evren, kaos
+Denge|ağırlık, ip, sallanmak, eşit, durmak
+Simetri|ayna, eşit, yarım, şekil, iki
+Sonsuzluk|bitmeyen, sınır, evren, rakam, yatay
+Boşluk|içi, hiçlik, yok, aralık, uzay
+Hiçlik|yokluk, boşluk, felsefe, hiçbir şey, anlam
+Varoluş|felsefe, olmak, anlam, hayat, bilinç
+Bilinç|farkında, uyanık, zihin, beyin, anlamak
+Bilinçaltı|rüya, zihin, gizli, düşünce, psikoloji
+Sezgi|his, içgüdü, bilmek, önsezi, akıl
+İçgüdü|doğuştan, hayvan, otomatik, hisler, refleks
+Refleks|çabuk, tepki, doktor, diz, otomatik
+Alışkanlık|tekrar, yapmak, bırakmak, huy, günlük
+Bağımlılık|bırakamamak, sigara, telefon, alışkanlık, tedavi
+Disiplin|düzen, kural, sıkı, askeri, uymak
+Strateji|plan, hamle, savaş, taktik, hedef
+Taktik|plan, hamle, antrenör, yöntem, oyun
+Diplomasi|ülke, elçi, görüşme, barış, anlaşma
+Elçilik|ülke, büyükelçi, vize, diplomasi, bayrak
+Misafirperverlik|konuk, ağırlamak, kapı, sofra, karşılamak
+Töre|gelenek, kural, ahlak, eski, toplum
+Ritüel|tören, tekrar, gelenek, dini, adet
+Tören|resmi, kutlama, açılış, merasim, kıyafet
+Merasim|tören, resmi, kutlama, geçit, kıyafet
+Kutsal|din, ibadet, kutsallık, dokunulmaz, saygı
+Mucize|inanılmaz, olağanüstü, doğaüstü, şaşırtıcı, dilek
+

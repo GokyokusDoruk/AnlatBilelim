@@ -27,3 +27,10 @@ Origami Turna, Yapboz Parçası, Rubik Küpü, Domino Taşı, Tavla Zarı, Dama 
 Mataram, Uyku Tulumu, Çadır Direği, Kamp Lambası, Odun Yığını, Mangal Kömürü, Çakmak, Piknik Örtüsü, Röntgen Filmi, Hasta Odası
 Serum Askısı, Tekerlekli Sandalye, Koltuk Değneği, Alçı, Sargı Bezi, Reçete Kâğıdı, Seyir Defteri, Kaptan Köşkü, Radar Ekranı, Can Simidi
 Tayfa, Gemi Zili, Limana Yanaşma
+Mandolin, Trompet, Saksafon, Klarnet, Çello, Arp, Bağlama, Ud, Darbuka, Marakas
+Ksilofon, Gong, Üçgen, Kıskaç, Pense, Tornavida, Cıvata, Somun, Vida, Çivi
+Keser, Balta, Kürek, Kazma, Tırmık, Tırpan, Orak, Bel, Çapa, Sofra
+Kepçe, Hamur Tahtası, Bıçak Takımı, Mutfak Önlüğü, Zeytinlik, Tuzluk, Şekerlik, Peçetelik, Yumurtalık, Teneke
+Tüp, Pamuk Şeker, Lokma, Poğaça, Pide, Döner, Köfte, Sütlaç, Aşure, Lokum
+Helva, Kumpir, Çiğ Köfte, Mantı, Dolma, Baston, Terazi, Metre, Gönye, Ataç
+Raptiye, Rozet, Plaket

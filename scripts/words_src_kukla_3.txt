@@ -273,3 +273,65 @@ Sohbet Etmek|Telefonla Konuşmak
 Üşümek|Soğuktan Titremek
 Isınmaya Çalışmak|Soğuktan Titremek
 
+Rakibini Geçmeye Çalışmak|Koşmak
+Heyecandan Yerinde Duramamak|Zıplamak
+Dalgalara Karşı Yüzmek|Yüzmek
+Müziğe Kendini Kaptırmak|Dans Etmek
+Susuzluğunu Gidermek|Su İçmek
+Duygulanıp Gözyaşı Dökmek|Ağlamak
+Neşeyle Gülmek|Gülmek
+Boğazını Yakan Öksürük|Öksürmek
+Alerji Nöbeti Geçirmek|Hapşırmak
+Veda Edip Gitmek|El Sallamak
+Beğeniyle Alkışlamak|Alkışlamak
+Özleyip Sarılmak|Sarılmak
+Öfkeyle Tartışmak|Kavga Etmek
+Dayanıklılığını Sınamak|Boks Yapmak
+Takım Ruhuyla Oynamak|Futbol Oynamak
+Dengesini Korumak|Bisiklete Binmek
+Aynı Anda Kürek Çekmek|Kürek Çekmek
+Zirveye Yaklaşmak|Tırmanmak
+Ritim Tutarak Atlamak|İp Atlamak
+Beklemek|Olta Atmak
+Müzisyen Gibi Çalmak|Gitar Çalmak
+Ritmi Tutturmak|Davul Çalmak
+Titizlikle Temizlenmek|Diş Fırçalamak
+Temiz Havada Kurutmak|Çamaşır Asmak
+Düzgün Görünmek İçin Ütülemek|Ütü Yapmak
+Toparlayıp Silmek|Yer Silmek
+Üşüyüp Isınmaya Çalışmak|Soğuktan Titremek
+Ürküp Geri Çekilmek|Korkmak
+Pes Edip Dinlenmek|Yorulmak
+Kökünden Sökmek|Ağaç Kesmek
+Sağlam Çakmak|Çivi Çakmak
+Derin Araştırma Yapmak|Kazı Yapmak
+Hedefi Tutturmak|Ok Atmak
+Anıyı Dondurmak|Fotoğraf Çekmek
+Birlik Olup Oynamak|Halay Çekmek
+Zafere Doğru Koşmak|Koşmak
+Mutluluktan Havalara Uçmak|Zıplamak
+Derin Sulara Dalmak|Yüzmek
+Ritme Ayak Uydurmak|Dans Etmek
+Uykusuz Kalmak|Uyumak
+Lezzetin Tadını Çıkarmak|Yemek Yemek
+Çölde Su Bulmak|Su İçmek
+Hasretle Ağlamak|Ağlamak
+Gülümseyip Geçmek|Gülmek
+Nefessiz Kalıp Öksürmek|Öksürmek
+Burnunu Çekip Hapşırmak|Hapşırmak
+Uykusu Gelip Esnemek|Esnemek
+Dikkat Çekmek İçin El Sallamak|El Sallamak
+Teselli Etmek İçin Sarılmak|Sarılmak
+Rakibe Direnmek|Boks Yapmak
+Gol Atıp Sevinmek|Futbol Oynamak
+Yokuşta Zorlanmak|Bisiklete Binmek
+Uyum Yakalamak|Kürek Çekmek
+Basamak Basamak Çıkmak|Tırmanmak
+Gücünü Göstermek|Halter Kaldırmak
+Kırışıklık Açmak|Ütü Yapmak
+Tir Tir Titremek|Soğuktan Titremek
+Paniğe Kapılmak|Korkmak
+Bitap Düşmek|Yorulmak
+Kışa Hazırlanmak İçin Odun Kesmek|Ağaç Kesmek
+Karar Verip Üstüne Basmak|Çivi Çakmak
+El Ele Tutuşmak|Halay Çekmek

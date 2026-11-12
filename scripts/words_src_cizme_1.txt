@@ -27,3 +27,10 @@ Hamster, Köpek Kulübesi, Kedi Kumu, Eşek Yükü, Koyun Sürüsü, Tavuk Küme
 Dalgalı Deniz, Kum Kalesi, Kumsal, Güneş Şemsiyesi, Deniz Yıldızı, Kabuk, Bulut Adam, Kardan Adam Şapkası, Kar Küreği, Eldiven Çifti
 Kar Topu, Karlı Ağaç, Ayaz, Soba, Su Birikintisi, Lastik Çizme, Şemsiye Sapı, Islak Köpek, Gökkuşağı Köprüsü, Fırtına Bulutu
 Şimşek Çakması, Güneş Doğuşu
+Tişört, Bot, Sandalet, Atlet, Önlük, Fular, Ayı, Hipopotam, Kertenkele, Peynir
+Tahta, Sıra, Küre, Ödev, Tebeşir, Boya, Pota, Ip, Ayıcık, Lego
+Yapboz, Zar, Düdük, Yaprak, Çim, Dal, Kök, Tohum, Fidan, Çardak
+Bahçe, Kuyu, Çit, Balkon, Garaj, Kulübe, Ağaç Ev, Ahır, Sera, Havuz
+Çeşme, Volkan, Ada, Göl, Çöl, Orman, Tepe, Vadi, Buz Dağı, Kıyı
+Yol, Ampul, Priz, Pil, Klavye, Fare, Yazıcı, Fan, Ütü, Hemşire
+Postacı, Öğretmen

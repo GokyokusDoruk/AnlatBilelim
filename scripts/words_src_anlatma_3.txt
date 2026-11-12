@@ -289,3 +289,183 @@ Orman Yangını|ateş, ağaç, duman, itfaiye, yeşil
 Geri Dönüşüm|plastik, kutu, çöp, atık, kâğıt
 Atık|çöp, kullanılmış, fabrika, çevre, kirlilik
 Rüzgar Gülü|enerji, pervane, elektrik, esmek, kule
+Hz. Muhammed|peygamber, İslam, Mekke, son, Kuran
+Nuh Tufanı|gemi, peygamber, hayvan, ark, su
+İbrahim|peygamber, ateş, put, kurban, Kâbe
+Kâbe|Mekke, hac, siyah, tavaf, İslam
+Hacı Bektaş Veli|Alevi, Nevşehir, dede, tasavvuf, Anadolu
+Alparslan|Sultan, Malazgirt, Selçuklu, Türk, Anadolu
+Osman Gazi|Osmanlı, kurucu, Söğüt, rüya, bey
+Yavuz Sultan Selim|padişah, Mısır, Osmanlı, halife, bıyık
+Hürrem Sultan|Kanuni, saray, Osmanlı, ünlü, Rus
+Abdülhamid|padişah, Osmanlı, Yıldız, sultan, telgraf
+Namık Kemal|vatan, şair, tiyatro, Osmanlı, yazar
+Mehmet Akif Ersoy|İstiklal Marşı, şair, Türk, marş, vatan
+İstiklal Marşı|milli, bayrak, şiir, ezgi, ayakta
+Martin Luther King|Amerika, rüya, hak, konuşma, lider
+Nelson Mandela|Güney Afrika, hapis, başkan, ayrımcılık, lider
+Gandi|Hindistan, barış, oruç, sarık, bağımsızlık
+Che Guevara|devrim, Küba, bere, asker, lider
+Napolyon|Fransa, imparator, Waterloo, savaş, şapka
+Cengiz Han|Moğol, hükümdar, savaşçı, fetih, at
+Julius Caesar|Roma, imparator, suikast, kral, Brutus
+Kleopatra|Mısır, kraliçe, güzel, yılan, firavun
+Tutankamon|Mısır, firavun, altın, maske, mezar
+Aristoteles|filozof, Yunan, Platon, öğrenci, bilgi
+Sokrates|filozof, Yunan, Atina, zehir, soru
+Platon|filozof, Yunan, Akademi, Atlantis, idea
+Arşimet|bilim, Yunan, buluş, banyo, kaldıraç
+Pisagor|matematik, üçgen, Yunan, teorem, formül
+Darwin|evrim, bilim, tür, maymun, İngiliz
+Marie Curie|bilim, radyum, Polonya, kadın, Nobel
+Nikola Tesla|elektrik, bilim, mucit, bobin, Sırp
+Graham Bell|telefon, mucit, buluş, ses, Amerikalı
+Gutenberg|matbaa, kitap, mucit, harf, Alman
+Kristof Kolomb|Amerika, gemi, keşif, denizci, İspanya
+Leonardo da Vinci|ressam, Mona Lisa, mucit, İtalyan, dahi
+Van Gogh|ressam, kulak, ayçiçeği, Hollandalı, tablo
+Michelangelo|heykeltıraş, Davut, İtalyan, kilise, ressam
+Elvis Presley|rock, kral, Amerikalı, şarkıcı, kalça
+Michael Jackson|pop, kral, moonwalk, Amerikalı, eldiven
+Beatles|grup, İngiliz, Liverpool, rock, dört
+Freddie Mercury|Queen, şarkıcı, bıyık, rock, grup
+Bob Marley|reggae, Jamaika, saç, müzik, şarkıcı
+Muhammed Ali|boks, yumruk, şampiyon, Amerikalı, kelebek
+Mike Tyson|boks, kulak, yumruk, şampiyon, Amerikalı
+Michael Jordan|basketbol, Bulls, 23, efsane, ayakkabı
+Pele|futbol, Brezilya, efsane, gol, forma
+Maradona|futbol, Arjantin, el, gol, efsane
+Usain Bolt|koşu, Jamaika, hız, şimşek, olimpiyat
+Çernobil|nükleer, patlama, Ukrayna, radyasyon, felaket
+Hiroşima|bomba, Japonya, atom, savaş, şehir
+Berlin Duvarı|Almanya, yıkılmak, soğuk savaş, ayırmak, ayrı
+11 Eylül|kule, Amerika, saldırı, uçak, New York
+Ay'a İniş|Apollo, Amerika, astronot, ay, ilk adım
+Neil Armstrong|ay, astronot, ilk adım, NASA, Amerikalı
+Yuri Gagarin|uzay, Rus, ilk, astronot, roket
+Samanyolu|galaksi, yıldız, gökyüzü, uzay, tuhaf
+Mars|kırmızı gezegen, uzay, kızıl, Dünya, robot
+Jüpiter|dev, gezegen, gaz, uzay, halka
+Satürn|halka, gezegen, uzay, gaz, güneş sistemi
+Büyük Patlama|evren, doğuş, uzay, bilim, başlangıç
+Evrim Teorisi|Darwin, tür, hayvan, bilim, değişim
+Görelilik|Einstein, zaman, uzay, fizik, kuram
+Periyodik Tablo|element, kimya, Mendeleyev, sıra, atom
+DNA|gen, çift sarmal, kalıtım, hücre, bilim
+Genetik|kalıtım, gen, anne, baba, bilim
+Hücre|canlı, mikroskop, çekirdek, bilim, biyoloji
+Bakteri|mikrop, küçük, hastalık, mikroskop, canlı
+Penisilin|ilaç, antibiyotik, Fleming, küf, hastalık
+Vitamin|C, sağlık, meyve, eksik, hap
+Protein|et, kas, besin, yumurta, vücut
+Kalori|diyet, yemek, enerji, ölçü, kilo
+Diyet|kilo, yemek, zayıflamak, kalori, program
+Paralel Evren|diğer, dünya, bilim kurgu, kopya, uzay
+Ufo|uzay, uçan, daire, uzaylı, gökyüzü
+Yeti|kar, dağ, canavar, Himalaya, ayak izi
+Bigfoot|orman, canavar, Amerika, ayak izi, dev
+Loch Ness|canavar, göl, İskoçya, ejderha, Nessie
+Bermuda Şeytan Üçgeni|gemi, uçak, kayıp, okyanus, gizem
+Eldorado|altın, kayıp, şehir, efsane, define
+Zorro|maske, kılıç, Z, İspanya, kahraman
+Dracula|vampir, Transilvanya, kan, diş, korku
+Frankenstein|canavar, bilim, yaratık, Mary Shelley, korku
+Kurt Adam|dolunay, ünlü, canavar, korku, değişim
+Herkül|güçlü, Yunan, kahraman, mitoloji, yarı tanrı
+Zümrüdüanka|kuş, ateş, mitoloji, küller, yeniden doğmak
+Stonehenge|taş, İngiltere, anıt, daire, eski
+Machu Picchu|Peru, İnka, dağ, antik, kayıp şehir
+İnka|Peru, imparatorluk, And, antik, altın
+Aztek|Meksika, piramit, imparatorluk, antik, kurban
+Maya|Meksika, takvim, piramit, antik, uygarlık
+Viking|gemi, İskandinav, savaşçı, kask, boynuz
+Spartalılar|Yunan, savaşçı, 300, kalkan, Leonidas
+Helen|güzel, Truva, Yunan, savaş, kadın
+Aşil|topuk, Truva, savaşçı, Yunan, kahraman
+Homeros|Yunan, destan, İlyada, şair, kör
+İlyada|destan, Homeros, Truva, savaş, Yunan
+Sfenks|Mısır, aslan, heykel, bilmece, Giza
+Gize Piramitleri|Mısır, firavun, çöl, mezar, Kahire
+Rosetta Taşı|Mısır, hiyeroglif, çeviri, Fransız, yazı
+Hiyeroglif|Mısır, yazı, resim, eski, firavun
+Roma İmparatorluğu|İtalya, imparator, antik, lejyon, Sezar
+Bizans|İstanbul, imparator, Doğu Roma, tarih, Konstantin
+Konstantinopolis|Bizans, İstanbul, eski, imparator, şehir
+Selçuklu|Türk, Anadolu, devlet, Alparslan, Konya
+Osmanlı|padişah, imparatorluk, İstanbul, Türk, saray
+Kuruluş Osman|dizi, Osmanlı, Türk, tarih, bey
+Diriliş Ertuğrul|dizi, Türk, tarih, Osmanlı, savaşçı
+Ertuğrul Gazi|Osman, bey, Söğüt, Kayı, savaşçı
+Kayı Boyu|Türk, Ertuğrul, Osmanlı, boy, çadır
+Sakarya Meydan Muharebesi|Kurtuluş, savaş, Atatürk, nehir, zafer
+Cumhuriyet Bayramı|29 Ekim, bayrak, kutlama, tören, Atatürk
+Nutuk|Atatürk, konuşma, kitap, Kurtuluş, tarih
+Gençliğe Hitabe|Atatürk, söz, genç, gelecek, vatan
+Çanakkale Zaferi|savaş, 18 Mart, boğaz, şehit, zafer
+Seyit Onbaşı|top, mermi, Çanakkale, kahraman, sırt
+Mustafa Kemal|Atatürk, kurucu, Selanik, asker, lider
+Selanik|Yunanistan, doğum, Atatürk, şehir, liman
+Ay Yıldız|bayrak, kırmızı, Türk, sembol, beyaz
+Kızılay|yardım, kan, hilal, afet, kırmızı
+Adalet Bakanlığı|hukuk, devlet, bakan, Ankara, yasa
+İçişleri|polis, devlet, bakanlık, güvenlik, vali
+Dışişleri|diplomat, ülke, bakan, elçilik, görüşme
+Maliye|vergi, devlet, bütçe, para, gelir
+Milli Eğitim|okul, öğretmen, bakanlık, müfredat, öğrenci
+Sağlık Bakanlığı|hastane, doktor, devlet, ilaç, ünlü
+Vali|şehir, yönetici, devlet, makam, il
+Kaymakam|ilçe, yönetici, devlet, makam, atanmak
+Muhtar|mahalle, seçim, mühür, köy, ihtiyar
+Kadı|hukuk, Osmanlı, mahkeme, karar, hüküm
+Lonca|esnaf, Osmanlı, birlik, usta, çırak
+Ahilik|esnaf, ahlak, Kırşehir, usta, çırak
+Çarşı Esnafı|dükkan, usta, tezgah, satıcı, müşteri
+Bedesten|kapalı, çarşı, eski, değerli, alışveriş
+Han|konaklama, eski, kervan, avlu, yolcu
+Külhan|hamam, ateş, sıcak, odun, kazan
+Medrese|eğitim, Osmanlı, talebe, ders, hoca
+Kütüphane Görevlisi|kitap, raf, sessizlik, ödünç, memur
+Hat Sanatı|yazı, kalem, güzel, Osmanlı, sanat
+Çini|duvar, Osmanlı, seramik, mavi, desen
+Halıcı|dokuma, dükkan, desen, Anadolu, el
+Dokuma Tezgahı|halı, iplik, çubuk, el, kumaş
+İpek|böcek, kumaş, ince, Çin, parlak
+İpekböceği|ipek, koza, Bursa, dut, kumaş
+Dut Ağacı|ipekböceği, meyve, yaprak, ağaç, mor
+Zeytinyağı|yağ, Ege, sıkmak, şişe, salata
+Kekik|bitki, baharat, dağ, çay, koku
+Nane|bitki, yeşil, koku, çay, ferahlık
+Maydanoz|yeşil, bitki, yaprak, salata, garnitür
+Dereotu|bitki, yeşil, koku, salata, yaprak
+Fesleğen|bitki, koku, İtalyan, yaprak, pizza
+Biberiye|bitki, koku, baharat, yeşil, et
+Safran|baharat, sarı, pahalı, çiçek, pirinç
+Zencefil|kök, baharat, çay, acı, sağlık
+Tarçın|baharat, tatlı, çubuk, koku, kek
+Karanfil|baharat, koku, çiçek, diş, kahverengi
+Vanilya|tatlı, koku, kek, çubuk, krem
+Kakule|baharat, koku, kahve, tohum, Hindistan
+Köri|baharat, sarı, Hindistan, tavuk, acı
+Kırmızı Biber|baharat, acı, toz, ünlü, pul
+Hardal|sarı, sos, sosis, acı, sürmek
+Mayonez|sos, beyaz, yumurta, tüp, salata
+Ketçap|sos, kırmızı, patates, domates, şişe
+Sirke|ekşi, turşu, şişe, salata, elma
+Turşu|ekşi, kavanoz, salatalık, sirke, tuz
+Salça|domates, kırmızı, yemek, kavanoz, tencere
+Tahin|susam, pekmez, kahvaltı, kahverengi, yağ
+Pekmez|üzüm, tahin, kahvaltı, tatlı, koyu
+Kaymak|süt, kahvaltı, bal, beyaz, yağlı
+Lor|peynir, süt, beyaz, yumuşak, hafif
+Tulum Peyniri|Karadeniz, deri, peynir, sert, koyun
+Cacık|yoğurt, salatalık, sarımsak, nane, serin
+Haydari|yoğurt, meze, sarımsak, dereotu, beyaz
+Humus|nohut, tahin, meze, Arap, ezme
+Patlıcan Ezmesi|közlemek, meze, ünlü, yağ, sarımsak
+Çerkez Tavuğu|ceviz, tavuk, meze, sos, Çerkes
+Yaprak Sarma|asma, pirinç, sarmak, yemek, zeytinyağı
+Dolma|biber, pirinç, doldurmak, yemek, tencere
+Karnabahar|sebze, beyaz, yemek, kızartma, çiçek
+Brokoli|yeşil, sebze, sağlık, vitamin, ağaç
+Kereviz|sebze, kök, yemek, zeytinyağlı, yeşil
+Enginar|sebze, yaprak, zeytinyağlı, kalp, Ege

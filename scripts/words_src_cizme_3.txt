@@ -27,3 +27,10 @@ Yangın Söndürme, Trafik Kazası, Hırsız Yakalama, Kayıp Çocuk Arama, Kurt
 Hızlı Tren Yolculuğu, Metrobüs Kalabalığı, Vapurda Simit, Dolmuşa Binmek, Taksi Çevirmek, Yaya Kaldırımı, Otopark Kavgası, Benzin İstasyonu, Köprü Geçişi, Alışveriş Merkezi
 Yürüyen Merdiven, Giyim Mağazası, Kasa Kuyruğu, Pazar Tezgâhı, Bakkal Dükkânı, Kasap Reyonu, Manav Terazisi, Fırın Önü Kuyruk, Çarşıda Pazarlık, Spor Salonu Antrenmanı
 Maç Heyecanı, Gol Sevinci
+Çocuk Parkı, Lunapark, Dönme Dolap, Hız Treni, Çarpışan Araba, Havuz Başı, Sahil Yolu, Gece Pazarı, Köy Düğünü, Okul Bahçesi
+Basketbol Sahası, Tenis Kortu, Kış Bahçesi, Hastane Koridoru, Kütüphane Salonu, Müze Sergisi, Sinema Salonu, Düğün Pastası, Nikah Masası, Gelin Arabası
+Çiçek Buketi, Yüzük Kutusu, Davul Zurna, Halay Çekmek, Çay Ocağı, Kahvehane, Çarşı Pazar, Bakkal Dükkanı, Kasap Tezgahı, Manav Tezgahı
+Balıkçı Teknesi, Simitçi Arabası, Su Satıcısı, Dondurmacı Amca, Tamirci Çırağı, Postacı Bisikleti, Yağmurda Yürümek, Karda Kayak, Kumda Kale, Denizde Yüzmek
+Dağa Tırmanmak, Ağaca Çıkmak, Ata Binmek, Uçurtma Uçurmak, Balon Şişirmek, Kar Topu Atmak, Çiçek Toplamak, Meyve Toplamak, Çay Toplamak, Fındık Toplamak
+Bağ Bozumu, Odun Kırmak, Ateş Yakmak, Çadır Kurmak, Balık Tutmak, Kamp Yapmak, Okula Gitmek, Sınav Olmak, Ödev Yapmak, Ders Çalışmak
+Tahtaya Kalkmak, Teneffüs Yapmak

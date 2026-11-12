@@ -27,3 +27,10 @@ Dostluk Köprüsü, Hasret Treni, Vefa Taşı, Sadakat Nişanı, Merhamet Eli, C
 Prens ile Dilenci, Kurt ile Kuzu, Tilki ile Kuzgun, Kaplumbağa ile Tavşan, Karınca ile Ağustos Böceği, Aslan ile Fare, Bülbül ile Karga, Çoban ile Kurt, Arı ile Güvercin, Ay Üstünde Yürüyen
 Yıldızlara Uzanan, Buluta Basan, Rüzgâra Karşı, Denizin Dibinde, Dağın Zirvesinde, Çölün Ortasında, Ormanın Kalbinde, Buzulun Üstünde, Volkan Kenarında, Sihirbaz Şapkası
 Gizemli Sandık, Büyülü Ayna, Cadı Kazanı
+Gözü Pek, Dili Uzun, Eli Uzun, Eli Boş, Eli Sıkı, Kafası Karışık, Yüreği Ağzında, Kalbi Yerinde, Ayağı Kayan, Burun Kıvırmak
+Kaş Çatmak, Göz Yummak, Kulak Asmak, Dil Dökmek, El Atmak, Baş Eğmek, Diz Çökmek, Ayak Diremek, Omuz Silkmek, Buzdağı
+Zaman Tüneli, Sonsuz Döngü, Tavşan Deliği, Uçurumun Kenarı, İkiyüzlü, Çifte Standart, Yüzleşmek, Köşeye Sıkışmak, Dönüm Noktası, Kırılma Anı
+Çıkmaz Sokak, Kaçış Yolu, Son Çare, Büyük Resim, Kilit Nokta, Sevinç, Öfke, Şaşkınlık, Pişmanlık, Umut
+Hayal Kırıklığı, Huzur, Panik, Heyecan, Yalnızlık, Telaş, Rahatlama, Dalga Geçmek, Çaktırmamak, Ağzından Kaçırmak
+Lafı Dolandırmak, Kulaktan Kulağa, Ağız Birliği, Söz Vermek, Söz Dinlemek, Laf Atmak, Laf Sokmak, Yalan Söylemek, Sır Saklamak, İtiraf Etmek
+Ters Cevap, Sessiz Kalmak, Bağırıp Çağırmak

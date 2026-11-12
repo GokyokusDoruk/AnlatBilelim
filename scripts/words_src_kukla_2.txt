@@ -275,3 +275,66 @@ Sabah Akşam Diş Fırçalamak|Diş Fırçalamak
 Ağız Gargarası Yapmak|Diş Fırçalamak
 Düğüne Hazırlanıp Saç Taramak|Saç Taramak
 
+Okula Geç Kalıp Koşmak|Koşmak
+Çit Atlamak|Zıplamak
+Denizde Yüzmek|Yüzmek
+Pistte Dans Etmek|Dans Etmek
+Yorgunluktan Uyuyakalmak|Uyumak
+Çorbayı Kaşıkla İçmek|Yemek Yemek
+Susuzluktan Kana Kana İçmek|Su İçmek
+Filmin Sonunda Ağlamak|Ağlamak
+Fıkra Duyunca Gülmek|Gülmek
+Boğazı Temizleyip Öksürmek|Öksürmek
+Toz Yüzünden Hapşırmak|Hapşırmak
+Uykusuzluktan Esnemek|Esnemek
+Uzaktaki Arkadaşa El Sallamak|El Sallamak
+Konser Sonunda Ayakta Alkışlamak|Alkışlamak
+Uzun Zaman Sonra Sarılmak|Sarılmak
+Ring Köşesinde Boks Yapmak|Boks Yapmak
+Halı Sahada Futbol Oynamak|Futbol Oynamak
+Yokuş Yukarı Bisiklet Sürmek|Bisiklete Binmek
+Nehirde Kano Kullanmak|Kürek Çekmek
+Gölde Balık Tutmak|Olta Atmak
+Spor Salonunda Halter Kaldırmak|Halter Kaldırmak
+Sahnede Davul Çalmak|Davul Çalmak
+Ağzını Çalkalayıp Diş Fırçalamak|Diş Fırçalamak
+Hazırlanırken Saç Taramak|Saç Taramak
+Balkonda Çamaşır Asmak|Çamaşır Asmak
+Ütü Masasında Ütü Yapmak|Ütü Yapmak
+Evi Silmek|Yer Silmek
+Cep Telefonuyla Konuşmak|Telefonla Konuşmak
+Karda Titremek|Soğuktan Titremek
+Korku Filmi İzleyip Korkmak|Korkmak
+Maraton Sonrası Yorulmak|Yorulmak
+Ormanda Ağaç Kesmek|Ağaç Kesmek
+Tahtaya Çivi Çakmak|Çivi Çakmak
+Bahçede Kazı Yapmak|Kazı Yapmak
+Okçulukla Hedef Vurmak|Ok Atmak
+Bowling Topu Atmak|Top Fırlatmak
+Grup Fotoğrafı Çekmek|Fotoğraf Çekmek
+Halayın Başında Mendil Sallamak|Halay Çekmek
+Otobüs Kaçırmamak İçin Koşmak|Koşmak
+Trambolinde Zıplamak|Zıplamak
+Köy Düğününde Oynamak|Dans Etmek
+Gece Kabus Görüp Uyanmak|Uyumak
+Acıkıp Sandviç Yemek|Yemek Yemek
+Koştuktan Sonra Su İçmek|Su İçmek
+Gözlerini Silerek Ağlamak|Ağlamak
+Komik Bir Şeye Kahkaha Atmak|Gülmek
+Hasta Olup Öksürmek|Öksürmek
+Üst Üste Hapşırmak|Hapşırmak
+Derste Esnemek|Esnemek
+Trenin Arkasından El Sallamak|El Sallamak
+Sahneyi Alkışlamak|Alkışlamak
+Çocuğuna Sarılmak|Sarılmak
+Birbirini Itmek|Kavga Etmek
+Torbaya Yumruk Atmak|Boks Yapmak
+Spor Salonunda İp Atlamak|İp Atlamak
+Ağır Ağırlık Kaldırmak|Halter Kaldırmak
+Akustik Gitar Çalmak|Gitar Çalmak
+Ritim Tutarak Davul Çalmak|Davul Çalmak
+Sabah Hazırlanırken Diş Fırçalamak|Diş Fırçalamak
+Uzun Saçı Taramak|Saç Taramak
+Rüzgarda Çamaşır Asmak|Çamaşır Asmak
+Telefonda Haber Vermek|Telefonla Konuşmak
+Dondurucu Soğukta Beklemek|Soğuktan Titremek

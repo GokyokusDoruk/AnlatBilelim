@@ -1,0 +1,15 @@
+Koşmak, Zıplamak, Yüzmek, Dans Etmek, Uyumak, Yemek Yemek, Su İçmek, Ağlamak, Gülmek, Öksürmek
+Hapşırmak, Esnemek, Bağırmak, Fısıldamak, Selam Vermek, El Sallamak, Alkışlamak, Sarılmak, Öpmek, Kavga Etmek
+Futbol Oynamak, Basketbol Oynamak, Tenis Oynamak, Boks Yapmak, Güreşmek, Kayak Yapmak, Golf Oynamak, Halter Kaldırmak, Yoga Yapmak, Jimnastik Yapmak
+Bisiklete Binmek, At Binmek, Kürek Çekmek, Dalmak, Tırmanmak, Paraşütle Atlamak, Sörf Yapmak, Paten Kaymak, İp Atlamak, Olta Atmak
+Doktor, Polis, Aşçı, İtfaiyeci, Astronot, Berber, Çiftçi, Balıkçı, Ressam, Pilot
+Garson, Postacı, Terzi, Marangoz, Boyacı, Şoför, Kaptan, Asker, Müzisyen, Sihirbaz
+Dedektif, Hırsız, Korsan, Zombi, Robot, Kral, Palyaço, Şövalye, Hayalet, Vampir
+Kuş, Kedi, Köpek, Maymun, Penguen, Ördek, Fil, Kurbağa, Yılan, Tavuk
+Kanguru, Zürafa, Kaplumbağa, Aslan, Ayı, Tavşan, At, Balık, Kelebek, Örümcek
+Gitar Çalmak, Piyano Çalmak, Davul Çalmak, Şarkı Söylemek, Orkestra Şefi, Keman Çalmak, Zurna Çalmak, Halay Çekmek, Zeybek Oynamak, Hip Hop Dansı
+Diş Fırçalamak, Duş Almak, Saç Taramak, Tıraş Olmak, Çamaşır Asmak, Ütü Yapmak, Yer Silmek, Bulaşık Yıkamak, Yemek Pişirmek, Toz Almak
+Fotoğraf Çekmek, Telefonla Konuşmak, Bilgisayar Kullanmak, Mesaj Yazmak, Selfie Çekmek, Araba Sürmek, Park Etmek, Trafik Polisi, Otostop Çekmek, Taksi Çağırmak
+Soğuktan Titremek, Sıcaktan Bunalmak, Korkmak, Şaşırmak, Utanmak, Sinirlenmek, Hasta Olmak, Yorulmak, Acıkmak, Uykusuz Kalmak
+Ağır Yük Taşımak, Ağaç Kesmek, Çivi Çakmak, Kazı Yapmak, Tırmık Çekmek, Balık Ağı Atmak, Ağ Örmek, Duvar Örmek, Boya Yapmak, Cam Silmek
+Ok Atmak, Kılıç Sallamak, Top Fırlatmak, Disk Atmak, Gülle Atmak, Cirit Atmak, Yarış Koşmak, Engelli Koşu, Yüksek Atlama, Sırıkla Atlama

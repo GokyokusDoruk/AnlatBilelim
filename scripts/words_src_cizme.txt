@@ -1,0 +1,15 @@
+Ev, Ağaç, Güneş, Bulut, Yağmur, Gökkuşağı, Dağ, Nehir, Köprü, Kale
+Araba, Bisiklet, Uçak, Gemi, Tren, Helikopter, Roket, Denizaltı, Kamyon, Motosiklet
+Kedi, Köpek, Balık, Kuş, Kaplumbağa, Fil, Zürafa, Aslan, Penguen, Kelebek
+Salyangoz, Örümcek, Yılan, Timsah, Maymun, Tavşan, Ördek, Horoz, İnek, At
+Pizza, Hamburger, Dondurma, Çay, Elma, Muz, Karpuz, Havuç, Yumurta, Ekmek
+Pasta, Çorba, Salata, Mısır, Üzüm, Çilek, Portakal, Soğan, Patlıcan, Biber
+Saat, Gözlük, Şemsiye, Anahtar, Telefon, Bilgisayar, Televizyon, Lamba, Ayna, Kapı
+Pencere, Merdiven, Sandalye, Masa, Yatak, Koltuk, Halı, Perde, Buzdolabı, Süpürge
+Gitar, Piyano, Davul, Keman, Mikrofon, Kulaklık, Kamera, Fotoğraf Makinesi, Radyo, Plak
+Futbol Topu, Raket, Olta, İp Atlama, Kayak, Paten, Dalgıç, Paraşüt, Balon, Uçurtma
+Kral, Prenses, Korsan, Hayalet, Robot, Uzaylı, Palyaço, Sihirbaz, Şövalye, Ejderha
+Doktor, Polis, Aşçı, İtfaiyeci, Astronot, Berber, Çiftçi, Balıkçı, Ressam, Pilot
+Kalp, Yıldız, Ay, Ok, Taç, Kılıç, Kalkan, Hazine, Harita, Pusula
+Hediye, Mum, Çiçek, Bayrak, Çan, Zil, Kilit, Çekiç, Testere, Makas
+Su Kemeri, Deniz Feneri, Yel Değirmeni, Çadır, Şato, İgloo, Piramit, Pagoda, Kule, Cami

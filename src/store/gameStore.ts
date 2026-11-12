@@ -69,8 +69,8 @@ function mergeSnapshot(state: GameState, s: RoomSnapshot): Partial<GameState> {
     round: keep(state.round, s.round),
     lastSummary: keep(state.lastSummary, s.lastSummary),
     roulette: keep(state.roulette, s.roulette),
-    // Tur bittiyse özel kart verisini bellekte tutma.
-    privateData: s.round ? state.privateData : null,
+    // Tur aktif değilse özel kart verisini bellekte tutma.
+    privateData: s.phase === 'round' ? state.privateData : null,
   };
 }
 

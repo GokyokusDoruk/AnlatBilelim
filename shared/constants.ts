@@ -27,3 +27,8 @@ export const PING_INTERVAL_MS = 10_000;
 /** Kukla senkron hızı (Task 7) ve çizim paket aralığı (Task 6). */
 export const PUPPET_SYNC_FPS = 30;
 export const DRAW_FLUSH_INTERVAL_MS = 33;
+
+/** Karışık basamakta çark animasyon süresi; tüm istemciler aynı startedAt'tan oynatır. */
+export const ROULETTE_MS = 5_000;
+/** Tur özeti ekranının otomatik kapanma süresi (kurucu erken geçebilir). */
+export const SUMMARY_AUTO_MS = 12_000;

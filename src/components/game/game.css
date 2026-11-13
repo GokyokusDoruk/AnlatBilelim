@@ -26,12 +26,16 @@
   padding: var(--space-5) var(--space-4);
   box-shadow: 0 6px 0 rgba(0, 0, 0, 0.35), var(--shadow-2);
   text-align: center;
-  animation: card-in 220ms var(--ease-out);
+  animation: card-in var(--dur-med) var(--ease-spring) both;
 }
 @keyframes card-in {
   from {
-    transform: translateY(14px) scale(0.97);
+    transform: translateY(28px) rotate(-2.5deg) scale(0.92);
     opacity: 0;
+  }
+  to {
+    transform: none;
+    opacity: 1;
   }
 }
 .word-card__main {
@@ -55,15 +59,23 @@
   font-size: 19px;
   color: #b3203a;
 }
+.word-card__forbidden li {
+  position: relative;
+  padding: 4px 28px;
+}
 .word-card__forbidden li::before {
-  content: '✕ ';
+  content: '✕';
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
   font-size: 14px;
+  pointer-events: none;
 }
 
 .triple-card {
   display: grid;
   gap: var(--space-3);
-  animation: card-in 220ms var(--ease-out);
 }
 .triple-word {
   display: flex;
@@ -78,6 +90,18 @@
   font-size: clamp(22px, 6.5vw, 30px);
   font-weight: 800;
   min-height: 64px;
+  animation: word-in var(--dur-med) var(--ease-spring) calc(var(--i, 0) * 90ms) backwards;
+  transition: background-color var(--dur-med) var(--ease-out), transform var(--dur-med) var(--ease-spring);
+}
+@keyframes word-in {
+  from {
+    transform: translateX(-26px) scale(0.96);
+    opacity: 0;
+  }
+  to {
+    transform: none;
+    opacity: 1;
+  }
 }
 .triple-word__text {
   flex: 1;
@@ -86,6 +110,14 @@
 }
 .triple-word--solved {
   background: #c9f5dc;
+  animation:
+    word-in var(--dur-med) var(--ease-spring) calc(var(--i, 0) * 90ms) backwards,
+    solved-bump 520ms var(--ease-spring);
+}
+@keyframes solved-bump {
+  35% {
+    transform: scale(1.04);
+  }
 }
 .triple-word--solved .triple-word__text {
   text-decoration: line-through;
@@ -115,6 +147,18 @@
   background: var(--success);
   border-color: #14803f;
   color: #00331a;
+  animation: tick-pop 420ms var(--ease-spring);
+}
+@keyframes tick-pop {
+  0% {
+    transform: scale(0.6) rotate(-12deg);
+  }
+  60% {
+    transform: scale(1.18) rotate(4deg);
+  }
+  100% {
+    transform: none;
+  }
 }
 .tick--static {
   width: 36px;
@@ -215,6 +259,53 @@
 }
 
 /* Anlatma: gözlemcinin işaretlediği yasaklı kelime yeşile döner (anlatıcıda da görünür) */
-.word-card__forbidden li { transition: background-color .15s, color .15s; }
+.word-card__forbidden li {
+  transition: background-color var(--dur-fast), color var(--dur-fast);
+  animation: forbid-in var(--dur-med) var(--ease-spring) calc(140ms + var(--i, 0) * 60ms) backwards;
+}
+@keyframes forbid-in {
+  from {
+    transform: translateX(-18px);
+    opacity: 0;
+  }
+  to {
+    transform: none;
+    opacity: 1;
+  }
+}
 .forbidden__btn { all: unset; display: block; width: 100%; cursor: pointer; border-radius: 8px; }
-.word-card__forbidden li.forbidden--hit { background: #22c55e; color: #052e16; border-radius: 8px; font-weight: 800; }
+.word-card__forbidden li.forbidden--hit {
+  background: #22c55e;
+  color: #052e16;
+  border-radius: 8px;
+  font-weight: 800;
+  animation:
+    forbid-in var(--dur-med) var(--ease-spring) calc(140ms + var(--i, 0) * 60ms) backwards,
+    forbid-hit 460ms var(--ease-spring);
+}
+@keyframes forbid-hit {
+  0% {
+    transform: scale(0.94);
+  }
+  45% {
+    transform: scale(1.07);
+  }
+  100% {
+    transform: none;
+  }
+}
+
+/* Faz değişimlerinde içerik yukarı kayarak girer */
+.phase-enter {
+  animation: phase-in var(--dur-med) var(--ease-out) both;
+}
+@keyframes phase-in {
+  from {
+    transform: translateY(16px);
+    opacity: 0;
+  }
+  to {
+    transform: none;
+    opacity: 1;
+  }
+}

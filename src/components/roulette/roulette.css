@@ -53,7 +53,7 @@
   font-weight: 800;
 }
 .roulette__result--in {
-  animation: result-pop 400ms var(--ease-out);
+  animation: result-pop 560ms var(--ease-spring);
 }
 @keyframes result-pop {
   from {

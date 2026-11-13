@@ -1,481 +1,481 @@
-Termos|sıcak, çay, kapak, taşımak, çelik
-Anahtarlık|anahtar, halka, süs, cep, hatıra
-Cüzdan|para, kart, cep, kimlik, deri
-Çakmak|ateş, sigara, gaz, yakmak, alev
-Fener|ışık, pil, karanlık, el, kamp
-Çekiç|çivi, vurmak, alet, demir, sap
-Testere|kesmek, ağaç, diş, odun, alet
-Matkap|delmek, duvar, uç, elektrik, vida
-Tornavida|vida, alet, sıkmak, uç, elektrik
-Bıçak|kesmek, mutfak, keskin, sap, ekmek
-Süzgeç|makarna, su, delik, mutfak, süzmek
-Tencere|yemek, kapak, ocak, kaynatmak, çorba
-Cezve|kahve, ocak, Türk, köpük, sap
-Kilim|halı, dokumak, desen, yer, el emeği
-Perde|pencere, kumaş, açmak, tül, korniş
-Avize|tavan, ışık, kristal, ampul, salon
-Tarak|saç, diş, taramak, plastik, tıraş
-Sabun|köpük, yıkamak, banyo, el, koku
-Havlu|kurulamak, banyo, ıslak, pamuk, plaj
-Şampuan|saç, köpük, banyo, yıkamak, şişe
-Diş Macunu|fırça, nane, tüp, ağız, beyaz
-Lastik|araba, tekerlek, patlak, hava, silgi
-Kask|baş, motosiklet, koruma, inşaat, bisiklet
-Cankurtaran|yüzmek, havuz, deniz, can simidi, düdük
-Simidi|su, yüzmek, şişirmek, deniz, çocuk
-Salıncak|park, sallanmak, ip, çocuk, itmek
-Kaydırak|park, kaymak, merdiven, çocuk, oyun
-Hamak|ağaç, sallanmak, uyumak, ip, tatil
-Pusula|yön, kuzey, iğne, harita, kaybolmak
-Harita|yol, ülke, şehir, bulmak, atlas
-Dürbün|uzak, bakmak, göz, mercek, kuş
-Teleskop|yıldız, ay, uzay, bakmak, gökyüzü
-Mikroskop|küçük, bakmak, laboratuvar, hücre, mercek
-Termometre|ateş, derece, ölçmek, sıcaklık, hasta
-Steteskop|doktor, kalp, dinlemek, kulak, hasta
-Aşı|iğne, doktor, hastalık, bağışıklık, kol
-Reçete|doktor, ilaç, eczane, yazmak, hasta
-Postacı|mektup, zarf, kapı, adres, pul
-Zarf|mektup, pul, posta, kapak, adres
-Pul|mektup, posta, yapıştırmak, koleksiyon, zarf
-Bilet|giriş, sinema, otobüs, kontrol, yırtmak
-Otel|oda, resepsiyon, tatil, gece, kahvaltı
-Havuz|yüzmek, su, klor, cankurtaran, kenar
-Müze|eser, tarih, bilet, gezmek, sergi
-Market|alışveriş, sepet, kasa, ürün, reyon
-Bakkal|mahalle, ekmek, sigara, veresiye, dükkân
-Kasap|et, kıyma, bıçak, dükkân, kuzu
-Manav|meyve, sebze, tezgâh, kilo, dükkân
-Kuaför|saç, boya, fön, kadın, makas
-Terzi|dikmek, kumaş, ölçü, iğne, elbise
-Tamirci|bozuk, tamir, alet, araba, usta
-Fırıncı|ekmek, hamur, fırın, sabah, un
-Çiftçi|tarla, tarım, traktör, ekmek, hasat
-Balıkçı|olta, ağ, deniz, tekne, tutmak
-Garson|sipariş, tabak, restoran, bahşiş, menü
-Şoför|araba, direksiyon, yol, ehliyet, kullanmak
-Pilot|uçak, kokpit, uçurmak, kaptan, üniforma
-Astronot|uzay, roket, ay, kask, yıldız
-Dedektif|ipucu, suçlu, soruşturma, büyüteç, polis
-Palyaço|sirk, burun, komik, güldürmek, renkli
-Prenses|kral, saray, taç, masal, elbise
-Ejderha|ateş, masal, kanat, şövalye, mağara
-Zombi|ölü, beyin, korku, yürümek, film
-Kovboy|at, şapka, Teksas, silah, vahşi batı
-Ninja|Japon, gizli, kılıç, siyah, savaşçı
-Şövalye|zırh, kılıç, at, kale, kral
-Yılan|sürünmek, zehir, dil, kıvrım, ısırmak
-Kaplumbağa|kabuk, yavaş, deniz, tavşan, yürümek
-Timsah|nehir, diş, yeşil, Nil, ısırmak
-Zürafa|boyun, uzun, Afrika, benekli, yaprak
-Penguen|buz, siyah beyaz, kutup, yürümek, balık
-Kanguru|keseli, zıplamak, Avustralya, yavru, kuyruk
-Yunus|deniz, akıllı, zıplamak, gösteri, balık
-Kartal|kanat, yırtıcı, dağ, uçmak, pençe
-Baykuş|gece, göz, bilge, ötmek, orman
-Arı|bal, kovan, iğne, çiçek, vızıltı
-Karınca|çalışkan, koloni, küçük, yuva, şeker
-Örümcek|ağ, böcek, sekiz, ip, korku
-Kelebek|kanat, renkli, koza, çiçek, uçmak
-Salyangoz|kabuk, yavaş, yağmur, sümük, bahçe
-Ördek|gölet, vak vak, tüy, yüzmek, sarı
-Horoz|öten, sabah, tüy, ibik, tavuk
-İnek|süt, çiftlik, ot, boynuz, muu
-Koyun|yün, kuzu, sürü, çoban, meleme
-Keçi|boynuz, süt, dağ, sakal, çoban
-Eşek|anırmak, yük, kulak, inatçı, taşımak
-Domuz|çamur, pembe, çiftlik, kuyruk, burun
-Tavşan|havuç, kulak, zıplamak, uzun, yumuşak
-Fare|peynir, kedi, küçük, kuyruk, delik
-Geyik|boynuz, orman, çevik, Noel, yavru
-Kurt|uluma, orman, sürü, ay, yırtıcı
-Tilki|kurnaz, kuyruk, orman, turuncu, tavuk
-Ayı|bal, orman, kış uykusu, pençe, büyük
-Panda|bambu, Çin, siyah beyaz, tatlı, sevimli
-Maymun|muz, ağaç, taklit, kuyruk, orman
-Flamingo|pembe, tek ayak, uzun, göl, kuş
-Papağan|konuşmak, renkli, kafes, tüy, taklit
-Leylek|bebek, yuva, uzun bacak, göç, gaga
-Kaz|vak, gölet, beyaz, tüy, gaga
-Hindi|Yılbaşı, Noel, tüy, gıdak, kuş
-Çilek|kırmızı, meyve, tohum, reçel, yaz
-Kiraz|kırmızı, çekirdek, saplı, meyve, yaz
-Şeftali|tüylü, meyve, yaz, çekirdek, sulu
-Nar|taneli, kırmızı, kabuk, meyve, sulu
-Ananas|tropik, dikenli, meyve, sarı, tatlı
-Limon|ekşi, sarı, sıkmak, limonata, sıvı
-Portakal|meyve, portakal suyu, turuncu, kabuk, C vitamini
-Havuç|turuncu, tavşan, sebze, rendelemek, kök
-Patates|kızartma, toprak, sebze, püre, soymak
-Domates|kırmızı, salata, sebze, salça, sulu
-Salatalık|yeşil, salata, turşu, sebze, serin
-Soğan|ağlamak, kabuk, kokmak, sebze, halka
-Sarımsak|diş, koku, ağız, mutfak, baharat
-Mantar|orman, şapka, zehirli, yemek, sap
-Bal|arı, kovan, tatlı, süzme, kahvaltı
-Peynir|süt, beyaz, kahvaltı, kaşar, tost
-Yumurta|tavuk, kırmak, kabuk, sarısı, haşlamak
-Zeytin|ağaç, yağ, siyah, kahvaltı, tuz
-Reçel|meyve, kavanoz, tatlı, kahvaltı, sürmek
-Çorba|kaşık, sıcak, kase, tuz, mercimek
-Salata|sebze, marul, yeşil, zeytinyağı, tabak
-Makarna|spagetti, sos, haşlamak, İtalyan, tabak
-Pilav|pirinç, tane, yanında, tabak, bulgur
-Köfte|kıyma, et, ızgara, ekmek, yuvarlak
-Kebap|et, şiş, ızgara, Adana, mangal
-Ayran|yoğurt, kebap, tuz, içecek, soğuk
-Limonata|ekşi, yaz, soğuk, limon, içecek
-Sandviç|ekmek, dilim, peynir, arası, öğle
-Sünger|banyo, yıkamak, su, emmek, mutfak
-Fırça|boya, saç, diş, tüy, sürmek
-Makas|kesmek, kâğıt, saç, iki, keskin
-Cetvel|ölçmek, çizgi, okul, santimetre, düz
-Silgi|kalem, yazı, silmek, okul, hata
-Pergel|daire, çizmek, ölçmek, ucu, geometri
-Hesap Makinesi|toplama, sayı, tuş, matematik, ekran
-Kumbara|para, biriktirmek, domuz, bozuk, çocuk
-Mum|ışık, yakmak, eriyen, fitil, doğum günü
-Kibrit|çakmak, yakmak, ateş, kutu, çöp
-Soba|kış, odun, sıcak, kömür, boru
-Şömine|ateş, odun, kış, salon, sıcak
-Radyatör|ısıtmak, kalorifer, sıcak, kış, peteği
-Klima|serin, yaz, soğutmak, uzaktan kumanda, oda
-Vantilatör|rüzgâr, pervane, yaz, serin, dönmek
-Bulaşık Makinesi|tabak, yıkamak, deterjan, mutfak, su
-Çamaşır Suyu|beyaz, temizlik, kokusu, leke, şişe
-Deterjan|çamaşır, köpük, temizlik, toz, yıkamak
-Kova|su, plastik, sap, temizlik, doldurmak
-Hortum|su, bahçe, sulamak, uzun, musluk
-Kürek|toprak, kazmak, sap, bahçe, kar
-Tırmık|toprak, bahçe, diş, yaprak, sap
-Matara|su, içmek, kamp, taşımak, kapak
-Kazma|toprak, kazmak, demir, sap, madenci
-Balta|odun, kesmek, orman, keskin, sap
-Urgan|ip, kalın, çekmek, gemi, bağlamak
-Çıkrık|kuyu, su, çevirmek, kova, ip
-Kuyu|su, derin, çekmek, kova, çıkrık
-Değirmen|un, buğday, öğütmek, su, taş
-Harman|buğday, saman, tarla, hasat, savurmak
-Orak|buğday, biçmek, tarla, eğri, el
-Tırpan|ot, biçmek, uzun, keskin, sap
-Saban|toprak, sürmek, öküz, tarla, çiftçi
-Ambar|tahıl, depo, saklamak, çiftlik, bina
-Kümes|tavuk, yumurta, horoz, tel, çiftlik
-Ahır|inek, at, saman, çiftlik, hayvan
-Çoban|koyun, sürü, değnek, dağ, köpek
-Samanlık|saman, ahır, kuru ot, hayvan, bina
-Yün|koyun, kırpmak, örgü, kazak, sıcak
-Dokuma|tezgâh, iplik, kilim, kumaş, el emeği
-Çıkın|bohça, taşımak, kumaş, bağlamak, eşya
-Bohça|kumaş, taşımak, eşya, düğüm, çeyiz
-Çeyiz|gelin, sandık, düğün, el emeği, evlilik
-Sandık|çeyiz, kilitli, ahşap, eski, saklamak
-Gelinlik|beyaz, düğün, gelin, elbise, duvak
-Damatlık|düğün, damat, takım elbise, kravat, siyah
-Kına|gelin, el, kırmızı, gece, düğün
-Davul|vurmak, tokmak, ses, düğün, ritim
-Savcı|iddia, mahkeme, suç, hukuk, dava
-Karakol|polis, şikâyet, nöbetçi, tutanak, suç
-Kelepçe|polis, el, metal, suçlu, bilezik
-Parmak İzi|el, suç, iz, polis, mürekkep
-Büyüteç|cam, bakmak, dedektif, büyük, mercek
-Soygun|banka, silah, para, polis, maske
-Banka|para, kredi, hesap, ATM, şube
-ATM|para, kart, çekmek, şifre, makine
-Kredi Kartı|alışveriş, şifre, ödeme, banka, plastik
-Çek|banka, imza, yazmak, ödeme, defter
-Senet|borç, imza, kâğıt, vade, ödemek
-Tapu|ev, mülk, belge, sahip, daire
-Kira|ev, ödemek, ay, ev sahibi, kiracı
-Emlakçı|ev, satmak, kiralamak, komisyon, ilan
-Müteahhit|bina, inşaat, daire, proje, yapmak
-Mimar|bina, proje, çizmek, plan, tasarım
-İskele|inşaat, boru, yüksek, işçi, bina
-Beton|inşaat, çimento, kum, sertleşmek, döşeme
-Tuğla|duvar, kırmızı, inşaat, harç, örmek
-Çimento|inşaat, toz, beton, gri, harç
-Boya|duvar, fırça, renk, boyacı, kova
-Tesisat|boru, su, usta, musluk, tamir
-Musluk|su, akıtmak, çevirmek, lavabo, damlamak
-Lavabo|musluk, yüz, el, banyo, yıkamak
-Banyo|duş, küvet, sabun, su, havlu
-Küvet|banyo, su, yatmak, köpük, yıkanmak
-Duş|su, sabun, banyo, ıslanmak, yıkanmak
-Termosifon|sıcak su, banyo, elektrik, depo, ısıtmak
-Kombi|ısınma, kalorifer, doğalgaz, sıcak, ev
-Kalorifer|ısıtma, kış, peteği, sıcak, ev
-Teras|çatı, dışarı, manzara, yaz, bina
-Çatı|kiremit, bina, üst, yağmur, baca
-Baca|duman, soba, çatı, siyah, yüksek
-Kiremit|çatı, kırmızı, ev, toprak, örtmek
-Bodrum|alt kat, karanlık, depo, merdiven, nemli
-Apartman|bina, daire, kat, komşu, asansör
-Gökdelen|bina, yüksek, kat, şehir, cam
-Vezne|banka, para, gişe, sıra, memur
-Belediye|şehir, başkan, hizmet, çöp, seçim
-Postane|mektup, pul, zarf, paket, postacı
-Stadyum|maç, tribün, taraftar, futbol, çim
-Havalimanı|uçak, bilet, pasaport, bagaj, terminal
-Otogar|otobüs, bilet, peron, yolcu, şehirlerarası
-Yürüyen Merdiven|basamak, alışveriş, çıkmak, otomatik, kat
-Benzinlik|akaryakıt, araba, depo, pompa, benzin
-Diş Hekimi|dolgu, ağız, koltuk, çekmek, muayene
-Elektrikçi|kablo, priz, sigorta, akım, tamir
-Marangoz|ahşap, tahta, testere, mobilya, çivi
-Boyacı|boya, fırça, duvar, kova, ev
-Pazarcı|tezgah, bağırmak, sebze, fiyat, pazar
-İtfaiyeci|yangın, hortum, su, kırmızı, araç
-Kurye|paket, motor, teslimat, adres, hızlı
-Klavye|tuş, bilgisayar, yazmak, harf, fare
-Yazıcı|kâğıt, çıktı, mürekkep, bilgisayar, tarayıcı
-Şarj Aleti|pil, telefon, priz, kablo, dolu
-Kumanda|televizyon, düğme, kanal, uzaktan, pil
-Fotoğraf Makinesi|resim, çekmek, flaş, lens, poz
-Tablet|ekran, dokunmak, bilgisayar, telefon, büyük
-Oyun Konsolu|kol, ekran, televizyon, eğlence, joystick
-Uçurtma|rüzgar, ip, gökyüzü, çocuk, uçurmak
-Bulmaca|çözmek, kelime, ipucu, gazete, kutu
-Domino|taş, devirmek, sıra, oyun, nokta
-Yapboz|parça, resim, birleştirmek, çocuk, kutu
-Zar|oyun, atmak, altı, nokta, tavla
-İskambil|kart, oyun, poker, deste, papaz
-Ödül|kupa, kazanmak, madalya, tören, başarı
-Madalya|altın, gümüş, bronz, sporcu, ödül
-Kupa|şampiyon, kazanmak, ödül, altın, takım
-Podyum|birinci, ikinci, üçüncü, tören, sporcu
-Şampiyon|birinci, kupa, kazanmak, takım, final
-Kaptan|takım, gemi, bant, lider, yönetmek
-Kale|futbol, gol, kaleci, ağ, direk
-Raket|tenis, vurmak, file, kort, top
-File|voleybol, tenis, ağ, top, atmak
-Pota|basketbol, top, sayı, atmak, ağ
-Ring|boks, dövüş, köşe, yumruk, hakem
-Yüzme Havuzu|su, kulaç, mayo, dalış, klor
-Kayak|kar, dağ, pist, ayak, kayakçı
-Paten|buz, tekerlek, kaymak, ayak, pist
-Ata Binmek|at, eyer, dizgin, atlamak, süvari
-Uyku Tulumu|kamp, uyumak, çadır, fermuar, sıcak
-Karavan|tatil, tekerlek, araba, kamp, gezmek
-Pansiyon|oda, konaklama, küçük, kahvaltı, tatil
-Resepsiyon|otel, karşılamak, anahtar, kayıt, görevli
-Güneş Kremi|yanmak, plaj, yaz, cilt, sürmek
-Şnorkel|dalmak, deniz, boru, maske, nefes
-Tahterevalli|park, çocuk, iki, aşağı, yukarı
-Akrobat|sirk, takla, denge, ip, gösteri
-Maskot|takım, hayvan, kostüm, sembol, çocuk
-Kostüm|giymek, parti, gösteri, maske, oyun
-Maske|yüz, takmak, parti, korku, örtmek
-Karnaval|kostüm, maske, kutlama, sokak, dans
-Havai Fişek|gökyüzü, yılbaşı, patlamak, renkli, gece
-Nikah|evlilik, memur, imza, gelin, damat
-Damat|gelin, düğün, takım elbise, evlilik, nikah
-Davetiye|kart, düğün, çağırmak, zarf, yazı
-Nişan|yüzük, evlilik, söz, aile, kutlama
-Yüzük|parmak, altın, nişan, takmak, mücevher
-Kolye|boyun, altın, mücevher, takı, zincir
-Küpe|kulak, altın, takı, takmak, çift
-Bilezik|kol, altın, takı, çember, mücevher
-Parfüm|koku, şişe, sıkmak, güzel, kadın
-Ruj|dudak, kırmızı, makyaj, sürmek, kadın
-Makyaj|yüz, ruj, fondöten, kadın, ayna
-Deodorant|koku, ter, sıkmak, koltuk altı, sprey
-Tıraş Makinesi|sakal, elektrikli, yüz, bıçak, erkek
-Jilet|keskin, tıraş, sakal, bıçak, ince
-Hemşire|hastane, iğne, hasta, bakım, doktor
-İğne|dikiş, enjeksiyon, batmak, ince, sivri
-Tansiyon|kalp, ölçmek, doktor, yüksek, kan
-Röntgen|kemik, ışın, doktor, film, kırık
-Alçı|kırık, kol, beyaz, doktor, kemik
-Koltuk Değneği|bacak, yürümek, sakat, destek, hastane
-Tekerlekli Sandalye|hasta, engelli, oturmak, tekerlek, itmek
-Fatih Sultan Mehmet|İstanbul, fetih, padişah, Osmanlı, ünlü
-Kanuni|Süleyman, padişah, Osmanlı, kanun, Muhteşem
-Evliya Çelebi|seyahat, seyyah, kitap, Osmanlı, gezi
-Cahit Arf|matematik, bilim insanı, Türk, profesör, formül
-Aziz Sancar|Nobel, bilim, Mardin, DNA, kimya
-Sabiha Gökçen|pilot, kadın, uçak, Atatürk, savaş
-Nazım Hikmet|şair, şiir, Türk, hapis, Moskova
-Orhan Pamuk|yazar, Nobel, roman, İstanbul, kitap
-Yaşar Kemal|yazar, İnce Memed, roman, Çukurova, kitap
-Aziz Nesin|yazar, mizah, Türk, hikaye, gülmek
-Sait Faik|yazar, hikaye, Burgaz, Türk, deniz
-Fazıl Say|piyanist, müzik, besteci, Türk, konser
-Zülfü Livaneli|şarkıcı, yazar, besteci, Türk, müzik
-Müslüm Gürses|şarkıcı, baba, arabesk, Türk, ses
-İbrahim Tatlıses|şarkıcı, ünlü, Türk, Urfa, ses
-Neşet Ertaş|bozlak, saz, Kırşehir, türkü, usta
-Aşık Veysel|saz, âşık, Sivas, türkü, kör
-Karacaoğlan|âşık, şair, halk, türkü, Toros
-Orhan Gencebay|arabesk, saz, Türk, şarkıcı, müzik
-Kenan Doğulu|şarkıcı, pop, Türk, sahne, ünlü
-Hadise|şarkıcı, pop, Türk, Eurovision, ünlü
-Eurovision|şarkı, yarışma, Avrupa, ülke, final
-Survivor|ada, yarışma, eleme, dokunulmazlık, kamp
-Masterchef|yemek, yarışma, şef, aşçı, önlük
-O Ses Türkiye|şarkı, yarışma, jüri, koltuk, ünlü
-Kurtlar Vadisi|dizi, Polat, mafya, Türk, aksiyon
-Muhteşem Yüzyıl|dizi, Osmanlı, Hürrem, saray, tarih
-Recep İvedik|film, komedi, Şahan, Türk, gülmek
-Eşkıya|film, dağ, Baran, Türk, suç
-Hababam Sınıfı|film, okul, öğrenci, komedi, Kemal Sunal
-Tosun Paşa|film, komedi, Kemal Sunal, Türk, ünlü
-Arog|film, komedi, Cem Yılmaz, Türk, gülmek
-G.O.R.A.|film, uzay, komedi, Cem Yılmaz, gezegen
-Agatha Christie|yazar, polisiye, İngiliz, roman, cinayet
-Jules Verne|yazar, roman, bilim kurgu, Fransız, denizaltı
-Romeo ve Juliet|aşk, trajedi, Shakespeare, balkon, İtalya
-Robinson Crusoe|ada, roman, yalnız, Cuma, gemi
-Alice Harikalar Diyarında|tavşan, kız, masal, Cheshire, çay
-Peter Pan|uçmak, çocuk, masal, Hook, ada
-Aslan Kral|Simba, Disney, Afrika, çizgi film, Mufasa
-Frozen|Elsa, Anna, kar, Disney, çizgi film
-Toy Story|Woody, oyuncak, çizgi film, Buzz, Pixar
-Shrek|ogre, yeşil, çizgi film, Eşek, bataklık
-Kung Fu Panda|Po, dövüş, çizgi film, Çin, ünlü
-Ice Age|Manny, buzul, çizgi film, Sid, mamut
-Madagaskar|çizgi film, aslan, zebra, hayvan, ada
-Simpsonlar|Homer, sarı, çizgi film, Bart, aile
-Star Wars|uzay, Jedi, kılıç, Darth Vader, film
-Yüzüklerin Efendisi|Frodo, yüzük, film, Gandalf, Hobbit
-Titanic|gemi, buzdağı, film, batmak, Jack
-Avatar|mavi, film, gezegen, Pandora, James Cameron
-Joker|palyaço, Batman, kötü, film, gülmek
-Demir Adam|Marvel, zırh, süper kahraman, Tony Stark, film
-Hulk|yeşil, Marvel, öfke, süper kahraman, güçlü
-Thor|çekiç, Marvel, gök gürültüsü, süper kahraman, Asgard
-Kaptan Amerika|Marvel, kalkan, süper kahraman, bayrak, asker
-Beyaz Saray|Amerika, başkan, Washington, ev, politika
-Kremlin|Rusya, Moskova, saray, lider, kale
-Big Ben|saat, Londra, kule, İngiltere, çan
-Akropolis|Atina, Yunanistan, tapınak, antik, tepe
-Venedik|kanal, gondol, İtalya, şehir, su
-Barselona|İspanya, Gaudi, futbol, deniz, şehir
-Madrid|İspanya, başkent, futbol, şehir, Real
-Berlin|Almanya, duvar, başkent, şehir, Brandenburg
-Moskova|Rusya, başkent, Kızıl Meydan, şehir, soğuk
-Tokyo|Japonya, başkent, şehir, kalabalık, sushi
-Pekin|Çin, başkent, şehir, yasak, saray
-Dubai|Emirlikler, Burj Halife, çöl, gökdelen, lüks
-Mekke|Kâbe, hac, İslam, Suudi Arabistan, şehir
-Kudüs|şehir, kutsal, Mescid-i Aksa, İsrail, tarihi
-Amazon Ormanları|Brezilya, yağmur, ağaç, nehir, yeşil
-Sahra|çöl, kum, Afrika, sıcak, deve
-Everest|dağ, yüksek, Nepal, zirve, tırmanış
-Kilimanjaro|dağ, Afrika, Tanzanya, kar, zirve
-Niagara|şelale, Kanada, su, Amerika, dökülmek
-Nil|nehir, Mısır, uzun, Afrika, firavun
-Atlantik|okyanus, Amerika, Avrupa, geniş, dalga
-Pasifik|okyanus, büyük, Japonya, derin, dalga
-Antarktika|kutup, buz, penguen, soğuk, güney
-Hindistan|ülke, Taj Mahal, baharat, Delhi, inek
-Taj Mahal|Hindistan, türbe, beyaz, aşk, anıt
-Japonya|ülke, sushi, Tokyo, samuray, güneş
-Samuray|Japonya, kılıç, savaşçı, eski, zırh
-Brezilya|ülke, futbol, karnaval, Rio, samba
-Meksika|ülke, tako, şapka, kaktüs, sombrero
-Tako|Meksika, tortilla, yemek, acı, kıyma
-Espresso|kahve, İtalyan, kısa, güçlü, fincan
-Cappuccino|kahve, süt, köpük, İtalyan, fincan
-Türk Kahvesi|fincan, telve, cezve, köpük, fal
-Menemen|yumurta, domates, biber, kahvaltı, tava
-Kuru Fasulye|baklagil, pilav, yemek, et, tencere
-İskender|et, Bursa, yoğurt, döner, tereyağı
-Adana Kebap|acı, ünlü, kıyma, şiş, mangal
-Künefe|Hatay, tatlı, peynir, şerbet, sıcak
-Süleymaniye|cami, İstanbul, Sinan, kubbe, Osmanlı
-Selimiye|cami, Edirne, Sinan, kubbe, minare
-Mavi Cami|Sultanahmet, İstanbul, altı minare, çini, Osmanlı
-Dolmabahçe|saray, İstanbul, Boğaz, padişah, kristal
-Beylerbeyi|saray, İstanbul, Boğaz, Asya, yazlık
-Ortaköy|İstanbul, Boğaz, kumpir, cami, köprü
-Kumpir|patates, Ortaköy, fırın, sosis, tuzlu
-Balık Ekmek|Eminönü, tekne, İstanbul, ünlü, sandviç
-Çiğ Köfte|acı, yaprak, marul, Urfa, dürüm
-Şanlıurfa|Balıklıgöl, Urfa, kebap, İbrahim, şehir
-Gaziantep|baklava, fıstık, kebap, şehir, güney
-Diyarbakır|surlar, karpuz, şehir, Dicle, doğu
-Erzurum|kış, kar, cağ kebabı, doğu, Palandöken
-Kayseri|mantı, pastırma, Erciyes, şehir, sucuk
-Sivas|köfte, kongre, Kızılırmak, şehir, kar
-Edirne|Selimiye, ciğer, Kırkpınar, şehir, Trakya
-Mardin|taş, ev, Süryani, şehir, Mezopotamya
-Safranbolu|ev, Karabük, lokum, tarihi, şehir
-Amasra|Karadeniz, liman, tarihi, kale, şehir
-Marmaris|tatil, deniz, yat, Muğla, Akdeniz
-Fethiye|Ölüdeniz, paraşüt, deniz, tatil, şehir
-Ölüdeniz|deniz, paraşüt, lagün, Fethiye, mavi
-Alaçatı|rüzgar, sörf, Çeşme, taş ev, İzmir
-Çeşme|deniz, tatil, İzmir, plaj, ılıca
-Uludağ|kayak, Bursa, kar, dağ, otel
-Abant|göl, orman, Bolu, doğa, piknik
-Sapanca|göl, Sakarya, doğa, bungalov, kıyı
-Uzungöl|Trabzon, göl, yeşil, yayla, cami
-Ayder|yayla, Rize, kaplıca, doğa, Karadeniz
-Rize|çay, yağmur, bahçe, Karadeniz, bardak
-Hopa|Artvin, sahil, sınır, Karadeniz, şehir
-Ani Harabeleri|Kars, kilise, tarihi, sınır, antik
-Kars|kaz, peynir, soğuk, doğu, şehir
-Nevşehir|Kapadokya, peri bacası, şehir, balon, mağara
-Sıcak Hava Balonu|gökyüzü, sepet, Kapadokya, uçmak, ısı
-Paraşüt Atlayışı|uçak, atlamak, gökyüzü, bez, inmek
-Uçak Bileti|havayolu, yolculuk, rezervasyon, koltuk, seyahat
-Check-in|havalimanı, bavul, uçak, kart, görevli
-Transit Vize|havalimanı, geçiş, ülke, aktarma, pasaport
-Gümrük Memuru|sınır, bavul, kontrol, pasaport, ülke
-Rehber|turist, gezi, müze, anlatmak, grup
-Turist|gezi, yabancı, kamera, harita, tatil
-Hediyelik Eşya|turist, hatıra, dükkan, magnet, alışveriş
-Pasaport Kontrolü|sınır, damga, kuyruk, ülke, memur
-Konsolosluk|vize, ülke, başvuru, bina, diplomat
-Seyahat Acentesi|bilet, tur, rezervasyon, tatil, danışman
-Tur Otobüsü|turist, rehber, şehir, gezi, koltuk
-Sahil Yolu|deniz, araba, kıyı, manzara, gezmek
-Panayır|oyun, çocuk, pamuk şeker, eğlence, kurulmak
-Köy Kahvesi|çay, tavla, ünlü, sohbet, okey
-Köy Meydanı|ağaç, çeşme, kahve, çınar, köylü
-Çınar Ağacı|gölge, büyük, eski, köy, meydan
-Biçerdöver|buğday, tarla, makine, hasat, traktör
-Bağ Bozumu|üzüm, sonbahar, hasat, şıra, sepet
-Fındık Hasadı|Karadeniz, toplamak, ağaç, kabuk, sonbahar
-Çay Hasadı|Rize, yaprak, bahçe, toplamak, sepet
-Zeytin Hasadı|ağaç, Ege, toplamak, yağ, sonbahar
-Yayla Şenliği|dağ, çimen, hayvan, yaz, Karadeniz
-Vaha Manzarası|palmiye, çöl, su, gölge, hurma
-Çöl Fırtınası|kum, rüzgar, ünlü, kör, bulut
-Kum Saati|zaman, cam, dökmek, akmak, dakika
-Güneş Saati|gölge, zaman, bahçe, kadran, gün
-Kol Saati|zaman, bilek, akrep, yelkovan, kayış
-Duvar Saati|zaman, sarkaç, ünlü, akrep, tik tak
-Not Defteri|yazı, kalem, sayfa, küçük, cep
-Post-it|not, yapışkan, sarı, masa, hatırlatma
-Zımbalı Defter|kağıt, sayfa, tel, okul, yazı
-Klasör|belge, kağıt, dosya, ofis, raf
-Dosya|belge, kağıt, ofis, klasör, bilgisayar
-Fotokopi|çoğaltmak, makine, kâğıt, ofis, ışık
-Tarayıcı|belge, bilgisayar, ışık, kopya, kâğıt
-Ofis|çalışmak, masa, bilgisayar, toplantı, iş
-Mesai|iş, saat, ofis, çalışmak, fazla
-Öğle Arası|yemek, iş, mola, saat, ofis
-Kahve Molası|ofis, mola, fincan, sohbet, ünlü
-Toplantı Odası|masa, sunum, ofis, ekran, yönetici
-Yönetici|patron, ofis, ekip, karar, müdür
-Stajyer|öğrenci, ofis, çırak, deneyim, genç
-Asistan|yardım, sekreter, ofis, yönetici, randevu
-Sekreter|randevu, telefon, ofis, yönetici, masa
-Müdür|okul, ofis, yönetici, oda, karar
-Hademe|okul, ofis, temizlik, çay, görevli
-Nöbetçi Öğretmen|okul, koridor, teneffüs, görevli, öğrenci
-Karne Günü|okul, not, öğrenci, tatil, aile
-Sınav Kağıdı|soru, okul, kalem, cevap, not
-Cevap Anahtarı|sınav, doğru, soru, kâğıt, öğretmen
-Mezuniyet Şapkası|kep, okul, tören, diploma, siyah
-Kampüs|üniversite, bina, öğrenci, yurt, bahçe
-Yurt|öğrenci, oda, üniversite, ranza, kalmak
-Ranza|yatak, üst, alt, yurt, merdiven
-Kantin|okul, sandviç, öğrenci, teneffüs, yiyecek
-Teneffüs Zili|okul, ders, çıkmak, çalmak, çocuk
-Okul Servisi|öğrenci, şoför, sabah, minibüs, ünlü
-Okul Formu|önlük, öğrenci, giymek, renk, kıyafet
-Sırt Çantası|okul, taşımak, omuz, fermuar, kitap
-Beslenme Çantası|okul, yiyecek, çocuk, kutu, teneffüs
-Su Matarası|okul, içmek, kapak, taşımak, metal
+Termos|sıcak, çay, kapak, taşımak, çelik, vakum
+Anahtarlık|anahtar, halka, süs, cep, hatıra, madalyon
+Cüzdan|para, kart, cep, kimlik, deri, bozdurmak
+Çakmak|ateş, sigara, gaz, yakmak, alev, sigara paketi
+Fener|ışık, pil, karanlık, el, kamp, el feneri
+Çekiç|çivi, vurmak, alet, demir, sap, tokmak
+Testere|kesmek, ağaç, diş, odun, alet, biçmek
+Matkap|delmek, duvar, uç, elektrik, vida, şarjlı
+Tornavida|vida, alet, sıkmak, uç, elektrik, yıldız
+Bıçak|kesmek, mutfak, keskin, sap, ekmek, jilet
+Süzgeç|makarna, su, delik, mutfak, süzmek, çay
+Tencere|yemek, kapak, ocak, kaynatmak, çorba, düdüklü
+Cezve|kahve, ocak, Türk, köpük, sap, fincan
+Kilim|halı, dokumak, desen, yer, el emeği, Anadolu
+Perde|pencere, kumaş, açmak, tül, korniş, güneşlik
+Avize|tavan, ışık, kristal, ampul, salon, Murano
+Tarak|saç, diş, taramak, plastik, tıraş, firkete
+Sabun|köpük, yıkamak, banyo, el, koku, kalıp
+Havlu|kurulamak, banyo, ıslak, pamuk, plaj, bornoz
+Şampuan|saç, köpük, banyo, yıkamak, şişe, saç kremi
+Diş Macunu|fırça, nane, tüp, ağız, beyaz, florür
+Lastik|araba, tekerlek, patlak, hava, silgi, jant
+Kask|baş, motosiklet, koruma, inşaat, bisiklet, güvenlik
+Cankurtaran|yüzmek, havuz, deniz, can simidi, düdük, kurtarmak
+Simidi|su, yüzmek, şişirmek, deniz, çocuk, can
+Salıncak|park, sallanmak, ip, çocuk, itmek, zincir
+Kaydırak|park, kaymak, merdiven, çocuk, oyun, çocuk parkı
+Hamak|ağaç, sallanmak, uyumak, ip, tatil, kamp
+Pusula|yön, kuzey, iğne, harita, kaybolmak, yön bulmak
+Harita|yol, ülke, şehir, bulmak, atlas, rota
+Dürbün|uzak, bakmak, göz, mercek, kuş, gözetlemek
+Teleskop|yıldız, ay, uzay, bakmak, gökyüzü, astronomi
+Mikroskop|küçük, bakmak, laboratuvar, hücre, mercek, preparat
+Termometre|ateş, derece, ölçmek, sıcaklık, hasta, cıva
+Steteskop|doktor, kalp, dinlemek, kulak, hasta, nabız
+Aşı|iğne, doktor, hastalık, bağışıklık, kol, salgın
+Reçete|doktor, ilaç, eczane, yazmak, hasta, hap
+Postacı|mektup, zarf, kapı, adres, pul, bisiklet
+Zarf|mektup, pul, posta, kapak, adres, mühür
+Pul|mektup, posta, yapıştırmak, koleksiyon, zarf, damga
+Bilet|giriş, sinema, otobüs, kontrol, yırtmak, gişe
+Otel|oda, resepsiyon, tatil, gece, kahvaltı, rezervasyon
+Havuz|yüzmek, su, klor, cankurtaran, kenar, şezlong
+Müze|eser, tarih, bilet, gezmek, sergi, rehber
+Market|alışveriş, sepet, kasa, ürün, reyon, barkod
+Bakkal|mahalle, ekmek, sigara, veresiye, dükkân, kapıda
+Kasap|et, kıyma, bıçak, dükkân, kuzu, et dolabı
+Manav|meyve, sebze, tezgâh, kilo, dükkân, terazi
+Kuaför|saç, boya, fön, kadın, makas, saç kesimi
+Terzi|dikmek, kumaş, ölçü, iğne, elbise, manken
+Tamirci|bozuk, tamir, alet, araba, usta, çırak
+Fırıncı|ekmek, hamur, fırın, sabah, un, tezgah
+Çiftçi|tarla, tarım, traktör, ekmek, hasat, çapa
+Balıkçı|olta, ağ, deniz, tekne, tutmak, zıpkın
+Garson|sipariş, tabak, restoran, bahşiş, menü, tepsi
+Şoför|araba, direksiyon, yol, ehliyet, kullanmak, kontak
+Pilot|uçak, kokpit, uçurmak, kaptan, üniforma, havayolu
+Astronot|uzay, roket, ay, kask, yıldız, yerçekimi
+Dedektif|ipucu, suçlu, soruşturma, büyüteç, polis, iz sürmek
+Palyaço|sirk, burun, komik, güldürmek, renkli, pantolon
+Prenses|kral, saray, taç, masal, elbise, balo
+Ejderha|ateş, masal, kanat, şövalye, mağara, dev
+Zombi|ölü, beyin, korku, yürümek, film, mezarlık
+Kovboy|at, şapka, Teksas, silah, vahşi batı, kamçı
+Ninja|Japon, gizli, kılıç, siyah, savaşçı, yıldız
+Şövalye|zırh, kılıç, at, kale, kral, mızrak
+Yılan|sürünmek, zehir, dil, kıvrım, ısırmak, pul
+Kaplumbağa|kabuk, yavaş, deniz, tavşan, yürümek, kara
+Timsah|nehir, diş, yeşil, Nil, ısırmak, bataklık
+Zürafa|boyun, uzun, Afrika, benekli, yaprak, akasya
+Penguen|buz, siyah beyaz, kutup, yürümek, balık, yumurta
+Kanguru|keseli, zıplamak, Avustralya, yavru, kuyruk, boks
+Yunus|deniz, akıllı, zıplamak, gösteri, balık, akvaryum
+Kartal|kanat, yırtıcı, dağ, uçmak, pençe, av
+Baykuş|gece, göz, bilge, ötmek, orman, hu hu
+Arı|bal, kovan, iğne, çiçek, vızıltı, polen
+Karınca|çalışkan, koloni, küçük, yuva, şeker, iz
+Örümcek|ağ, böcek, sekiz, ip, korku, duvar
+Kelebek|kanat, renkli, koza, çiçek, uçmak, tırtıl
+Salyangoz|kabuk, yavaş, yağmur, sümük, bahçe, bahçe tırtılı
+Ördek|gölet, vak vak, tüy, yüzmek, sarı, ekmek
+Horoz|öten, sabah, tüy, ibik, tavuk, kuş
+İnek|süt, çiftlik, ot, boynuz, muu, ahır
+Koyun|yün, kuzu, sürü, çoban, meleme, kırk
+Keçi|boynuz, süt, dağ, sakal, çoban, keçi sütü
+Eşek|anırmak, yük, kulak, inatçı, taşımak, semer
+Domuz|çamur, pembe, çiftlik, kuyruk, burun, çiftlik hayvanı
+Tavşan|havuç, kulak, zıplamak, uzun, yumuşak, havuçsu
+Fare|peynir, kedi, küçük, kuyruk, delik, kemirgen
+Geyik|boynuz, orman, çevik, Noel, yavru, çıta
+Kurt|uluma, orman, sürü, ay, yırtıcı, dolunay
+Tilki|kurnaz, kuyruk, orman, turuncu, tavuk, tavşan
+Ayı|bal, orman, kış uykusu, pençe, büyük, mağara
+Panda|bambu, Çin, siyah beyaz, tatlı, sevimli, çubuk
+Maymun|muz, ağaç, taklit, kuyruk, orman, akrobat
+Flamingo|pembe, tek ayak, uzun, göl, kuş, pembeli
+Papağan|konuşmak, renkli, kafes, tüy, taklit, kakadu
+Leylek|bebek, yuva, uzun bacak, göç, gaga, baca
+Kaz|vak, gölet, beyaz, tüy, gaga, bakışı
+Hindi|Yılbaşı, Noel, tüy, gıdak, kuş, bayram yemeği
+Çilek|kırmızı, meyve, tohum, reçel, yaz, pasta
+Kiraz|kırmızı, çekirdek, saplı, meyve, yaz, ağaç
+Şeftali|tüylü, meyve, yaz, çekirdek, sulu, nektarin
+Nar|taneli, kırmızı, kabuk, meyve, sulu, ekşisi
+Ananas|tropik, dikenli, meyve, sarı, tatlı, pizza
+Limon|ekşi, sarı, sıkmak, limonata, sıvı, çay
+Portakal|meyve, portakal suyu, turuncu, kabuk, C vitamini, narenciye
+Havuç|turuncu, tavşan, sebze, rendelemek, kök, çiğ
+Patates|kızartma, toprak, sebze, püre, soymak, yumru
+Domates|kırmızı, salata, sebze, salça, sulu, ketçap
+Salatalık|yeşil, salata, turşu, sebze, serin, cacık
+Soğan|ağlamak, kabuk, kokmak, sebze, halka, kıyma
+Sarımsak|diş, koku, ağız, mutfak, baharat, soymak
+Mantar|orman, şapka, zehirli, yemek, sap, ormanda
+Bal|arı, kovan, tatlı, süzme, kahvaltı, petek
+Peynir|süt, beyaz, kahvaltı, kaşar, tost, tuzlu
+Yumurta|tavuk, kırmak, kabuk, sarısı, haşlamak, omlet
+Zeytin|ağaç, yağ, siyah, kahvaltı, tuz, ağacı
+Reçel|meyve, kavanoz, tatlı, kahvaltı, sürmek, ev yapımı
+Çorba|kaşık, sıcak, kase, tuz, mercimek, çorbası
+Salata|sebze, marul, yeşil, zeytinyağı, tabak, çoban
+Makarna|spagetti, sos, haşlamak, İtalyan, tabak, penne
+Pilav|pirinç, tane, yanında, tabak, bulgur, düğün
+Köfte|kıyma, et, ızgara, ekmek, yuvarlak, izgara
+Kebap|et, şiş, ızgara, Adana, mangal, şişte
+Ayran|yoğurt, kebap, tuz, içecek, soğuk, köpüklü
+Limonata|ekşi, yaz, soğuk, limon, içecek, taze
+Sandviç|ekmek, dilim, peynir, arası, öğle, tost
+Sünger|banyo, yıkamak, su, emmek, mutfak, bulaşık
+Fırça|boya, saç, diş, tüy, sürmek, kıl
+Makas|kesmek, kâğıt, saç, iki, keskin, terzi
+Cetvel|ölçmek, çizgi, okul, santimetre, düz, metre
+Silgi|kalem, yazı, silmek, okul, hata, ucu
+Pergel|daire, çizmek, ölçmek, ucu, geometri, çember
+Hesap Makinesi|toplama, sayı, tuş, matematik, ekran, çarpma
+Kumbara|para, biriktirmek, domuz, bozuk, çocuk, çatlamak
+Mum|ışık, yakmak, eriyen, fitil, doğum günü, yağ
+Kibrit|çakmak, yakmak, ateş, kutu, çöp, çöpü
+Soba|kış, odun, sıcak, kömür, boru, tüp
+Şömine|ateş, odun, kış, salon, sıcak, baca
+Radyatör|ısıtmak, kalorifer, sıcak, kış, peteği, petek
+Klima|serin, yaz, soğutmak, uzaktan kumanda, oda, filtre
+Vantilatör|rüzgâr, pervane, yaz, serin, dönmek, kanat
+Bulaşık Makinesi|tabak, yıkamak, deterjan, mutfak, su, tablet
+Çamaşır Suyu|beyaz, temizlik, kokusu, leke, şişe, dezenfektan
+Deterjan|çamaşır, köpük, temizlik, toz, yıkamak, bulaşık
+Kova|su, plastik, sap, temizlik, doldurmak, paspas
+Hortum|su, bahçe, sulamak, uzun, musluk, sulama
+Kürek|toprak, kazmak, sap, bahçe, kar, çukur
+Tırmık|toprak, bahçe, diş, yaprak, sap, çim
+Matara|su, içmek, kamp, taşımak, kapak, askeri
+Kazma|toprak, kazmak, demir, sap, madenci, çukur açmak
+Balta|odun, kesmek, orman, keskin, sap, oduncu
+Urgan|ip, kalın, çekmek, gemi, bağlamak, bağ
+Çıkrık|kuyu, su, çevirmek, kova, ip, kovası
+Kuyu|su, derin, çekmek, kova, çıkrık, taş
+Değirmen|un, buğday, öğütmek, su, taş, dönmek
+Harman|buğday, saman, tarla, hasat, savurmak, yel
+Orak|buğday, biçmek, tarla, eğri, el, başak
+Tırpan|ot, biçmek, uzun, keskin, sap, çayır
+Saban|toprak, sürmek, öküz, tarla, çiftçi, öküzü
+Ambar|tahıl, depo, saklamak, çiftlik, bina, buğday
+Kümes|tavuk, yumurta, horoz, tel, çiftlik, civciv
+Ahır|inek, at, saman, çiftlik, hayvan, gübre
+Çoban|koyun, sürü, değnek, dağ, köpek, kaval
+Samanlık|saman, ahır, kuru ot, hayvan, bina, bale
+Yün|koyun, kırpmak, örgü, kazak, sıcak, kırkmak
+Dokuma|tezgâh, iplik, kilim, kumaş, el emeği, ilmek
+Çıkın|bohça, taşımak, kumaş, bağlamak, eşya, düğüm
+Bohça|kumaş, taşımak, eşya, düğüm, çeyiz, nakış
+Çeyiz|gelin, sandık, düğün, el emeği, evlilik, sandığı
+Sandık|çeyiz, kilitli, ahşap, eski, saklamak, oyma
+Gelinlik|beyaz, düğün, gelin, elbise, duvak, tül
+Damatlık|düğün, damat, takım elbise, kravat, siyah, papyon
+Kına|gelin, el, kırmızı, gece, düğün, gecesi
+Davul|vurmak, tokmak, ses, düğün, ritim, zurna
+Savcı|iddia, mahkeme, suç, hukuk, dava, iddianame
+Karakol|polis, şikâyet, nöbetçi, tutanak, suç, nöbet
+Kelepçe|polis, el, metal, suçlu, bilezik, bağlamak
+Parmak İzi|el, suç, iz, polis, mürekkep, uç
+Büyüteç|cam, bakmak, dedektif, büyük, mercek, zoom
+Soygun|banka, silah, para, polis, maske, kasa
+Banka|para, kredi, hesap, ATM, şube, faiz
+ATM|para, kart, çekmek, şifre, makine, nakit
+Kredi Kartı|alışveriş, şifre, ödeme, banka, plastik, limit
+Çek|banka, imza, yazmak, ödeme, defter, keşide
+Senet|borç, imza, kâğıt, vade, ödemek, çek
+Tapu|ev, mülk, belge, sahip, daire, devir
+Kira|ev, ödemek, ay, ev sahibi, kiracı, kontrat
+Emlakçı|ev, satmak, kiralamak, komisyon, ilan, vitrin
+Müteahhit|bina, inşaat, daire, proje, yapmak, şantiye
+Mimar|bina, proje, çizmek, plan, tasarım, maket
+İskele|inşaat, boru, yüksek, işçi, bina, kat
+Beton|inşaat, çimento, kum, sertleşmek, döşeme, karıştırıcı
+Tuğla|duvar, kırmızı, inşaat, harç, örmek, ev
+Çimento|inşaat, toz, beton, gri, harç, torba
+Boya|duvar, fırça, renk, boyacı, kova, rulo
+Tesisat|boru, su, usta, musluk, tamir, su borusu
+Musluk|su, akıtmak, çevirmek, lavabo, damlamak, vana
+Lavabo|musluk, yüz, el, banyo, yıkamak, ayna
+Banyo|duş, küvet, sabun, su, havlu, sabunluk
+Küvet|banyo, su, yatmak, köpük, yıkanmak, tıkaç
+Duş|su, sabun, banyo, ıslanmak, yıkanmak, başlık
+Termosifon|sıcak su, banyo, elektrik, depo, ısıtmak, sıcaklık
+Kombi|ısınma, kalorifer, doğalgaz, sıcak, ev, boyler
+Kalorifer|ısıtma, kış, peteği, sıcak, ev, radyatör
+Teras|çatı, dışarı, manzara, yaz, bina, şezlong
+Çatı|kiremit, bina, üst, yağmur, baca, çatı katı
+Baca|duman, soba, çatı, siyah, yüksek, kurum
+Kiremit|çatı, kırmızı, ev, toprak, örtmek, çatı kaplaması
+Bodrum|alt kat, karanlık, depo, merdiven, nemli, sığınak
+Apartman|bina, daire, kat, komşu, asansör, kapıcı
+Gökdelen|bina, yüksek, kat, şehir, cam, manzara
+Vezne|banka, para, gişe, sıra, memur, gişe memuru
+Belediye|şehir, başkan, hizmet, çöp, seçim, zabıta
+Postane|mektup, pul, zarf, paket, postacı, şube
+Stadyum|maç, tribün, taraftar, futbol, çim, çim saha
+Havalimanı|uçak, bilet, pasaport, bagaj, terminal, pist
+Otogar|otobüs, bilet, peron, yolcu, şehirlerarası, terminal
+Yürüyen Merdiven|basamak, alışveriş, çıkmak, otomatik, kat, bant
+Benzinlik|akaryakıt, araba, depo, pompa, benzin, market
+Diş Hekimi|dolgu, ağız, koltuk, çekmek, muayene, diş taşı
+Elektrikçi|kablo, priz, sigorta, akım, tamir, sigorta kutusu
+Marangoz|ahşap, tahta, testere, mobilya, çivi, rende
+Boyacı|boya, fırça, duvar, kova, ev, merdiven
+Pazarcı|tezgah, bağırmak, sebze, fiyat, pazar, kasa
+İtfaiyeci|yangın, hortum, su, kırmızı, araç, kask
+Kurye|paket, motor, teslimat, adres, hızlı, çanta
+Klavye|tuş, bilgisayar, yazmak, harf, fare, bilgisayar faresi
+Yazıcı|kâğıt, çıktı, mürekkep, bilgisayar, tarayıcı, toner
+Şarj Aleti|pil, telefon, priz, kablo, dolu, adaptör
+Kumanda|televizyon, düğme, kanal, uzaktan, pil, tuş
+Fotoğraf Makinesi|resim, çekmek, flaş, lens, poz, objektif
+Tablet|ekran, dokunmak, bilgisayar, telefon, büyük, kalem
+Oyun Konsolu|kol, ekran, televizyon, eğlence, joystick, kablosuz
+Uçurtma|rüzgar, ip, gökyüzü, çocuk, uçurmak, kuyruk
+Bulmaca|çözmek, kelime, ipucu, gazete, kutu, ipucu kitapçığı
+Domino|taş, devirmek, sıra, oyun, nokta, zincirleme
+Yapboz|parça, resim, birleştirmek, çocuk, kutu, kutu kapağı
+Zar|oyun, atmak, altı, nokta, tavla, tahta
+İskambil|kart, oyun, poker, deste, papaz, maça
+Ödül|kupa, kazanmak, madalya, tören, başarı, tören salonu
+Madalya|altın, gümüş, bronz, sporcu, ödül, kordon
+Kupa|şampiyon, kazanmak, ödül, altın, takım, kaldırmak
+Podyum|birinci, ikinci, üçüncü, tören, sporcu, basamak
+Şampiyon|birinci, kupa, kazanmak, takım, final, lig
+Kaptan|takım, gemi, bant, lider, yönetmek, pilot
+Kale|futbol, gol, kaleci, ağ, direk, kule
+Raket|tenis, vurmak, file, kort, top, file üstü
+File|voleybol, tenis, ağ, top, atmak, kort
+Pota|basketbol, top, sayı, atmak, ağ, çember
+Ring|boks, dövüş, köşe, yumruk, hakem, ip
+Yüzme Havuzu|su, kulaç, mayo, dalış, klor, şerit
+Kayak|kar, dağ, pist, ayak, kayakçı, bot
+Paten|buz, tekerlek, kaymak, ayak, pist, kask
+Ata Binmek|at, eyer, dizgin, atlamak, süvari, nal
+Uyku Tulumu|kamp, uyumak, çadır, fermuar, sıcak, mat
+Karavan|tatil, tekerlek, araba, kamp, gezmek, motor
+Pansiyon|oda, konaklama, küçük, kahvaltı, tatil, misafir
+Resepsiyon|otel, karşılamak, anahtar, kayıt, görevli, kat
+Güneş Kremi|yanmak, plaj, yaz, cilt, sürmek, faktör
+Şnorkel|dalmak, deniz, boru, maske, nefes, palet
+Tahterevalli|park, çocuk, iki, aşağı, yukarı, denge
+Akrobat|sirk, takla, denge, ip, gösteri, trapez
+Maskot|takım, hayvan, kostüm, sembol, çocuk, forma
+Kostüm|giymek, parti, gösteri, maske, oyun, cadı
+Maske|yüz, takmak, parti, korku, örtmek, karnaval
+Karnaval|kostüm, maske, kutlama, sokak, dans, müzik
+Havai Fişek|gökyüzü, yılbaşı, patlamak, renkli, gece, barut
+Nikah|evlilik, memur, imza, gelin, damat, şahit
+Damat|gelin, düğün, takım elbise, evlilik, nikah, smokin
+Davetiye|kart, düğün, çağırmak, zarf, yazı, basmak
+Nişan|yüzük, evlilik, söz, aile, kutlama, söz kesmek
+Yüzük|parmak, altın, nişan, takmak, mücevher, elmas
+Kolye|boyun, altın, mücevher, takı, zincir, pırlanta
+Küpe|kulak, altın, takı, takmak, çift, delmek
+Bilezik|kol, altın, takı, çember, mücevher, kelepçe
+Parfüm|koku, şişe, sıkmak, güzel, kadın, esans
+Ruj|dudak, kırmızı, makyaj, sürmek, kadın, kalem
+Makyaj|yüz, ruj, fondöten, kadın, ayna, fondöten kremi
+Deodorant|koku, ter, sıkmak, koltuk altı, sprey, roll-on
+Tıraş Makinesi|sakal, elektrikli, yüz, bıçak, erkek, batarya
+Jilet|keskin, tıraş, sakal, bıçak, ince, ıslak
+Hemşire|hastane, iğne, hasta, bakım, doktor, serum
+İğne|dikiş, enjeksiyon, batmak, ince, sivri, iplik
+Tansiyon|kalp, ölçmek, doktor, yüksek, kan, aleti
+Röntgen|kemik, ışın, doktor, film, kırık, film çekmek
+Alçı|kırık, kol, beyaz, doktor, kemik, bandaj
+Koltuk Değneği|bacak, yürümek, sakat, destek, hastane, yaralı
+Tekerlekli Sandalye|hasta, engelli, oturmak, tekerlek, itmek, rampa
+Fatih Sultan Mehmet|İstanbul, fetih, padişah, Osmanlı, II. Mehmed, Konstantinopolis
+Kanuni|Süleyman, padişah, Osmanlı, kanun, Muhteşem, Hürrem
+Evliya Çelebi|seyahat, seyyah, kitap, Osmanlı, gezi, Seyahatname
+Cahit Arf|matematik, bilim insanı, Türk, profesör, formül, değişmezi
+Aziz Sancar|Nobel, bilim, Mardin, DNA, kimya, DNA onarımı
+Sabiha Gökçen|pilot, kadın, uçak, Atatürk, savaş, havacılık
+Nazım Hikmet|şair, şiir, Türk, hapis, Moskova, Bursa
+Orhan Pamuk|yazar, Nobel, roman, İstanbul, kitap, Masumiyet Müzesi
+Yaşar Kemal|yazar, İnce Memed, roman, Çukurova, kitap, Toros
+Aziz Nesin|yazar, mizah, Türk, hikaye, gülmek, Zübük
+Sait Faik|yazar, hikaye, Burgaz, Türk, deniz, hikâyeci
+Fazıl Say|piyanist, müzik, besteci, Türk, konser, Nâzım Oratoryosu
+Zülfü Livaneli|şarkıcı, yazar, besteci, Türk, müzik, Yaz Yağmuru
+Müslüm Gürses|şarkıcı, baba, arabesk, Türk, ses, Nilüfer
+İbrahim Tatlıses|şarkıcı, ünlü, Türk, Urfa, ses, İmparator
+Neşet Ertaş|bozlak, saz, Kırşehir, türkü, usta, Neşet Baba
+Aşık Veysel|saz, âşık, Sivas, türkü, kör, Uzun İnce Bir Yoldayım
+Karacaoğlan|âşık, şair, halk, türkü, Toros, Dadaloğlu
+Orhan Gencebay|arabesk, saz, Türk, şarkıcı, müzik, Bir Teselli Ver
+Kenan Doğulu|şarkıcı, pop, Türk, sahne, ünlü, Shake It Up
+Hadise|şarkıcı, pop, Türk, Eurovision, ünlü, Düm Tek Tek
+Eurovision|şarkı, yarışma, Avrupa, ülke, final, Düsseldorf
+Survivor|ada, yarışma, eleme, dokunulmazlık, kamp, Acun
+Masterchef|yemek, yarışma, şef, aşçı, önlük, Somer
+O Ses Türkiye|şarkı, yarışma, jüri, koltuk, yarışmacı, Hadise
+Kurtlar Vadisi|dizi, Polat, mafya, Türk, aksiyon, Memati
+Muhteşem Yüzyıl|dizi, Osmanlı, Hürrem, saray, tarih, Kösem
+Recep İvedik|film, komedi, Şahan, Türk, gülmek, Atalay
+Eşkıya|film, dağ, Baran, Türk, suç, Şener Şen
+Hababam Sınıfı|film, okul, öğrenci, komedi, Kemal Sunal, Mahmut Hoca
+Tosun Paşa|film, komedi, Kemal Sunal, Türk, Şener Şen, Muzaffer Tayyip
+Arog|film, komedi, Cem Yılmaz, Türk, gülmek, Cem
+G.O.R.A.|film, uzay, komedi, Cem Yılmaz, gezegen, Arif
+Agatha Christie|yazar, polisiye, İngiliz, roman, cinayet, Hercule Poirot
+Jules Verne|yazar, roman, bilim kurgu, Fransız, denizaltı, Seksen Günde
+Romeo ve Juliet|aşk, trajedi, Shakespeare, balkon, İtalya, Verona
+Robinson Crusoe|ada, roman, yalnız, Cuma, gemi, Daniel Defoe
+Alice Harikalar Diyarında|tavşan, kız, masal, Cheshire, çay, Çılgın Şapkacı
+Peter Pan|uçmak, çocuk, masal, Hook, ada, Tinker Bell
+Aslan Kral|Simba, Disney, Afrika, çizgi film, Mufasa, Timon
+Frozen|Elsa, Anna, kar, Disney, çizgi film, Olaf
+Toy Story|Woody, oyuncak, çizgi film, Buzz, Pixar, Andy
+Shrek|ogre, yeşil, çizgi film, Eşek, bataklık, Fiona
+Kung Fu Panda|Po, dövüş, çizgi film, Çin, bambu, Tai Lung
+Ice Age|Manny, buzul, çizgi film, Sid, mamut, Scrat
+Madagaskar|çizgi film, aslan, zebra, hayvan, ada, Alex
+Simpsonlar|Homer, sarı, çizgi film, Bart, aile, Marge
+Star Wars|uzay, Jedi, kılıç, Darth Vader, film, Luke
+Yüzüklerin Efendisi|Frodo, yüzük, film, Gandalf, Hobbit, Mordor
+Titanic|gemi, buzdağı, film, batmak, Jack, Rose
+Avatar|mavi, film, gezegen, Pandora, James Cameron, Na'vi
+Joker|palyaço, Batman, kötü, film, gülmek, Gotham
+Demir Adam|Marvel, zırh, süper kahraman, Tony Stark, film, Avengers
+Hulk|yeşil, Marvel, öfke, süper kahraman, güçlü, Bruce Banner
+Thor|çekiç, Marvel, gök gürültüsü, süper kahraman, Asgard, Loki
+Kaptan Amerika|Marvel, kalkan, süper kahraman, bayrak, asker, Steve Rogers
+Beyaz Saray|Amerika, başkan, Washington, ev, politika, Oval Ofis
+Kremlin|Rusya, Moskova, saray, lider, kale, Putin
+Big Ben|saat, Londra, kule, İngiltere, çan, Westminster
+Akropolis|Atina, Yunanistan, tapınak, antik, tepe, Parthenon
+Venedik|kanal, gondol, İtalya, şehir, su, karnaval
+Barselona|İspanya, Gaudi, futbol, deniz, şehir, Sagrada Familia
+Madrid|İspanya, başkent, futbol, şehir, Real, Bernabéu
+Berlin|Almanya, duvar, başkent, şehir, Brandenburg, currywurst
+Moskova|Rusya, başkent, Kızıl Meydan, şehir, soğuk, Lenin
+Tokyo|Japonya, başkent, şehir, kalabalık, sushi, Shibuya
+Pekin|Çin, başkent, şehir, yasak, saray, Tiananmen
+Dubai|Emirlikler, Burj Halife, çöl, gökdelen, lüks, Palmiye Adası
+Mekke|Kâbe, hac, İslam, Suudi Arabistan, şehir, Zemzem
+Kudüs|şehir, kutsal, Mescid-i Aksa, İsrail, tarihi, Ağlama Duvarı
+Amazon Ormanları|Brezilya, yağmur, ağaç, nehir, yeşil, Manaus
+Sahra|çöl, kum, Afrika, sıcak, deve, Tuareg
+Everest|dağ, yüksek, Nepal, zirve, tırmanış, Edmund Hillary
+Kilimanjaro|dağ, Afrika, Tanzanya, kar, zirve, Serengeti
+Niagara|şelale, Kanada, su, Amerika, dökülmek, Ontario
+Nil|nehir, Mısır, uzun, Afrika, firavun, Hartum
+Atlantik|okyanus, Amerika, Avrupa, geniş, dalga, Titanik
+Pasifik|okyanus, büyük, Japonya, derin, dalga, Hawaii
+Antarktika|kutup, buz, penguen, soğuk, güney, Güney Kutbu
+Hindistan|ülke, Taj Mahal, baharat, Delhi, inek, Gandi
+Taj Mahal|Hindistan, türbe, beyaz, aşk, anıt, Şah Cihan
+Japonya|ülke, sushi, Tokyo, samuray, güneş, Fuji
+Samuray|Japonya, kılıç, savaşçı, eski, zırh, katana
+Brezilya|ülke, futbol, karnaval, Rio, samba, Kahve
+Meksika|ülke, tako, şapka, kaktüs, sombrero, tequila
+Tako|Meksika, tortilla, yemek, acı, kıyma, soğan
+Espresso|kahve, İtalyan, kısa, güçlü, fincan, makine
+Cappuccino|kahve, süt, köpük, İtalyan, fincan, Barista
+Türk Kahvesi|fincan, telve, cezve, köpük, fal, lokum
+Menemen|yumurta, domates, biber, kahvaltı, tava, tereyağı
+Kuru Fasulye|baklagil, pilav, yemek, et, tencere, pastırma
+İskender|et, Bursa, yoğurt, döner, tereyağı, pide
+Adana Kebap|acı, kebapçı, kıyma, şiş, mangal, lavaş
+Künefe|Hatay, tatlı, peynir, şerbet, sıcak, Antakya
+Süleymaniye|cami, İstanbul, Sinan, kubbe, Osmanlı, Kanuni
+Selimiye|cami, Edirne, Sinan, kubbe, minare, Mimar Sinan
+Mavi Cami|Sultanahmet, İstanbul, altı minare, çini, Osmanlı, Sultan Ahmet
+Dolmabahçe|saray, İstanbul, Boğaz, padişah, kristal, saat kulesi
+Beylerbeyi|saray, İstanbul, Boğaz, Asya, yazlık, Abdülaziz
+Ortaköy|İstanbul, Boğaz, kumpir, cami, köprü, Esma Sultan
+Kumpir|patates, Ortaköy, fırın, sosis, tuzlu, salata
+Balık Ekmek|Eminönü, tekne, İstanbul, ekmek arası, sandviç, Galata
+Çiğ Köfte|acı, yaprak, marul, Urfa, dürüm, bulgur
+Şanlıurfa|Balıklıgöl, Urfa, kebap, İbrahim, şehir, Göbeklitepe
+Gaziantep|baklava, fıstık, kebap, şehir, güney, Zeugma
+Diyarbakır|surlar, karpuz, şehir, Dicle, doğu, Hasankeyf
+Erzurum|kış, kar, cağ kebabı, doğu, Palandöken, Atatürk Üniversitesi
+Kayseri|mantı, pastırma, Erciyes, şehir, sucuk, Erciyes Dağı
+Sivas|köfte, kongre, Kızılırmak, şehir, kar, Divriği
+Edirne|Selimiye, ciğer, Kırkpınar, şehir, Trakya, badem ezmesi
+Mardin|taş, ev, Süryani, şehir, Mezopotamya, Midyat
+Safranbolu|ev, Karabük, lokum, tarihi, şehir, Cinci Han
+Amasra|Karadeniz, liman, tarihi, kale, şehir, Bartın
+Marmaris|tatil, deniz, yat, Muğla, Akdeniz, Datça
+Fethiye|Ölüdeniz, paraşüt, deniz, tatil, şehir, Kayaköy
+Ölüdeniz|deniz, paraşüt, lagün, Fethiye, mavi, yamaç paraşütü
+Alaçatı|rüzgar, sörf, Çeşme, taş ev, İzmir, ot
+Çeşme|deniz, tatil, İzmir, plaj, ılıca, Alaçatı
+Uludağ|kayak, Bursa, kar, dağ, otel, teleferik
+Abant|göl, orman, Bolu, doğa, piknik, Gölcük
+Sapanca|göl, Sakarya, doğa, bungalov, kıyı, kayıkla
+Uzungöl|Trabzon, göl, yeşil, yayla, cami, Çaykara
+Ayder|yayla, Rize, kaplıca, doğa, Karadeniz, Çamlıhemşin
+Rize|çay, yağmur, bahçe, Karadeniz, bardak, Çaykur
+Hopa|Artvin, sahil, sınır, Karadeniz, şehir, Kemalpaşa
+Ani Harabeleri|Kars, kilise, tarihi, sınır, antik, Ermeni
+Kars|kaz, peynir, soğuk, doğu, şehir, gravyer
+Nevşehir|Kapadokya, peri bacası, şehir, balon, mağara, Göreme
+Sıcak Hava Balonu|gökyüzü, sepet, Kapadokya, uçmak, ısı, pilot
+Paraşüt Atlayışı|uçak, atlamak, gökyüzü, bez, inmek, tandem
+Uçak Bileti|havayolu, yolculuk, rezervasyon, koltuk, seyahat, kalkış
+Check-in|havalimanı, bavul, uçak, kart, görevli, bagaj
+Transit Vize|havalimanı, geçiş, ülke, aktarma, pasaport, bekleme
+Gümrük Memuru|sınır, bavul, kontrol, pasaport, ülke, beyan
+Rehber|turist, gezi, müze, anlatmak, grup, bayrak
+Turist|gezi, yabancı, kamera, harita, tatil, çanta
+Hediyelik Eşya|turist, hatıra, dükkan, magnet, alışveriş, anahtarlık
+Pasaport Kontrolü|sınır, damga, kuyruk, ülke, memur, ekran
+Konsolosluk|vize, ülke, başvuru, bina, diplomat, randevu
+Seyahat Acentesi|bilet, tur, rezervasyon, tatil, danışman, tatil paketi
+Tur Otobüsü|turist, rehber, şehir, gezi, koltuk, çift katlı
+Sahil Yolu|deniz, araba, kıyı, manzara, gezmek, rüzgar
+Panayır|oyun, çocuk, pamuk şeker, eğlence, kurulmak, dönme dolap
+Köy Kahvesi|çay, tavla, köylü, sohbet, okey, kâğıt
+Köy Meydanı|ağaç, çeşme, kahve, çınar, köylü, çeşme başı
+Çınar Ağacı|gölge, büyük, eski, köy, meydan, yüzyıllık
+Biçerdöver|buğday, tarla, makine, hasat, traktör, harman
+Bağ Bozumu|üzüm, sonbahar, hasat, şıra, sepet, şarap
+Fındık Hasadı|Karadeniz, toplamak, ağaç, kabuk, sonbahar, dal
+Çay Hasadı|Rize, yaprak, bahçe, toplamak, sepet, çay ocağı
+Zeytin Hasadı|ağaç, Ege, toplamak, yağ, sonbahar, sele
+Yayla Şenliği|dağ, çimen, hayvan, yaz, Karadeniz, horon
+Vaha Manzarası|palmiye, çöl, su, gölge, hurma, serap
+Çöl Fırtınası|kum, rüzgar, toz bulutu, kör, bulut, kum fırtınası
+Kum Saati|zaman, cam, dökmek, akmak, dakika, ters çevirmek
+Güneş Saati|gölge, zaman, bahçe, kadran, gün, taş
+Kol Saati|zaman, bilek, akrep, yelkovan, kayış, saat kayışı
+Duvar Saati|zaman, sarkaç, kurmak, akrep, tik tak, kuku
+Not Defteri|yazı, kalem, sayfa, küçük, cep, spiral
+Post-it|not, yapışkan, sarı, masa, hatırlatma, duvar
+Zımbalı Defter|kağıt, sayfa, tel, okul, yazı, kapak
+Klasör|belge, kağıt, dosya, ofis, raf, ayraç
+Dosya|belge, kağıt, ofis, klasör, bilgisayar, arşiv
+Fotokopi|çoğaltmak, makine, kâğıt, ofis, ışık, kopya
+Tarayıcı|belge, bilgisayar, ışık, kopya, kâğıt, tarama
+Ofis|çalışmak, masa, bilgisayar, toplantı, iş, bilgisayar masası
+Mesai|iş, saat, ofis, çalışmak, fazla, çıkış
+Öğle Arası|yemek, iş, mola, saat, ofis, kantin
+Kahve Molası|ofis, mola, fincan, sohbet, çalışan, nescafe
+Toplantı Odası|masa, sunum, ofis, ekran, yönetici, projeksiyon
+Yönetici|patron, ofis, ekip, karar, müdür, amir
+Stajyer|öğrenci, ofis, çırak, deneyim, genç, deneme
+Asistan|yardım, sekreter, ofis, yönetici, randevu, araştırma
+Sekreter|randevu, telefon, ofis, yönetici, masa, ajanda
+Müdür|okul, ofis, yönetici, oda, karar, müdür odası
+Hademe|okul, ofis, temizlik, çay, görevli, zil
+Nöbetçi Öğretmen|okul, koridor, teneffüs, görevli, öğrenci, bahçe
+Karne Günü|okul, not, öğrenci, tatil, aile, yaz tatili
+Sınav Kağıdı|soru, okul, kalem, cevap, not, optik
+Cevap Anahtarı|sınav, doğru, soru, kâğıt, öğretmen, puan
+Mezuniyet Şapkası|kep, okul, tören, diploma, siyah, püskül
+Kampüs|üniversite, bina, öğrenci, yurt, bahçe, kütüphane
+Yurt|öğrenci, oda, üniversite, ranza, kalmak, yemekhane
+Ranza|yatak, üst, alt, yurt, merdiven, çift katlı
+Kantin|okul, sandviç, öğrenci, teneffüs, yiyecek, tost
+Teneffüs Zili|okul, ders, çıkmak, çalmak, çocuk, ders zili
+Okul Servisi|öğrenci, şoför, sabah, minibüs, servis, güzergâh
+Okul Formu|önlük, öğrenci, giymek, renk, kıyafet, rozet
+Sırt Çantası|okul, taşımak, omuz, fermuar, kitap, tekerlekli
+Beslenme Çantası|okul, yiyecek, çocuk, kutu, teneffüs, meyve
+Su Matarası|okul, içmek, kapak, taşımak, metal, şişe

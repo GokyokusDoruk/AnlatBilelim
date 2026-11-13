@@ -8,7 +8,7 @@ import { sendAction } from '../../net/connection';
 import { useGameStore } from '../../store/gameStore';
 import { ListenerView, PassLine, RoundShell } from './parts';
 
-/** Anlatma modu (60 sn): 1 kelime + 5 yasaklı, 3 pass. */
+/** Anlatma modu (60 sn): 1 kelime + 6 yasaklı, 3 pass. */
 export function AnlatmaRound({ round, role }: { round: RoundPublicState; role: Role }) {
   const card = useGameStore((s) => (s.privateData?.card?.kind === 'tabu' ? s.privateData.card : null));
 

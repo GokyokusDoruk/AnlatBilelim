@@ -76,7 +76,7 @@ export class CardDeck {
 
   tabuCard(level: WordLevel = 1): TabuCard {
     const entry = WORDS.anlatma[level - 1]![this.bag('anlatma', level).next()]!;
-    return { kind: 'tabu', word: entry.word, forbidden: entry.forbidden as TabuCard['forbidden'], hit: [false, false, false, false, false] };
+    return { kind: 'tabu', word: entry.word, forbidden: entry.forbidden as TabuCard['forbidden'], hit: [false, false, false, false, false, false] };
   }
 
   /** Kukla: seviyeye ait kelimeden tek kelimelik kart (tekrarsız); animasyon seviyesi kelime seviyesiyle aynıdır. */

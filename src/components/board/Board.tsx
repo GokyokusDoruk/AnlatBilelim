@@ -1,5 +1,5 @@
-import { memo, useMemo } from 'react';
-import { BOARD_STEPS, nextStepFor } from '@shared/board';
+import { memo, useCallback, useMemo, useState } from 'react';
+import { BOARD_STEPS, MODE_CONFIG, nextStepFor } from '@shared/board';
 import { BOARD_SIZE } from '@shared/constants';
 import type { StepKind, TeamId } from '@shared/types';
 import { useSteppedValue } from '../../hooks/useSteppedValue';
@@ -15,6 +15,14 @@ const CELL_COLOR: Record<StepKind, string> = {
   kukla: 'var(--mode-kukla)',
   onbes: 'var(--mode-onbes)',
   karisik: 'url(#board-mix)',
+};
+
+const KIND_LABEL: Record<StepKind, string> = {
+  anlatma: MODE_CONFIG.anlatma.label,
+  cizme: MODE_CONFIG.cizme.label,
+  kukla: MODE_CONFIG.kukla.label,
+  onbes: MODE_CONFIG.onbes.label,
+  karisik: 'Karışık',
 };
 
 const CELL_R = 12;
@@ -34,11 +42,39 @@ function tokenPos(position: number, team: TeamId, shared: boolean) {
   return { x: base.x + dx, y: base.y - (position === BOARD_SIZE ? 4 : 0) };
 }
 
-const Cell = memo(function Cell({ step, kind, nextA, nextB }: { step: number; kind: StepKind; nextA: boolean; nextB: boolean }) {
+interface CellProps {
+  step: number;
+  kind: StepKind;
+  nextA: boolean;
+  nextB: boolean;
+  selected: boolean;
+  onPick: (step: number) => void;
+}
+
+const Cell = memo(function Cell({ step, kind, nextA, nextB, selected, onPick }: CellProps) {
   const p = LAYOUT.points[step]!;
   const finish = step === BOARD_SIZE;
+  const label = finish ? `${step}. basamak, bitiş` : `${step}. basamak, ${KIND_LABEL[kind]}`;
   return (
-    <g className={cx('board__cell', finish && 'board__cell--finish')}>
+    <g
+      className={cx('board__cell', finish && 'board__cell--finish', selected && 'board__cell--selected')}
+      role="button"
+      tabIndex={0}
+      aria-label={label}
+      aria-pressed={selected}
+      onClick={(e) => {
+        e.stopPropagation();
+        onPick(step);
+      }}
+      onKeyDown={(e) => {
+        if (e.key === 'Enter' || e.key === ' ') {
+          e.preventDefault();
+          onPick(step);
+        }
+      }}
+    >
+      <circle className="board__hit" cx={p.x} cy={p.y} r={finish ? 24 : CELL_R + 4} />
+      {selected ? <circle className="board__ring" cx={p.x} cy={p.y} r={finish ? 26 : CELL_R + 3} /> : null}
       {nextA || nextB ? (
         <circle className={cx('board__next', nextA ? 'board__next--a' : 'board__next--b')} cx={p.x} cy={p.y} r={finish ? 24 : CELL_R + 5} />
       ) : null}
@@ -56,6 +92,29 @@ const Cell = memo(function Cell({ step, kind, nextA, nextB }: { step: number; ki
   );
 });
 
+/** Seçili basamağın modunu hücrenin üstünde (sığmazsa altında) küçük bir etiketle gösterir. */
+function StepTip({ step }: { step: number }) {
+  const p = LAYOUT.points[step]!;
+  const finish = step === BOARD_SIZE;
+  const kind = BOARD_STEPS[step - 1]!;
+  const text = finish ? `${step} · Bitiş` : `${step} · ${KIND_LABEL[kind]}`;
+  const w = text.length * 6.4 + 18;
+  const h = 22;
+  const x = Math.min(VIEW - w - 4, Math.max(4, p.x - w / 2));
+  const above = p.y - (finish ? 30 : 20) - h > 4;
+  const y = above ? p.y - (finish ? 30 : 20) - h : p.y + (finish ? 30 : 20);
+  const cx0 = p.x - x;
+  return (
+    <g className="board__tip" transform={`translate(${x} ${y})`} pointerEvents="none" role="status">
+      <rect width={w} height={h} rx={11} style={{ stroke: CELL_COLOR[kind] === 'url(#board-mix)' ? 'var(--accent)' : CELL_COLOR[kind] }} />
+      <path d={above ? `M${cx0 - 5} ${h - 0.5} L${cx0} ${h + 5} L${cx0 + 5} ${h - 0.5}` : `M${cx0 - 5} 0.5 L${cx0} -5 L${cx0 + 5} 0.5`} />
+      <text x={w / 2} y={h / 2}>
+        {text}
+      </text>
+    </g>
+  );
+}
+
 export interface BoardProps {
   positions: Record<TeamId, number>;
   /** Sırası gelen takım; sıradaki basamağı vurgulanır. Null ise vurgu yok. */
@@ -69,6 +128,8 @@ export const BoardView = memo(function BoardView({ positions, turnTeam }: BoardP
   const sharedCell = a > 0 && a === b;
   const nextStep = turnTeam ? nextStepFor(positions[turnTeam]) : null;
   const steps = useMemo(() => BOARD_STEPS.map((kind, i) => ({ step: i + 1, kind })), []);
+  const [picked, setPicked] = useState<number | null>(null);
+  const onPick = useCallback((step: number) => setPicked((cur) => (cur === step ? null : step)), []);
   const pa = tokenPos(a, 'A', sharedCell);
   const pb = tokenPos(b, 'B', sharedCell);
 
@@ -77,7 +138,8 @@ export const BoardView = memo(function BoardView({ positions, turnTeam }: BoardP
       className="board"
       viewBox={`0 0 ${VIEW} ${VIEW}`}
       role="img"
-      aria-label={`Oyun tahtası. Takım A ${positions.A}. basamakta, Takım B ${positions.B}. basamakta.`}
+      aria-label={`Oyun tahtası. Takım A ${positions.A}. basamakta, Takım B ${positions.B}. basamakta. Bir basamağa dokunarak modunu görebilirsin.`}
+      onClick={() => setPicked(null)}
     >
       <defs>
         <linearGradient id="board-mix" x1="0" y1="0" x2="1" y2="1">
@@ -93,8 +155,9 @@ export const BoardView = memo(function BoardView({ positions, turnTeam }: BoardP
         <text y={1}>BAŞLA</text>
       </g>
       {steps.map(({ step, kind }) => (
-        <Cell key={step} step={step} kind={kind} nextA={turnTeam === 'A' && nextStep === step} nextB={turnTeam === 'B' && nextStep === step} />
+        <Cell key={step} step={step} kind={kind} nextA={turnTeam === 'A' && nextStep === step} nextB={turnTeam === 'B' && nextStep === step} selected={picked === step} onPick={onPick} />
       ))}
+      {picked !== null ? <StepTip step={picked} /> : null}
       <g className={cx('board__token', 'board__token--a', turnTeam === 'A' && 'board__token--turn')} style={{ transform: `translate(${pa.x}px, ${pa.y}px)` }}>
         <circle r={9} />
         <text>A</text>

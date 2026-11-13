@@ -49,7 +49,7 @@ const anlatma = LEVELS.map((lv) =>
 checkLevels('anlatma', anlatma, (c) => c.word);
 anlatma.forEach((list, i) => {
   for (const c of list) {
-    if (c.forbidden.length !== 5) errors.push(`anlatma seviye ${i + 1}: "${c.word}" için ${c.forbidden.length} yasaklı kelime var, 5 olmalı`);
+    if (c.forbidden.length !== 6) errors.push(`anlatma seviye ${i + 1}: "${c.word}" için ${c.forbidden.length} yasaklı kelime var, 6 olmalı`);
     if (new Set(c.forbidden.map(norm)).size !== c.forbidden.length) errors.push(`anlatma seviye ${i + 1}: "${c.word}" yasaklıları tekrar ediyor`);
     const parts = norm(c.word).split(' ');
     for (const f of c.forbidden) {

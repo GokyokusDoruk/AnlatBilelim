@@ -17,11 +17,13 @@ export function GameStatusView() {
   return (
     <>
       {focus ? null : <ScoreBar />}
-      {phase === 'roulette' ? <RouletteInfo /> : null}
-      {phase === 'pre_round' ? <PreRound /> : null}
-      {phase === 'round' ? <RoundScreen /> : null}
-      {phase === 'round_summary' ? <SummaryView /> : null}
-      {phase === 'game_over' ? <GameOverView /> : null}
+      <div className="phase-enter" key={phase}>
+        {phase === 'roulette' ? <RouletteInfo /> : null}
+        {phase === 'pre_round' ? <PreRound /> : null}
+        {phase === 'round' ? <RoundScreen /> : null}
+        {phase === 'round_summary' ? <SummaryView /> : null}
+        {phase === 'game_over' ? <GameOverView /> : null}
+      </div>
     </>
   );
 }

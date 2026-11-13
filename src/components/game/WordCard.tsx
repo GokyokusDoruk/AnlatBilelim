@@ -1,9 +1,9 @@
-import { memo } from 'react';
+import { memo, type CSSProperties } from 'react';
 import type { TabuCard, TripleCard } from '@shared/types';
 import { cx } from '../ui';
 import './game.css';
 
-/** Anlatma kartı: ana kelime + 5 yasaklı kelime. `key` kelimeye bağlı, kart değişince animasyon çalışır. */
+/** Anlatma kartı: ana kelime + 6 yasaklı kelime. `key` kelimeye bağlı, kart değişince animasyon çalışır. */
 export const TabuCardView = memo(function TabuCardView({ card, onToggle }: { card: TabuCard; onToggle?: (index: number) => void }) {
   return (
     <div className="word-card" key={card.word}>
@@ -12,7 +12,7 @@ export const TabuCardView = memo(function TabuCardView({ card, onToggle }: { car
         {card.forbidden.map((w, i) => {
           const hit = card.hit[i] === true;
           return (
-            <li key={w} className={cx(hit && 'forbidden--hit')}>
+            <li key={w} className={cx(hit && 'forbidden--hit')} style={{ '--i': i } as CSSProperties}>
               {onToggle ? (
                 <button
                   type="button"
@@ -49,7 +49,7 @@ export const TripleCardView = memo(function TripleCardView({ card, onTick }: Tri
       {card.words.map((word, i) => {
         const solved = card.solved[i] === true;
         return (
-          <div key={word} className={cx('triple-word', solved && 'triple-word--solved')}>
+          <div key={word} className={cx('triple-word', solved && 'triple-word--solved')} style={{ '--i': i } as CSSProperties}>
             <span className="triple-word__text">{word}</span>
             {onTick ? (
               <button

@@ -40,11 +40,11 @@ export type RoomPhase =
 // Kartlar
 // ---------------------------------------------------------------------------
 
-/** Anlatma modu kartı: 1 ana kelime + 5 yasaklı kelime. */
+/** Anlatma modu kartı: 1 ana kelime + 6 yasaklı kelime. */
 export interface TabuCard {
   readonly kind: 'tabu';
   readonly word: string;
-  readonly forbidden: readonly [string, string, string, string, string];
+  readonly forbidden: readonly [string, string, string, string, string, string];
   /** Gözlemcinin "kullandı" diye işaretlediği yasaklı kelimeler (yeşil görünür). */
   readonly hit: readonly boolean[];
 }

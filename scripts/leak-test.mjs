@@ -88,7 +88,7 @@ const series = [];
 for (let c = 1; c <= CYCLES; c++) {
   await playRound(7, '[role=timer]'); // Çizme
   await playRound(4, 'canvas'); // Kukla
-  await setBoard(12); // Karışık: çark
+  await setBoard(22); // Karışık: çark
   await sleep(1500);
   const snap = await idle();
   series.push(snap);

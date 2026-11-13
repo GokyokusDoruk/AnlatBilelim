@@ -293,9 +293,9 @@ describe('üçlü kart modları (çizme, kukla, 15 kelime)', () => {
 });
 
 describe('karışık mod, kazanma ve tur geçişi', () => {
-  it('Listede olmayan basamaklar (ör. 13.) çark ile mod seçer', () => {
+  it('Listede olmayan basamaklar (ör. 23.) çark ile mod seçer', () => {
     const ctx = makeCtx();
-    const room = roomAtPosition(12, ctx);
+    const room = roomAtPosition(22, ctx);
     expect(room.phase).toBe('roulette');
     expect(room.roulette).toMatchObject({ startedAt: ctx.now, result: room.round!.mode });
     expect(room.phaseDeadline).toBe(ctx.now + 5000);
@@ -306,7 +306,7 @@ describe('karışık mod, kazanma ve tur geçişi', () => {
 
   it('çark rastgele tüm modları üretir', () => {
     const modes = new Set<string>();
-    for (let seed = 1; seed < 60; seed++) modes.add(roomAtPosition(12, makeCtx(1000, seed)).round!.mode);
+    for (let seed = 1; seed < 60; seed++) modes.add(roomAtPosition(22, makeCtx(1000, seed)).round!.mode);
     expect(modes.size).toBe(4);
   });
 
@@ -446,7 +446,7 @@ describe('işaretleme ve geri alma', () => {
     const room = started(ctx);
     const r = playRoundAt(room, ctx);
     expect(e.markForbidden(room, r.observerId, 1, ctx).ok).toBe(true);
-    expect((room.roundCard as TabuCard).hit).toEqual([false, true, false, false, false]);
+    expect((room.roundCard as TabuCard).hit).toEqual([false, true, false, false, false, false]);
     expect(room.round!.forbiddenHits).toBe(1);
     e.markForbidden(room, r.observerId, 3, ctx);
     expect(room.round!.forbiddenHits).toBe(1); // aynı kartta ikinci kelime ek ceza değil
@@ -523,5 +523,14 @@ describe('kelime seviyesi', () => {
       expect(all.length).toBeGreaterThanOrEqual(1100);
       expect(new Set(all.map((w) => w.toLocaleLowerCase('tr-TR'))).size).toBe(all.length);
     }
+  });
+
+  it('anlatma kartlarında tam 6 yasaklı kelime var', () => {
+    for (const list of WORDS.anlatma) {
+      for (const c of list) expect(c.forbidden.length).toBe(6);
+    }
+    const card = new CardDeck().tabuCard(2);
+    expect(card.forbidden).toHaveLength(6);
+    expect(card.hit).toHaveLength(6);
   });
 });

@@ -1,467 +1,467 @@
-Umut|gelecek, beklemek, ışık, inanmak, hayal
-Hüzün|üzüntü, gözyaşı, mavi, yalnız, acı
-Gurur|başarı, başını dik tutmak, övünmek, onur, kibir
-Kibir|büyüklenmek, kendini beğenmek, burun, gurur, alçakgönüllü
-Haset|kıskanç, çekememek, kötü, başkasının, kıskançlık
-Vicdan|doğru, yanlış, ses, rahat, pişmanlık
-Adalet|terazi, hukuk, eşit, hak, mahkeme
-Özgürlük|esaret, kuş, serbest, hak, kafes
-Barış|savaş, huzur, güvercin, anlaşma, kavga
-Demokrasi|seçim, halk, oy, özgür, yönetim
-Diktatör|tek, baskı, yönetici, güç, halk
-Devrim|değişim, isyan, halk, eski, yeni
-Reform|değişiklik, yenilik, yasa, düzen, iyileştirmek
-Anarşi|düzensizlik, kaos, yönetim, kural, karışıklık
-Ütopya|mükemmel, hayal, toplum, yer, düşünce
-Paradoks|çelişki, mantık, çözülemez, ters, düşünce
-Felsefe|düşünce, sorgulamak, filozof, bilgelik, soru
-Metafor|benzetme, mecaz, söz, anlam, edebiyat
-Ironi|alay, tersini söylemek, kinaye, mizah, ima
-Sembol|işaret, anlam, simge, temsil, görsel
-Alegori|sembol, hikâye, ders, benzetme, mecaz
-Parodi|taklit, komik, alay, eser, abartı
-Satir|alay, eleştiri, mizah, toplum, yazı
-Hiciv|alay, taşlama, şiir, toplum, eleştiri
-Nüans|ince fark, ton, anlam, detay, renk
-Klişe|kalıp, sık kullanılan, bayat, söz, tekrar
-Aforizma|özlü söz, düşünce, kısa, bilge, cümle
-Atasözü|büyükler, söz, ders, halk, deyim
-Deyim|kalıp, mecaz, söz, anlam, dilimiz
-Bilmece|soru, cevap, düşündürmek, çocuk, bulmaca
-Tekerleme|hızlı, söylemek, dil, çocuk, kafiye
-Mani|halk, dörtlük, Anadolu, söylemek, türkü
-Ağıt|ölüm, acı, söylemek, yas, halk
-Ninni|bebek, uyutmak, anne, söylemek, beşik
-Dede Korkut|Oğuz, hikâye, anlatıcı, boy, destan
-Nasreddin Hoca|fıkra, eşek, Akşehir, bilge, gülmek
-Keloğlan|masal, kel, kahraman, akıllı, anne
-Bektaşi|fıkra, derviş, hoşgörü, Hacı, tarikat
-Mevlana|Konya, semazen, aşk, şiir, dönmek
-Yunus Emre|şiir, aşk, ilahi, derviş, halk
-Kaşgarlı|sözlük, dil, tarih, Türk, bilge
-Piri Reis|harita, denizci, Osmanlı, kaptan, keşif
-Mimar Sinan|cami, usta, Selimiye, kubbe, Osmanlı
-Fatih|İstanbul, fetih, padişah, sultan, 1453
-Atatürk|kurucu, Cumhuriyet, lider, Mustafa Kemal, 29 Ekim
-Anıtkabir|Ankara, kabir, anıt, ziyaret, Atatürk
-Çanakkale|savaş, boğaz, destan, şehit, 18 Mart
-Malazgirt|savaş, Selçuklu, zafer, Alparslan, 1071
-Kapadokya|peri bacası, balon, vadi, mağara, turist
-Efes|antik, kent, tapınak, İzmir, harabe
-Truva|at, antik, efsane, savaş, harabe
-Ayasofya|kubbe, İstanbul, cami, müze, Bizans
-Topkapı|saray, padişah, hazine, İstanbul, Osmanlı
-Galata|kule, İstanbul, köprü, manzara, eski
-Pamukkale|travertan, beyaz, havuz, kireç, Denizli
-Nemrut|heykel, baş, dağ, Adıyaman, güneş
-Sümela|manastır, kayalık, Trabzon, Meryem, uçurum
-Ani|harabe, Kars, tarihi, kent, Ermeni
-Gobeklitepe|tapınak, Urfa, taş, eski, yapı
-Hitit|antik, uygarlık, Hattuşa, Anadolu, tablet
-Sümer|çivi yazısı, Mezopotamya, eski, kil, uygarlık
-Mısır Piramitleri|firavun, mumya, çöl, Giza, eski
-Firavun|Mısır, mumya, piramit, kral, Nil
-Mumya|bandaj, firavun, Mısır, ölü, mezar
-Gladyatör|Roma, arena, kılıç, dövüş, Kolezyum
-Kolezyum|Roma, arena, antik, İtalya, tiyatro
-Atlantis|kayıp, deniz, şehir, efsane, batık
-Zeus|Olimpos, yıldırım, tanrı, Yunan, baş
-Hades|ölüm, yeraltı, Yunan, tanrı, karanlık
-Pegasus|kanatlı, at, Yunan, efsane, uçmak
-Minotor|boğa, labirent, Girit, canavar, Yunan
-Medusa|yılan, saç, taşa çevirmek, Yunan, canavar
-Odysseus|dönüş, Truva, Yunan, destan, Ithaka
-Kral Arthur|kılıç, şövalye, Camelot, yuvarlak masa, İngiltere
-Robin Hood|ok, orman, hırsız, zengin, fakir
-Sherlock Holmes|dedektif, pipo, Londra, ipucu, Watson
-Harry Potter|büyücü, sihir, çocuk, Hogwarts, asa
-Pamuk Prenses|cüce, elma, ayna, masal, cadı
-Külkedisi|ayakkabı, balo, cam, cadı, masal
-Aladdin|lamba, cin, halı, dilek, Arap
-Ali Baba|kırk haramiler, define, mağara, hikâye, hırsız
-Sindbad|denizci, yolculuk, hikâye, gemi, serüven
-Don Kişot|yel değirmeni, şövalye, Sancho, İspanyol, kitap
-Hamlet|Shakespeare, kral, olmak, tiyatro, Danimarka
-Romeo|Juliet, aşk, Shakespeare, balkon, genç
-Shakespeare|tiyatro, yazar, İngiliz, oyun, Hamlet
-Mozart|besteci, piyano, klasik, Avusturya, deha
-Beethoven|besteci, sağır, senfoni, piyano, Alman
-Picasso|ressam, kübizm, İspanyol, tablo, sanat
-Mona Lisa|tablo, gülümseme, Leonardo, Louvre, portre
-Leonardo|ressam, mucit, deha, Rönesans, İtalyan
-Einstein|fizik, görelilik, deha, saç, bilim
-Newton|elma, yerçekimi, fizik, bilim, İngiliz
-Edison|ampul, mucit, elektrik, buluş, Amerikalı
-Tesla|elektrik, mucit, bobin, Sırp, deha
-Galileo|teleskop, yıldız, İtalyan, gök bilimci, dünya
-Kolomb|Amerika, keşif, gemi, denizci, 1492
-Magellan|dünya turu, denizci, gemi, keşif, Portekiz
-Marco Polo|Çin, gezgin, İpek Yolu, Venedik, seyahat
-İpek Yolu|ticaret, kervan, Çin, deve, Asya
-Kervan|deve, çöl, ticaret, yolcu, uzun yol
-Kervansaray|han, konaklama, yol, eski, yolcu
-Hamam|buhar, kese, tas, göbek taşı, yıkanmak
-Göbek Taşı|hamam, sıcak, uzanmak, mermer, yıkanmak
-Kese|hamam, kirlenmek, ovmak, kaşınmak, sert
-Peştamal|hamam, kumaş, sarmak, havlu, bel
-Fes|şapka, kırmızı, Osmanlı, püskül, baş
-Sarık|baş, hoca, sarmak, kumaş, imam
-Cübbe|hoca, uzun, giymek, giysi, hâkim
-Kaftan|Osmanlı, padişah, uzun, giysi, ipek
-Şalvar|geniş, bacak, giysi, köylü, kadın
-Kuşak|bel, sarmak, kumaş, giysi, bağlamak
-Yazma|baş, örtü, köylü, kadın, çiçekli
-Nazar Boncuğu|mavi, göz, uğur, kötü, takmak
-Muska|dua, taşımak, yazı, kâğıt, korunmak
-Fal|kahve, telve, bakmak, gelecek, fincan
-Kehanet|gelecek, söylemek, falcı, öngörü, vahiy
-Kâhin|gelecek, bilmek, söylemek, eski, kehanet
-Hipnoz|uyutmak, ses, sarkaç, bilinç, telkin
-Telepati|düşünce, okumak, zihin, uzaktan, sezgi
-Deja vu|daha önce, yaşamış, his, tekrar, hafıza
-Paranoya|korku, takip, şüphe, güvensiz, düşman
-Nostaljik|eski, anı, özlem, geçmiş, hatıra
-Kleptoman|çalmak, hastalık, alışkanlık, hırsız, dayanamamak
-Uykusuzluk|gece, uyuyamamak, göz, yatak, kahve
-Sömestr|tatil, okul, yarıyıl, karne, ocak
-Diploma|mezun, belge, okul, tören, üniversite
-Mezuniyet|tören, kep, diploma, okul, bitirmek
-Ödev|ders, öğretmen, yapmak, defter, ertesi gün
-Kompozisyon|yazı, öğretmen, konu, giriş, sonuç
-Sunum|slayt, konuşmak, toplantı, izleyici, projeksiyon
-Toplantı|masa, ofis, fikir, patron, saat
-Mülakat|iş, soru, görüşme, aday, CV
-Terfi|iş, yükselmek, maaş, patron, başarı
-İstifa|işten ayrılmak, dilekçe, patron, bırakmak, kâğıt
-Emeklilik|maaş, yaş, iş, bırakmak, dinlenmek
-Zam|maaş, fiyat, artış, yüksel, market
-Bütçe|para, gider, plan, aylık, gelir
-Miras|ölüm, para, kalan, mal, vasiyet
-Vasiyet|ölüm, yazmak, miras, noter, istek
-Mühür|damga, noter, resmî, belge, kırmızı
-İmza|kâğıt, kalem, belge, atmak, isim
-Vekâlet|noter, yetki, imza, temsil, belge
-Hatıra|anı, eski, saklamak, fotoğraf, geçmiş
-Gelenek|kuşaktan kuşağa, âdet, töre, eski, görenek
-Kimlik|nüfus, fotoğraf, numara, cüzdan, belge
-Aidiyet|ait olmak, grup, bağ, bir yere, kimlik
-Önyargı|baştan, karar, düşünce, yargı, ayrımcılık
-Tahammül|katlanmak, sabır, dayanmak, hoşgörü, çekmek
-Nezaket|kibarlık, saygı, güler yüz, terbiye, edep
-Mizah|güldürmek, espri, komik, nükte, eğlence
-Espri|güldürmek, komik, söylemek, şaka, nükte
-Kinaye|alay, ima, söz, anlam, ters
-Ima|dolaylı, söylemek, anlamak, göstermek, işaret
-Benzetme|gibi, edebiyat, söz, mecaz, şiir
-Kafiye|şiir, uyak, dize, ses, son
-Redif|şiir, tekrar, kafiye, dize, son
-Aruz|şiir, ölçü, Divan, hece, ritim
-Hece|ses, ölçü, kelime, şiir, bölmek
-Divan|şiir, Osmanlı, edebiyat, gazel, saray
-Gazel|şiir, Divan, aşk, beyit, edebiyat
-Beyit|iki dize, şiir, Divan, gazel, mısra
-Mısra|şiir, dize, satır, beyit, ölçü
-Öykü|kısa, anlatı, yazar, olay, kahraman
-Röportaj|soru, gazeteci, konuk, yayın, mikrofon
-Manşet|gazete, büyük, haber, başlık, ilk sayfa
-Köşe Yazısı|gazete, yazar, görüş, sütun, yorum
-Başyazı|gazete, görüş, yorum, yayın yönetmeni, yazı
-Şiir Gecesi|okumak, şair, sahne, dinlemek, dize
-İmza Günü|kitap, yazar, okur, sıra, kalem
-Kitap Fuarı|yayınevi, stant, yazar, okur, gezmek
-Yayınevi|kitap, basmak, yazar, editör, katalog
-Matbaa|baskı, kitap, mürekkep, makine, kâğıt
-Mürekkep|kalem, yazmak, şişe, siyah, hokka
-Hokka|mürekkep, divit, eski, yazmak, kalem
-Divit|yazı, kalem, eski, hokka, Osmanlı
-Fermân|padişah, emir, Osmanlı, tuğra, belge
-Tuğra|padişah, imza, Osmanlı, süslü, mühür
-Sultan|Osmanlı, saray, taht, padişah, hükümdar
-Vezir|sultan, devlet, saray, danışman, divan
-Yeniçeri|Osmanlı, asker, kazan, ordu, bork
-Mehter|Osmanlı, bando, marş, davul, ordu
-Sarayı|padişah, saray, hazine, görkemli, Osmanlı
-Harem|saray, kadın, padişah, Osmanlı, bölüm
-Lale Devri|çiçek, Osmanlı, eğlence, Damat, saray
-Tanzimat|ferman, reform, Osmanlı, yenilik, 1839
-Meşrutiyet|anayasa, meclis, padişah, 1908, Osmanlı
-Kurtuluş Savaşı|Atatürk, Anadolu, düşman, Cumhuriyet, zafer
-Cumhuriyet|1923, Atatürk, yönetim, halk, 29 Ekim
-Lozan|antlaşma, barış, 1923, İsviçre, sınır
-Misak-ı Milli|sınır, Anadolu, ulusal, ant, meclis
-Sakarya|savaş, nehir, Meydan Muharebesi, 1921, zafer
-Dumlupınar|zafer, savaş, 30 Ağustos, Anadolu, Başkomutan
-İnönü|savaş, ordu, zafer, Anadolu, 1921
-Kuvayı Milliye|direniş, halk, Anadolu, savaş, çete
-Sivas Kongresi|1919, Atatürk, kongre, delege, Anadolu
-Erzurum Kongresi|1919, Atatürk, kongre, delege, Doğu
-Havza|Samsun, Atatürk, 1919, Anadolu, yolculuk
-Amasya Genelgesi|Atatürk, 1919, bildiri, Anadolu, direniş
-Harf Devrimi|alfabe, Latin, Atatürk, okul, yazı
-Soyadı Kanunu|isim, aile, 1934, Atatürk, kimlik
-Kadın Hakları|oy, seçme, eşitlik, hak, özgürlük
-Medeni Kanun|evlilik, hukuk, 1926, eşitlik, yasa
-Şapka Kanunu|fes, Atatürk, kıyafet, devrim, yasa
-Türk Dil Kurumu|sözlük, lisan, kelime, Ankara, kurum
-Halkevi|kültür, Atatürk, halk, kurs, bina
-Köy Enstitüsü|eğitim, öğretmen, tarla, okul, Anadolu
-Anadolu Ajansı|haber, ajans, Ankara, basın, kuruluş
-Ziraat Bankası|tarım, banka, çiftçi, kredi, kamu
-Ankara|başkent, Anıtkabir, meclis, kale, Kızılay
-İzmir|Ege, Kordon, saat kulesi, liman, bir şehir
-Bursa|iskender, Uludağ, ilk başkent, Osmanlı, yeşil
-Konya|Mevlana, Selçuklu, ova, semazen, kubbe
-Melankoli|hüzün, derin, mavi, düşünce, yalnızlık
-Empati|anlamak, duygu, ortak, yerine koymak, karşı
-Hırs|istek, başarı, güçlü, tutku, kazanmak
-Tutku|aşk, ateş, istek, güçlü, coşku
-Merak|öğrenmek, kedi, sormak, bilmek, araştırmak
-Şüphe|inanmamak, güven, emin, kuşku, tereddüt
-Güven|inanmak, emin, sır, dayanmak, sadakat
-Sadakat|bağlılık, vefa, dürüst, sevgili, köpek
-Vefa|sadakat, unutmamak, dostluk, iyilik, eski
-İhanet|aldatmak, sırtından, güven, hain, arkadaş
-Hasret|özlem, uzak, ayrılık, sevgili, bekleyiş
-Yalnızlık|tek, kimsesiz, sessizlik, arkadaş, boş
-Tevazu|alçakgönüllü, kibir, mütevazı, övünmek, gösteriş
-Cömertlik|vermek, paylaşmak, eli açık, cimri, bağış
-Cimrilik|harcamamak, para, saklamak, eli sıkı, tasarruf
-Çaresizlik|çözümsüz, umutsuz, bitmiş, yardım, kimse
-Umutsuzluk|umut, karamsar, çaresiz, bitmek, kapanmak
-İyimserlik|umut, güzel, bakmak, olumlu, dolu
-Karamsarlık|kötü, yarı boş, umutsuz, olumsuz, gri
-Çelişki|zıt, mantık, paradoks, uyumsuz, fikir
-Mecaz|gerçek, anlam, söz, benzetme, edebi
-Sarkazm|alaycı, acı, iğneleyici, söz, ironi
-Kabalık|kaba, saygısız, bağırmak, terbiyesiz, nezaket
-Edep|terbiye, saygı, ahlak, görgü, utanmak
-Haysiyet|onur, değer, saygı, kişilik, şeref
-Şeref|onur, değer, makam, haysiyet, saygın
-İtibar|saygı, ün, değer, çevre, kazanmak
-Şöhret|ünlü, tanınmak, popüler, ün, herkes
-Servet|zengin, para, mal, birikim, miras
-Fakirlik|yoksul, para, yoksunluk, geçinmek, zor
-Yoksulluk|fakir, az, geçinmek, ihtiyaç, zor
-Lüks|pahalı, zengin, gösterişli, konfor, marka
-Gösteriş|çalım, sergilemek, övünmek, dikkat, abartı
-Mütevazılık|tevazu, gösteriş, alçak, sade, övünmek
-Sadelik|basit, süs, gösterişsiz, temiz, az
-Minimalizm|az, sade, eşya, tasarım, boş
-Kaos|karmaşa, düzen, kargaşa, dağınık, bozuk
-Entropi|düzensizlik, fizik, ısı, evren, kaos
-Denge|ağırlık, ip, sallanmak, eşit, durmak
-Simetri|ayna, eşit, yarım, şekil, iki
-Sonsuzluk|bitmeyen, sınır, evren, rakam, yatay
-Boşluk|içi, hiçlik, yok, aralık, uzay
-Hiçlik|yokluk, boşluk, felsefe, hiçbir şey, anlam
-Varoluş|felsefe, olmak, anlam, hayat, bilinç
-Bilinç|farkında, uyanık, zihin, beyin, anlamak
-Bilinçaltı|rüya, zihin, gizli, düşünce, psikoloji
-Sezgi|his, içgüdü, bilmek, önsezi, akıl
-İçgüdü|doğuştan, hayvan, otomatik, hisler, refleks
-Refleks|çabuk, tepki, doktor, diz, otomatik
-Alışkanlık|tekrar, yapmak, bırakmak, huy, günlük
-Bağımlılık|bırakamamak, sigara, telefon, alışkanlık, tedavi
-Disiplin|düzen, kural, sıkı, askeri, uymak
-Strateji|plan, hamle, savaş, taktik, hedef
-Taktik|plan, hamle, antrenör, yöntem, oyun
-Diplomasi|ülke, elçi, görüşme, barış, anlaşma
-Elçilik|ülke, büyükelçi, vize, diplomasi, bayrak
-Misafirperverlik|konuk, ağırlamak, kapı, sofra, karşılamak
-Töre|gelenek, kural, ahlak, eski, toplum
-Ritüel|tören, tekrar, gelenek, dini, adet
-Tören|resmi, kutlama, açılış, merasim, kıyafet
-Merasim|tören, resmi, kutlama, geçit, kıyafet
-Kutsal|din, ibadet, kutsallık, dokunulmaz, saygı
-Mucize|inanılmaz, olağanüstü, doğaüstü, şaşırtıcı, dilek
+Umut|gelecek, beklemek, ışık, inanmak, hayal, dilek
+Hüzün|üzüntü, gözyaşı, mavi, yalnız, acı, keder
+Gurur|başarı, başını dik tutmak, övünmek, onur, kibir, böbürlenmek
+Kibir|büyüklenmek, kendini beğenmek, burun, gurur, alçakgönüllü, havalı
+Haset|kıskanç, çekememek, kötü, başkasının, kıskançlık, çekememezlik
+Vicdan|doğru, yanlış, ses, rahat, pişmanlık, merhamet
+Adalet|terazi, hukuk, eşit, hak, mahkeme, terazi kefesi
+Özgürlük|esaret, kuş, serbest, hak, kafes, bağımsız
+Barış|savaş, huzur, güvercin, anlaşma, kavga, zeytin dalı
+Demokrasi|seçim, halk, oy, özgür, yönetim, çoğunluk
+Diktatör|tek, baskı, yönetici, güç, halk, zorba
+Devrim|değişim, isyan, halk, eski, yeni, ayaklanma
+Reform|değişiklik, yenilik, yasa, düzen, iyileştirmek, ıslahat
+Anarşi|düzensizlik, kaos, yönetim, kural, karışıklık, başıboş
+Ütopya|mükemmel, hayal, toplum, yer, düşünce, cennet
+Paradoks|çelişki, mantık, çözülemez, ters, düşünce, tezat
+Felsefe|düşünce, sorgulamak, filozof, bilgelik, soru, Sokrates
+Metafor|benzetme, mecaz, söz, anlam, edebiyat, imge
+Ironi|alay, tersini söylemek, kinaye, mizah, ima, ters
+Sembol|işaret, anlam, simge, temsil, görsel, logo
+Alegori|sembol, hikâye, ders, benzetme, mecaz, fabl
+Parodi|taklit, komik, alay, eser, abartı, taklit eserin
+Satir|alay, eleştiri, mizah, toplum, yazı, keskin
+Hiciv|alay, taşlama, şiir, toplum, eleştiri, yergi
+Nüans|ince fark, ton, anlam, detay, renk, incelik
+Klişe|kalıp, sık kullanılan, bayat, söz, tekrar, basmakalıp
+Aforizma|özlü söz, düşünce, kısa, bilge, cümle, vecize
+Atasözü|büyükler, söz, ders, halk, deyim, ata
+Deyim|kalıp, mecaz, söz, anlam, dilimiz, kullanım
+Bilmece|soru, cevap, düşündürmek, çocuk, bulmaca, tahmin
+Tekerleme|hızlı, söylemek, dil, çocuk, kafiye, dil sürçmesi
+Mani|halk, dörtlük, Anadolu, söylemek, türkü, Doğu
+Ağıt|ölüm, acı, söylemek, yas, halk, Karadeniz
+Ninni|bebek, uyutmak, anne, söylemek, beşik, lâ lâ
+Dede Korkut|Oğuz, hikâye, anlatıcı, boy, destan, Kitab-ı
+Nasreddin Hoca|fıkra, eşek, Akşehir, bilge, gülmek, Timur
+Keloğlan|masal, kel, kahraman, akıllı, anne, saray
+Bektaşi|fıkra, derviş, hoşgörü, Hacı, tarikat, nefes
+Mevlana|Konya, semazen, aşk, şiir, dönmek, Şems
+Yunus Emre|şiir, aşk, ilahi, derviş, halk, Taptuk
+Kaşgarlı|sözlük, dil, tarih, Türk, bilge, Divanü
+Piri Reis|harita, denizci, Osmanlı, kaptan, keşif, Kitab-ı Bahriye
+Mimar Sinan|cami, usta, Selimiye, kubbe, Osmanlı, Süleymaniye
+Fatih|İstanbul, fetih, padişah, sultan, 1453, Bizans
+Atatürk|kurucu, Cumhuriyet, lider, Mustafa Kemal, 29 Ekim, Samsun
+Anıtkabir|Ankara, kabir, anıt, ziyaret, Atatürk, lahit
+Çanakkale|savaş, boğaz, destan, şehit, 18 Mart, Seyit
+Malazgirt|savaş, Selçuklu, zafer, Alparslan, 1071, Romen
+Kapadokya|peri bacası, balon, vadi, mağara, turist, Göreme
+Efes|antik, kent, tapınak, İzmir, harabe, Artemis
+Truva|at, antik, efsane, savaş, harabe, Hisarlık
+Ayasofya|kubbe, İstanbul, cami, müze, Bizans, mozaik
+Topkapı|saray, padişah, hazine, İstanbul, Osmanlı, harem
+Galata|kule, İstanbul, köprü, manzara, eski, Karaköy
+Pamukkale|travertan, beyaz, havuz, kireç, Denizli, Hierapolis
+Nemrut|heykel, baş, dağ, Adıyaman, güneş, kral
+Sümela|manastır, kayalık, Trabzon, Meryem, uçurum, Altındere
+Ani|harabe, Kars, tarihi, kent, Ermeni, Kars'ın
+Gobeklitepe|tapınak, Urfa, taş, eski, yapı, dikili taş
+Hitit|antik, uygarlık, Hattuşa, Anadolu, tablet, Kadeş
+Sümer|çivi yazısı, Mezopotamya, eski, kil, uygarlık, Uruk
+Mısır Piramitleri|firavun, mumya, çöl, Giza, eski, Keops
+Firavun|Mısır, mumya, piramit, kral, Nil, Ramses
+Mumya|bandaj, firavun, Mısır, ölü, mezar, kefen
+Gladyatör|Roma, arena, kılıç, dövüş, Kolezyum, Spartaküs
+Kolezyum|Roma, arena, antik, İtalya, tiyatro, Vespasian
+Atlantis|kayıp, deniz, şehir, efsane, batık, Platon
+Zeus|Olimpos, yıldırım, tanrı, Yunan, baş, şimşek çakmak
+Hades|ölüm, yeraltı, Yunan, tanrı, karanlık, Persephone
+Pegasus|kanatlı, at, Yunan, efsane, uçmak, Bellerophon
+Minotor|boğa, labirent, Girit, canavar, Yunan, Theseus
+Medusa|yılan, saç, taşa çevirmek, Yunan, canavar, Perseus
+Odysseus|dönüş, Truva, Yunan, destan, Ithaka, Penelope
+Kral Arthur|kılıç, şövalye, Camelot, yuvarlak masa, İngiltere, Excalibur
+Robin Hood|ok, orman, hırsız, zengin, fakir, Sherwood
+Sherlock Holmes|dedektif, pipo, Londra, ipucu, Watson, Baker Street
+Harry Potter|büyücü, sihir, çocuk, Hogwarts, asa, Voldemort
+Pamuk Prenses|cüce, elma, ayna, masal, cadı, zehirli elma
+Külkedisi|ayakkabı, balo, cam, cadı, masal, bal
+Aladdin|lamba, cin, halı, dilek, Arap, Jasmine
+Ali Baba|kırk haramiler, define, mağara, hikâye, hırsız, kırk
+Sindbad|denizci, yolculuk, hikâye, gemi, serüven, Basra
+Don Kişot|yel değirmeni, şövalye, Sancho, İspanyol, kitap, Dulcinea
+Hamlet|Shakespeare, kral, olmak, tiyatro, Danimarka, Ophelia
+Romeo|Juliet, aşk, Shakespeare, balkon, genç, Verona
+Shakespeare|tiyatro, yazar, İngiliz, oyun, Hamlet, Stratford
+Mozart|besteci, piyano, klasik, Avusturya, deha, Salzburg
+Beethoven|besteci, sağır, senfoni, piyano, Alman, Fur Elise
+Picasso|ressam, kübizm, İspanyol, tablo, sanat, Guernica
+Mona Lisa|tablo, gülümseme, Leonardo, Louvre, portre, Gioconda
+Leonardo|ressam, mucit, deha, Rönesans, İtalyan, Vinci
+Einstein|fizik, görelilik, deha, saç, bilim, E=mc²
+Newton|elma, yerçekimi, fizik, bilim, İngiliz, prizma
+Edison|ampul, mucit, elektrik, buluş, Amerikalı, fonograf
+Tesla|elektrik, mucit, bobin, Sırp, deha, Wardenclyffe
+Galileo|teleskop, yıldız, İtalyan, gök bilimci, dünya, Pisa
+Kolomb|Amerika, keşif, gemi, denizci, 1492, Santa Maria
+Magellan|dünya turu, denizci, gemi, keşif, Portekiz, boğaz
+Marco Polo|Çin, gezgin, İpek Yolu, Venedik, seyahat, Kubilay
+İpek Yolu|ticaret, kervan, Çin, deve, Asya, Semerkant
+Kervan|deve, çöl, ticaret, yolcu, uzun yol, Sahra
+Kervansaray|han, konaklama, yol, eski, yolcu, Sultanhanı
+Hamam|buhar, kese, tas, göbek taşı, yıkanmak, külhan
+Göbek Taşı|hamam, sıcak, uzanmak, mermer, yıkanmak, ısınmak
+Kese|hamam, kirlenmek, ovmak, kaşınmak, sert, lif
+Peştamal|hamam, kumaş, sarmak, havlu, bel, bel sarmak
+Fes|şapka, kırmızı, Osmanlı, püskül, baş, kırmızı kep
+Sarık|baş, hoca, sarmak, kumaş, imam, tülbent
+Cübbe|hoca, uzun, giymek, giysi, hâkim, cüppe
+Kaftan|Osmanlı, padişah, uzun, giysi, ipek, Topkapı
+Şalvar|geniş, bacak, giysi, köylü, kadın, kemer
+Kuşak|bel, sarmak, kumaş, giysi, bağlamak, şal
+Yazma|baş, örtü, köylü, kadın, çiçekli, oyalı
+Nazar Boncuğu|mavi, göz, uğur, kötü, takmak, cam
+Muska|dua, taşımak, yazı, kâğıt, korunmak, üfürükçü
+Fal|kahve, telve, bakmak, gelecek, fincan, tarot
+Kehanet|gelecek, söylemek, falcı, öngörü, vahiy, Nostradamus
+Kâhin|gelecek, bilmek, söylemek, eski, kehanet, Delphi
+Hipnoz|uyutmak, ses, sarkaç, bilinç, telkin, trans
+Telepati|düşünce, okumak, zihin, uzaktan, sezgi, medyum
+Deja vu|daha önce, yaşamış, his, tekrar, hafıza, tanıdık
+Paranoya|korku, takip, şüphe, güvensiz, düşman, komplo
+Nostaljik|eski, anı, özlem, geçmiş, hatıra, eski zamanlar
+Kleptoman|çalmak, hastalık, alışkanlık, hırsız, dayanamamak, hırsızlık hastalığı
+Uykusuzluk|gece, uyuyamamak, göz, yatak, kahve, sayıklamak
+Sömestr|tatil, okul, yarıyıl, karne, ocak, ara tatil
+Diploma|mezun, belge, okul, tören, üniversite, çerçeve
+Mezuniyet|tören, kep, diploma, okul, bitirmek, balo
+Ödev|ders, öğretmen, yapmak, defter, ertesi gün, proje
+Kompozisyon|yazı, öğretmen, konu, giriş, sonuç, paragraf
+Sunum|slayt, konuşmak, toplantı, izleyici, projeksiyon, slayt gösterisi
+Toplantı|masa, ofis, fikir, patron, saat, gündem
+Mülakat|iş, soru, görüşme, aday, CV, özgeçmiş
+Terfi|iş, yükselmek, maaş, patron, başarı, müdür
+İstifa|işten ayrılmak, dilekçe, patron, bırakmak, kâğıt, işten çıkmak
+Emeklilik|maaş, yaş, iş, bırakmak, dinlenmek, SGK
+Zam|maaş, fiyat, artış, yüksel, market, enflasyon
+Bütçe|para, gider, plan, aylık, gelir, gelir gider
+Miras|ölüm, para, kalan, mal, vasiyet, veraset
+Vasiyet|ölüm, yazmak, miras, noter, istek, varis
+Mühür|damga, noter, resmî, belge, kırmızı, mum
+İmza|kâğıt, kalem, belge, atmak, isim, paraf
+Vekâlet|noter, yetki, imza, temsil, belge, vekil
+Hatıra|anı, eski, saklamak, fotoğraf, geçmiş, albüm
+Gelenek|kuşaktan kuşağa, âdet, töre, eski, görenek, adet
+Kimlik|nüfus, fotoğraf, numara, cüzdan, belge, TC
+Aidiyet|ait olmak, grup, bağ, bir yere, kimlik, topluluk
+Önyargı|baştan, karar, düşünce, yargı, ayrımcılık, kalıp yargı
+Tahammül|katlanmak, sabır, dayanmak, hoşgörü, çekmek, direnç
+Nezaket|kibarlık, saygı, güler yüz, terbiye, edep, zarafet
+Mizah|güldürmek, espri, komik, nükte, eğlence, şaka
+Espri|güldürmek, komik, söylemek, şaka, nükte, kelime oyunu
+Kinaye|alay, ima, söz, anlam, ters, dokundurma
+Ima|dolaylı, söylemek, anlamak, göstermek, işaret, göndermek
+Benzetme|gibi, edebiyat, söz, mecaz, şiir, teşbih
+Kafiye|şiir, uyak, dize, ses, son, uyaklı
+Redif|şiir, tekrar, kafiye, dize, son, nakarat
+Aruz|şiir, ölçü, Divan, hece, ritim, vezin
+Hece|ses, ölçü, kelime, şiir, bölmek, hece ölçüsü
+Divan|şiir, Osmanlı, edebiyat, gazel, saray, Fuzuli
+Gazel|şiir, Divan, aşk, beyit, edebiyat, Baki
+Beyit|iki dize, şiir, Divan, gazel, mısra, iki mısra
+Mısra|şiir, dize, satır, beyit, ölçü, dize sonu
+Öykü|kısa, anlatı, yazar, olay, kahraman, hikâye
+Röportaj|soru, gazeteci, konuk, yayın, mikrofon, stüdyo
+Manşet|gazete, büyük, haber, başlık, ilk sayfa, ilk
+Köşe Yazısı|gazete, yazar, görüş, sütun, yorum, sütun yazarı
+Başyazı|gazete, görüş, yorum, yayın yönetmeni, yazı, fikir
+Şiir Gecesi|okumak, şair, sahne, dinlemek, dize, akşam
+İmza Günü|kitap, yazar, okur, sıra, kalem, dedikodu
+Kitap Fuarı|yayınevi, stant, yazar, okur, gezmek, TÜYAP
+Yayınevi|kitap, basmak, yazar, editör, katalog, baskı
+Matbaa|baskı, kitap, mürekkep, makine, kâğıt, baskı makinesi
+Mürekkep|kalem, yazmak, şişe, siyah, hokka, kartuş
+Hokka|mürekkep, divit, eski, yazmak, kalem, divit kalemi
+Divit|yazı, kalem, eski, hokka, Osmanlı, kamış
+Fermân|padişah, emir, Osmanlı, tuğra, belge, buyruk
+Tuğra|padişah, imza, Osmanlı, süslü, mühür, nişan
+Sultan|Osmanlı, saray, taht, padişah, hükümdar, han
+Vezir|sultan, devlet, saray, danışman, divan, sadrazam
+Yeniçeri|Osmanlı, asker, kazan, ordu, bork, ocak
+Mehter|Osmanlı, bando, marş, davul, ordu, zurna
+Sarayı|padişah, saray, hazine, görkemli, Osmanlı, saray hayatı
+Harem|saray, kadın, padişah, Osmanlı, bölüm, valide
+Lale Devri|çiçek, Osmanlı, eğlence, Damat, saray, Nedim
+Tanzimat|ferman, reform, Osmanlı, yenilik, 1839, Gülhane
+Meşrutiyet|anayasa, meclis, padişah, 1908, Osmanlı, ikinci
+Kurtuluş Savaşı|Atatürk, Anadolu, düşman, Cumhuriyet, zafer, Kuvayı Milliye
+Cumhuriyet|1923, Atatürk, yönetim, halk, 29 Ekim, bayram
+Lozan|antlaşma, barış, 1923, İsviçre, sınır, İsmet Paşa
+Misak-ı Milli|sınır, Anadolu, ulusal, ant, meclis, Erzurum
+Sakarya|savaş, nehir, Meydan Muharebesi, 1921, zafer, Polatlı
+Dumlupınar|zafer, savaş, 30 Ağustos, Anadolu, Başkomutan, Kocatepe
+İnönü|savaş, ordu, zafer, Anadolu, 1921, İsmet
+Kuvayı Milliye|direniş, halk, Anadolu, savaş, çete, çeteler
+Sivas Kongresi|1919, Atatürk, kongre, delege, Anadolu, heyet
+Erzurum Kongresi|1919, Atatürk, kongre, delege, Doğu, Mustafa Kemal
+Havza|Samsun, Atatürk, 1919, Anadolu, yolculuk, Samsun'da
+Amasya Genelgesi|Atatürk, 1919, bildiri, Anadolu, direniş, Haziran
+Harf Devrimi|alfabe, Latin, Atatürk, okul, yazı, Latin harfleri
+Soyadı Kanunu|isim, aile, 1934, Atatürk, kimlik, Atatürk soyadı
+Kadın Hakları|oy, seçme, eşitlik, hak, özgürlük, suffrage
+Medeni Kanun|evlilik, hukuk, 1926, eşitlik, yasa, boşanma
+Şapka Kanunu|fes, Atatürk, kıyafet, devrim, yasa, Kastamonu
+Türk Dil Kurumu|sözlük, lisan, kelime, Ankara, kurum, TDK
+Halkevi|kültür, Atatürk, halk, kurs, bina, tiyatro
+Köy Enstitüsü|eğitim, öğretmen, tarla, okul, Anadolu, İsmail Hakkı
+Anadolu Ajansı|haber, ajans, Ankara, basın, kuruluş, AA
+Ziraat Bankası|tarım, banka, çiftçi, kredi, kamu, devlet bankası
+Ankara|başkent, Anıtkabir, meclis, kale, Kızılay, Çankaya
+İzmir|Ege, Kordon, saat kulesi, liman, bir şehir, Alsancak
+Bursa|iskender, Uludağ, ilk başkent, Osmanlı, yeşil, Osmangazi
+Konya|Mevlana, Selçuklu, ova, semazen, kubbe, Karatay
+Melankoli|hüzün, derin, mavi, düşünce, yalnızlık, kara safra
+Empati|anlamak, duygu, ortak, yerine koymak, karşı, yansıtmak
+Hırs|istek, başarı, güçlü, tutku, kazanmak, ihtiras
+Tutku|aşk, ateş, istek, güçlü, coşku, ateşli
+Merak|öğrenmek, kedi, sormak, bilmek, araştırmak, meraklı
+Şüphe|inanmamak, güven, emin, kuşku, tereddüt, kuşkucu
+Güven|inanmak, emin, sır, dayanmak, sadakat, emniyet
+Sadakat|bağlılık, vefa, dürüst, sevgili, köpek, vefalı
+Vefa|sadakat, unutmamak, dostluk, iyilik, eski, ahde vefa
+İhanet|aldatmak, sırtından, güven, hain, arkadaş, sırt
+Hasret|özlem, uzak, ayrılık, sevgili, bekleyiş, ayrılık acısı
+Yalnızlık|tek, kimsesiz, sessizlik, arkadaş, boş, tek başına
+Tevazu|alçakgönüllü, kibir, mütevazı, övünmek, gösteriş, mütevazılık
+Cömertlik|vermek, paylaşmak, eli açık, cimri, bağış, eli açık kişi
+Cimrilik|harcamamak, para, saklamak, eli sıkı, tasarruf, pinti
+Çaresizlik|çözümsüz, umutsuz, bitmiş, yardım, kimse, aciz
+Umutsuzluk|umut, karamsar, çaresiz, bitmek, kapanmak, ümitsiz
+İyimserlik|umut, güzel, bakmak, olumlu, dolu, optimist
+Karamsarlık|kötü, yarı boş, umutsuz, olumsuz, gri, pesimist
+Çelişki|zıt, mantık, paradoks, uyumsuz, fikir, çatışma
+Mecaz|gerçek, anlam, söz, benzetme, edebi, teşbih
+Sarkazm|alaycı, acı, iğneleyici, söz, ironi, iğneleme
+Kabalık|kaba, saygısız, bağırmak, terbiyesiz, nezaket, kaba saba
+Edep|terbiye, saygı, ahlak, görgü, utanmak, hayâ
+Haysiyet|onur, değer, saygı, kişilik, şeref, izzet
+Şeref|onur, değer, makam, haysiyet, saygın, şan
+İtibar|saygı, ün, değer, çevre, kazanmak, prestij
+Şöhret|ünlü, tanınmak, popüler, ün, herkes, yıldız
+Servet|zengin, para, mal, birikim, miras, varlık
+Fakirlik|yoksul, para, yoksunluk, geçinmek, zor, çaresiz
+Yoksulluk|fakir, az, geçinmek, ihtiyaç, zor, sefalet
+Lüks|pahalı, zengin, gösterişli, konfor, marka, saray
+Gösteriş|çalım, sergilemek, övünmek, dikkat, abartı, şatafat
+Mütevazılık|tevazu, gösteriş, alçak, sade, övünmek, gösterişsiz
+Sadelik|basit, süs, gösterişsiz, temiz, az, yalın
+Minimalizm|az, sade, eşya, tasarım, boş, beyaz oda
+Kaos|karmaşa, düzen, kargaşa, dağınık, bozuk, bilinmez
+Entropi|düzensizlik, fizik, ısı, evren, kaos, termodinamik
+Denge|ağırlık, ip, sallanmak, eşit, durmak, terazi
+Simetri|ayna, eşit, yarım, şekil, iki, yansıma
+Sonsuzluk|bitmeyen, sınır, evren, rakam, yatay, ∞
+Boşluk|içi, hiçlik, yok, aralık, uzay, çukur
+Hiçlik|yokluk, boşluk, felsefe, hiçbir şey, anlam, nihilizm
+Varoluş|felsefe, olmak, anlam, hayat, bilinç, Sartre
+Bilinç|farkında, uyanık, zihin, beyin, anlamak, uyanık olmak
+Bilinçaltı|rüya, zihin, gizli, düşünce, psikoloji, Freud
+Sezgi|his, içgüdü, bilmek, önsezi, akıl, altıncı his
+İçgüdü|doğuştan, hayvan, otomatik, hisler, refleks, kendini korumak
+Refleks|çabuk, tepki, doktor, diz, otomatik, çekiç
+Alışkanlık|tekrar, yapmak, bırakmak, huy, günlük, adet
+Bağımlılık|bırakamamak, sigara, telefon, alışkanlık, tedavi, kriz
+Disiplin|düzen, kural, sıkı, askeri, uymak, hoca
+Strateji|plan, hamle, savaş, taktik, hedef, satranç
+Taktik|plan, hamle, antrenör, yöntem, oyun, saha
+Diplomasi|ülke, elçi, görüşme, barış, anlaşma, nota
+Elçilik|ülke, büyükelçi, vize, diplomasi, bayrak, konsolos
+Misafirperverlik|konuk, ağırlamak, kapı, sofra, karşılamak, Türk
+Töre|gelenek, kural, ahlak, eski, toplum, namus
+Ritüel|tören, tekrar, gelenek, dini, adet, ayin
+Tören|resmi, kutlama, açılış, merasim, kıyafet, geçit
+Merasim|tören, resmi, kutlama, geçit, kıyafet, alay
+Kutsal|din, ibadet, kutsallık, dokunulmaz, saygı, mukaddes
+Mucize|inanılmaz, olağanüstü, doğaüstü, şaşırtıcı, dilek, olağanüstü olay
 
-Rönesans|Avrupa, sanat, yeniden doğuş, Leonardo, İtalya
-Aydınlanma|akıl, Avrupa, felsefe, bilim, çağ
-Sanayi Devrimi|fabrika, buhar, makine, İngiltere, işçi
-Fransız Devrimi|Fransa, özgürlük, Bastille, kral, halk
-Soğuk Savaş|Amerika, Rusya, gerilim, silah, blok
-Haçlı Seferleri|Kudüs, ortaçağ, şövalye, haç, savaş
-Vatan|ülke, doğduğu yer, bayrak, toprak, sevgi
-Hürriyet|özgürlük, kuş, esaret, bağımsız, gazete
-Egemenlik|güç, devlet, ulus, bağımsız, söz sahibi
-Bağımsızlık|özgür, ülke, savaş, bayrak, kurtuluş
-Misyon|görev, amaç, hedef, sorumluluk, yüklemek
-Vizyon|hedef, gelecek, bakış, plan, ileri görüşlülük
-Protokol|kural, tören, davranış, resmi, anlaşma
-Etiket|kural, fiyat, üstü, marka, yapıştırmak
-Perspektif|bakış açısı, resim, uzaklık, derinlik, çizim
-Obje|nesne, şey, eşya, madde, cisim
-Absürt|saçma, mantıksız, tuhaf, anlamsız, komik
-Abartı|fazla, büyütmek, mübalağa, aşırı, olduğundan
-Eleştiri|yargı, beğenmemek, görüş, tenkit, yorum
-Tartışma|fikir, karşı, görüş, ses, münazara
-Münazara|tartışma, okul, savunmak, konu, karşı
-Özgeçmiş|iş, başvuru, bilgi, kâğıt, deneyim
-Kıdem|yıl, iş, tecrübe, emeklilik, tazminat
-Teslim|vermek, süre, ödev, kargo, zaman
-Son Tarih|süre, bitiş, teslim, gün, ödev
-Randevu|saat, buluşmak, doktor, gün, rezervasyon
-Rezervasyon|ayırtmak, otel, masa, yer, telefon
-Konuk|misafir, ev, ağırlamak, çay, gelmek
-Komşuluk|mahalle, yan, bina, ziyaret, yardım
-Hemşehri|aynı şehir, köylü, tanışmak, memleket, yerli
-Gurbet|uzak, ayrılık, memleket, yurtdışı, özlem
-Memleket|doğduğu yer, köy, şehir, özlem, vatan
-Nesil|kuşak, yaş, çocuk, gençlik, çağ
-Veda|ayrılmak, elveda, hoşça kal, uğurlamak, gitmek
-Karşılama|gelmek, havalimanı, kucaklamak, misafir, hoş geldin
-Kutlama|doğum günü, sevinç, tebrik, parti, pasta
-Tebrik|kutlamak, güzel, haber, başarı, kart
-Taziye|ölüm, başsağlığı, ziyaret, üzüntü, cenaze
-Cenaze|ölü, defin, taziye, mezarlık, tören
-Mezarlık|kabristan, ölü, taş, ziyaret, defin
-Anıt|abide, heykel, hatıra, tarih, meydan
-Abide|anıt, tarihi, büyük, eser, ulu
-Kayıp|bulamamak, yitirmek, eşya, çocuk, ilan
-Define Avcısı|altın, harita, kazı, aramak, hazine
-Müzayede|açık artırma, eser, satış, fiyat, çekiç
-Antika|eski, değerli, eşya, koleksiyon, pahalı
-Koleksiyon|biriktirmek, pul, eşya, sergilemek, meraklı
-Hobi|boş zaman, merak, uğraş, sevmek, eğlence
-Maket|küçük, model, bina, uçak, yapmak
-Origami|kâğıt, katlamak, Japon, kuş, sanat
-Nakış|iğne, iplik, kumaş, işlemek, desen
-Örgü|şiş, yün, el, kazak, ilmek
-Mozaik|küçük parça, taş, resim, yer, sanat
-Çizgi Roman|kitap, çizim, kahraman, balon, resimli
-Manga|Japon, çizgi, kitap, anime, okumak
-Anime|Japon, çizgi film, karakter, dizi, manga
-Cosplay|kostüm, karakter, giyinmek, fuar, hayran
-Fuar|stant, sergi, ziyaret, firma, kitap
-Festival|müzik, kutlama, sahne, şenlik, bilet
-Senfoni|orkestra, müzik, beste, klasik, şef
-Besteci|nota, müzik, yazmak, beste, piyano
-Söz Yazarı|şarkı, ünlü, sanatçı, yazar, kafiye
-Aranjör|müzik, düzenlemek, şarkı, stüdyo, beste
-Stüdyo|kayıt, müzik, mikrofon, ses, çekim
-Senarist|film, yazı, hikaye, diyalog, senaryo
-Sinematograf|kamera, görüntü, film, çekmek, ışık
-Dublaj|ses, film, çeviri, seslendirmek, dil
-Altyazı|film, çeviri, ekran, yazı, yabancı
-Fragman|film, kısa, tanıtım, izlemek, sinema
-Gişe|bilet, film, hasılat, sinema, satış
-Prömiyer|ilk, gösterim, film, kırmızı halı, gala
-Kırmızı Halı|ünlü, ödül, gala, yürümek, tören
-Oscar|ödül, film, heykel, Amerika, tören
-Altın Portakal|ödül, film, Antalya, festival, sinema
-Nobel|ödül, bilim, barış, İsveç, para
-Booker|ödül, roman, yazar, kitap, İngiliz
-Pulitzer|ödül, gazetecilik, Amerika, yazar, kitap
-Grammy|ödül, müzik, Amerika, gramofon, tören
-Altın Top|ödül, futbol, yılın, oyuncu, kupa
-Wimbledon|tenis, Londra, çim, turnuva, beyaz
-Formula 1|yarış, araba, hız, pist, pilot
-Tour de France|bisiklet, yarış, Fransa, etap, sarı
-Triatlon|yüzme, bisiklet, koşu, spor, zor
-Judo|dövüş, Japon, kimono, spor, kuşak
-Karate|dövüş, Japon, kuşak, tekme, spor
-Golf|sopa, top, çim, delik, spor
-Kriket|sopa, top, İngiliz, kapı, spor
-Rugby|top, Amerikan, kafa, oval, spor
-Beyzbol|sopa, top, Amerikan, eldiven, spor
-Dart|ok, hedef, bar, atmak, tahta
-Blackjack|kart, 21, kumar, kasa, bahis
-Rulet|çark, kumar, top, kırmızı, siyah
-Lotto|şans, numara, kupon, çekiliş, kazanmak
-Çekiliş|kura, şans, çekmek, hediye, bilet
-Postmodernizm|çağ, sanat, felsefe, akım, modern
-Gerçeküstücülük|Dali, sanat, rüya, akım, resim
-Salvador Dali|ressam, bıyık, saat, İspanyol, sürrealizm
-Frida Kahlo|ressam, Meksika, kaş, otoportre, kadın
-Claude Monet|ressam, izlenimci, nilüfer, Fransız, tablo
-Rembrandt|ressam, Hollandalı, ışık, portre, tablo
-Nietzsche|filozof, Alman, bıyık, üstinsan, Tanrı öldü
-Kant|filozof, Alman, akıl, ahlak, Prusya
-Descartes|filozof, Fransız, düşünüyorum, şüphe, akıl
-İbn-i Sina|bilim, hekim, filozof, tıp, Buhara
-Farabi|filozof, ikinci öğretmen, Türk, müzik, bilim
-Harezmi|matematik, cebir, algoritma, bilim, Türk
-Biruni|bilim, astronom, Türk, Hindistan, coğrafya
-Ulubey|astronom, Semerkant, gözlemevi, Timur, bilim
-Timur|Semerkant, hükümdar, savaşçı, Ankara, topal
-Ankara Savaşı|Timur, Yıldırım, Osmanlı, 1402, savaş
-Yıldırım Bayezid|padişah, Osmanlı, Timur, kafes, esir
-Sokullu|vezir, Osmanlı, sadrazam, Kanuni, köprü
-Barbaros Hayrettin|amiral, deniz, Osmanlı, Preveze, korsan
-Preveze|savaş, deniz, Osmanlı, 1538, zafer
-Lepanto|savaş, deniz, Osmanlı, Avrupa, donanma
-Mohaç|savaş, Macaristan, Kanuni, Osmanlı, meydan
-Kosova|savaş, Murat, Balkan, Osmanlı, Sırp
-Niğbolu|savaş, haçlı, Yıldırım, Osmanlı, Bulgaristan
-Varna|savaş, II. Murat, haçlı, Osmanlı, Bulgaristan
-Viyana Kuşatması|Osmanlı, Avusturya, kale, savaş, Kara Mustafa
-Kara Mustafa Paşa|sadrazam, Viyana, Osmanlı, kuşatma, ünlü
-Malkoçoğlu|kahraman, Osmanlı, film, kılıç, Cüneyt Arkın
-Cüneyt Arkın|aktör, Türk, dövüş, film, Yeşilçam
-Tarık Akan|aktör, Türk, film, Yeşilçam, bıyık
-Türkan Şoray|aktris, Türk, sultan, film, Yeşilçam
-Fatma Girik|aktris, Türk, film, Yeşilçam, kadın
-Münir Özkul|aktör, Türk, dede, film, yaşlı
-Adile Naşit|aktris, Türk, Hababam, anne, yaşlı
-Dostluk|arkadaş, sadakat, güven, paylaşmak, yoldaş
-Kardeşlik|aile, kan, paylaşmak, ağabey, bağ
-Arkadaşlık|dost, paylaşmak, sohbet, birlikte, yoldaş
-Aşk|kalp, sevgili, tutku, çiçek, evlilik
-Sevgi|kalp, şefkat, anne, bağ, aşk
-Şefkat|merhamet, anne, sevgi, ilgi, yumuşaklık
-Merhamet|acımak, yardım, vicdan, şefkat, bağış
-Hoşgörü|anlayış, kabul, sabır, farklı, saygı
-Saygı|büyük, selam, değer, edep, hürmet
-Ahlak|iyi, kötü, kural, değer, vicdan
-Erdem|ahlak, iyilik, kişilik, doğru, değer
-Namus|onur, değer, ahlak, şeref, dürüst
-Onur|şeref, saygı, değer, haysiyet, gurur
-Haysiyet Zedelenmesi|onur, saygınlık, hakaret, zarar, iftira
-İftira|yalan, suçlamak, haksız, karalamak, dava
-Hakaret|söz, kötü, küfür, saygısızlık, dava
-Küfür|kötü söz, ayıp, kızgın, argo, bağırmak
-Gerçek|doğru, hakikat, yalan, olay, kanıt
-Doğruluk|yalan, dürüst, gerçek, güven, söz
-Sahtekarlık|taklit, kalpazan, yalan, düzmece, hile
-Hile|oyun, aldatmak, kopya, yalan, düzen
-Dolandırıcılık|aldatmak, para, suç, yalan, mağdur
-Kalpazan|sahte, para, basmak, suç, banknot
-Gasp|zorla, almak, soygun, suç, silah
-Cinayet|ölüm, suç, polis, kurban, katil
-Katil|cinayet, polis, suç, hapis, öldürmek
-İpucu|iz, dedektif, bulmak, bilmece, işaret
-Alibi|suç, mazeret, polis, sanık, yer
-Tanık|mahkeme, görmek, ifade, olay, yemin
-Yemin|söz, mahkeme, el, doğru, namus
-İfade|polis, tanık, sorgu, yazı, söylemek
-Sorgu|polis, soru, oda, sanık, ifade
-Mahkûm|hapis, ceza, hücre, suçlu, cezaevi
-Firar|kaçmak, hapis, mahkûm, tünel, polis
-Af|bağışlamak, ceza, devlet, suç, hapis
-Pişman Olmak|keşke, hata, üzülmek, geri, vicdan
-Özür|pişmanlık, affet, hata, dilemek, söylemek
-Barışma|küs, anlaşma, el sıkışmak, sarılmak, kavga
-Küslük|konuşmamak, kavga, arkadaş, öfke, barışmak
-Dargınlık|küs, kırgın, konuşmamak, ilişki, kavga
-Kırgınlık|üzülmek, gönül, söz, kırmak, darılmak
-Gönül|kalp, aşk, sevgi, kırmak, almak
-Hatır|gönül, iyilik, saygı, kırmamak, sormak
-İyilik|yardım, güzel, kötülük, sevap, vermek
-Kötülük|zarar, kötü, iyilik, kin, düşman
-Kin|nefret, öfke, intikam, kalp, düşmanlık
-İntikam|öç, kin, almak, kötülük, hesap
-Nefret|sevgi, kin, düşman, öfke, tiksinti
-Düşmanlık|kin, savaş, karşı, nefret, barış
-Rekabet|yarış, rakip, ticaret, spor, kazanmak
-Rakip|yarış, karşı, spor, kazanmak, düşman
-Kıyasıya Mücadele|yarış, rakip, güç, kazanmak, çaba
-Zafer|kazanmak, bayrak, savaş, sevinç, galibiyet
-Yenilgi|kaybetmek, üzüntü, savaş, mağlubiyet, kayıp
-Beraberlik|eşit, maç, skor, kimse, puan
-Rövanş|tekrar, maç, intikam, karşılaşma, kazanmak
-Final|son, maç, kupa, yarış, kazanan
-Eleme|yarışma, giden, kalmak, tur, sonuç
-Şampiyonluk|kupa, birinci, takım, kutlama, sezon
-Fikstür|maç, takvim, lig, hafta, takım
-Puan Durumu|lig, sıralama, takım, tablo, maç
-Transfer|oyuncu, takım, futbol, para, kulüp
+Rönesans|Avrupa, sanat, yeniden doğuş, Leonardo, İtalya, Michelangelo
+Aydınlanma|akıl, Avrupa, felsefe, bilim, çağ, Voltaire
+Sanayi Devrimi|fabrika, buhar, makine, İngiltere, işçi, kömür
+Fransız Devrimi|Fransa, özgürlük, Bastille, kral, halk, Napolyon
+Soğuk Savaş|Amerika, Rusya, gerilim, silah, blok, Berlin
+Haçlı Seferleri|Kudüs, ortaçağ, şövalye, haç, savaş, Selahaddin
+Vatan|ülke, doğduğu yer, bayrak, toprak, sevgi, bayrak sevgisi
+Hürriyet|özgürlük, kuş, esaret, bağımsız, gazete, bağımsızlık
+Egemenlik|güç, devlet, ulus, bağımsız, söz sahibi, millet
+Bağımsızlık|özgür, ülke, savaş, bayrak, kurtuluş, Kurtuluş Savaşı
+Misyon|görev, amaç, hedef, sorumluluk, yüklemek, vazife
+Vizyon|hedef, gelecek, bakış, plan, ileri görüşlülük, ufuk
+Protokol|kural, tören, davranış, resmi, anlaşma, resmi tören
+Etiket|kural, fiyat, üstü, marka, yapıştırmak, barkod
+Perspektif|bakış açısı, resim, uzaklık, derinlik, çizim, bakış
+Obje|nesne, şey, eşya, madde, cisim, nesne hali
+Absürt|saçma, mantıksız, tuhaf, anlamsız, komik, yersiz
+Abartı|fazla, büyütmek, mübalağa, aşırı, olduğundan, şişirmek
+Eleştiri|yargı, beğenmemek, görüş, tenkit, yorum, yorumlamak
+Tartışma|fikir, karşı, görüş, ses, münazara, polemik
+Münazara|tartışma, okul, savunmak, konu, karşı, jüri
+Özgeçmiş|iş, başvuru, bilgi, kâğıt, deneyim, CV
+Kıdem|yıl, iş, tecrübe, emeklilik, tazminat, tazminatı
+Teslim|vermek, süre, ödev, kargo, zaman, alma
+Son Tarih|süre, bitiş, teslim, gün, ödev, deadline
+Randevu|saat, buluşmak, doktor, gün, rezervasyon, ajanda
+Rezervasyon|ayırtmak, otel, masa, yer, telefon, onay
+Konuk|misafir, ev, ağırlamak, çay, gelmek, ağırlama
+Komşuluk|mahalle, yan, bina, ziyaret, yardım, çay içmek
+Hemşehri|aynı şehir, köylü, tanışmak, memleket, yerli, memleketli
+Gurbet|uzak, ayrılık, memleket, yurtdışı, özlem, ayrı
+Memleket|doğduğu yer, köy, şehir, özlem, vatan, toprak
+Nesil|kuşak, yaş, çocuk, gençlik, çağ, X
+Veda|ayrılmak, elveda, hoşça kal, uğurlamak, gitmek, son
+Karşılama|gelmek, havalimanı, kucaklamak, misafir, hoş geldin, çiçek
+Kutlama|doğum günü, sevinç, tebrik, parti, pasta, şampanya
+Tebrik|kutlamak, güzel, haber, başarı, kart, dilek
+Taziye|ölüm, başsağlığı, ziyaret, üzüntü, cenaze, çelenk
+Cenaze|ölü, defin, taziye, mezarlık, tören, musalla
+Mezarlık|kabristan, ölü, taş, ziyaret, defin, mezar taşı
+Anıt|abide, heykel, hatıra, tarih, meydan, anıtkabir
+Abide|anıt, tarihi, büyük, eser, ulu, yapı
+Kayıp|bulamamak, yitirmek, eşya, çocuk, ilan, bulunmak
+Define Avcısı|altın, harita, kazı, aramak, hazine, dedektör
+Müzayede|açık artırma, eser, satış, fiyat, çekiç, artırma
+Antika|eski, değerli, eşya, koleksiyon, pahalı, eski eşya
+Koleksiyon|biriktirmek, pul, eşya, sergilemek, meraklı, müzayede
+Hobi|boş zaman, merak, uğraş, sevmek, eğlence, zevk
+Maket|küçük, model, bina, uçak, yapmak, ölçek
+Origami|kâğıt, katlamak, Japon, kuş, sanat, turna
+Nakış|iğne, iplik, kumaş, işlemek, desen, gergef
+Örgü|şiş, yün, el, kazak, ilmek, çubuk
+Mozaik|küçük parça, taş, resim, yer, sanat, tesserae
+Çizgi Roman|kitap, çizim, kahraman, balon, resimli, süper kahraman
+Manga|Japon, çizgi, kitap, anime, okumak, mangaka
+Anime|Japon, çizgi film, karakter, dizi, manga, Ghibli
+Cosplay|kostüm, karakter, giyinmek, fuar, hayran, peruk
+Fuar|stant, sergi, ziyaret, firma, kitap, fuar alanı
+Festival|müzik, kutlama, sahne, şenlik, bilet, kamp
+Senfoni|orkestra, müzik, beste, klasik, şef, orkestra şefi
+Besteci|nota, müzik, yazmak, beste, piyano, beste yapmak
+Söz Yazarı|şarkı, ünlü, sanatçı, yazar, kafiye, sözler
+Aranjör|müzik, düzenlemek, şarkı, stüdyo, beste, düzenleme
+Stüdyo|kayıt, müzik, mikrofon, ses, çekim, kayıt odası
+Senarist|film, yazı, hikaye, diyalog, senaryo, kurgu
+Sinematograf|kamera, görüntü, film, çekmek, ışık, çekim
+Dublaj|ses, film, çeviri, seslendirmek, dil, seslendirme sanatçısı
+Altyazı|film, çeviri, ekran, yazı, yabancı, çeviri yazısı
+Fragman|film, kısa, tanıtım, izlemek, sinema, teaser
+Gişe|bilet, film, hasılat, sinema, satış, rekor
+Prömiyer|ilk, gösterim, film, kırmızı halı, gala, gala gecesi
+Kırmızı Halı|şöhret, ödül, gala, yürümek, tören, poz
+Oscar|ödül, film, heykel, Amerika, tören, Hollywood
+Altın Portakal|ödül, film, Antalya, festival, sinema, Antalya Film Festivali
+Nobel|ödül, bilim, barış, İsveç, para, Stockholm
+Booker|ödül, roman, yazar, kitap, İngiliz, Man
+Pulitzer|ödül, gazetecilik, Amerika, yazar, kitap, gazeteci
+Grammy|ödül, müzik, Amerika, gramofon, tören, albüm
+Altın Top|ödül, futbol, yılın, oyuncu, kupa, Ballon d'Or
+Wimbledon|tenis, Londra, çim, turnuva, beyaz, Federer
+Formula 1|yarış, araba, hız, pist, pilot, Monza
+Tour de France|bisiklet, yarış, Fransa, etap, sarı, sarı forma
+Triatlon|yüzme, bisiklet, koşu, spor, zor, demir adam
+Judo|dövüş, Japon, kimono, spor, kuşak, tatami
+Karate|dövüş, Japon, kuşak, tekme, spor, kata
+Golf|sopa, top, çim, delik, spor, hole
+Kriket|sopa, top, İngiliz, kapı, spor, vuruş
+Rugby|top, Amerikan, kafa, oval, spor, tutuş
+Beyzbol|sopa, top, Amerikan, eldiven, spor, home run
+Dart|ok, hedef, bar, atmak, tahta, oklar
+Blackjack|kart, 21, kumar, kasa, bahis, kupa
+Rulet|çark, kumar, top, kırmızı, siyah, kasa
+Lotto|şans, numara, kupon, çekiliş, kazanmak, çekiliş sonucu
+Çekiliş|kura, şans, çekmek, hediye, bilet, kura çekimi
+Postmodernizm|çağ, sanat, felsefe, akım, modern, modern sonrası
+Gerçeküstücülük|Dali, sanat, rüya, akım, resim, André Breton
+Salvador Dali|ressam, bıyık, saat, İspanyol, sürrealizm, Erimiş Saat
+Frida Kahlo|ressam, Meksika, kaş, otoportre, kadın, Diego
+Claude Monet|ressam, izlenimci, nilüfer, Fransız, tablo, İzlenim
+Rembrandt|ressam, Hollandalı, ışık, portre, tablo, Gece Devriyesi
+Nietzsche|filozof, Alman, bıyık, üstinsan, Tanrı öldü, Zerdüşt
+Kant|filozof, Alman, akıl, ahlak, Prusya, saf akıl
+Descartes|filozof, Fransız, düşünüyorum, şüphe, akıl, Cogito
+İbn-i Sina|bilim, hekim, filozof, tıp, Buhara, El Kanun
+Farabi|filozof, ikinci öğretmen, Türk, müzik, bilim, Medine-i Fazıla
+Harezmi|matematik, cebir, algoritma, bilim, Türk, Harezm
+Biruni|bilim, astronom, Türk, Hindistan, coğrafya, Gazne
+Ulubey|astronom, Semerkant, gözlemevi, Timur, bilim, Semerkand
+Timur|Semerkant, hükümdar, savaşçı, Ankara, topal, topal Timur
+Ankara Savaşı|Timur, Yıldırım, Osmanlı, 1402, savaş, 1402'de
+Yıldırım Bayezid|padişah, Osmanlı, Timur, kafes, esir, Çubuk Ovası
+Sokullu|vezir, Osmanlı, sadrazam, Kanuni, köprü, Mehmed Paşa
+Barbaros Hayrettin|amiral, deniz, Osmanlı, Preveze, korsan, Akdeniz
+Preveze|savaş, deniz, Osmanlı, 1538, zafer, Andrea Doria
+Lepanto|savaş, deniz, Osmanlı, Avrupa, donanma, 1571
+Mohaç|savaş, Macaristan, Kanuni, Osmanlı, meydan, Kanuni Sultan Süleyman
+Kosova|savaş, Murat, Balkan, Osmanlı, Sırp, I. Murad
+Niğbolu|savaş, haçlı, Yıldırım, Osmanlı, Bulgaristan, Sigismund
+Varna|savaş, II. Murat, haçlı, Osmanlı, Bulgaristan, Hunyadi
+Viyana Kuşatması|Osmanlı, Avusturya, kale, savaş, Kara Mustafa, 1683
+Kara Mustafa Paşa|sadrazam, Viyana, Osmanlı, kuşatma, yenilgi, ipek kement
+Malkoçoğlu|kahraman, Osmanlı, film, kılıç, Cüneyt Arkın, Cüneyt
+Cüneyt Arkın|aktör, Türk, dövüş, film, Yeşilçam, Malkoçoğlu
+Tarık Akan|aktör, Türk, film, Yeşilçam, bıyık, Ayrılık
+Türkan Şoray|aktris, Türk, sultan, film, Yeşilçam, Hülya
+Fatma Girik|aktris, Türk, film, Yeşilçam, kadın, Selvi Boylum
+Münir Özkul|aktör, Türk, dede, film, yaşlı, Aziz Nesin
+Adile Naşit|aktris, Türk, Hababam, anne, yaşlı, Ayşecik
+Dostluk|arkadaş, sadakat, güven, paylaşmak, yoldaş, yoldaşlık
+Kardeşlik|aile, kan, paylaşmak, ağabey, bağ, öz
+Arkadaşlık|dost, paylaşmak, sohbet, birlikte, yoldaş, ahbap
+Aşk|kalp, sevgili, tutku, çiçek, evlilik, âşık
+Sevgi|kalp, şefkat, anne, bağ, aşk, muhabbet
+Şefkat|merhamet, anne, sevgi, ilgi, yumuşaklık, sıcaklık
+Merhamet|acımak, yardım, vicdan, şefkat, bağış, rahmet
+Hoşgörü|anlayış, kabul, sabır, farklı, saygı, tolerans
+Saygı|büyük, selam, değer, edep, hürmet, hürmet göstermek
+Ahlak|iyi, kötü, kural, değer, vicdan, etik
+Erdem|ahlak, iyilik, kişilik, doğru, değer, fazilet
+Namus|onur, değer, ahlak, şeref, dürüst, ırz
+Onur|şeref, saygı, değer, haysiyet, gurur, izzet-i nefis
+Haysiyet Zedelenmesi|onur, saygınlık, hakaret, zarar, iftira, dava açmak
+İftira|yalan, suçlamak, haksız, karalamak, dava, kara çalmak
+Hakaret|söz, kötü, küfür, saygısızlık, dava, sövmek
+Küfür|kötü söz, ayıp, kızgın, argo, bağırmak, ağız bozuk
+Gerçek|doğru, hakikat, yalan, olay, kanıt, realite
+Doğruluk|yalan, dürüst, gerçek, güven, söz, samimi
+Sahtekarlık|taklit, kalpazan, yalan, düzmece, hile, sahte
+Hile|oyun, aldatmak, kopya, yalan, düzen, kopya çekmek
+Dolandırıcılık|aldatmak, para, suç, yalan, mağdur, sahtekâr
+Kalpazan|sahte, para, basmak, suç, banknot, sahte para
+Gasp|zorla, almak, soygun, suç, silah, zorbalık
+Cinayet|ölüm, suç, polis, kurban, katil, maktul
+Katil|cinayet, polis, suç, hapis, öldürmek, seri
+İpucu|iz, dedektif, bulmak, bilmece, işaret, ipucu bulmak
+Alibi|suç, mazeret, polis, sanık, yer, olay yeri
+Tanık|mahkeme, görmek, ifade, olay, yemin, ifade vermek
+Yemin|söz, mahkeme, el, doğru, namus, yeminli
+İfade|polis, tanık, sorgu, yazı, söylemek, tutanak
+Sorgu|polis, soru, oda, sanık, ifade, sorgu odası
+Mahkûm|hapis, ceza, hücre, suçlu, cezaevi, dava
+Firar|kaçmak, hapis, mahkûm, tünel, polis, gardiyan
+Af|bağışlamak, ceza, devlet, suç, hapis, genel af
+Pişman Olmak|keşke, hata, üzülmek, geri, vicdan, özür dilemek
+Özür|pişmanlık, affet, hata, dilemek, söylemek, bağışla
+Barışma|küs, anlaşma, el sıkışmak, sarılmak, kavga, barış
+Küslük|konuşmamak, kavga, arkadaş, öfke, barışmak, kızmak
+Dargınlık|küs, kırgın, konuşmamak, ilişki, kavga, surat asmak
+Kırgınlık|üzülmek, gönül, söz, kırmak, darılmak, kalp kırmak
+Gönül|kalp, aşk, sevgi, kırmak, almak, gönül alma
+Hatır|gönül, iyilik, saygı, kırmamak, sormak, hatır gönül
+İyilik|yardım, güzel, kötülük, sevap, vermek, hayır
+Kötülük|zarar, kötü, iyilik, kin, düşman, şer
+Kin|nefret, öfke, intikam, kalp, düşmanlık, garaz
+İntikam|öç, kin, almak, kötülük, hesap, kan davası
+Nefret|sevgi, kin, düşman, öfke, tiksinti, tiksinmek
+Düşmanlık|kin, savaş, karşı, nefret, barış, hasım
+Rekabet|yarış, rakip, ticaret, spor, kazanmak, çekişme
+Rakip|yarış, karşı, spor, kazanmak, düşman, hasım takım
+Kıyasıya Mücadele|yarış, rakip, güç, kazanmak, çaba, ter dökmek
+Zafer|kazanmak, bayrak, savaş, sevinç, galibiyet, şampiyon
+Yenilgi|kaybetmek, üzüntü, savaş, mağlubiyet, kayıp, hezimet
+Beraberlik|eşit, maç, skor, kimse, puan, 1-1
+Rövanş|tekrar, maç, intikam, karşılaşma, kazanmak, ikinci maç
+Final|son, maç, kupa, yarış, kazanan, büyük maç
+Eleme|yarışma, giden, kalmak, tur, sonuç, tur atlamak
+Şampiyonluk|kupa, birinci, takım, kutlama, sezon, kutlama kupası
+Fikstür|maç, takvim, lig, hafta, takım, program
+Puan Durumu|lig, sıralama, takım, tablo, maç, averaj
+Transfer|oyuncu, takım, futbol, para, kulüp, bonservis

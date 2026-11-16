@@ -13,7 +13,12 @@ export type GameMode = 'anlatma' | 'cizme' | 'kukla' | 'onbes';
 export type StepKind = GameMode | 'karisik';
 
 /** Bir turdaki rol. */
-export type Role = 'narrator' | 'observer' | 'listener';
+/**
+ * narrator: anlatan, observer: rakipten kartı denetleyen (butonlar onda),
+ * observerMate: Gözlemci'nin takım arkadaşı (Dinleyici ekranı + salt okunur Gözlemci ekranı),
+ * listener: anlatan takımın dinleyicisi (yalnızca Dinleyici ekranı).
+ */
+export type Role = 'narrator' | 'observer' | 'observerMate' | 'listener';
 
 export interface Player {
   readonly id: string;
@@ -97,8 +102,8 @@ export interface RoundPublicState {
 }
 
 /**
- * Kart yalnızca Anlatıcı ve Gözlemci'ye gönderilir. Dinleyicilerin istemcisine
- * hiç ulaşmaz (hile yapılamaz, gereksiz veri taşınmaz).
+ * Kart yalnızca Anlatıcı, Gözlemci ve Gözlemci'nin takım arkadaşlarına (salt okunur) gönderilir.
+ * Anlatan takımın Dinleyicilerinin istemcisine hiç ulaşmaz (hile yapılamaz, gereksiz veri taşınmaz).
  */
 export interface RoundPrivateState {
   readonly card: Card | null;

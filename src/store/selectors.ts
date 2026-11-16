@@ -26,6 +26,9 @@ export const useMyRole = (): Role | null =>
     if (!r || !s.selfId) return null;
     if (r.narratorId === s.selfId) return 'narrator';
     if (r.observerId === s.selfId) return 'observer';
+    // Gözlemci'nin takım arkadaşları rakip takımdadır (anlatan takım = round.team).
+    const me = s.players.find((p) => p.id === s.selfId);
+    if (me && me.team !== null && me.team !== r.team) return 'observerMate';
     return 'listener';
   });
 

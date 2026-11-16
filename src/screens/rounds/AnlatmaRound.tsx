@@ -19,6 +19,16 @@ export function AnlatmaRound({ round, role }: { round: RoundPublicState; role: R
       </RoundShell>
     );
   }
+  // Gözlemci'nin takım arkadaşı: Dinleyici ekranı + salt okunur Gözlemci ekranı (butonlar kapalı).
+  if (role === 'observerMate') {
+    return (
+      <RoundShell round={round} role={role}>
+        <ListenerView round={round} />
+        {card ? <TabuCardView card={card} /> : <Spinner label="Kart yükleniyor" />}
+        <ObserverControls round={round} card={card} readOnly />
+      </RoundShell>
+    );
+  }
   return (
     <RoundShell round={round} role={role}>
       {card ? (
@@ -50,20 +60,21 @@ function NarratorControls({ round, card }: { round: RoundPublicState; card: Tabu
   );
 }
 
-function ObserverControls({ round, card }: { round: RoundPublicState; card: TabuCard | null }) {
+/** `readOnly`: Gözlemci'nin takım arkadaşı butonları görür ama basamaz (skor zaten Dinleyici bölümünde). */
+function ObserverControls({ round, card, readOnly = false }: { round: RoundPublicState; card: TabuCard | null; readOnly?: boolean }) {
   const burned = card?.hit.some(Boolean) === true;
   return (
     <>
       <div className="round__actions round__actions--two">
-        <ActionButton variant="success" size="lg" onClick={() => sendAction({ t: 'round:correct' })}>
+        <ActionButton variant="success" size="lg" disabled={readOnly} onClick={() => sendAction({ t: 'round:correct' })}>
           Doğru Bilindi (+1)
         </ActionButton>
-        <ActionButton variant="danger" size="lg" onClick={() => sendAction({ t: 'round:forbidden' })}>
+        <ActionButton variant="danger" size="lg" disabled={readOnly} onClick={() => sendAction({ t: 'round:forbidden' })}>
           {burned ? 'Kart Yandı, Sonraki' : 'Yasaklı Kelime (−1)'}
         </ActionButton>
       </div>
       <div className="row" style={{ justifyContent: 'space-between' }}>
-        <ScorePill label="Tur skoru" value={round.correct - round.forbiddenHits} />
+        {readOnly ? <span className="muted" style={{ fontSize: 13 }}>Butonları yalnızca Gözlemci kullanır</span> : <ScorePill label="Tur skoru" value={round.correct - round.forbiddenHits} />}
         <PassLine round={round} />
       </div>
     </>

@@ -60,7 +60,7 @@ Durable Object sadece I/O yapar: her eylemden sonra durumu kaydeder, herkese yay
 
 - Başlatma: herkes takım seçip "Hazırım" der, her takımda en az 2 oyuncu olur, otomatik başlar.
 - Roller: anlatıcı takım içinde sırayla döner, gözlemci rakip takımdan sırayla gelir, bağlantısı kopanlar atlanır.
-- Kartlar yalnızca Anlatıcı ve Gözlemci'ye `private` mesajıyla gider; Dinleyiciler hiç almaz.
+- Kartlar Anlatıcı, Gözlemci ve Gözlemci'nin takım arkadaşlarına (salt okunur, butonlar kapalı) `private` mesajıyla gider; anlatan takımın Dinleyicileri hiç almaz.
 - Pass: Anlatma'da 1 hak; üçlü kartlarda bilinmemiş kelime sayısı kadar hak düşer (turda toplam 3).
 - 15 Kelime: sayaç 0'a inince tur süre bitmeden sona erer.
 - Net skor adıma çevrilir, negatif skor geri götürmez; 45. basamağa ulaşan takım kazanır.

@@ -9,7 +9,7 @@ import { sendAction, serverNow } from '../net/connection';
 import { useGameStore } from '../store/gameStore';
 import { useFocusMode, useMyRole, usePlayerName, usePhase, useRound } from '../store/selectors';
 
-const ROLE_LABEL: Record<Role, string> = { narrator: 'Anlatıcı', observer: 'Gözlemci', listener: 'Dinleyici' };
+const ROLE_LABEL: Record<Role, string> = { narrator: 'Anlatıcı', observer: 'Gözlemci', observerMate: 'Gözlemci Takımı', listener: 'Dinleyici' };
 
 export function GameStatusView() {
   const phase = usePhase();

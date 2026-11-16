@@ -26,16 +26,19 @@ for (const n of names) {
 
 const p0 = pages[0];
 await p0.goto(URL);
-await p0.fill('input >> nth=0', names[0]);
-await p0.click('text=Oda Kur');
+await p0.fill('input', names[0]);
+await p0.getByRole('button', { name: 'Devam' }).click();
+await p0.getByRole('button', { name: 'Oda Kur' }).click();
 await p0.waitForURL(/\/r\//);
 const code = p0.url().split('/r/')[1];
 for (let i = 1; i < 4; i++) {
   const p = pages[i];
   await p.goto(URL);
-  await p.fill('input >> nth=0', names[i]);
-  await p.fill('input >> nth=1', code);
-  await p.click('text=Odaya Katıl');
+  await p.fill('input', names[i]);
+  await p.getByRole('button', { name: 'Devam' }).click();
+  await p.getByRole('button', { name: 'Kod ile Gir' }).click();
+  await p.fill('input', code);
+  await p.getByRole('button', { name: 'Odaya Gir' }).click();
   await p.waitForSelector('text=Bağlı');
 }
 await p0.waitForSelector('text=Defne');

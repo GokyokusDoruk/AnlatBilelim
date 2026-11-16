@@ -387,7 +387,7 @@ export class RoomDurableObject extends DurableObject<Env> {
     this.sendTo(ws, { t: 'error', code, message });
   }
 
-  /** Herkese genel durum, Anlatıcı ve Gözlemci'ye ayrıca özel kart verisi. */
+  /** Herkese genel durum, Anlatıcı, Gözlemci ve Gözlemci takımına ayrıca özel kart verisi. */
   private pushAll(): void {
     const room = this.room;
     if (!room) return;
@@ -398,11 +398,16 @@ export class RoomDurableObject extends DurableObject<Env> {
     }
   }
 
-  /** Kart yalnızca turdaki Anlatıcı ve Gözlemci'ye gider; Dinleyiciler hiç almaz. */
+  /**
+   * Kart turdaki Anlatıcı ve Gözlemci'ye gider; Gözlemci'nin takım arkadaşları da (rakip takım) salt okunur görür.
+   * Anlatan takımın Dinleyicileri hiç almaz. Butonlar sunucuda zaten yalnızca Gözlemci'ye açıktır.
+   */
   private sendPrivateTo(ws: WebSocket, room: RoomData, playerId: string): void {
     const r = room.round;
-    const isActor = !!r && (r.narratorId === playerId || r.observerId === playerId);
-    if (!isActor) return;
+    if (!r) return;
+    const isActor = r.narratorId === playerId || r.observerId === playerId;
+    const isObserverMate = room.players.some((p) => p.id === playerId && p.team !== null && p.team !== r.team);
+    if (!isActor && !isObserverMate) return;
     this.sendTo(ws, { t: 'private', data: { card: room.phase === 'round' ? room.roundCard : null } });
   }
 

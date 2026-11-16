@@ -6,7 +6,7 @@ import { PassMeter, ScorePill } from '../../components/game/Meters';
 import { usePlayerName } from '../../store/selectors';
 import '../../components/game/game.css';
 
-export const ROLE_LABEL: Record<Role, string> = { narrator: 'Anlatıcı', observer: 'Gözlemci', listener: 'Dinleyici' };
+export const ROLE_LABEL: Record<Role, string> = { narrator: 'Anlatıcı', observer: 'Gözlemci', observerMate: 'Gözlemci Takımı', listener: 'Dinleyici' };
 
 /** Dinleyici ekranındaki fiil: moda göre. */
 export const VERB: Record<GameMode, string> = {

@@ -31,6 +31,20 @@ export function TripleRound({ round, role }: { round: RoundPublicState; role: Ro
     );
   }
 
+  // Gözlemci'nin takım arkadaşı: Dinleyici ekranı (tuval dahil) + salt okunur Gözlemci ekranı.
+  if (role === 'observerMate') {
+    return (
+      <RoundShell round={round} role={role}>
+        <ListenerView round={round}>
+          {isClueMode ? <ClueCounter left={round.cluesLeft!} total={CLUE_TOTAL} /> : null}
+          {round.mode === 'cizme' ? <ListenerDraw /> : null}
+        </ListenerView>
+        {card ? <TripleCardView card={card} /> : <Spinner label="Kart yükleniyor" />}
+        <ObserverControls round={round} isClueMode={isClueMode} readOnly />
+      </RoundShell>
+    );
+  }
+
   // Çizme modunda Anlatıcı kelimeler + tuval görür; Gözlemci yalnızca 3 kelimelik kartı.
   if (round.mode === 'cizme' && role === 'narrator') {
     return (
@@ -79,16 +93,17 @@ function NarratorControls({ round, card }: { round: RoundPublicState; card: Trip
   );
 }
 
-function ObserverControls({ round, isClueMode }: { round: RoundPublicState; isClueMode: boolean }) {
+/** `readOnly`: Gözlemci'nin takım arkadaşı butonu görür ama basamaz (skor zaten Dinleyici bölümünde). */
+function ObserverControls({ round, isClueMode, readOnly = false }: { round: RoundPublicState; isClueMode: boolean; readOnly?: boolean }) {
   return (
     <>
       {isClueMode ? (
-        <ActionButton variant="danger" size="lg" block onClick={() => sendAction({ t: 'round:clueUsed' })}>
+        <ActionButton variant="danger" size="lg" block disabled={readOnly} onClick={() => sendAction({ t: 'round:clueUsed' })}>
           Kelime Kullanıldı (−1)
         </ActionButton>
       ) : null}
       <div className="row" style={{ justifyContent: 'space-between' }}>
-        <ScorePill label="Bilinen" value={round.correct} />
+        {readOnly ? <span className="muted" style={{ fontSize: 13 }}>Tikleri ve butonu yalnızca Gözlemci kullanır</span> : <ScorePill label="Bilinen" value={round.correct} />}
         <PassLine round={round} />
       </div>
     </>

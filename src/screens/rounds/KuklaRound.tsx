@@ -32,6 +32,25 @@ export function KuklaRound({ round, role }: { round: RoundPublicState; role: Rol
     );
   }
 
+  // Gözlemci'nin takım arkadaşı: Dinleyici ekranı (animasyon) + salt okunur kelime ve kapalı "Bildi" butonu.
+  if (role === 'observerMate') {
+    return (
+      <RoundShell round={round} role={role}>
+        <ListenerView round={round}>{stage}</ListenerView>
+        <div className="word-card" key={card?.word ?? 'loading'}>
+          <div className="word-card__main">{card ? card.word : '…'}</div>
+        </div>
+        <ActionButton variant="primary" size="lg" block disabled>
+          Bildi (+1)
+        </ActionButton>
+        <div className="row" style={{ justifyContent: 'space-between' }}>
+          <span className="muted" style={{ fontSize: 13 }}>Butonu yalnızca Gözlemci kullanır</span>
+          <PassLine round={round} />
+        </div>
+      </RoundShell>
+    );
+  }
+
   return (
     <RoundShell round={round} role={role}>
       {stage}

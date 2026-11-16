@@ -59,13 +59,13 @@ export function Intro({ children }: { children: React.ReactNode }) {
         <path className="intro__path" d={SPIRAL.path} pathLength={1} />
         <polygon className="intro__star" points={starPoints(center.x, center.y, 26, 11)} />
       </svg>
-      <h1 className="intro__logo" aria-label="Tabu Party">
-        {'TABU'.split('').map((c, i) => (
+      <h1 className="intro__logo" aria-label="Anlat Bilelim">
+        {'ANLAT'.split('').map((c, i) => (
           <span key={i} className="intro__tabu" style={{ ['--i' as string]: i }}>
             {c}
           </span>
         ))}
-        <span className="intro__party"> PARTY</span>
+        <span className="intro__party"> BİLELİM</span>
       </h1>
       <div className="intro__modes">
         {MODES.map((m, i) => (

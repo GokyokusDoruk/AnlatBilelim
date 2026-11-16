@@ -75,7 +75,7 @@ export function HomeScreen() {
     <Screen center>
       <div className="brand">
         <h1 className="brand__title">
-          <span>Tabu</span> <span>Party</span>
+          <span>Anlat</span> <span>Bilelim</span>
         </h1>
         <p className="brand__subtitle muted">Anlat, çiz, kuklayı oynat. Aynı odada, kendi telefonundan.</p>
       </div>

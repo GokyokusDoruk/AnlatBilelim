@@ -1,4 +1,4 @@
-# Tabu Party
+# Anlat Bilelim
 
 Aynı odadaki arkadaşların kendi telefon/bilgisayar tarayıcılarından senkronize oynadığı, 4 modlu (Anlatma, Çizme, Kukla, 15 Kelime) Türkçe parti oyunu. Giriş yok: isim + oda kodu yeterli.
 

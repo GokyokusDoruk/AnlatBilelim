@@ -34,3 +34,8 @@ Kepçe, Hamur Tahtası, Bıçak Takımı, Mutfak Önlüğü, Zeytinlik, Tuzluk, 
 Tüp, Pamuk Şeker, Lokma, Poğaça, Pide, Döner, Köfte, Sütlaç, Aşure, Lokum
 Helva, Kumpir, Çiğ Köfte, Mantı, Dolma, Baston, Terazi, Metre, Gönye, Ataç
 Raptiye, Rozet, Plaket
+
+# Yeni kelimeler (2026-11)
+Mıknatıs, Fermuar, Düğme, İğne İplik, Tahterevalli, Atlıkarınca, Trambolin, Sıcak Hava Balonu, Sörf, Bowling
+Dart, Okçu, Su Tabancası, Kumdan Kale, Boya Fırçası, Boya Kovası, El Arabası, Buldozer, Çöp Kamyonu, İtfaiye Arabası
+Bisiklet Kaskı

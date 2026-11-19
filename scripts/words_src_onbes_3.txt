@@ -34,3 +34,8 @@ Medya, Seçim, Oy Pusulası, Sandık, Aday, Miting, Bakan, Başbakan, Cumhurbaş
 Referandum, Koalisyon, Muhalefet, İktidar, Mahkeme, Sanık, Tanık, Dava, Beraat, Hapis
 Para Cezası, Temyiz, İddianame, Savunma, İfade, Kefalet, Vekalet, Miras, Gümrük, Emeklilik
 Zam, Zarar
+
+# Yeni kelimeler (2026-11)
+Podcast, Influencer, Story, Abonelik, Şifre, Bulut Depolama, Ekran Görüntüsü, Emoji, Meme, Selfie
+Reklam Engelleyici, Spam, Dolandırıcılık, Çevrim Dışı, Uçak Modu, Powerbank, Akıllı Saat, Hologram, Elektrikli Araba, Karekod
+Sesli Asistan, Navigasyon, Mobil Bankacılık, Temassız Ödeme, E-Devlet, Online Alışveriş

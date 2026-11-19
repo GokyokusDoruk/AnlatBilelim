@@ -34,3 +34,8 @@ Elektrikli Süpürge, Saç Kurutma Makinesi, Ütü Masası, Çamaşır Ipi, Ask�
 Hamburger, Lahmacun, Döner, İskender, Adana Kebap, Mantı, Karnıyarık, İmam Bayıldı, Menemen, Sucuklu Yumurta
 Kuru Fasulye, Salata, Künefe, Türkiye, Almanya, Fransa, İtalya, İspanya, Japonya, Çin
 Hindistan, Mısır, Brezilya
+
+# Yeni kelimeler (2026-11)
+Taksi, Minibüs, Dolmuş, Yat, Kruvaziyer, Karavan, Ehliyet, Kask, Emniyet Kemeri, Trafik Lambası
+Otoyol, Gişe, Kavşak, Hız Sınırı, Park Cezası, Ramazan, Sahur, İftar, Yaz Tatili, Çarşı
+Semt Pazarı, AVM, Sinema Salonu, Opera, Bale, Sirk Çadırı, Bowling Salonu

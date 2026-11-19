@@ -469,3 +469,82 @@ Karnabahar|sebze, beyaz, yemek, kızartma, çiçek, kızarmış
 Brokoli|yeşil, sebze, sağlık, vitamin, ağaç, çorba
 Kereviz|sebze, kök, yemek, zeytinyağlı, yeşil, Ege usulü
 Enginar|sebze, yaprak, zeytinyağlı, kalp, Ege, dolması
+
+# Yeni kelimeler (2026-11)
+Seçim Sandığı|oy, pusula, mühür, seçmen, kabin, sayım
+Referandum|evet, hayır, halk, oylama, anayasa, seçim
+Muhalefet|iktidar, parti, karşı, meclis, eleştiri, lider
+Vergi Dairesi|beyanname, ödemek, devlet, borç, memur, gelir
+Nafaka|boşanma, ödemek, mahkeme, eş, çocuk, ay
+Boşanma|evlilik, mahkeme, avukat, ayrılmak, nafaka, eş
+Kına Gecesi|gelin, düğün, kırmızı, ağlamak, eller, türkü
+Sünnet|çocuk, düğün, kıyafet, şapka, asa, erkek
+Bayram Harçlığı|para, çocuk, el öpmek, şeker, büyükler, mendil
+Askerlik|asker, celp, vatani görev, şafak, tezkere, kışla
+Şafak Saymak|asker, gün, tezkere, bitmek, askerlik, takvim
+Staj|öğrenci, şirket, deneyim, yaz, iş, ücretsiz
+Prim|maaş, ek, performans, şirket, satış, ikramiye
+Grev|işçi, sendika, iş bırakmak, hak, eylem, maaş
+Sendika|işçi, grev, üye, hak, toplu sözleşme, örgüt
+Patron|şirket, sahibi, çalışan, maaş, yönetici, kovmak
+Kredi Notu|banka, borç, puan, kart, ödeme, sicil
+Döviz Bürosu|dolar, euro, kur, para, bozdurmak, alış
+Yatırım|para, kâr, borsa, risk, gelecek, altın
+İflas|şirket, borç, batmak, mahkeme, ödeyememek, konkordato
+Reklam|ürün, televizyon, satmak, slogan, tanıtım, şirket
+Slogan|kısa, söz, reklam, akılda kalmak, marka, cümle
+Marka|logo, ürün, isim, şirket, ünlü, taklit
+Yalan Makinesi|doğru, sorgu, test, kablo, gerçek, kalp atışı
+Kefalet|para, tutuklu, serbest, mahkeme, ödemek, cezaevi
+Derbi|rakip, maç, Fenerbahçe, Galatasaray, büyük, şehir
+Taraftar|tribün, takım, tezahürat, forma, maç, bayrak
+Olimpiyat|madalya, altın, sporcu, dört yıl, halka, meşale
+Vize Başvurusu|konsolosluk, pasaport, randevu, belge, yurt dışı, ret
+Göçmen|ülke, gitmek, yabancı, sınır, yurt, yeni hayat
+Tur Rehberi|otobüs, anlatmak, turist, müze, gezi, bayrak
+Günlük|yazmak, her gün, gizli, defter, sevgili, anı
+Burs|öğrenci, para, ders, başarı, üniversite, aylık
+Kapora|ön ödeme, düğün salonu, ev, para, rezervasyon, iade
+Kasko|araba, sigorta, kaza, hasar, poliçe, yıllık
+Arsa|toprak, inşaat, tapu, imar, yatırım, boş
+Kentsel Dönüşüm|bina, yıkmak, deprem, yeni, mahalle, müteahhit
+Deprem Çantası|su, fener, düdük, acil, ilk yardım, hazır
+İlk Yardım|yaralı, kaza, bandaj, kalp masajı, kurs, ambulans
+Kalp Masajı|göğüs, bastırmak, ilk yardım, nefes, hayat kurtarmak, kriz
+Nöbetçi Eczane|gece, ilaç, kapalı, açık, tabela, hafta sonu
+Muayene|doktor, hasta, randevu, kontrol, hastane, şikâyet
+Ameliyat|cerrah, narkoz, hastane, bıçak, dikiş, kesmek
+Narkoz|uyutmak, ameliyat, iğne, anestezi, saymak, bayılmak
+Tahlil|kan, sonuç, laboratuvar, hastane, idrar, doktor
+Kan Bağışı|Kızılay, damar, vermek, hayat kurtarmak, iğne, hasta
+Organ Bağışı|böbrek, nakil, ölüm, hayat, kart, kalp
+Dava|mahkeme, avukat, hâkim, açmak, karar, duruşma
+Duruşma|mahkeme, hâkim, sanık, ertelemek, salon, karar
+Sanık|mahkeme, suç, avukat, ifade, savunma, tutuklu
+Hapis|ceza, cezaevi, mahkûm, parmaklık, yıl, suç
+İhale|teklif, devlet, en düşük, şirket, kazanmak, belediye
+Sözleşme|imza, madde, anlaşma, şirket, avukat, kâğıt
+Ortaklık|şirket, pay, iki kişi, kâr, iş, birlikte
+
+# Yeni özel isimler (2026-11)
+Hezarfen Ahmet Çelebi|uçmak, kanat, Galata, Üsküdar, Osmanlı, bilgin
+Barbaros Hayreddin Paşa|denizci, Osmanlı, donanma, sakal, Preveze, kaptanıderya
+Sabahattin Ali|Kürk Mantolu Madonna, yazar, Kuyucaklı Yusuf, öldürülmek, roman, Raif
+Çanakkale Savaşı|1915, Gelibolu, Anzak, geçilmez, cephe, Seyit Onbaşı
+Göbeklitepe|Şanlıurfa, tapınak, en eski, dikilitaş, kazı, Neolitik
+Çatalhöyük|Konya, Neolitik, ev, çatı, antik, köy
+Sümela Manastırı|Trabzon, kaya, Maçka, manastır, dik, Meryem Ana
+Jül Sezar|Roma, Brütüs, sen de mi, imparator, salata, Kleopatra
+Charlie Chaplin|sessiz film, bıyık, şapka, baston, komedi, Şarlo
+Gandhi|Hindistan, barış, şiddetsizlik, gözlük, bağımsızlık, açlık grevi
+Dolmabahçe Sarayı|Beşiktaş, saray, Atatürk, dokuzu beş geçe, Osmanlı, Boğaz
+Rumeli Hisarı|Fatih, kale, Boğaz, İstanbul, fetih, sur
+Sultanahmet Camii|Mavi Cami, minare, altı, İstanbul, Ayasofya, çini
+Selimiye Camii|Edirne, Mimar Sinan, ustalık eseri, cami, kubbe, minare
+Büyük Taarruz|1922, Dumlupınar, Kurtuluş Savaşı, Atatürk, 30 Ağustos, ordular
+Lozan Antlaşması|1923, İsmet İnönü, barış, İsviçre, anlaşma, sınır
+Hıdırellez|bahar, 6 Mayıs, dilek, gül ağacı, ateş atlamak, Hızır
+Nevruz|bahar, 21 Mart, ateş, yeni yıl, bayram, Ergenekon
+Woodstock|festival, 1969, müzik, hippi, Amerika, rock
+Sahra Çölü|Afrika, kum, deve, sıcak, büyük, kurak
+Niagara Şelalesi|Kanada, Amerika, su, şelale, düşmek, balayı

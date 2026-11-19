@@ -34,3 +34,9 @@ Zaman Tüneli, Sonsuz Döngü, Tavşan Deliği, Uçurumun Kenarı, İkiyüzlü, 
 Hayal Kırıklığı, Huzur, Panik, Heyecan, Yalnızlık, Telaş, Rahatlama, Dalga Geçmek, Çaktırmamak, Ağzından Kaçırmak
 Lafı Dolandırmak, Kulaktan Kulağa, Ağız Birliği, Söz Vermek, Söz Dinlemek, Laf Atmak, Laf Sokmak, Yalan Söylemek, Sır Saklamak, İtiraf Etmek
 Ters Cevap, Sessiz Kalmak, Bağırıp Çağırmak
+
+# Yeni kelimeler (2026-11)
+Zaman Yolculuğu, Yerçekimi, Fotosentez, Buharlaşma, Optik İllüzyon, Ayna Yansıması, Paralel Evren, Deja Vu, Uykusuzluk, Baş Ağrısı
+Hapşırık, Hıçkırık, Esneme, Gıdıklanmak, Yankesici, Son Dakika Golü, Kırmızı Kart, Rövanş, Enerji Tasarrufu, Küresel Isınma
+Geri Dönüşüm, Trafik Sıkışıklığı, Elektrik Çarpması, Deprem Tatbikatı, Mevsim Değişimi, Gece Yarısı, Öğle Arası, Hafta Sonu, Bayram Sabahı, Rüya İçinde Rüya
+Mutluluk, Yorgunluk, Açlık, Susuzluk

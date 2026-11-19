@@ -465,3 +465,87 @@ Eleme|yarışma, giden, kalmak, tur, sonuç, tur atlamak
 Fikstür|maç, takvim, lig, hafta, takım, program
 Puan Durumu|lig, sıralama, takım, tablo, maç, averaj
 Transfer|oyuncu, takım, futbol, para, kulüp, bonservis
+
+# Yeni kelimeler (2026-11)
+Kanaat|yetinmek, az, şükür, hırs, memnun, istemek
+Tembellik|üşengeç, yatmak, iş, yapmamak, erteleme, uyku
+Erteleme|sonra, yarın, tembellik, iş, yapmamak, son dakika
+Mükemmeliyetçilik|kusursuz, hata, detay, en iyi, titiz, mükemmel
+İlham|fikir, sanat, yaratıcı, perisi, kaynak, gelmek
+Tesadüf|şans, rastlantı, beklenmedik, denk gelmek, kader, an
+Bereket|bolluk, ekmek, sofra, çok, ürün, hayır
+Huzur|sakin, rahat, iç, mutlu, sessiz, barış
+Affetmek|özür, kin, kalp, hata, bağışlamak, unutmak
+Kibarlık|nazik, lütfen, teşekkür, terbiye, saygı, görgü
+Görgü Kuralları|adap, sofra, kibarlık, davranış, terbiye, nezaket
+Kriz|bunalım, sorun, ekonomi, zor, acil, çözüm
+Düzen|sıra, toplu, kaos, dağınık, kural, yerli yerinde
+Motivasyon|isteklendirme, enerji, hedef, çalışmak, başarı, istek
+Tükenmişlik|yorgun, iş, stres, enerji, bitmek, depresyon
+Stres|gergin, baskı, iş, sınav, kaygı, yorgun
+Kaygı|endişe, korku, gelecek, stres, gergin, panik
+Özgüven|kendine güven, cesaret, inanmak, utangaç, kendinden emin, güçlü
+Utangaçlık|çekingen, kızarmak, sosyal, konuşamamak, mahcup, içe kapanık
+Komplo Teorisi|gizli, plan, inanmak, uydurma, hükümet, iddia
+Propaganda|siyasi, yayma, fikir, etkilemek, reklam, savaş
+Sansür|yasak, yayın, kesmek, gazete, ifade özgürlüğü, bip
+Bürokrasi|evrak, memur, devlet, işlem, yavaş, kurum
+Torpil|tanıdık, iltimas, iş, kayırmak, adam, haksız
+Yolsuzluk|rüşvet, devlet, çalmak, para, soruşturma, siyasetçi
+Vatandaşlık|ülke, kimlik, pasaport, hak, ödev, devlet
+Medeniyet|uygarlık, kültür, toplum, ilerleme, şehir, tarih
+Uğur|şans, iyi, getirmek, uğurlu, sayı, tılsım
+Karma|yaptığını bulmak, geri dönmek, iyilik, kötülük, kader, Hint
+Nirvana|Budizm, aydınlanma, huzur, meditasyon, ruh, grup
+Vicdan Azabı|suçluluk, pişmanlık, uyuyamamak, iç ses, hata, rahatsız
+Fedakârlık|özveri, vazgeçmek, anne, başkası için, emek, kendini
+Tutarlılık|çelişki, aynı, söz, davranış, istikrar, mantık
+İroni|alay, tersini, söylemek, ince, mizah, Sokrates
+Adaletsizlik|haksızlık, eşit değil, hak, terazi, mağdur, zulüm
+Zulüm|eziyet, kötü, güçlü, haksızlık, zalim, acı
+Korkaklık|cesaret, kaçmak, tavuk, ödlek, korku, yürek
+Saflık|temiz, kandırmak, masum, çocuk, iyi niyet, kolay
+Masumiyet|suçsuz, çocuk, temiz, saf, mahkeme, bebek
+Olgunluk|yaş, büyümek, akıl, tecrübe, sakin, meyve
+Tecrübe|deneyim, yaş, yaşamak, öğrenmek, usta, bilgi
+Bilgelik|akıl, yaşlı, bilge, bilgi, düşünmek, filozof
+Cehalet|bilgisiz, okumamak, bilmemek, eğitim, cahil, karanlık
+Hayranlık|beğenmek, ünlü, takdir, idol, bakmak, sevgi
+Açgözlülük|hırs, doymamak, çok, para, paylaşmamak, cimri
+Savurganlık|israf, harcamak, para, tutumsuz, saçmak, boşa
+İsraf|boşa, yemek, harcamak, çöpe atmak, tasarruf, savurgan
+Tasarruf|biriktirmek, para, kısmak, enerji, kumbara, israf
+Kararsızlık|seçmek, iki arada, düşünmek, emin olmamak, belirsiz, ikilem
+İkilem|iki seçenek, zor, karar, seçmek, arada kalmak, çıkmaz
+Hayal Kırıklığı|beklenti, üzülmek, umut, olmamak, bozulmak, düş
+Coşku|heyecan, sevinç, kalabalık, bağırmak, mutlu, enerji
+Heyecan|kalp, çarpıntı, beklemek, coşku, merak, sabırsızlık
+Şükran|teşekkür, minnet, nankör, iyilik, değer bilmek, şükür
+
+# Yeni özel isimler (2026-11)
+Uluğ Bey|astronom, Semerkant, Timur, gözlemevi, yıldız, hükümdar
+Ali Kuşçu|astronom, matematik, Semerkant, İstanbul, Uluğ Bey, Fatih
+Kâtip Çelebi|Cihannüma, bilgin, Osmanlı, coğrafya, kitap, Keşfü'z-Zünun
+Takiyüddin|gözlemevi, astronom, Osmanlı, Galata, yıkılmak, saat
+Lagari Hasan Çelebi|roket, uçmak, barut, Osmanlı, Sarayburnu, ilk
+Cezeri|robot, mühendis, Artuklu, su saati, fil saati, mekanik
+Köroğlu|destan, Bolu Beyi, Kırat, eşkıya, Çamlıbel, ozan
+Ergenekon Destanı|demir dağ, bozkurt, eritmek, Türk, çıkış, nevruz
+Kösem Sultan|Osmanlı, valide, güçlü, saray, kadınlar saltanatı, Ahmed
+Osman Hamdi Bey|Kaplumbağa Terbiyecisi, ressam, müze, arkeolog, Osmanlı, tablo
+Itri|besteci, tekbir, Osmanlı, musiki, Buhurizade, bayram
+Zeki Müren|Sanat Güneşi, şarkıcı, Bodrum, Türk sanat müziği, pelerin, sahne
+Müzeyyen Senar|şarkıcı, Türk sanat müziği, Cumhuriyetin divası, Atatürk, kadın, ses
+Cem Karaca|Anadolu rock, Tamirci Çırağı, şarkıcı, Apaşlar, Kardaşlar, sürgün
+Kopernik|güneş merkezli, astronom, Polonya, dünya, gezegen, devrim
+Freud|psikoloji, rüya, bilinçaltı, Viyana, psikanaliz, ego
+Büyük İskender|Makedonya, fatih, Aristoteles, Hindistan, genç, imparatorluk
+Attila|Hun, Avrupa, Tanrının kırbacı, hükümdar, Roma, at
+Mete Han|Hun, onlu sistem, ıslıklı ok, Türk ordusu, hükümdar, Asya
+Hacivat ile Karagöz|gölge oyunu, perde, Bursa, tasvir, perdeci, yâr bana bir eğlence
+Mimar Kemaleddin|mimarlık, Birinci Ulusal Mimarlık, Ankara, Vakıf Han, Osmanlı, Cumhuriyet
+Hoca Ahmet Yesevi|Türkistan, tasavvuf, Divan-ı Hikmet, derviş, Yesi, pir
+Kaşgarlı Mahmut|Divanü Lügati't-Türk, sözlük, Türk dili, Karahanlı, harita, bilgin
+Yusuf Has Hacib|Kutadgu Bilig, Karahanlı, kitap, bilgi, siyasetname, Balasagun
+Bilge Kağan|Orhun, Göktürk, yazıt, hükümdar, Kül Tigin, Tonyukuk
+Orhun Yazıtları|Göktürk, taş, Moğolistan, Bilge Kağan, en eski, Türkçe

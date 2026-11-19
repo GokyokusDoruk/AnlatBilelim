@@ -34,3 +34,7 @@ Bahçe, Kuyu, Çit, Balkon, Garaj, Kulübe, Ağaç Ev, Ahır, Sera, Havuz
 Çeşme, Volkan, Ada, Göl, Çöl, Orman, Tepe, Vadi, Buz Dağı, Kıyı
 Yol, Ampul, Priz, Pil, Klavye, Fare, Yazıcı, Fan, Ütü, Hemşire
 Postacı, Öğretmen
+
+# Yeni kelimeler (2026-11)
+Bıçak, Fincan, Hediye Paketi, Kardan Adam, Muz Kabuğu, Dondurma Külahı, Lolipop, Kek, Çörek, Sosis
+Patates Kızartması

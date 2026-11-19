@@ -479,3 +479,87 @@ Okul Formu|önlük, öğrenci, giymek, renk, kıyafet, rozet
 Sırt Çantası|okul, taşımak, omuz, fermuar, kitap, tekerlekli
 Beslenme Çantası|okul, yiyecek, çocuk, kutu, teneffüs, meyve
 Su Matarası|okul, içmek, kapak, taşımak, metal, şişe
+
+# Yeni kelimeler (2026-11)
+Tatil Köyü|her şey dahil, otel, havuz, animatör, deniz, yaz
+Tren İstasyonu|peron, bilet, vagon, yolcu, ray, gar
+Kiralık Araba|ehliyet, şirket, günlük, ödemek, tatil, sürmek
+Navigasyon|yol, harita, sağa dön, GPS, adres, telefon
+Trafik Cezası|polis, hız, park, makbuz, ödemek, kural
+Benzin İstasyonu|yakıt, pompa, araba, depo, mazot, doldurmak
+Lastik Patlaması|tekerlek, yol, stepne, kriko, çivi, hava
+Elektrik Kesintisi|karanlık, mum, fatura, ışık, kablo, şebeke
+Su Faturası|ödemek, musluk, ay, idare, sayaç, borç
+Ev Arkadaşı|kira, paylaşmak, öğrenci, oda, mutfak, bölüşmek
+Taşınma|kamyon, koli, ev, eşya, nakliye, yeni
+Kapıcı|apartman, ekmek, çöp, kalorifer, bina, yönetici
+Apartman Toplantısı|aidat, yönetici, komşu, karar, asansör, bina
+Aidat|apartman, ödemek, ay, yönetim, ortak gider, site
+Bahçıvan|çiçek, çim, budamak, sulamak, ağaç, makas
+Saksı|çiçek, toprak, balkon, bitki, sulamak, kil
+Sera|domates, sıcak, naylon, bitki, Antalya, cam
+Arı Kovanı|bal, petek, kraliçe, iğne, arıcı, vızıltı
+Veteriner|hayvan, kedi, köpek, aşı, hasta, klinik
+Acil Servis|hastane, ambulans, doktor, sedye, kaza, nöbet
+Yara Bandı|kesik, yapıştırmak, kan, sargı, ecza, deri
+Gözlükçü|gözlük, lens, numara, cam, çerçeve, göz
+Kunduracı|ayakkabı, tamir, pençe, deri, topuk, çekiç
+Çilingir|kilit, kapı, anahtar, açmak, kapıda kalmak, maymuncuk
+Tesisatçı|boru, su, musluk, sızıntı, kaçak, tamir
+Nalbur|vida, çivi, boya, hırdavat, dükkân, alet
+Açık Büfe|otel, kahvaltı, tabak, sınırsız, sıra, yemek
+Paket Servis|sipariş, kurye, eve, motor, uygulama, yemek
+Kargo Takibi|paket, numara, nerede, teslimat, şube, mesaj
+İndirim|fiyat, ucuz, kampanya, yüzde, kasım, fırsat
+Kasa Fişi|alışveriş, market, ödeme, kâğıt, fiyat, iade
+Taksit|kredi kartı, ay, ödemek, peşin, borç, faiz
+Kuyruk|sıra, beklemek, insan, banka, uzun, kasa
+Sinema Bileti|film, koltuk, salon, gişe, patlamış mısır, seans
+Bit Pazarı|eski, ikinci el, antika, ucuz, tezgâh, pazarlık
+Pazarlık|fiyat, indirim, satıcı, son fiyat, çarşı, almak
+Kuru Temizleme|elbise, leke, takım, yıkamak, makine, ütü
+Sanayi Sitesi|tamirci, araba, usta, dükkân, yağ, çırak
+Çırak|usta, öğrenmek, genç, dükkân, iş, kalfa
+İkametgâh|adres, muhtar, belge, ev, oturmak, nüfus
+Nüfus Cüzdanı|kimlik, kart, numara, devlet, fotoğraf, doğum
+Ehliyet Sınavı|araba, direksiyon, sürücü kursu, kural, geçmek, trafik
+Sürücü Kursu|ehliyet, direksiyon, hoca, araba, sınav, öğrenmek
+Park Etmek|araba, yer, geri geri, kaldırım, otopark, sıkışık
+Hava Yastığı|araba, kaza, patlamak, direksiyon, güvenlik, şişmek
+Yedek Lastik|stepne, bagaj, patlamak, tekerlek, değiştirmek, kriko
+Çekici|araba, arıza, kaza, taşımak, yol yardım, vinç
+Rötar|uçak, gecikme, beklemek, havalimanı, sefer, saat
+Aktarma|uçuş, bağlantı, havalimanı, beklemek, iki uçak, transit
+Bagaj Bandı|havalimanı, valiz, dönmek, almak, beklemek, kayış
+Kabin Memuru|uçak, hostes, servis, güvenlik, yolcu, uçuş
+Kondüktör|tren, bilet, kontrol, vagon, yolcu, düdük
+Yataklı Vagon|tren, uyumak, kompartıman, gece, yolculuk, ranza
+Yemekhane|yemek, tepsi, sıra, okul, fabrika, kalabalık
+
+# Yeni özel isimler (2026-11)
+Nemrut Dağı|heykel, Adıyaman, güneş doğuşu, kafa, kral, Kommagene
+Kanuni Sultan Süleyman|Muhteşem, Osmanlı, Hürrem, padişah, kanun, en uzun
+Titanik|gemi, buzdağı, batmak, Jack, Rose, film
+Yoda|Star Wars, yeşil, Jedi, kulak, güç, bilge
+NBA|basketbol, Amerika, lig, smaç, Lakers, oyuncu
+Hidayet Türkoğlu|basketbol, NBA, Türk, Orlando, oyuncu, federasyon
+Hakan Şükür|futbolcu, golcü, Galatasaray, boğa, milli takım, en hızlı gol
+Yılmaz Güney|Çirkin Kral, yönetmen, Yol, film, Cannes, oyuncu
+Leyla ile Mecnun|aşk, dizi, İsmail Abi, Erdal, Ali Atay, Fuzuli
+Avengers|Marvel, kahraman, Iron Man, Thanos, Kaptan Amerika, film
+Game of Thrones|ejderha, taht, dizi, Kış geliyor, Stark, Westeros
+Friends|dizi, arkadaş, Ross, Rachel, Central Perk, New York
+Squid Game|dizi, Kore, oyun, kırmızı ışık yeşil ışık, para, Netflix
+Apple|iPhone, elma, Steve Jobs, Mac, şirket, logo
+Bülent Ersoy|Diva, şarkıcı, Türk sanat müziği, Abla, jüri, sahne
+Kenan İmirzalıoğlu|oyuncu, Ezel, Deli Yürek, Yusuf Miroğlu, yakışıklı, yarışma sunucusu
+Haluk Bilginer|oyuncu, Emmy, Şahsiyet, tiyatro, İngiltere, Agah
+Şener Şen|oyuncu, Eşkıya, Yeşilçam, Züğürt Ağa, komedi, Baran
+Ezel|dizi, intikam, Kenan İmirzalıoğlu, Ramiz Dayı, Eyşan, Ömer
+Behzat Ç.|dizi, komiser, Ankara, Erdal Beşikçioğlu, Harun, cinayet
+Elon Musk|Tesla, SpaceX, zengin, Mars, Twitter, X
+Bill Gates|Microsoft, zengin, Windows, bilgisayar, vakıf, Amerikalı
+Steve Jobs|Apple, iPhone, balıkçı yaka, Mac, kurucu, elma
+Mark Zuckerberg|Facebook, Meta, kurucu, Harvard, sosyal medya, gri tişört
+Nobel Ödülü|ödül, barış, İsveç, bilim, Alfred, dinamit
+Hollywood|film, Los Angeles, tabela, yıldız, sinema, Amerika

@@ -34,3 +34,8 @@ Sandalye, Koltuk, Yatak, Dolap, Halı, Perde, Ayna, Lamba, Televizyon, Buzdolab�
 Fırın, Çamaşır Makinesi, Süpürge, Ütü, Tencere, Tabak, Bardak, Kaşık, Çatal, Koşu
 Jimnastik, Paten, Sınıf, Kütüphane, Park, Kilise, Gar, Kahverengi, Lacivert, Turkuaz
 Bordo, Bej
+
+# Yeni kelimeler (2026-11)
+Hamsi, Pide, Köfte, Tost, Gözleme, Kokoreç, Midye, Kumpir, Waffle, Patlamış Mısır
+Pamuk Şeker, Lunapark, Hayvanat Bahçesi, Akvaryum, Kırtasiye, Otobüs, Sucuk, Çiğköfte, Su Böreği, Pişmaniye
+Tantuni

@@ -34,3 +34,9 @@ Balıkçı Teknesi, Simitçi Arabası, Su Satıcısı, Dondurmacı Amca, Tamirci
 Dağa Tırmanmak, Ağaca Çıkmak, Ata Binmek, Uçurtma Uçurmak, Balon Şişirmek, Kar Topu Atmak, Çiçek Toplamak, Meyve Toplamak, Çay Toplamak, Fındık Toplamak
 Bağ Bozumu, Odun Kırmak, Ateş Yakmak, Çadır Kurmak, Balık Tutmak, Kamp Yapmak, Okula Gitmek, Sınav Olmak, Ödev Yapmak, Ders Çalışmak
 Tahtaya Kalkmak, Teneffüs Yapmak
+
+# Yeni kelimeler (2026-11)
+Yangın Söndürmek, Diş Fırçalamak, Mum Üflemek, Uyurgezer, Hokkabaz, Cambaz, Bekçi, Çoban, Arıcı, Kâşif
+Mumya, Vampir, Zombi, Deniz Kızı, Tek Boynuzlu At, Cin, Dev, Cüce, Peri, Sihirli Lamba
+Korsan Gemisi, Dans Etmek, Yüzmek, Kayak Yapmak, Bisiklet Sürmek, Ağaca Tırmanmak, Kardan Adam Yapmak, Yemek Pişirmek, Gitar Çalmak, Davul Çalmak
+Fotoğraf Çekmek, Selfie Çekmek, Halat Çekme, Çuval Yarışı

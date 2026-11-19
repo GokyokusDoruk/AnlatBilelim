@@ -479,3 +479,72 @@ Bahşiş|garson, ekstra, para, bırakmak, teşekkür, cüzdan
 Rezervasyon Masası|restoran, ayırtmak, telefon, isim, saat, garson
 Pazar Arabası|alışveriş, sebze, tekerlek, çekmek, meyve, file
 Alışveriş Listesi|market, yazmak, unutmak, kağıt, ihtiyaç, sepet
+
+# Yeni kelimeler (2026-11)
+Ütü|kırışık, buhar, gömlek, sıcak, masa, düzleştirmek
+Kum Havuzu|park, çocuk, kova, kürek, oynamak, kale
+Pazar Yeri|sebze, meyve, tezgâh, satıcı, file, alışveriş
+Aşçı|yemek, mutfak, şef, pişirmek, önlük, restoran
+Dondurmacı|yaz, külah, Maraş, top, soğuk, tatlı
+Kar Topu|kış, atmak, savaş, beyaz, soğuk, eldiven
+Yağmurluk|yağmur, ıslanmak, kapüşon, giymek, su geçirmez, ceket
+Kapı Zili|çalmak, misafir, düğme, ses, ding dong, apartman
+Tırnak Makası|kesmek, el, ayak, uzamak, törpü, parmak
+Kürdan|diş, yemek, ahşap, sivri, ağız, et
+Peçete|ağız, silmek, kâğıt, sofra, masa, mendil
+Islak Mendil|bebek, silmek, paket, el, temizlik, çanta
+Kulak Çubuğu|pamuk, kulak kiri, temizlemek, banyo, çöp, ince
+Oklava|hamur, açmak, yufka, börek, mutfak, tahta
+Kevgir|süzmek, makarna, delik, su, mutfak, kap
+Huni|dökmek, şişe, dar, ağız, sıvı, akıtmak
+Askı|elbise, dolap, asmak, ceket, tel, gardırop
+Gardırop|elbise, dolap, askı, yatak odası, kapak, giysi
+Komodin|yatak, yan, çekmece, lamba, gece, oda
+Abajur|lamba, ışık, yatak başı, gece, kumaş, masa
+Paspas|kapı, ayak, silmek, giriş, hoş geldiniz, kir
+Çöp Kovası|poşet, mutfak, atmak, kapak, pedal, koku
+Faraş|süpürge, toz, çöp, kürek, yer, toplamak
+Mandal|çamaşır, ip, asmak, kurutmak, sıkıştırmak, balkon
+Çamaşır İpi|asmak, mandal, balkon, kurumak, giysi, gerilmek
+Leğen|su, yıkamak, plastik, kap, ayak, çamaşır
+El Feneri|ışık, pil, karanlık, gece, kamp, tutmak
+Misket|cam, oyun, çocuk, yuvarlak, renkli, bilye
+Topaç|dönmek, oyuncak, çevirmek, ip, çocuk, eski
+Seksek|kare, taş, zıplamak, çocuk, oyun, tebeşir
+Saklambaç|saklanmak, sayı saymak, ebe, oyun, çocuk, bulmak
+Yakan Top|oyun, iki takım, vurmak, yanmak, çocuk, atmak
+Körebe|göz bağlamak, ebe, oyun, yakalamak, çocuk, eşarp
+İp Atlama|zıplamak, oyun, kız, çevirmek, çocuk, sayı
+Tebeşir|tahta, yazmak, beyaz, öğretmen, toz, okul
+Kara Tahta|tebeşir, sınıf, yazmak, öğretmen, silmek, okul
+Teneffüs|zil, ders arası, bahçe, okul, oyun, kantin
+Sıra Arkadaşı|okul, yan, oturmak, sınıf, kopya, dost
+
+# Yeni özel isimler (2026-11)
+İtalya|pizza, Roma, çizme, makarna, Venedik, Milano
+Örümcek Adam|ağ, Peter Parker, kahraman, Marvel, maske, tırmanmak
+Kral Şakir|çizgi film, kedi, aile, Necati, Remzi, Cartoon Network
+Scooby-Doo|köpek, Shaggy, gizem, Kurabiye, minibüs, hayalet
+Süper Mario|oyun, tesisatçı, bıyık, Luigi, prenses, mantar
+Lego|oyuncak, parça, blok, Danimarka, birleştirmek, renkli
+Adana|kebap, şalgam, sıcak, Seyhan, Çukurova, acı
+Amerika|ABD, Kolomb, Washington, kıta, dolar, New York
+Almanya|Berlin, Alman, gurbetçi, futbol, araba, bira
+Rusya|Moskova, soğuk, Putin, en büyük, Kremlin, matruşka
+Çin|Pekin, Seddi, kalabalık, pirinç, çubuk, ejderha
+Ege Denizi|Yunanistan, ada, İzmir, deniz, mavi, zeytin
+Drakula|vampir, Transilvanya, kan, kont, sivri diş, yarasa
+Kuzey Kutbu|buz, kutup ayısı, soğuk, Noel Baba, Arktik, kar
+Eskişehir|öğrenci, Porsuk, çibörek, lületaşı, tramvay, Odunpazarı
+Hollanda|lale, yel değirmeni, Amsterdam, bisiklet, turuncu, peynir
+İspanya|boğa güreşi, Madrid, flamenko, paella, Barcelona, Real
+Yunanistan|Atina, komşu, ada, gyros, Akropolis, sirtaki
+Avustralya|kanguru, Sidney, koala, kıta, okyanus, uzak
+Kanada|akçaağaç, soğuk, Toronto, ayı, Kuzey Amerika, Niagara
+Buz Devri|sincap, palamut, mamut, film, Sid, Manny
+Karlar Ülkesi|Elsa, Anna, Olaf, Disney, buz, Aldırma Gönül
+Oyuncak Hikâyesi|Woody, Buzz, Pixar, kovboy, Andy, film
+Garfield|kedi, turuncu, lazanya, pazartesi, tembel, Odie
+Red Kit|kovboy, gölgesinden hızlı, Dalton, Jolly Jumper, çizgi roman, Vahşi Batı
+Tenten|muhabir, Milu, kahküllü, çizgi roman, Belçika, Kaptan Haddock
+Pembe Panter|çizgi film, Henry Mancini, müfettiş, sessiz, kedi, müzik

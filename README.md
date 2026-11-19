@@ -1,6 +1,6 @@
 # Anlat Bilelim
 
-Aynı odadaki arkadaşların kendi telefon/bilgisayar tarayıcılarından senkronize oynadığı, 4 modlu (Anlatma, Çizme, Kukla, 15 Kelime) Türkçe parti oyunu. Giriş yok: isim + oda kodu yeterli.
+Aynı odadaki arkadaşların kendi telefon/bilgisayar tarayıcılarından senkronize oynadığı, 3 modlu (Anlatma, Çizme, 15 Kelime) Türkçe parti oyunu. Giriş yok: isim + oda kodu yeterli.
 
 ## Kurulum
 
@@ -68,7 +68,7 @@ Durable Object sadece I/O yapar: her eylemden sonra durumu kaydeder, herkese yay
 
 ## Tur ekranları
 
-`src/screens/rounds/`: Anlatma (`AnlatmaRound`) ve üçlü kart modları (`TripleRound`: 15 Kelime, ayrıca Çizme/Kukla için kart + tik + pass çerçevesi).
+`src/screens/rounds/`: Anlatma (`AnlatmaRound`) ve üçlü kart modları (`TripleRound`: 15 Kelime, ayrıca Çizme için kart + tik + pass çerçevesi).
 Anlatıcı ve Gözlemci tur sırasında yalnızca kartına odaklanır (tahta gizlenir), Dinleyici tahtayı ve anlık skoru görür.
 Pass kuralı `shared/board.ts` içindeki `passCost` / `canPass` ile hem sunucuda hem butonun `disabled` durumunda aynı şekilde işler.
 Eylem butonları kısa süre kendini kilitler (çift dokunuş çift puan yazmasın).
@@ -85,6 +85,8 @@ Yerel geliştirmede `.dev.vars` içine `DEV_TOOLS=1` yazılırsa (gitignore'da),
 - Yeni kart (pass veya 3 kelimenin tamamı bilinince) tuvali temizler.
 
 ## Tahta ve çark
+
+Kukla modu oyundan çıkarıldı: eski Kukla basamakları (5, 13, 14, 24, 25, 28, 36, 38) sırayla 15 Kelime, Çizme ve Anlatma oldu; karışık basamak çarkı da artık 3 dilimli (Anlatma, Çizme, 15 Kelime). Kukla'nın kodu (`shared/kukla*.ts`, `src/components/kukla/`, motordaki kukla dalı) tekrar açılabilsin diye yerinde duruyor; `ALL_MODES` ve `FIXED_STEPS`'e eklemek yeterli.
 
 - `src/components/board/Board.tsx`: 45 basamaklı yılan düzenli tahta. Mod renkleri, sıradaki basamak vurgusu, piyonlar basamak basamak yürür (`useSteppedValue`, tek `setTimeout` zinciri).
 - `src/components/roulette/ModeRoulette.tsx` + `shared/roulette.ts`: sunucu yalnızca `result`, `seed` ve `startedAt` yollar. Her cihaz çark açısını sunucu saatine göre kendisi hesaplar, bu yüzden hepsi aynı anda aynı yerde durur ve geç bağlanan doğru kareyi görür. Çark canvas'a bir kez çizilir, dönüş CSS transform ile yapılır, durunca rAF döngüsü kapanır, unmount'ta canvas belleği bırakılır.
@@ -105,7 +107,7 @@ Kartlar `shared/words.ts` içindeki `CardDeck` ile çekilir: havuz tükenmeden a
 - [x] Task 4: Oyun tahtası ve mod ruleti
 - [x] Task 5: Anlatma ve 15 Kelime modları
 - [x] Task 6: Çizme modu
-- [ ] Task 7: 3D kukla modu
+- [x] Task 7: 3D kukla modu (sonradan tahtadan kaldırıldı, aşağıya bak)
 - [ ] Task 8: Tur/oyun sonu, bellek testleri, deploy
 
 ## Yayına alma (Cloudflare + dorukplays.com)
@@ -120,7 +122,7 @@ Statik dosyalar `public/_headers` ile önbelleğe alınır (`/assets/*` değişm
 
 ## Bellek sızıntısı testi
 
-`.dev.vars` içinde `DEV_TOOLS=1` varken `npm run dev`, ardından başka bir terminalde `npm run test:leak`. 4 oyuncuyla Çizme → Kukla → Karışık turlarını `CYCLES` (varsayılan 12) kez açıp kapatır; açık disposer sayısı, `<canvas>` sayısı ve GC sonrası JS heap'i ölçer, sızıntı varsa 0 olmayan kodla çıkar.
+`.dev.vars` içinde `DEV_TOOLS=1` varken `npm run dev`, ardından başka bir terminalde `npm run test:leak`. 4 oyuncuyla Çizme → 15 Kelime → Karışık turlarını `CYCLES` (varsayılan 12) kez açıp kapatır; açık disposer sayısı, `<canvas>` sayısı ve GC sonrası JS heap'i ölçer, sızıntı varsa 0 olmayan kodla çıkar.
 
 ### Cloudflare Workers Builds ayarları
 

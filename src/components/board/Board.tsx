@@ -173,7 +173,7 @@ export const BoardView = memo(function BoardView({ positions, turnTeam }: BoardP
 export function BoardLegend() {
   return (
     <div className="board-legend">
-      {(['anlatma', 'cizme', 'kukla', 'onbes', 'karisik'] as const).map((k) => (
+      {(['anlatma', 'cizme', 'onbes', 'karisik'] as const).map((k) => (
         <ModeTag key={k} kind={k} />
       ))}
     </div>

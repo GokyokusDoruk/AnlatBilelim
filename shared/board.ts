@@ -20,19 +20,23 @@ export const MODE_CONFIG: Readonly<Record<GameMode, ModeConfig>> = {
   onbes: { mode: 'onbes', label: '15 Kelime', durationSec: 120, passLimit: 3, wordsPerCard: 3, clueLimit: 15 },
 };
 
-export const ALL_MODES: readonly GameMode[] = ['anlatma', 'cizme', 'kukla', 'onbes'];
+/**
+ * Oyunda (tahta + karışık basamak çarkı) kullanılan modlar. Kukla tahtadan kaldırıldı;
+ * yeri 15 Kelime, Çizme ve Anlatma'ya dağıtıldı. Kukla kodu ileride geri açılabilsin diye duruyor.
+ */
+export const ALL_MODES: readonly GameMode[] = ['anlatma', 'cizme', 'onbes'];
 
 /**
  * Sabit modlu basamaklar. Listede olmayan her basamak "Karışık"tır (mod senkron çarkla seçilir).
 
- *  Kukla: 5, 13, 14, 24, 25, 28, 36, 38 · Çizme: 7, 8, 10, 15, 16, 20, 21, 32, 33 · 15 Kelime: 9, 18, 19, 37, 42
- *  Anlatma: 1-4, 6, 11, 12, 17, 22, 27, 30, 34, 35, 40.
+ *  Çizme: 7, 8, 10, 13, 15, 16, 20, 21, 25, 32, 33, 38 · 15 Kelime: 5, 9, 18, 19, 24, 36, 37, 42
+ *  Anlatma: 1-4, 6, 11, 12, 14, 17, 22, 27, 28, 30, 34, 35, 40.
+ *  (Eski Kukla basamakları 5, 13, 14, 24, 25, 28, 36, 38 sırayla 15 Kelime / Çizme / Anlatma oldu.)
  */
 const FIXED_STEPS: Readonly<Record<number, GameMode>> = {
-  ...Object.fromEntries([1, 2, 3, 4, 6, 11, 12, 17, 22, 27, 30, 34, 35, 40].map((n) => [n, 'anlatma' as const])),
-  ...Object.fromEntries([5, 13, 14, 24, 25, 28, 36, 38].map((n) => [n, 'kukla' as const])),
-  ...Object.fromEntries([7, 8, 10, 15, 16, 20, 21, 32, 33].map((n) => [n, 'cizme' as const])),
-  ...Object.fromEntries([9, 18, 19, 37, 42].map((n) => [n, 'onbes' as const])),
+  ...Object.fromEntries([1, 2, 3, 4, 6, 11, 12, 14, 17, 22, 27, 28, 30, 34, 35, 40].map((n) => [n, 'anlatma' as const])),
+  ...Object.fromEntries([7, 8, 10, 13, 15, 16, 20, 21, 25, 32, 33, 38].map((n) => [n, 'cizme' as const])),
+  ...Object.fromEntries([5, 9, 18, 19, 24, 36, 37, 42].map((n) => [n, 'onbes' as const])),
 };
 
 export function stepKind(step: number): StepKind {

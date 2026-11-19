@@ -13,8 +13,8 @@ describe('mod çarkı', () => {
   });
 
   it('süre dolduktan sonra açı değişmez, başlangıçta 0', () => {
-    expect(rouletteAngle('kukla', 7, 0)).toBe(0);
-    expect(rouletteAngle('kukla', 7, ROULETTE_SPIN_MS)).toBe(rouletteAngle('kukla', 7, ROULETTE_SPIN_MS * 3));
+    expect(rouletteAngle('cizme', 7, 0)).toBe(0);
+    expect(rouletteAngle('cizme', 7, ROULETTE_SPIN_MS)).toBe(rouletteAngle('cizme', 7, ROULETTE_SPIN_MS * 3));
   });
 
   it('açı zamanla artar ve yavaşlar (easing)', () => {

@@ -38,7 +38,7 @@ export function DevPlayground() {
           block
           onClick={() =>
             setSpin({
-              result: ALL_MODES[Math.floor(Math.random() * 4)]!,
+              result: ALL_MODES[Math.floor(Math.random() * ALL_MODES.length)]!,
               startedAt: Date.now(),
               seed: Math.floor(Math.random() * 1e9),
               key: Date.now(),

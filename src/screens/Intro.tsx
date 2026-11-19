@@ -1,6 +1,6 @@
 /**
  * Açılış tanıtımı: oyun açılmadan önce ~5 sn'lik, tamamen CSS ile çalışan animasyon.
- * Logo zıplayarak düşer, dört mod uçarak gelir, spiral tahta çizilir ve ortadaki yıldıza varılır.
+ * Logo zıplayarak düşer, üç mod uçarak gelir, spiral tahta çizilir ve ortadaki yıldıza varılır.
  * Sonda ekran kararır; önce "DorukPlays", ardından "Sunar" yazısı belirir.
  * Dokununca atlanır; bir oturumda yalnızca bir kez gösterilir; "hareketi azalt" ayarında hiç çıkmaz.
  * Canvas / rAF yok, tek bir setTimeout vardır ve unmount'ta temizlenir.
@@ -14,7 +14,6 @@ const DURATION_MS = 8200;
 const MODES = [
   { icon: '🗣️', label: 'Anlat', color: 'var(--mode-anlatma)' },
   { icon: '✏️', label: 'Çiz', color: 'var(--mode-cizme)' },
-  { icon: '🎭', label: 'Kukla', color: 'var(--mode-kukla)' },
   { icon: '⏱️', label: '15 Kelime', color: 'var(--mode-onbes)' },
 ];
 const SPIRAL = buildSpiral();

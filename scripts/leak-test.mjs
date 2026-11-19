@@ -1,5 +1,5 @@
 /**
- * Bellek sızıntısı testi: 4 oyuncuyla Çizme / Kukla / Karışık turlarını art arda açıp kapatır;
+ * Bellek sızıntısı testi: 4 oyuncuyla Çizme / 15 Kelime / Karışık turlarını art arda açıp kapatır;
  * her döngüden sonra (1) açık disposer sayısı, (2) sayfadaki <canvas> sayısı, (3) GC sonrası JS heap
  * ölçülür. Kullanım:  DEV_TOOLS=1 gerekir (.dev.vars) →  npm run dev  →  npm run test:leak
  * Çıkış kodu 0 = sızıntı yok.
@@ -90,7 +90,7 @@ const baseline = await idle();
 const series = [];
 for (let c = 1; c <= CYCLES; c++) {
   await playRound(7, '[role=timer]'); // Çizme
-  await playRound(4, 'canvas'); // Kukla
+  await playRound(4, '[role=timer]'); // 15 Kelime
   await setBoard(22); // Karışık: çark
   await sleep(1500);
   const snap = await idle();

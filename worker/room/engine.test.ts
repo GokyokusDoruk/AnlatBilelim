@@ -205,10 +205,11 @@ function roomAtPosition(pos: number, ctx: e.EngineCtx): RoomData {
   return room;
 }
 
-describe('üçlü kart modları (çizme, kukla, 15 kelime)', () => {
+describe('üçlü kart modları (çizme, 15 kelime)', () => {
   const cases = [
     { pos: 7, mode: 'cizme', sec: 90 },
-    { pos: 4, mode: 'kukla', sec: 120 },
+    { pos: 4, mode: 'onbes', sec: 120 }, // eski kukla basamağı
+    { pos: 12, mode: 'cizme', sec: 90 }, // eski kukla basamağı
     { pos: 17, mode: 'onbes', sec: 120 },
   ] as const;
 
@@ -220,7 +221,7 @@ describe('üçlü kart modları (çizme, kukla, 15 kelime)', () => {
       expect(room.round!.mode).toBe(c.mode);
       e.startRound(room, room.round!.observerId, ctx);
       expect(room.round!.endsAt).toBe(ctx.now + c.sec * 1000);
-      expect(room.roundCard?.kind).toBe(c.mode === 'kukla' ? 'kukla' : 'triple');
+      expect(room.roundCard?.kind).toBe('triple');
     });
   }
 
@@ -307,7 +308,7 @@ describe('karışık mod, kazanma ve tur geçişi', () => {
   it('çark rastgele tüm modları üretir', () => {
     const modes = new Set<string>();
     for (let seed = 1; seed < 60; seed++) modes.add(roomAtPosition(22, makeCtx(1000, seed)).round!.mode);
-    expect(modes.size).toBe(4);
+    expect([...modes].sort()).toEqual(['anlatma', 'cizme', 'onbes']); // kukla çarkta yok
   });
 
   it('45. basamağa ulaşan takım kazanır, tur sınırı aşılsa da', () => {
@@ -349,94 +350,6 @@ describe('karışık mod, kazanma ve tur geçişi', () => {
     expect(room.phase).toBe('lobby');
     expect(room.board.positions).toEqual({ A: 0, B: 0 });
     expect(room.players.every((p) => !p.ready)).toBe(true);
-  });
-});
-
-describe('kukla sırayı tüketmez', () => {
-  it('kukla turu anlatıcı/gözlemci imleçlerini ilerletmez', () => {
-    const ctx = makeCtx();
-    const room = roomAtPosition(4, ctx);
-    expect(room.round!.mode).toBe('kukla');
-    expect(room.narratorCursor).toEqual({ A: 1, B: 0 }); // yalnızca oyun başındaki tur sayıldı
-    expect(room.observerCursor).toEqual({ A: 0, B: 1 });
-  });
-
-  it('kukladan sonra A takımının sonraki turu aynı oyuncuyla devam eder', () => {
-    const ctx = makeCtx();
-    const room = started(ctx);
-    const before = room.round!.narratorId; // anlatma turu
-    e.endRound(room, ctx, false);
-    room.board.positions.A = 4;
-    room.turnTeam = 'A';
-    e.beginTurn(room, ctx); // kukla
-    const kuklaNarrator = room.round!.narratorId;
-    room.board.positions.A = 11;
-    room.turnTeam = 'A';
-    e.beginTurn(room, ctx); // sonraki mod
-    expect(room.round!.mode).not.toBe('kukla');
-    expect(room.round!.narratorId).toBe(kuklaNarrator);
-    expect(before).not.toBe(kuklaNarrator);
-  });
-});
-
-describe('kukla turu (animasyon)', () => {
-  function kuklaRound() {
-    const ctx = makeCtx();
-    const room = roomAtPosition(4, ctx);
-    const r = room.round!;
-    e.startRound(room, r.observerId, ctx);
-    return { ctx, room, r };
-  }
-
-  it('tek kelime + herkese kelimesiz animasyon bilgisi', () => {
-    const { ctx, room } = kuklaRound();
-    const card = room.roundCard as any;
-    expect(card.kind).toBe('kukla');
-    expect(room.round!.anim).toEqual({ clip: card.clip, level: card.level, startedAt: ctx.now });
-    expect(JSON.stringify(room.round)).not.toContain(card.word);
-  });
-
-  it('bildi: +1 ve yeni animasyon; pass: 1 hak, en fazla 3', () => {
-    const { ctx, room, r } = kuklaRound();
-    const first = (room.roundCard as any).clip;
-    e.markCorrect(room, r.observerId, undefined, { ...ctx, now: ctx.now + 5000 });
-    expect(room.round!.correct).toBe(1);
-    expect(room.round!.anim!.startedAt).toBe(ctx.now + 5000);
-    expect((room.roundCard as any).clip).not.toBe(first);
-    const mate = room.players.find((p) => p.team === r.team && p.id !== r.narratorId)!.id;
-    for (let i = 0; i < 3; i++) {
-      expect(e.pass(room, r.narratorId, ctx).ok).toBe(true);
-      expect(e.pass(room, mate, ctx).ok).toBe(true);
-    }
-    expect(room.round!.passesUsed).toBe(3);
-    expect(e.pass(room, r.narratorId, ctx).ok).toBe(false);
-  });
-
-  it('pass oylamadır: takımın hepsi basınca geçer, tek kişi basarsa geçmez, tekrar basınca geri çeker', () => {
-    const { ctx, room, r } = kuklaRound();
-    const word = (room.roundCard as any).word;
-    const mate = room.players.find((p) => p.team === r.team && p.id !== r.narratorId)!.id;
-    e.pass(room, r.narratorId, ctx);
-    expect(room.round!.passVotes).toEqual([r.narratorId]);
-    expect(room.round!.passesUsed).toBe(0);
-    expect((room.roundCard as any).word).toBe(word);
-    e.pass(room, r.narratorId, ctx); // geri çek
-    expect(room.round!.passVotes).toEqual([]);
-    e.pass(room, r.narratorId, ctx);
-    e.pass(room, mate, ctx);
-    expect(room.round!.passesUsed).toBe(1);
-    expect(room.round!.passVotes).toEqual([]); // yeni kartta oylar sıfırlanır
-    expect((room.roundCard as any).word).not.toBe(word);
-    // bağlantısı kopan oyuncu beklenmez
-    room.players.find((p) => p.id === mate)!.connected = false;
-    e.pass(room, r.narratorId, ctx);
-    expect(room.round!.passesUsed).toBe(2);
-  });
-
-  it('yetkisiz roller işlem yapamaz', () => {
-    const { ctx, room, r } = kuklaRound();
-    expect(e.markCorrect(room, r.narratorId, undefined, ctx).ok).toBe(false);
-    expect(e.pass(room, r.observerId, ctx).ok).toBe(false); // rakip takım oy veremez
   });
 });
 

@@ -77,7 +77,7 @@ export function HomeScreen() {
         <h1 className="brand__title">
           <span>Anlat</span> <span>Bilelim</span>
         </h1>
-        <p className="brand__subtitle muted">Anlat, çiz, kuklayı oynat. Aynı odada, kendi telefonundan.</p>
+        <p className="brand__subtitle muted">Anlat, çiz, 15 kelimede anlat. Aynı odada, kendi telefonundan.</p>
       </div>
 
       <Card>

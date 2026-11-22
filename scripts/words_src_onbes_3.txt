@@ -39,3 +39,12 @@ Zam, Zarar
 Podcast, Influencer, Story, Abonelik, Şifre, Bulut Depolama, Ekran Görüntüsü, Emoji, Meme, Selfie
 Reklam Engelleyici, Spam, Dolandırıcılık, Çevrim Dışı, Uçak Modu, Powerbank, Akıllı Saat, Hologram, Elektrikli Araba, Karekod
 Sesli Asistan, Navigasyon, Mobil Bankacılık, Temassız Ödeme, E-Devlet, Online Alışveriş
+
+# --- eklenen kelimeler ---
+Oy, Lider, Gazete, Manşet, Röportaj, Haber, Köşe Yazısı, Basın, Deney, Hipotez
+Laboratuvar, Formül, Teori, Ölçüm, Uzay, Yörünge, Padişah, Zafer, Fetih, Kale
+Kazı, Eser, Atık, Karbon, Enerji, Doğa, Diyet, Egzersiz, Uyku Düzeni, Bağışıklık
+Stres, Kalori, Su Tüketimi, Yapay Zeka, Veri Tabanı, Müfredat, Sınav, Burs, Üniversite, Diploma
+Staj, Akademik, Kampüs, Nota, Beste, Söz, Melodi, Ritim, Akor, Dize
+Eleştiri, Cilt, Karakter, Olay Örgüsü, Seyahat, Rezervasyon, Transfer, Bagaj, Döviz Kuru, İş Dünyası
+Toplantı, Sunum

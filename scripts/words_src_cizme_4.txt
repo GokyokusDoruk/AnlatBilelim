@@ -40,3 +40,12 @@ Zaman Yolculuğu, Yerçekimi, Fotosentez, Buharlaşma, Optik İllüzyon, Ayna Ya
 Hapşırık, Hıçkırık, Esneme, Gıdıklanmak, Yankesici, Son Dakika Golü, Kırmızı Kart, Rövanş, Enerji Tasarrufu, Küresel Isınma
 Geri Dönüşüm, Trafik Sıkışıklığı, Elektrik Çarpması, Deprem Tatbikatı, Mevsim Değişimi, Gece Yarısı, Öğle Arası, Hafta Sonu, Bayram Sabahı, Rüya İçinde Rüya
 Mutluluk, Yorgunluk, Açlık, Susuzluk
+
+# --- eklenen kelimeler ---
+Gönül Koymak, Dilini Tutmak, Kulak Kabartmak, Göz Atmak, Gözden Düşmek, Kafayı Yemek, Baş Üstüne, Yüreği Ağzına Gelmek, Saç Baş Yolmak, Ayak Uydurmak
+Dizlerinin Bağı Çözülmek, Kolları Sıvamak, Elini Taşın Altına Koymak, Başını Alıp Gitmek, Ağzını Bıçak Açmamak, Dört Gözle Beklemek, Boynu Bükük, Yılanın Başı, Kedi Fare Oyunu, Bir Taşla İki Kuş
+Aslan Yürekli, Kurt Gibi Aç, Su Gibi Gitmek, Ateş Pahası, Sudan Çıkmış Balık, Ayıya Bal Vermek, Zamanın Ruhu, Kum Saati Akmak, Zamana Karşı Yarış, Ömür Boyu
+Hayat Çarkı, Kader Çizgisi, Eski Defterleri Karıştırmak, Aklına Esmek, Gün Doğmadan, Kıyamet Alameti, Hacıyatmaz, Kördüğüm, Dolambaçlı Yol, Çatal Yol
+Tek Yön Biletli, Yolun Sonu, Kafa Karışıklığı, Fikir Ampulü, Beyin Fırtınası, Akıl Almaz, Yaratıcı Düşünce, Sezgi, İlham Perisi, Hayal Dünyası
+Gerçek Dışı, Aklın Yolu, Köprüleri Atmak, Duvar Örmek, Kapıyı Çarpmak, Anahtar Delik, Kilit Vurmak, Zincirleri Kırmak, Pencereyi Açmak, Işığı Söndürmek
+Perdeyi İndirmek, Sınırı Aşmak, Gölgede Kalmak, Işık Tutmak, Kıvılcım Çakmak, Alevlenmek

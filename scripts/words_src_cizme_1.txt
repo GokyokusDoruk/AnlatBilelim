@@ -38,3 +38,12 @@ Postacı, Öğretmen
 # Yeni kelimeler (2026-11)
 Bıçak, Fincan, Hediye Paketi, Kardan Adam, Muz Kabuğu, Dondurma Külahı, Lolipop, Kek, Çörek, Sosis
 Patates Kızartması
+
+# --- eklenen kelimeler ---
+İtfaiye Aracı, Tank, Sandal, Ay Çiçeği, Kaz, Hindi, Yarasa, Deniz Atı, Daire, Kare
+Gülen Yüz, Bal Peteği, Kurdele, Kavanoz Reçel, Kibrit, Boya Kalemi, Okul Binası, Evin Çatısı, Kapı Zili, Posta Kutusu
+Kümes, Plaj Topu, Şezlong, Palmiye Adası, Şömine, Çorap Asmak, Noel Ağacı, Vaha, Trafik Lambası, Durak
+Tünel, Benzin Pompası, Otopark, Kavşak, Levha, Bebek Arabası, Biberon, Emzik, Beşik, Çıngırak
+Oyuncak Ayı, Def, Kemençe, Zil Takımı, Tren Yolu, İstasyon, Vagon, Lokomotif, Bilet, Valiz
+Harita Çizmek, Pasaport Damgası, Anıt, Sünger, Duş Başlığı, Mop, Faraş, Kova Paspas, Dolap, Çekmece
+Komodin, Askılık

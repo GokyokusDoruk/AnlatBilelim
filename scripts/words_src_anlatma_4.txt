@@ -549,3 +549,135 @@ Kaşgarlı Mahmut|Divanü Lügati't-Türk, sözlük, Türk dili, Karahanlı, har
 Yusuf Has Hacib|Kutadgu Bilig, Karahanlı, kitap, bilgi, siyasetname, Balasagun
 Bilge Kağan|Orhun, Göktürk, yazıt, hükümdar, Kül Tigin, Tonyukuk
 Orhun Yazıtları|Göktürk, taş, Moğolistan, Bilge Kağan, en eski, Türkçe
+
+# --- eklenen kelimeler ---
+Vazgeçmek|bırakmak, kararından, teslim, pes, geri, iptal
+Pes Etmek|bırakmak, yenilgi, teslim, devam, bitirmek, yorulmak
+Direnmek|karşı, dayanmak, pes, güç, mücadele, boyun eğmemek
+Sabotaj|zarar, engellemek, bozmak, gizli, plan, fabrika
+İş Birliği|ortak, beraber, takım, anlaşma, yardımlaşmak, proje
+Uzlaşma|anlaşmak, orta yol, taraf, müzakere, çözüm, kavga
+Müzakere|masa, taraf, görüşmek, anlaşma, pazarlık, diplomat
+Ültimatom|süre, tehdit, son, uyarı, talep, kesin
+Ambargo|ticaret, yasak, ülke, yaptırım, ekonomi, mal
+Yaptırım|ceza, ülke, ekonomik, ambargo, uyum, uygulamak
+Diplomatik Kriz|ülke, elçi, gerilim, ilişki, sınır, büyükelçi
+Büyükelçi|ülke, temsilci, elçilik, diplomat, yurtdışı, görev
+Mülteci Kampı|çadır, savaş, göç, yardım, sığınmak, sınır
+Sığınmacı|göç, ülke, savaş, korunmak, kaçmak, kamp
+Vatansızlık|ülke, kimlik, pasaport, hak, vatandaş, yer
+Çifte Vatandaşlık|iki, pasaport, ülke, hak, kimlik, uyruk
+Göç Yolu|yürümek, sınır, aile, umut, kaçmak, uzak
+Adaptasyon|uyum, ortam, yeni, alışmak, değişim, çevre
+Kültür Şoku|yabancı, ülke, şaşırmak, alışmak, adet, yeni
+Küreselleşme|dünya, ticaret, ülke, internet, kültür, bağlantı
+Sürdürülebilirlik|çevre, gelecek, doğa, kaynak, enerji, uzun
+Karbon Ayak İzi|çevre, gaz, enerji, salınım, ölçmek, doğa
+Biyoçeşitlilik|tür, doğa, hayvan, bitki, ekosistem, yaşam
+Ekosistem|doğa, tür, denge, yaşam, çevre, orman
+Besin Zinciri|avcı, otçul, doğa, yemek, hayvan, halka
+Fotosentez|bitki, ışık, yaprak, oksijen, güneş, yeşil
+Hibrit|karma, melez, araba, iki, motor, elektrik
+Yenilenebilir Enerji|güneş, rüzgâr, temiz, kaynak, elektrik, doğa
+Nükleer Santral|enerji, uranyum, reaktör, elektrik, radyasyon, soğutma
+Radyasyon|ışın, tehlikeli, nükleer, ölçmek, atom, hastalık
+Hidroelektrik|baraj, su, enerji, türbin, elektrik, nehir
+Jeotermal|sıcak, yer, enerji, kaynak, ısı, kaplıca
+Fosil Yakıt|petrol, kömür, doğal gaz, yanmak, enerji, eski
+Petrol Kuyusu|çıkarmak, sondaj, ham, yağ, sanayi, varil
+Doğal Gaz|ısınma, boru, mutfak, kombi, enerji, fatura
+Madenci|kömür, tünel, yeraltı, kask, çıkarmak, galeri
+Altın Madeni|çıkarmak, kazı, değerli, işçi, tünel, külçe
+Külçe|altın, gümüş, ağır, bar, bankada, metal
+Kripto Para|dijital, bitcoin, cüzdan, coin, borsa, madenci
+Blokzincir|dijital, kayıt, bitcoin, şifreli, zincir, güvenli
+Yapay Zeka Asistanı|robot, soru, konuşmak, cevap, yazılım, akıllı
+Sanal Gerçeklik|gözlük, oyun, üç boyutlu, simülasyon, gerçek, kafa
+Artırılmış Gerçeklik|telefon, kamera, ekran, dijital, nesne, Pokemon
+Kuantum|fizik, bilgisayar, parçacık, atom, bilim, süper
+Nanoteknoloji|çok küçük, atom, malzeme, bilim, ölçek, teknoloji
+Genetik Mühendisliği|gen, DNA, bilim, kopya, laboratuvar, değiştirmek
+Klonlama|kopya, koyun, Dolly, gen, bilim, aynı
+Kök Hücre|tıp, tedavi, doku, bilim, yenilemek, hastalık
+Organ Nakli|hasta, ameliyat, böbrek, bağış, doktor, kalp
+Beyin Göçü|yurtdışı, bilim insanı, ülke, ayrılmak, eğitimli, kariyer
+Dijital Detoks|telefon, internet, bırakmak, ekran, dinlenmek, sosyal medya
+Siber Zorbalık|internet, hakaret, çocuk, sosyal medya, ekran, mesaj
+Oltalama|sahte, e-posta, şifre, dolandırıcılık, link, hesap
+Kimlik Hırsızlığı|bilgi, dolandırıcı, internet, hesap, sahte, çalmak
+Güvenlik Duvarı|bilgisayar, korumak, ağ, saldırı, yazılım, internet
+Antivirüs|bilgisayar, virüs, program, tarama, temizlemek, koruma
+Bulut Depolama|dosya, internet, yedek, sunucu, yer, Drive
+Yedekleme|dosya, kopya, bilgisayar, kaybetmek, disk, saklamak
+Çevrimiçi Alışveriş|internet, sepet, kargo, ödeme, site, sipariş
+Elektronik Ticaret|internet, mağaza, sipariş, satış, site, kargo
+Algoritma Önerisi|video, sosyal medya, izleme, uygulama, yazılım, öneri
+Viral İçerik|hızlı, paylaşım, video, sosyal medya, yayılmak, beğeni
+Takipçi|sosyal medya, hesap, beğeni, takip, influencer, sayı
+İki Aşamalı Doğrulama|şifre, telefon, güvenlik, kod, hesap, giriş
+Veri Gizliliği|bilgi, kişisel, kanun, koruma, internet, şirket
+KVKK|veri, kanun, kişisel, gizlilik, koruma, bilgi
+Mavi Ekran|bilgisayar, hata, Windows, çökmek, yazı, sistem
+Yazılımcı|bilgisayar, kod, program, uygulama, geliştirici, ofis
+Hata Ayıklama|kod, yazılım, bulmak, program, çözmek, böcek
+Açık Kaynak|yazılım, ücretsiz, kod, topluluk, paylaşım, geliştirmek
+Fikri Mülkiyet|patent, hak, marka, telif, buluş, şirket
+Marka Tescili|logo, ad, hak, patent, şirket, kayıt
+Etik Kurul|araştırma, onay, bilim, karar, üniversite, deney
+Hipotez|bilim, varsayım, deney, teori, test, sonuç
+Teori|bilim, varsayım, açıklama, kanıt, fikir, hipotez
+Aksiyom|matematik, kanıt, doğru, temel, kabul, ispat
+Teorem|matematik, kanıt, ispat, Pisagor, formül, geometri
+Olasılık|şans, yüzde, zar, hesap, ihtimal, matematik
+İstatistik|veri, ortalama, yüzde, grafik, sayı, anket
+Ortalama|sayı, toplam, bölmek, matematik, not, istatistik
+Logaritma|matematik, üs, sayı, hesap, fonksiyon, taban
+Türev|matematik, eğim, kalkülüs, fonksiyon, limit, hesap
+İntegral|matematik, alan, kalkülüs, toplam, eğri, hesap
+Asal Sayı|bölünmek, matematik, yalnız, bir, çarpan, tek
+Pi Sayısı|daire, yarıçap, matematik, çevre, sabit, Arşimet
+Altın Oran|güzel, matematik, sanat, spiral, Fibonacci, tasarım
+Fibonacci|dizi, toplamak, matematik, sayı, doğa, spiral
+Geometri|şekil, açı, üçgen, matematik, cetvel, çizmek
+Trigonometri|sinüs, kosinüs, açı, üçgen, matematik, hesap
+Hipotenüs|üçgen, dik, uzunluk, Pisagor, kenar, matematik
+Kimyasal Reaksiyon|karışım, element, laboratuvar, tepkime, patlamak, molekül
+Asit|ekşi, yakmak, kimya, limon, pH, tehlikeli
+Kristal|cam, parlak, elmas, şeffaf, tuz, madde
+Radyoaktif|ışın, nükleer, uranyum, tehlikeli, atom, çürümek
+Elektromıknatıs|elektrik, mıknatıs, bobin, metal, çekmek, akım
+Yarı İletken|çip, silikon, elektronik, bilgisayar, devre, transistör
+Transistör|çip, elektronik, devre, küçük, anahtar, bilgisayar
+Mikroçip|küçük, bilgisayar, devre, silikon, kart, işlemci
+Sensör|algılamak, ölçmek, ısı, hareket, kapı, elektronik
+Otonom Araç|sürücüsüz, yapay zeka, araba, sensör, yol, kendi
+Yörünge|gezegen, uydu, dönmek, uzay, Dünya, eliptik
+Uydu|uzay, Dünya, yörünge, iletişim, anten, Ay
+Uzay İstasyonu|astronot, yörünge, Dünya, laboratuvar, bilim, roket
+Kara Madde|evren, karanlık, galaksi, fizik, bilinmeyen, enerji
+Süpernova|yıldız, patlama, uzay, ışık, ölüm, bilim
+Nebula|uzay, bulut, yıldız, gaz, renkli, galaksi
+Işık Yılı|uzay, mesafe, hız, yıl, yıldız, ölçü
+Stratosfer|atmosfer, uçak, yüksek, hava, katman, ozon
+Ozon Tabakası|güneş, delik, koruma, gaz, atmosfer, ışın
+Kuzey Yıldızı|yön, gökyüzü, parlak, denizci, kutup, pusula
+Meridyen|harita, çizgi, boylam, saat, Greenwich, dünya
+Ekvator|harita, sıcak, dünya, orta, çizgi, tropikal
+Tarih Öncesi|taş, mağara, ilkel, insan, çağ, buz
+Taş Devri|ilkel, mağara, alet, insan, tarih, silah
+Tunç Çağı|metal, tarih, eski, alet, silah, maden
+Mağara Resmi|ilkel, duvar, tarih, boya, hayvan, insan
+Fosil|taş, eski, kemik, dinozor, kazı, iz
+Arkeolog|kazı, tarih, eser, kalıntı, toprak, müze
+Antikacı|eski, eşya, dükkân, koleksiyon, değerli, tarihî
+Pul Koleksiyonu|mektup, posta, albüm, tarih, nadir, biriktirmek
+Kaligraf|yazı, kalem, güzel, hat, mürekkep, sanat
+Ebru Sanatı|su, boya, kâğıt, desen, Türk, fırça
+Çini Sanatı|seramik, mavi, desen, İznik, duvar, fırın
+Minyatür Sanatı|resim, küçük, Osmanlı, kitap, nakkaş, boya
+Nakkaş|süsleme, resim, Osmanlı, desen, sanatçı, minyatür
+Halı Dokumak|düğüm, iplik, tezgâh, desen, yün, el
+Seramik Atölyesi|çamur, çark, fırın, vazo, boya, kil
+Cam Üfleme|ateş, şekil, usta, sıcak, kırılgan, şişe
+Demirci|ateş, çekiç, metal, örs, kızdırmak, nal
+Çömlekçi|çamur, çark, kil, testi, fırın, vazo

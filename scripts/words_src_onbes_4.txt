@@ -40,3 +40,12 @@ Hayal Kırıklığı Yaşamak, Zafer Sarhoşluğu, Mutlu Son
 Reform, Sanayi Devrimi, Soğuk Savaş, Berlin Duvarı, Haçlı Seferleri, Lale Devri, Meşrutiyet, Sened-i İttifak, Kurtuluş Savaşı, Harf Devrimi
 Soyadı Kanunu, Kabotaj, Lozan, Sevr, Amasya Genelgesi, Mondros, Feodalite, Kast Sistemi, Monarşi, Oligarşi
 Anarşi, Teokrasi, Ütopya, Distopya, Nihilizm, Stoacılık
+
+# --- eklenen kelimeler ---
+Hukuk Devleti, İnsan Hakları, Onur, Saygı, Hoşgörü, Varoluş, Şüphe, Travma, Terapi, Empati
+Motivasyon, Kaygı, Özgüven, Depresyon, Refleks, Norm, Kimlik, Göç, Kentleşme, Birey
+Ekonomi Teorisi, Arz, Talep, Kâr Marjı, Resesyon, Enflasyon Oranı, Piyasa, Tanrı, Kahraman, Kehanet
+Ölümsüzlük, Titan, Cennet, Cehennem, İnanç, İbadet, Hac, Oruç, Zekât, Namaz
+Dua, Mabet, Vaaz, Dil Bilgisi, Fiil, Sıfat, Zarf, Ünlem, Edat, Bağlaç
+Zamir, Özne, Yüklem, Denklem, Fonksiyon, Limit, Türev, Olasılık, Matris, Vektör
+Kombinasyon, Kuvvet, İvme, Momentum

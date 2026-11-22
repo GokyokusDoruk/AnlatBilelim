@@ -548,3 +548,134 @@ Garfield|kedi, turuncu, lazanya, pazartesi, tembel, Odie
 Red Kit|kovboy, gölgesinden hızlı, Dalton, Jolly Jumper, çizgi roman, Vahşi Batı
 Tenten|muhabir, Milu, kahküllü, çizgi roman, Belçika, Kaptan Haddock
 Pembe Panter|çizgi film, Henry Mancini, müfettiş, sessiz, kedi, müzik
+
+# --- eklenen kelimeler ---
+Klozet|tuvalet, banyo, sifon, oturmak, beyaz, lazım
+Dikiş Makinesi|iğne, iplik, kumaş, terzi, dikmek, pedal
+Buzluk|dondurucu, soğuk, buz, buzdolabı, dondurmak, çekmece
+Mikser|krema, çırpmak, mutfak, kek, elektrik, yumurta
+Blender|karıştırmak, meyve, smoothie, ezmek, elektrik, kap
+Tost Makinesi|ekmek, kaşar, ısıtmak, kızartmak, sandviç, ızgara
+Mikrodalga|ısıtmak, yemek, dakika, tabak, fırın, bip
+Ekmek Kızartma|tost, dilim, ısıtmak, kahvaltı, elektrik, kızarmak
+Hasta|doktor, ateş, ilaç, yatak, öksürük, grip
+Grip|hasta, burun, ateş, öksürük, kış, mendil
+Mendil|burun, silmek, kâğıt, cep, ağlamak, temizlemek
+Ilık Su|sıcak, soğuk, içmek, banyo, karışım, derece
+Bot|ayakkabı, kış, çamur, kar, giymek, uzun
+Sandalet|yaz, ayakkabı, açık, plaj, parmak, giymek
+Kemer|pantolon, bel, toka, deri, sıkmak, delik
+Kravat|takım, boyun, gömlek, damat, bağlamak, ipek
+Gömlek|düğme, yaka, kol, ütü, takım, giymek
+Etek|kadın, bacak, kısa, uzun, giymek, elbise
+Elbise|kadın, düğün, giymek, abiye, kumaş, uzun
+Şort|yaz, kısa, bacak, plaj, giymek, pantolon
+Fermuar|çekmek, açmak, ceket, diş, kapatmak, çanta
+Düğme|gömlek, iğne, iplik, ilikleme, yuvarlak, ceket
+Cep|pantolon, para, anahtar, telefon, ceket, ellemek
+Cüzdan Kartı|banka, ödeme, plastik, pin, alışveriş, kredi
+Fiş|market, kasa, para, kâğıt, alışveriş, makbuz
+Kasiyer|market, kasa, barkod, fiş, para, ödemek
+Kasa|market, para, ödemek, sıra, fiş, barkod
+Reyon|market, raf, ürün, bölüm, sıra, alışveriş
+Fiyat Etiketi|ürün, para, lira, yapıştırmak, raf, ucuz
+Kırtasiye|kalem, defter, silgi, okul, dükkân, kâğıt
+Kalemtıraş|kalem, açmak, uç, yontmak, kurşun, talaş
+Tahta|sınıf, tebeşir, yazmak, öğretmen, silmek, kara
+Sıra|sınıf, öğrenci, oturmak, masa, okul, ders
+Yaz Tatili|okul, deniz, üç ay, dinlenmek, güneş, kapanmak
+Kış Tatili|kar, yarıyıl, okul, soğuk, dinlenmek, şubat
+Kızak|kar, kaymak, tepe, çocuk, kış, ip
+Tekne|deniz, kürek, balıkçı, yelken, su, motor
+Can Simidi|deniz, boğulmak, şişme, kurtarmak, yüzmek, halka
+Deniz Yıldızı|beş, kol, plaj, kabuk, kum, sualtı
+Dönme Dolap|lunapark, yüksek, kabin, dönmek, manzara, çocuk
+Pamuk Helva|tatlı, şeker, bulut, çubuk, lunapark, pembe
+Balon Satıcısı|renkli, helyum, sokak, çocuk, ip, uçmak
+Sakız|çiğnemek, balon, ağız, nane, patlatmak, yapışkan
+Çiklet|sakız, çiğnemek, nane, balon, ağız, tat
+Lolipop|şeker, çubuk, yalamak, tatlı, renkli, çocuk
+Jelibon|şeker, çiğnemek, renkli, tatlı, ayıcık, jöle
+Patates Cipsi|paket, kızartma, tuz, ince, atıştırmak, çıtır
+Kızartma|yağ, tava, patates, kızarmak, sıcak, pişirmek
+Patates Kızartması|yağ, çıtır, ketçap, fast food, sarı, dilim
+Sosis|et, ketçap, hardal, ekmek, kızartmak, hot dog
+Hot Dog|sosis, ekmek, ketçap, fast food, hardal, Amerikan
+Omlet|yumurta, kırmak, tava, kahvaltı, peynir, çırpmak
+Tereyağ|süt, ekmek, sarı, kahvaltı, sürmek, krem
+Gazoz|gaz, içecek, balon, şişe, soğuk, meyve
+Buz|soğuk, su, küp, don, dondurma, erimek
+Şemsiyelik|şemsiye, kapı, ıslak, yağmur, ev, koymak
+Hamster|kemirgen, kafes, çark, minik, tüylü, yem
+Papatya|çiçek, beyaz, sarı, yaprak, fal, tarla
+Gül|kırmızı, diken, çiçek, koku, aşk, bahçe
+Lale|çiçek, Hollanda, İstanbul, soğan, bahar, renkli
+Ay Çiçeği|sarı, tohum, güneş, tarla, çekirdek, yağ
+Fidan|ağaç, dikmek, küçük, toprak, sulamak, bahçe
+Yaprak|ağaç, yeşil, sonbahar, dal, düşmek, rüzgâr
+Kestane|sonbahar, kabuk, kavurmak, sokak, kış, ağaç
+Patlamış Mısır|sinema, tava, patlamak, tuz, tereyağı, çıtır
+Gün Batımı|güneş, akşam, kızıl, deniz, ufuk, manzara
+Gece|karanlık, uyku, yıldız, ay, yatmak, akşam
+Pazartesi|hafta, ilk, okul, iş, günler, sabah
+Cuma|hafta, namaz, hafta sonu, gün, cami, hutbe
+Mum Üflemek|pasta, doğum günü, dilek, ateş, yaş, söndürmek
+Horlamak|uyku, gürültü, yatak, nefes, gece, rahatsız
+Kâbus|rüya, korku, uyku, gece, uyanmak, kötü
+Öpücük|dudak, yanak, sevgi, öpmek, aşk, sarılmak
+Sarılmak|kol, sevgi, kucak, dost, sıkmak, anne
+Gülümsemek|yüz, dudak, mutlu, tebessüm, ağız, gülmek
+Saç Kurutma Makinesi|fön, sıcak, ıslak, elektrik, üflemek, kuaför
+Oje|tırnak, boya, kırmızı, kadın, sürmek, renk
+Parmak|el, beş, yüzük, tırnak, ayak, işaret
+Yumruk|el, sıkmak, boks, vurmak, kavga, kapalı
+Alkış|el, çırpmak, beğenmek, tiyatro, ses, kutlama
+Islık|ağız, çalmak, dudak, ses, düdük, çağırmak
+Kahkaha|gülmek, ses, yüksek, komik, şaka, eğlenmek
+Fısıltı|kulak, alçak, ses, sır, konuşmak, gizli
+Burun|koku, yüz, nefes, hapşırmak, orta, kokulamak
+Dudak|ağız, ruj, öpücük, yüz, kırmızı, kalın
+Kirpik|göz, uzun, rimel, kapak, kıl, kırpmak
+Bıyık|sakal, yüz, adam, kıl, tıraş, burun
+Sakal|çene, tıraş, yüz, erkek, kıl, uzun
+Omuz|kol, boyun, çanta, silkmek, yük, sırt
+Dirsek|kol, bükmek, masa, eklem, dayamak, çarpmak
+Diz|bacak, çökmek, yara, bükmek, kapak, eklem
+Karın|göbek, açlık, ağrı, mide, yemek, kas
+Göbek|karın, şişman, bebek, kordon, dans, yağ
+Topuk|ayak, yüksek, arka, ayakkabı, çatlak, ökçe
+Tırnak|parmak, kesmek, oje, uzun, kemirmek, el
+Kafa|baş, saç, düşünmek, vurmak, boyun, kasket
+Dil|ağız, tat, konuşmak, uzatmak, dişler, yalamak
+Yanak|yüz, kızarmak, öpücük, sıkmak, gamze, şişmek
+Ebe|çocuk, oyun, yakalamak, sayı, saklambaç, koşmak
+Sihirli Değnek|büyü, peri, sihir, masal, ışık, dilek
+Hazine Sandığı|korsan, altın, define, kilit, harita, sandık
+Peri Masalı|prenses, büyü, hikâye, ejderha, gece, kitap
+Maske Takmak|yüz, korona, kapatmak, ağız, burun, karnaval
+Eldiven Takmak|el, kış, parmak, soğuk, yün, giymek
+Atkı Sarmak|boyun, yün, kış, soğuk, örgü, uzun
+Sonbahar|yaprak, mevsim, yağmur, düşmek, sarı, okul
+İlkbahar|mevsim, çiçek, bahar, yeşil, ısınmak, kuş
+Kış Uykusu|ayı, mağara, uyumak, soğuk, mevsim, bahar
+Kar Yağışı|beyaz, soğuk, kış, bulut, düşmek, dolu
+Gökyüzü|mavi, bulut, yıldız, uçak, yukarı, ufuk
+Okyanus|deniz, büyük, dalga, balina, mavi, ada
+Ada|deniz, kıyı, tekne, çevrili, tatil, palmiye
+Kıyı|deniz, sahil, kum, dalga, plaj, ada
+Dalga|deniz, sörf, köpük, rüzgâr, kıyı, su
+Civciv|tavuk, sarı, yumurta, minik, cik cik, çıkmak
+Yavru|bebek, küçük, anne, hayvan, kedi, sevimli
+Tavuk Çiftliği|yumurta, kümes, horoz, çiftçi, yem, civciv
+Böcek|küçük, kanat, sinek, bacak, bahçe, ilaç
+Örümcek Ağı|sinek, tuzak, ip, köşe, sekiz, böcek
+Solucan|toprak, balık, yem, kıvrılmak, yağmur, uzun
+Yılan Derisi|sürüngen, pul, deri, kaymak, zehir, kabuk
+Kanat|kuş, uçmak, melek, tüy, çırpmak, uçak
+Tüy|kuş, yastık, yumuşak, gıdıklamak, kanat, kalem
+Yuva|kuş, ağaç, yumurta, çöp, dal, yavru
+Yılbaşı Ağacı|çam, süs, hediye, ışık, Noel, aralık
+Hediye Paketi|kurdele, kâğıt, sürpriz, açmak, doğum günü, kutu
+Kurdele|hediye, bağlamak, saç, kâğıt, renkli, paket
+Sürpriz|beklenmedik, parti, doğum günü, hediye, şaşırmak, saklamak
+Sınıf Başkanı|okul, oy, seçim, öğrenci, temsilci, öğretmen

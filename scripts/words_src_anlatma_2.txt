@@ -563,3 +563,125 @@ Steve Jobs|Apple, iPhone, balıkçı yaka, Mac, kurucu, elma
 Mark Zuckerberg|Facebook, Meta, kurucu, Harvard, sosyal medya, gri tişört
 Nobel Ödülü|ödül, barış, İsveç, bilim, Alfred, dinamit
 Hollywood|film, Los Angeles, tabela, yıldız, sinema, Amerika
+
+# --- eklenen kelimeler ---
+Hoparlör Kutusu|ses, müzik, kablo, bas, bluetooth, bağırmak
+Powerbank|şarj, telefon, taşınabilir, pil, kablo, bitmek
+Akıllı Saat|bilek, adım, bildirim, kalp, ekran, kol
+Kulak Tıkacı|gürültü, uyku, sessizlik, takmak, ses, küçük
+Göz Bandı|uyku, karanlık, kapatmak, yüz, uçak, gece
+Boyun Yastığı|uçak, yolculuk, uyumak, U, şişme, koltuk
+Diş İpi|temizlemek, aralık, ağız, ince, fırça, florür
+Saç Bandı|kafa, renkli, tutturmak, spor, toka, lastik
+Toka|saç, tutturmak, kız, plastik, toplamak, renkli
+Gözlük Kılıfı|koruma, cep, kırılmak, kılıf, deri, cam
+Telefon Kılıfı|ekran, koruma, kırılmak, kapak, plastik, silikon
+Ekran Koruyucu|telefon, cam, çizilmek, yapıştırmak, ince, kırılmak
+Selfie Çubuğu|fotoğraf, telefon, uzun, çekmek, turist, kendi
+Tripod|kamera, üç ayak, fotoğraf, sabit, çekmek, stand
+Sahne Işığı|konser, spot, renkli, tiyatro, yönetmen, gösteri
+Bilet Gişesi|sıra, sinema, satın almak, cam, vezne, konser
+Buzlu Cam|bulanık, pencere, banyo, görünmez, mat, şeffaf
+Çerçeve|fotoğraf, duvar, asmak, ahşap, resim, cam
+Duvar Kâğıdı|oda, desen, yapıştırmak, boya, süslemek, rulo
+Perde Rayı|pencere, takmak, çekmek, halka, tavan, kumaş
+Halı Yıkama|temizlik, toz, köpük, makine, kurutmak, fabrika
+Elektrik Süpürgesi|toz, emmek, fiş, halı, temizlik, gürültü
+Toz Bezi|silmek, temizlik, mobilya, sarı, ıslak, kir
+Hamur İşi|un, börek, poğaça, fırın, yoğurmak, açma
+Poğaça|hamur, peynir, fırın, kahvaltı, yumuşak, patates
+Açma|simit, hamur, kahvaltı, yumuşak, fırın, çay
+Pişi|hamur, kızartma, yağ, kahvaltı, tava, şekerli
+Krep|ince, hamur, çikolata, tava, muz, tatlı
+Waffle|kare, hamur, çikolata, meyve, ızgara, dondurma
+Pankek|tava, akçaağaç, hamur, kahvaltı, kat, tereyağı
+Donut|halka, şeker, çikolata, hamur, delik, kaplama
+Kruvasan|Fransız, hilal, tereyağlı, fırın, kahvaltı, katmer
+Granola|yulaf, kahvaltı, süt, sağlıklı, kuruyemiş, kase
+Mısır Gevreği|süt, kahvaltı, kase, çocuk, kutu, sabah
+Lokma|tatlı, kızartma, şerbet, hamur, yuvarlak, dökmek
+Tulumba|tatlı, şerbet, hamur, kızartma, kalıp, ramazan
+Revani|tatlı, şerbet, irmik, kek, Veria, sarı
+Kazandibi|tatlı, süt, yanık, muhallebe, tavuk göğsü, karamel
+Profiterol|tatlı, çikolata, krema, top, Fransız, sos
+Tiramisu|İtalyan, kahve, mascarpone, kat, tatlı, kakao
+Cheesecake|peynir, tatlı, dilim, bisküvi, krem, meyve
+Çikolata Fondü|erimek, meyve, batırmak, tatlı, sıcak, çubuk
+Marshmallow|şeker, yumuşak, ateş, kamp, pembe, beyaz
+Gofret Çikolata|bisküvi, kat, atıştırmak, paket, tatlı, kıtır
+Yaramaz|çocuk, ders, ceza, şeytan, hareketli, bozmak
+Ukala|bilmiş, konuşmak, burnu havada, kendini beğenmiş, haşin, öğüt
+Cimri Adam|para, harcamak, kıt, biriktirmek, tutumlu, vermek
+Tembel|çalışmamak, uyumak, yatmak, miskin, ödev, gevşek
+Uykucu|uyumak, yatak, sabah, horlamak, yorgun, saat
+Geveze|konuşmak, durmamak, ağız, çene, söz, dil
+Gece Kuşu|geç, uyanık, yatmamak, kafeterya, sabaha kadar, karanlık
+Sabah İnsanı|erken, uyanmak, kahvaltı, spor, güneş, saat
+Hastalık İzni|doktor, rapor, iş, ateş, yatmak, dinlenmek
+Yıllık İzin|tatil, iş, patron, dinlenmek, gün, dilekçe
+Maaş Günü|para, ay, banka, iş, hesap, ödeme
+Fazla Mesai|iş, akşam, saat, ücret, geç, çalışmak
+Kıdem Tazminatı|iş, emeklilik, para, çıkış, ödeme, yıl
+Terzi Metresi|ölçü, kumaş, uzunluk, sarı, mezura, dikiş
+Mezura|ölçmek, bel, kumaş, terzi, uzunluk, bant
+Dikiş İğnesi|ip, kumaş, batmak, iplik, küçük, delik
+Çengelli İğne|toka, tutturmak, metal, bebek, bez, çengel
+Yama|delik, dikmek, kumaş, eski, pantolon, tamir
+Askılı Pantolon|bretel, omuz, giymek, kot, çocuk, tulum
+Tulum|iş, komple, giymek, mekanik, fermuar, bütün
+Önlük|aşçı, mutfak, bağlamak, kirlenmek, okul, giymek
+Bone|yüzme, havuz, saç, kafa, ıslak, takmak
+Gözlük Yüzme|su, havuz, dalmak, bant, yüzmek, cam
+Kolluk|yüzme, çocuk, şişme, koluna takmak, su, havuz
+Kafa Lambası|karanlık, ışık, mağara, kamp, takılan, pil
+Kamp Ateşi|odun, gece, çadır, ısınmak, hikâye, ateş
+Termos Matarası|su, sıcak, taşımak, kapak, çay, çelik
+Katlanır Sandalye|kamp, açmak, plaj, piknik, taşımak, oturmak
+Şişme Yatak|hava, kamp, pompa, uyumak, misafir, patlamak
+Bisiklet Kaskı|güvenlik, kafa, sürmek, koruma, yol, takmak
+Bisiklet Yolu|şerit, sürmek, kent, güvenli, yol, pedal
+Scooter|tekerlek, ayak, itmek, çocuk, gidon, elektrikli
+Kaykay|tekerlek, tahta, rampa, gençlik, hile, kaymak
+Trambolin|zıplamak, havaya, çocuk, yay, bahçe, spor
+Hula Hop|bel, dönmek, halka, oyun, spor, plastik
+Yoga Matı|spor, yer, esneme, sermek, ders, meditasyon
+Dambıl|spor, ağırlık, kol, salon, kas, kaldırmak
+Koşu Bandı|spor, salon, yürümek, elektrik, kondisyon, zayıflamak
+Spor Salonu|ağırlık, kas, makine, hoca, üyelik, kondisyon
+Terlik Seti|banyo, ayak, ev, plastik, giymek, otel
+Bornoz|banyo, havlu, otel, yumuşak, giymek, sauna
+Sauna|sıcak, buhar, ter, ahşap, banyo, sağlık
+Jakuzi|köpük, sıcak, havuz, kabarcık, otel, rahatlama
+Masaj|ağrı, yağ, rahatlamak, sırt, kas, terapist
+Spa|rahatlama, masaj, otel, bakım, sauna, havuz
+Manikür|el, tırnak, oje, bakım, salon, törpü
+Peeling|yüz, cilt, temizlik, kese, bakım, ölü
+Yüz Maskesi|cilt, bakım, kil, salatalık, bekletmek, güzellik
+Güneş Yanığı|kızarmak, plaj, krem, ten, acı, bronz
+Bronz|ten, güneş, esmer, plaj, yanmak, yaz
+Güneşlik|plaj, şemsiye, gölge, yer, tente, sıcak
+Plaj Havlusu|deniz, serilmek, kum, ıslak, güneş, yatmak
+Plaj Topu|oyun, deniz, şişme, renkli, kum, sektirmek
+Şezlong|plaj, yatmak, güneş, otel, dinlenmek, havuz
+Havuz Şamandırası|şişme, flamingo, su, yatmak, renkli, yüzmek
+Su Kaydırağı|havuz, aquapark, hız, ıslak, çocuk, tünel
+Aquapark|su, kaydırak, havuz, eğlence, yaz, çocuk
+Buz Pateni Pisti|kaymak, paten, soğuk, kış, düşmek, kulüp
+Hokey|buz, sopa, disk, kaleci, takım, kayak
+Kayak Merkezi|kar, otel, pist, teleferik, kış, dağ
+Şömine Başı|ateş, kış, sıcak, oturmak, odun, ev
+Kar Küreği|kürek, yol, kış, temizlemek, beyaz, itmek
+Buz Çözücü|araba, ön cam, kış, sprey, donmak, kazımak
+Ön Cam Silecek|araba, yağmur, sağ sol, silmek, lastik, kol
+Plaka|araba, numara, il, metal, trafik, ön
+Egzoz|araba, duman, boru, kirlilik, arka, gürültü
+Buji|motor, araba, kıvılcım, tamirci, yakıt, tutuşmak
+Motor Yağı|araba, değişim, sanayi, kirli, kontrol, ayarlamak
+Lastik Tamiri|pançur, kamyon, sanayi, delik, yama, yol
+Oto Yıkama|köpük, araba, su, fırça, temizlemek, kirli
+Otoyol|hız, ücret, kavşak, şerit, uzun, araba
+Kavşak|yol, trafik, ışık, dönmek, araba, dörtyol
+Yaya Geçidi|çizgi, yürümek, trafik, ışık, kırmızı, karşıya geçmek
+Dönemeç|yol, viraj, araba, keskin, dağ, yavaşlamak
+Hız Kamerası|radar, ceza, yol, sabit, araba, plaka
+Park Sensörü|araba, bip, geri, yaklaşmak, çarpmak, ses

@@ -39,3 +39,12 @@ Hindistan, Mısır, Brezilya
 Taksi, Minibüs, Dolmuş, Yat, Kruvaziyer, Karavan, Ehliyet, Kask, Emniyet Kemeri, Trafik Lambası
 Otoyol, Gişe, Kavşak, Hız Sınırı, Park Cezası, Ramazan, Sahur, İftar, Yaz Tatili, Çarşı
 Semt Pazarı, AVM, Sinema Salonu, Opera, Bale, Sirk Çadırı, Bowling Salonu
+
+# --- eklenen kelimeler ---
+Şezlong, Bavul, Kasiyer, Postacı, İtfaiyeci, Spot, Alkış, Kulis, Figüran, Kazak
+Hırka, Eşofman, Etek, Tulum, Sandalet, Bot, Çizme, Spor Ayakkabı, Topuklu, Kundura
+Pabuç, Tabanlık, Ocak, Mikser, Süzgeç, Rende, Oklava, Tava, Hamur, Yumurta
+Tarçın, Kampanya, Taksit, Sepet, Reyon, Kuyruk, Webcam, Kablo, Fotoğraf, Çerçeve
+Filtre, Flaş, Tripod, Poz, Kutlama, Davet, Mum, Hediye, Konfeti, Müzik
+Dans, Karaoke, İlaç, Reçete, Tahlil, Röntgen, Aşı, Randevu, Sıra, Çiçekçi
+Buket, Saksı

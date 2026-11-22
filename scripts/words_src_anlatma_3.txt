@@ -548,3 +548,130 @@ Nevruz|bahar, 21 Mart, ateş, yeni yıl, bayram, Ergenekon
 Woodstock|festival, 1969, müzik, hippi, Amerika, rock
 Sahra Çölü|Afrika, kum, deve, sıcak, büyük, kurak
 Niagara Şelalesi|Kanada, Amerika, su, şelale, düşmek, balayı
+
+# --- eklenen kelimeler ---
+Ödünç|almak, vermek, borç, geri, arkadaş, kitap
+Borç|para, ödemek, almak, faiz, vade, vermek
+Vadeli Hesap|banka, faiz, para, yatırmak, getiri, bekletmek
+Kredi Kartı Borcu|ekstre, faiz, harcama, banka, asgari, ödemek
+Sigorta Poliçesi|kaza, güvence, belge, şirket, prim, ödemek
+Tapu Dairesi|ev, devlet, satış, memur, arsa, sıra
+Kira Sözleşmesi|ev, imza, kiracı, ev sahibi, aylık, depozito
+Depozito|kira, güvence, para, iade, ev, ödemek
+Kiracı|ev, oturmak, aylık, ev sahibi, sözleşme, taşınmak
+Ev Sahibi|kira, kiracı, mülk, anahtar, ayın biri, depozito
+Taşınma Kamyonu|eşya, koli, ev, yük, nakliyat, yeni
+Koli Bandı|paket, yapıştırmak, taşınma, kutu, kargo, makara
+Nakliyat|taşınmak, eşya, kamyon, ev, yük, firma
+Emlak Ofisi|ev, satılık, kiralık, komisyon, ilan, müşteri
+Bağımsızlık Günü|bayram, ulus, kutlama, bayrak, tören, devlet
+Zafer Anıtı|savaş, kazanmak, tören, heykel, meydan, şehit
+Şehitlik|asker, mezar, anma, vatan, bayrak, saygı
+Gazi|savaş, yaralı, asker, madalya, vatan, kahraman
+Nöbet|asker, gece, bekçi, beklemek, hastane, sıra
+Bekçi|gece, mahalle, düdük, nöbet, sokak, güvenlik
+Güvenlik Görevlisi|kapı, kamera, üniforma, giriş, alışveriş merkezi, koruma
+Alarm Sistemi|hırsız, ses, ev, sensör, güvenlik, şifre
+Yangın Alarmı|duman, bip, tavan, bina, tahliye, dedektör
+Yangın Merdiveni|bina, kaçış, metal, dışarı, acil, kat
+Acil Çıkış|yeşil, tabela, bina, kaçmak, kapı, yangın
+Tahliye Tatbikatı|bina, deprem, okul, yangın, çıkış, öğrenci
+Deprem Anı|sarsıntı, bina, korku, sallanmak, afet, kaçmak
+Enkaz|yıkıntı, bina, kurtarma, deprem, kalıntı, toz
+Arama Kurtarma|enkaz, ekip, kurtarmak, afet, köpek, gönüllü
+Gönüllü|yardım, karşılık, topluluk, afet, çalışmak, bağış
+Bağış|yardım, para, vermek, hayır, kuruluş, toplamak
+Hayır Kurumu|bağış, yardım, vakıf, gönüllü, ihtiyaç, kampanya
+Vakıf|bağış, hayır, kuruluş, kurum, miras, yardım
+Sosyal Sorumluluk|şirket, toplum, destek, proje, yardım, etik
+Anket|soru, görüş, işaretlemek, form, araştırma, sonuç
+Araştırma|bilgi, inceleme, kaynak, makale, soru, veri
+Tez|üniversite, danışman, yüksek lisans, savunma, uzun, yazmak
+Dipnot|sayfa, alt, kaynak, makale, numara, açıklama
+Kaynakça|kitap, liste, makale, tez, sonunda, alıntı
+İntihal|çalmak, alıntı, kopya, yazar, akademik, kaynak
+Telif Hakkı|yazar, eser, kopya, yasa, müzik, hak
+Patent|buluş, tescil, hak, icat, şirket, belge
+İcat|buluş, yeni, mucit, ampul, çıkarmak, yaratmak
+Mucit|icat, buluş, laboratuvar, ampul, yeni, çalışmak
+Prototip|ilk, model, deneme, ürün, tasarım, mühendis
+Girişimci|iş, kurmak, şirket, risk, fikir, yatırımcı
+Yatırımcı|para, hisse, risk, şirket, kazanç, borsa
+Startup|girişim, teknoloji, genç, yatırım, fikir, şirket
+Kuruluş Yıldönümü|şirket, kutlama, yıl, tarih, pasta, tören
+İş Görüşmesi|mülakat, özgeçmiş, işveren, soru, kıyafet, heyecan
+İş İlanı|başvuru, gazete, personel, aramak, pozisyon, kariyer
+Kariyer|iş, yükselmek, meslek, basamak, hedef, terfi
+Performans Değerlendirmesi|yönetici, yıllık, not, çalışan, hedef, toplantı
+Takım Çalışması|ekip, birlikte, görev, uyum, proje, iş
+Liderlik|yönetmek, ekip, vizyon, lider, takip, sorumluluk
+Zaman Yönetimi|saat, plan, verimlilik, takvim, süre, öncelik
+Toplantı Notu|yazmak, karar, sekreter, tutanak, defter, ofis
+Sunum Hazırlamak|slayt, ekran, anlatmak, dinleyici, proje, konuşmak
+Slayt|sunum, ekran, sayfa, projeksiyon, bilgisayar, geçmek
+Projeksiyon|duvar, perde, ışık, sunum, film, yansıtmak
+Beyaz Tahta|marker, toplantı, yazmak, silmek, ofis, ders
+Telekonferans|görüntülü, toplantı, ekran, internet, kamera, uzaktan
+Uzaktan Çalışma|ev, bilgisayar, internet, ofis, pandemi, toplantı
+Pandemi|salgın, virüs, karantina, maske, dünya, hastalık
+Karantina|izolasyon, evde kalmak, hasta, salgın, süre, kısıtlama
+Aşı Kartı|bağışıklık, doktor, tarih, çocuk, hastalık, belge
+Bağışıklık|vücut, vitamin, hastalık, direnç, aşı, güçlü
+Alerji|hapşırmak, polen, kaşıntı, bakteri, doktor, reaksiyon
+Polen|çiçek, alerji, bahar, toz, arı, hapşırmak
+Astım|nefes, öksürük, ilaç, solunum, akciğer, sprey
+Migren|baş ağrısı, şiddetli, yarım, ışık, ilaç, ağrı
+Uykusuzluk Çekmek|gece, yatmak, yorgun, saat, kâbus, kahve
+Sakinleştirici|stres, ilaç, doktor, uyku, sakin, hap
+Psikolog|terapi, konuşmak, danışman, ruh, hasta, seans
+Terapi|psikolog, konuşmak, seans, iyileşmek, ruh, danışan
+Sağlıklı Beslenme|diyet, sebze, kalori, vitamin, doktor, yemek
+Vejetaryen|et, bitki, yemek, sebze, yememek, beslenme
+Glütensiz|buğday, ekmek, alerji, diyet, un, hastalık
+Laktoz|süt, intolerans, sindirim, ürün, şeker, alerji
+Kalori Sayacı|yemek, diyet, uygulama, zayıflamak, hesap, gram
+Terazi|tartmak, gram, kilo, adalet, ağırlık, market
+Tartı|kilo, ayak, banyo, zayıf, şişman, ağırlık
+Boy Ölçer|santim, uzunluk, duvar, çocuk, hastane, kısa
+Göz Muayenesi|doktor, gözlük, harf, tablo, görme, numara
+Kontakt Lens|göz, gözlük, yapışmak, şeffaf, takmak, solüsyon
+Lazer Ameliyatı|göz, gözlük, ışık, doktor, görme, kesmek
+Diş Teli|ağız, dişçi, metal, düzeltmek, gülmek, gençlik
+Dolgu|diş, dişçi, çürük, beyaz, doldurmak, anestezi
+Kanal Tedavisi|diş, dişçi, ağrı, sinir, doktor, uzun
+Çocuk Doktoru|bebek, aşı, muayene, hasta, ateş, pediatri
+Kadın Doğum|hamile, doktor, bebek, hastane, muayene, anne
+Hamilelik|bebek, anne, karın, doğum, dokuz ay, doktor
+Doğum Odası|hastane, bebek, anne, ebe, ağrı, yeni doğan
+Ebeveyn|anne, baba, çocuk, aile, bakım, sorumluluk
+Büyükanne|nine, torun, çocuk, yaşlı, anne, hikâye
+Torun|dede, nine, bebek, evlat, bayram, büyükanne
+Kuzen|akraba, amca, teyze, aile, yaş, çocuk
+Amca|baba, kardeş, akraba, aile, yeğen, dayı
+Yeğen|kardeş, amca, teyze, çocuk, akraba, hala
+Gelin|düğün, damat, beyaz, kaynana, elbise, nikâh
+Kaynana|gelin, damat, anne, eş, evlilik, şaka
+Görümce|gelin, kaynana, kız kardeş, eş, aile, kardeş
+Elti|gelin, aile, eş, kardeş, kaynana, akraba
+Baldız|eş, kardeş, kız, akraba, kayınpeder, evlilik
+Kayınpeder|eş, baba, damat, gelin, akraba, aile
+Üvey|anne, baba, evlilik, kardeş, aile, çocuk
+Evlat Edinmek|çocuk, aile, kurum, sahiplenmek, bebek, yeni
+Vasi|çocuk, mahkeme, koruma, yetim, karar, hukuk
+Yetim|baba, anne, çocuk, yurt, yardım, öksüz
+Huzurevi|yaşlı, bakım, emekli, kurum, dinlenmek, hemşire
+Bakıcı|çocuk, yaşlı, ev, bakmak, maaş, aile
+Dadı|bebek, çocuk, ev, bakmak, maaş, yabancı
+Çocuk Bakımı|dadı, kreş, bebek, anne, bakmak, oyun
+Kreş|bebek, çocuk, öğretmen, oyun, bakım, anne
+Anaokulu|çocuk, öğretmen, oyun, resim, küçük, okul
+Veli Toplantısı|öğretmen, okul, anne, baba, not, davranış
+Devamsızlık|okul, gün, yok, öğrenci, rapor, sınır
+Disiplin Cezası|okul, müdür, ceza, davranış, öğrenci, kural
+Burs Başvurusu|öğrenci, para, destek, üniversite, başarı, form
+Yüksek Lisans|üniversite, tez, akademik, diploma, eğitim, master
+Doktora|akademik, tez, üniversite, unvan, araştırma, diploma
+Profesör|üniversite, akademik, hoca, ders, doçent, unvan
+Akademisyen|üniversite, ders, makale, araştırma, hoca, öğretim
+Konferans|bildiri, sunum, toplantı, akademik, konuşmacı, salon
+Bilimsel Makale|dergi, araştırma, yayın, akademik, kaynak, bilim

@@ -39,3 +39,12 @@ Raptiye, Rozet, Plaket
 Mıknatıs, Fermuar, Düğme, İğne İplik, Tahterevalli, Atlıkarınca, Trambolin, Sıcak Hava Balonu, Sörf, Bowling
 Dart, Okçu, Su Tabancası, Kumdan Kale, Boya Fırçası, Boya Kovası, El Arabası, Buldozer, Çöp Kamyonu, İtfaiye Arabası
 Bisiklet Kaskı
+
+# --- eklenen kelimeler ---
+Sürücü Kursu, Direksiyon, Hız Göstergesi, Egzoz, Plaka, Lastik, Far, Korna, Bagaj, Kasko
+Makas Tarak, Ayna Aksamı, Ustura, Havlu Sarmak, Saç Boyası, Perma, Peruk, Kuaför, Dürbün Haritası, Beaker
+Sanatçı Atölyesi, Şövale, Palet Bıçağı, Tuval Çerçevesi, Fırça Takımı, Heykel Taşı, Çamur, Kil Çark, Mozaik, Vitray
+Çıkış Tabelası, Asansör Düğmesi, Bagaj Bandı, Check-in Kontuarı, Pasaport Kontrolü, Uçak Koltuğu, Kabin Memuru, Pist, Hava Kulesi, Terazi Kefesi
+Fiş Okuyucu, Market Arabası, Kasa Önü, Reyon, Sepet Arabası, Bakkal Defteri, Kantar, Manav Tezgâhı, Yılan Oyunu, Pacman
+Tetris, Satranç Tahtası, Domino Taşları, İskambil Kâğıdı, Joker, Poker Çipi, Mangal Yakmak, Olta Atmak, Kampçı, Sırt Çantasıyla Yürümek
+Pusulayla Yön Bulmak, Haritaya Bakmak

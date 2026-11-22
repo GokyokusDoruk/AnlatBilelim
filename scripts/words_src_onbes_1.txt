@@ -39,3 +39,12 @@ Bordo, Bej
 Hamsi, Pide, Köfte, Tost, Gözleme, Kokoreç, Midye, Kumpir, Waffle, Patlamış Mısır
 Pamuk Şeker, Lunapark, Hayvanat Bahçesi, Akvaryum, Kırtasiye, Otobüs, Sucuk, Çiğköfte, Su Böreği, Pişmaniye
 Tantuni
+
+# --- eklenen kelimeler ---
+Oyuncak, Top, Lego, Balon, Uçurtma, Salıncak, Kaydırak, Yapboz, Kukla, Bisküvi
+Sakız, Gofret, Elma, Muz, Portakal, Mandalina, Karpuz, Şeftali, Kayısı, Erik
+İncir, Havuç, Biber, Patlıcan, Kabak, Marul, Ispanak, Bezelye, Pırasa, Kuş
+Balık, Tavşan, Hamster, Kanarya, Muhabbet Kuşu, Kaplan, Zebra, Ayı, Kurt, Tilki
+Geyik, Abi, Zil, Teneffüs, Yastık, Yorgan, Gece Lambası, Rüya, Uyku, Horlamak
+Ayak, Kafa, Sokak, Mahalle, Okul Yolu, Tavuk, Güneş, Tren, Uçak, Gemi
+Motor, Gülmek

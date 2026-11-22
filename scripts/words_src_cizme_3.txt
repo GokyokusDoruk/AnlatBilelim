@@ -40,3 +40,12 @@ Yangın Söndürmek, Diş Fırçalamak, Mum Üflemek, Uyurgezer, Hokkabaz, Camba
 Mumya, Vampir, Zombi, Deniz Kızı, Tek Boynuzlu At, Cin, Dev, Cüce, Peri, Sihirli Lamba
 Korsan Gemisi, Dans Etmek, Yüzmek, Kayak Yapmak, Bisiklet Sürmek, Ağaca Tırmanmak, Kardan Adam Yapmak, Yemek Pişirmek, Gitar Çalmak, Davul Çalmak
 Fotoğraf Çekmek, Selfie Çekmek, Halat Çekme, Çuval Yarışı
+
+# --- eklenen kelimeler ---
+Dürbünle İzlemek, Doktor Önlüğü, Steteskop Takmak, Alçılı Kol, Kütüphaneci, Raf Düzeni, Kitap Kurdu, Ödünç Kitap, Okuma Lambası, Gözlüklü Okuyucu
+Ansiklopedi, Kütüphane Kartı, Rafa Kitap Dizmek, Sessizlik Tabelası, Hamam Kubbesi, Peştamal, Kese Yapmak, Tas, Mermer Göbek Taşı, Buhar
+Havlu Kuruluk, Sabunluk, Şampuan Şişesi, Köy Meydanı, Çınar Ağacı, Minare, Tarla Sürmek, Biçerdöver, Harman Yeri, Çoban Köpeği
+Kurtarma Botu, Can Simidi Atmak, Dalış Tüpü, Yüzücü, Su Topu, Sörf Tahtası, Yelkenli Yarışı, Su Kayağı, Şnorkelle Dalmak, Jet Ski
+Kamera Arkası, Yönetmen Sandalyesi, Mikrofon Çubuğu, Spot Işığı, Fotoğrafçı Flaşı, Perde Açılışı, Afiş, Yarış Pisti, Bayrak Sallamak, Podyum Töreni
+Şampanya Patlatmak, Kupa Kaldırmak, Madalya Takmak, Start Çizgisi, Pit Stop, Kask Takmak, Formula Aracı, Portmanto, Yorgan, Yatak Odası
+Işık Düğmesi, Direk, Balon Demeti, Konfeti, Piñata, Flama, Pankart, Çelenk, Mantar Evi, Kuş Evi
